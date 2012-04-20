@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>TagLib</title>
+    <style type="text/css" media="all">@import "wheeler.css";</style>
+  </head>
+  <body>
+
+    <div id="container">
+
+      <div id="intro">
+	<h1>TagLib</h1>
+      </div>
+
+      <div id="links">
+
+	<p class="logo"> <img src="taglib.png"></p>
+
+	<h3>Files</h3>
+	<p><a href="files/src/taglib-1.7.1.tar.gz">TagLib 1.7.1</a></p>
+	<p><a href="files/src/taglib-1.7.tar.gz">TagLib 1.7</a></p>
+	<p><a href="files/src/taglib-1.6.3.tar.gz">TagLib 1.6.3</a></p>
+	<p><a href="files/src/taglib-1.6.2.tar.gz">TagLib 1.6.2</a></p>
+	<p><a href="files/src/taglib-1.6.1.tar.gz">TagLib 1.6.1</a></p>
+	<p><a href="files/src/taglib-1.6.tar.gz">TagLib 1.6</a></p>
+	<p><a href="files/src/taglib-1.5.tar.gz">TagLib 1.5</a></p>
+	<p><a href="files/src/taglib-1.5rc1.tar.gz">TagLib 1.5 RC 1</a></p>
+	<p><a href="files/src/taglib-1.5b1.tar.gz">TagLib 1.5 Beta 1</a></p>
+	<p><a href="files/src/taglib-1.4.tar.gz">TagLib 1.4</a></p>
+	<p><a href="files/src/taglib-1.3.1.tar.gz">TagLib 1.3.1</a></p>
+	<p><a href="files/src/taglib-1.3.tar.gz">TagLib 1.3</a></p>
+	<p><a href="files/src/taglib-1.2.tar.gz">TagLib 1.2</a></p>
+	<p><a href="files/src/taglib-1.1.tar.gz">TagLib 1.1</a></p>
+	<p><a href="files/src/taglib-1.0.tar.gz">TagLib 1.0</a></p>
+	<p><a href="files/src/taglib-0.96.tar.gz">TagLib 1.0 Beta 2</a></p>
+	<p><a href="files/src/taglib-0.95.tar.gz">TagLib 1.0 Beta 1</a></p>
+
+        <h3>Development</h3>
+	<p><a href="#git">Git</a></p>
+	<p><a href="#building">Building</a></p>
+
+	<div class="vspacer"></div>
+
+	<h3>API Documentation</h3>
+	<p><a href="taglib/api/">Online</a></p>
+	<p><a href="taglib/taglib-apidocs.tar.gz">Download</a></p>
+
+	<div class="vspacer"></div>
+
+	<h3>Bindings</h3>
+	<p><a href="#bindings">C</a></p>
+	<p><a href="#bindings">Perl</a></p>
+	<p><a href="#bindings">Python</a></p>
+	<p><a href="#bindings">Ruby</a></p>
+
+	<div class="vspacer"></div>
+
+	<h3>Contact</h3>
+	<p><a href="https://mail.kde.org/mailman/listinfo/taglib-devel">Development List</a></p>
+      </div>
+
+      <div id="text">
+	<h3>TagLib Audio Meta-Data Library</h3>
+	<p>
+	  TagLib is a library for reading and editing the meta-data of several
+	  popular audio formats.  Currently it supports both ID3v1 and
+	  <a href="http://www.id3.org">ID3v2</a> for MP3 files,
+	  <a href="http://www.xiph.org/ogg/vorbis/">Ogg Vorbis</a> comments and
+	  ID3 tags and Vorbis comments in
+	  <a href="http://flac.sourceforge.net/">FLAC</a>, MPC, Speex, WavPack
+	  TrueAudio, WAV, AIFF, MP4 and ASF files.
+	</p>
+
+	<p>
+	  TagLib is distributed under the <a href="http://www.gnu.org/licenses/lgpl.html">GNU
+            Lesser General Public License</a> (LGPL) and <a href="http://www.mozilla.org/MPL/MPL-1.1.html">
+            Mozilla Public License</a> (MPL).  Essentially that means that it may
+	  be used in proprietary applications, but if changes are made to TagLib they
+	  must be contributed back to the project.  Please review the licenses if you
+	  are considering using TagLib in your project.
+	</p>
+
+	<p>
+	  There is some general information about the motivation and workings of
+	  TagLib that can be found in the <a href="taglib/api/">API documentation</a>.
+	</p>
+
+	<h3>Contact:</h3>
+	<p>
+	  Please, <strong>for all questions related to TagLib</strong> and / or patches use the
+	  <a href="https://mail.kde.org/mailman/listinfo/taglib-devel">development list</a>
+	  rather than my personal address!
+	</p>
+
+	<h3>Goals and Features:</h3>
+	<ul>
+	  <li><strong>TagLib is fast</strong> - tests have shown it to be about 6
+	    times faster than id3lib and 3 times faster than libvorbisfile at
+	    reading tags (CPU time)</li>
+	  <li><strong>TagLib is clean</strong> - TagLib is written in clean,
+	    object oriented C++ using a programming style common in KDE and
+	    Qt library programming</li>
+	  <li><strong>TagLib is easy</strong> - TagLib offers an abstraction layer
+	    that makes it easy to ignore the differences between the different
+	    file formats and their implementations</li>
+	  <li><strong>TagLib is powerful</strong> - for those that want to look
+	    under the hood TagLib provides access to the implementations of the
+	    individual file formats and provides a toolkit for doing advance
+	    manipulation of audio meta-data</li>
+	  <li><strong>TagLib is well documented</strong> - Every class, namespace,
+	    function and enumeration in TagLib is documented</li>
+	  <li><strong>TagLib supports Unicode</strong> - both ID3v2 and Ogg Vorbis
+	    standards are designed to support Unicode, so is TagLib (many tagging
+	    libraries and frontends are not)</li>
+	  <li><strong>TagLib is extensible</strong> - TagLib does not implement
+	    every feature of ID3v2, but does instead make it possible for
+	    application authors to extend TagLib to support the specific features
+	    that they need in their applications</li>
+	  <li><strong>TagLib is not toolkit specific</strong> - while TagLib does
+	    use KDE-style programming conventions and C++ by default, it does not
+	    link to either Qt or Glib (in fact it has <strong>no</strong>
+	    external dependancies) and does provide Glib-style C bindings
+	    (currently for the generic API only)</li>
+	</ul>
+
+	<h3>TagLib 1.7.1 Release - March 17, 2012</h3>
+<ul>
+  <li>Improved parsing of corrupted WMA, RIFF and OGG files.</li>
+  <li>Fixed a memory leak in the WMA parser.</li>
+  <li>Fixed a memory leak in the FLAC parser.</li>
+  <li>Fixed a possible division by zero in the APE parser.</li>
+  <li>Added detection of TTA2 files.</li>
+  <li>Fixed saving of multiple identically named tags to Vorbis Comments.</li>
+</ul>
+
+
+	<div class="vspacer"></div>
+
+	<a href="taglib-old.html">Older Releases</a>
+
+	<div class="vspacer"></div>
+
+	<a name="bindings"></a>
+	<h3>Language Bindings</h3>
+
+	<ul>
+	  <li><strong>C</strong> (Abstract API only, included with the library.)</li>
+	  <li><strong><a href="http://search.cpan.org/~dongxu/">Perl</a></strong></li>
+	  <li><strong>Python</strong>
+	    <ul>
+	      <li><a href="http://news.tiker.net/software/tagpy">TagPy</a></li>
+	      <li><a href="http://developer.berlios.de/project/showfiles.php?group_id=2066">Python-TagLib</a>
+	    </ul>
+	  </li>
+	  <li><strong><a href="http://rtaglib.rubyforge.org/">Ruby</a></strong> (Abstract API only)</li>
+	  <li><strong><a href="http://www.hakubi.us/ruby-taglib/">Ruby (alternative, older)</a></strong> (Abstract API only)</li>
+	</ul>            
+
+	<div class="vspacer"></div>
+
+	<h3>Projects Using TagLib</h3>
+
+	<p>There are quite a few projects using TagLib already.  Here's a partial
+	  list.  If you know of something else, please send me a mail with a link
+	  and I'll add it here.  (Note that inclusion here is not an endorsement of
+	  the listed software.)</p>
+
+	<table>
+	    <!--
+    <tr>
+      <td><a href="http://www.kde.org/">KDE Metadata Plugin</a></td>
+      <td>Used by Konqueror, Noatun, etc.</td>
+    </tr>
+    -->
+    <tr>
+      <td><a href="juk.html">JuK</a></td>
+      <td>Jukebox for KDE</td>
+    </tr>
+    <tr>
+      <td><a href="http://amarok.sourceforge.net/">Amarok</a></td>
+      <td>Music player for KDE</td>
+    </tr>
+    <tr>
+      <td><a href="http://last.fm/">Last.fm</a></td>
+      <td>Social music site</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.amazon.com/kindle/">Amazon Kindle</a></td>
+      <td>eBook reader</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.getsongbird.com/">Songbird</a></td>
+      <td>Mozilla powered open music player</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.native-instruments.com/traktormicrosite/">Native Instruments Traktor</a></td>
+      <td>Profesionall DJing Software</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.videolan.org/vlc/">VLC Media Player</a></td>
+      <td>Multi-purpose media player</td>
+    </tr>
+    <tr>
+      <td><a href="http://audiobox.fm/">Audiobox.fm</a></td>
+      <td>Cloud-based media library and player</td>
+    </tr>
+    <!--
+    <tr>
+      <td><a href="http://luci.bux.at/index.php?day=0">dikothek</a></td>
+      <td>Client / Server Music Jukebox</td>
+    </tr>
+    -->
+    <!--
+    <tr>
+      <td><a href="http://www.musikcube.com/">MusicCube</a></td>
+      <td>Cross Platform Jukebox</td>
+    </tr>
+    -->
+    <!--
+    <tr>
+      <td><a href="http://muine.gooeylinux.org/">Muine</a></td>
+      <td>GNOME Music Player</td>
+    </tr>
+    -->
+    <!--
+    <tr>
+      <td><a href="http://madman.sourceforge.net/">Madman</a></td>
+      <td>Music Manager</td>
+    </tr>
+    -->
+    <!--
+    <tr>
+      <td><a href="http://www.postreal.org/index.php?section=noiseclock">Noiseclock</a></td>
+      <td>Playtime Calculator</td>
+    </tr>
+    -->
+    <tr>
+      <td><a href="http://www.luminal.org/wiki/index.php/IMMS">IMMS</a></td>
+      <td>Intelligent Multimedia Management System</td>
+    </tr>          
+    <!--
+    <tr>
+      <td><a href="http://imfavorites.sourceforge.net/">IMMS Magical Favorites Collector</a></td>
+      <td>IMMS enhancement that collects &quot;favorites&quot;</td>
+    </tr>
+    -->
+    <!--
+    <tr>
+      <td><a href="http://mms.sunsite.dk">MPEG Menu System Version2</a></td>
+      <td>Multimedia Playback Menu System</td>
+    </tr>
+    -->
+    <!--
+    <tr>
+      <td><a href="http://domo.sf.net/">Domo</a></td>
+      <td>Qt / relational database based music organizer</td>
+    </tr>
+    -->
+    <!--
+    <tr>
+      <td><a href="http://b1project.com/ktag.php3">KTag</a></td>
+      <td>KDE Based Tagging Application</td>
+    </tr>
+    -->
+    <!--
+    <tr>
+      <td><a href="http://yammi.sourceforge.net/">Yammi</a></td>
+      <td>Yet Another Music Manager (KDE based)</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.rainerblessing.com/wp/?page_id=82">KAOMP</a></td>
+      <td>Music store client</td>
+    </tr>
+    -->
+    <tr>
+      <td><a href="http://k-yamo.sourceforge.net/">K-Yamo</a></td>
+      <td>Tagger and music organizer for KDE</td>
+    </tr>
+    <!--
+    <tr>
+      <td><a href="http://prokyon3.sourceforge.net/">Prokyon3</a></td>
+      <td>Multiplatform music manager</td>
+    </tr>
+    -->
+    <tr>
+      <td><a href="http://www.periapsis.org/tellico/">Tellico</a></td>
+      <td>Collection manager for KDE</td>
+    </tr>
+    <!--
+    <tr>
+      <td><a href="http://audacious-media-player.org/">Audacious Media Player</a></td>
+      <td>GTK2 Based Music Player (XMMS, BMP family)</td>
+    </tr>
+    -->
+    <tr>
+      <td><a href="http://audacious-media-player.org/">Sonata</a></td>
+      <td>GTK+ based music client for MPD</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.skyjuicesoftware.com/software/QuickFileRename/">Quick File Rename</a></td>
+      <td>Shareware, meta-data aware batch file renamer for Windows</td>
+    </tr>
+    <tr>
+      <td><a href="http://code.google.com/p/gogglesmm/">Goggles Music Manager</a></td>
+      <td>Music manager that uses the FOX toolkit</td>
+    </tr>
+    <tr>
+      <td><a href="http://gnomad2.sourceforge.net/">Gnomad 2</a></td>
+      <td>Music manager for the Creative NOMAD, Creative Zen and Dell DJ MP3 players</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.nongnu.org/gcmd/">GNOME Commander</a></td>
+      <td>Two-pane graphical file manager for GNOME</td>
+    </tr>
+    <!--
+    <tr>
+      <td><a href="http://rutaci.rubyforge.org/">Rutaci</a></td>
+      <td>Command line music tagger written in Ruby</td>
+    </tr>
+    -->
+
+	</table>
+
+	<br>
+
+	  <a name="git"></a>
+	  <h3>Git Access</h3>
+	  <p>
+            TagLib is hosted on GitHub.  You can check out TagLib's development source
+            <a href="https://github.com/taglib/taglib">there</a>.
+	  </p>
+
+	  <a name="building"></a>
+	  <h3>Building</h3>
+          <p>TagLib can be built on various UNIXes (including OS X) and Windows using CMake.
+          Most Linux distributions ship with TagLib already.</p>
+      </div>
+
+    </div>
+  </body>
+</html>
