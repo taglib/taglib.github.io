@@ -64,9 +64,9 @@ layout: default
   (currently for the generic API only)</li>
 </ul>
 
-{% render release-1.7.2.markdown %}
+{% capture release %}{% include release-1.7.2.markdown %}{% endcapture %} {{ release | markdownify }}
 
-<a href="taglib-old.html">Older Releases</a>
+<a href="older.html">Older Releases</a>
 
 <a name="bindings"></a>
 <h3>Language Bindings</h3>
@@ -93,7 +93,7 @@ list.  If you know of something else, please send me a mail with a link
 and I'll add it here.  (Note that inclusion here is not an endorsement of
 the listed software.)</p>
 
-{% render users.textile %}
+{% capture users %}{% include users.textile %}{% endcapture %} {{ users | textilize }}
 
 <a name="git"></a>
 <h3>Git Access</h3>

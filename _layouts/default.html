@@ -13,7 +13,7 @@
         <a href="index.html"><img src="images/taglib.png" /></a>
         <h3>Files</h3>
         <div id="files">
-          {% render files.markdown %}
+          {% capture files %}{% include files.markdown %}{% endcapture %}{{ files | markdownify }}
         </div>
       </div>
       <div id="content" class="well">
