@@ -2,7 +2,7 @@
 
 -   Read Vorbis Comments from the first FLAC metadata block, if there
     are multipe ones.
--   Fixed a memory leak in FileRef’s OGA format detection.
+-   Fixed a memory leak in FileRef's OGA format detection.
 -   Fixed compilation with the Sun Studio compiler.
 -   Handle WM/TrackNumber attributes with DWORD content in WMA files.
 -   More strict check if something is a valid MP4 file.

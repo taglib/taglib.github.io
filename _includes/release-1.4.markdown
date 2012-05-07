@@ -20,15 +20,15 @@
 -   Make it possible to read and modify the descriptions of images in
     attached picture frames of ID3v2 tags
 -   Introduced an argument for limiting the number of fields that will
-    be created usign ByteVectorList::split()
+    be created usign `ByteVectorList::split()`
 -   Significantly unbroke the relative volume adjustment ID3v2 frame’s
     API. It now properly supports multiple volume fields in the same
     frame
 -   Added support for reading the comment portion of "Xiph" tags (used
     in Ogg Vorbis and FLAC) from the "COMMENT" field rather than only
-    from the "DESCRIPTION" field mentioned in the spec</i>
+    from the "DESCRIPTION" field mentioned in the spec
 -   Added support for Ogg FLAC v1.1.1
--   Added prepend methods to the List < T > class
+-   Added prepend methods to the `List<T>` class
 -   Added support for UTF-16 little endian strings as used in some
     tagging formats
 -   Fixed or implemented roughly 35 bug or wishlist items relative to
