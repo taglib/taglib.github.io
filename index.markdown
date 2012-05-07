@@ -55,7 +55,7 @@ Please, **for all questions related to TagLib** and / or patches use the
 
 {% include release-1.7.2.markdown %}
 
-[Older Releases][]
+[Older Releases](older)
 
 ### Language Bindings
 
@@ -80,7 +80,7 @@ the listed software.)
 ### Git Access
 
 TagLib is hosted on GitHub. You can check out TagLib's development
-source [there][].
+source [there](https://github.com/taglib/taglib).
 
 ### Building
 
@@ -94,10 +94,8 @@ CMake. Most Linux distributions ship with TagLib already.
   [Mozilla Public License]: http://www.mozilla.org/MPL/MPL-1.1.html
   [API documentation]: http://developer.kde.org/~wheeler/taglib/api/
   [development list]: https://mail.kde.org/mailman/listinfo/taglib-devel
-  [Older Releases]: older.html
   [Perl]: http://search.cpan.org/~dongxu/
   [TagPy]: http://news.tiker.net/software/tagpy
   [Python-TagLib]: http://developer.berlios.de/project/showfiles.php?group_id=2066
   [Ruby]: http://rtaglib.rubyforge.org/
   [Ruby (alternative, older)]: http://www.hakubi.us/ruby-taglib/
-  [there]: https://github.com/taglib/taglib

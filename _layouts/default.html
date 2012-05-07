@@ -3,14 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
   <head>
     <title>{% if page.title %} {{ page.title }} | {% endif %} TagLib</title>
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">    
-    <link href="taglib.css" rel="stylesheet" type="text/css">    
-    <link href="bootstrap/css/bootstrap-responsive.css.css" rel="stylesheet" type="text/css">    
+    <link href="{{ site.url }}bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="{{ site.url }}taglib.css" rel="stylesheet" type="text/css">
+    <link href="{{ site.url }}bootstrap/css/bootstrap-responsive.css.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div id="container" class="container">
       <div id="navigation" class="well">
-        <a href="index.html"><img src="images/taglib.png" /></a>
+        <a href="{{ site.url }}"><img src="{{ site.url }}images/taglib.png" /></a>
         <h3>Files</h3>
         <div id="files">
           {% capture files %}{% include files.markdown %}{% endcapture %}{{ files | markdownify }}
