@@ -70,16 +70,16 @@ Please, **for all questions related to TagLib** and / or patches use the
 
 ### Projects Using TagLib
 
-There are quite a few projects using TagLib already. Here’s a partial
+There are quite a few projects using TagLib already. Here's a partial
 list. If you know of something else, please send me a mail with a link
-and I’ll add it here. (Note that inclusion here is not an endorsement of
+and I'll add it here. (Note that inclusion here is not an endorsement of
 the listed software.)
 
 {% capture users %}{% include users.textile %}{% endcapture %} {{ users | textilize }}
 
 ### Git Access
 
-TagLib is hosted on GitHub. You can check out TagLib’s development
+TagLib is hosted on GitHub. You can check out TagLib's development
 source [there][].
 
 ### Building
