@@ -1,0 +1,17 @@
+|"JuK":http://developer.kde.org/~wheeler/juk.html|Jukebox for KDE|
+|"Amarok":http://amarok.sourceforge.net/|Music player for KDE|
+|"Last.fm":http://last.fm/|Social music site|
+|"Amazon Kindle":http://www.amazon.com/kindle/|eBook Reader|
+|"Songbird":http://www.getsongbird.com/|Mozilla powered open music player|
+|"Native Instruments Traktor":http://www.native-instruments.com/traktormicrosite/|Profesionall DJing Software|
+|"VLC Media Player":http://www.videolan.org/vlc/|Multi-purpose media player|
+|"Audiobox.fm":http://audiobox.fm/|Cloud-based media library and player|
+|"IMMS":http://www.luminal.org/wiki/index.php/IMMS|Intelligent Multimedia Management System|
+|"K-Yamo":http://k-yamo.sourceforge.net/|Tagger and music organizer for KDE|
+|"Tellico":http://www.periapsis.org/tellico/|Collection manager for KDE|
+|"Audacious Media Player":http://audacious-media-player.org/|GTK2 Based Music Player (XMMS, BMP family)|
+|"Sonata":http://audacious-media-player.org/|GTK+ based music client for MPD|
+|"Quick File Rename":http://www.skyjuicesoftware.com/software/QuickFileRename/|Shareware, meta-data aware batch file renamer for Windows|
+|"Goggles Music Manager":http://code.google.com/p/gogglesmm/|Music manager that uses the FOX toolkit|
+|"Gnomad 2":http://gnomad2.sourceforge.net/|Music manager for the Creative NOMAD, Creative Zen and Dell DJ MP3 players|
+|"GNOME Commander":http://www.nongnu.org/gcmd/|Two-pane graphical file manager for GNOME|
