@@ -23,7 +23,7 @@
 -   Added support for ASF (WMA) file format.
 -   Fixed crash when saving a Locator APEv2 tag.
 -   Fixed a possible crash in the non-const version of
-    String::operator[] and in String::operator+=.
+    String::operator\[\] and in String::operator+=.
 -   Added support for PRIV ID3v2 frames.
 -   Empty ID3v2 genres are no longer treated as numeric ID3v1 genres.
 -   Added support for the POPM (rating/playcount) ID3v2 frame.
