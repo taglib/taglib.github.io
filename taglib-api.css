@@ -283,3 +283,18 @@ input.search {
 td.tiny {
     font-size: 75%;
 }
+
+#nav-path ul {
+    margin-left: 0;
+    background: #eee;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+}
+
+#nav-path li {
+    display: inline;
+}
+
+#nav-path li:not(:last-child):after {
+    content: " > ";
+}
