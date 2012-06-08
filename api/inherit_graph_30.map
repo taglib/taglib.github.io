@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classTagLib_1_1Tag.html" title="A simple, generic interface to common audio meta data fields." alt="" coords="6,135,95,163"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1APE_1_1Tag.html" title="An APE tag implementation." alt="" coords="176,5,299,33"/>
+<area shape="rect" id="node5" href="$classTagLib_1_1ASF_1_1Tag.html" title="TagLib::ASF::Tag" alt="" coords="176,57,299,85"/>
+<area shape="rect" id="node7" href="$classTagLib_1_1ID3v1_1_1Tag.html" title="The main class in the ID3v1 implementation." alt="" coords="171,109,303,137"/>
+<area shape="rect" id="node9" href="$classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation." alt="" coords="171,161,303,189"/>
+<area shape="rect" id="node11" href="$classTagLib_1_1MP4_1_1Tag.html" title="TagLib::MP4::Tag" alt="" coords="175,213,300,241"/>
+<area shape="rect" id="node13" href="$classTagLib_1_1Ogg_1_1XiphComment.html" title="Ogg Vorbis comment implementation." alt="" coords="145,265,330,293"/>
+</map>
