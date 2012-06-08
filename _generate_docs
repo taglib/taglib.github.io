@@ -1,0 +1,32 @@
+#!/bin/bash
+
+taglib_dir=$1
+
+if [[ ! ($taglib_dir && -d $taglib_dir && -f $taglib_dir/Doxyfile.cmake) ]] ; then
+    echo "You must specify the TagLib source directory as a command line option."
+    exit 1
+fi
+
+rm -rf source
+cp -rv $taglib_dir source
+
+pushd source
+if [ -d .git ] ; then
+    git clean -f -d -x
+fi
+cmake .
+popd
+
+echo '---' > source/doc/api-header.html
+echo 'layout: api' >> source/doc/api-header.html
+echo 'title: $title ($projectname)' >> source/doc/api-header.html
+echo 'header: $projectnumber ($title)' >> source/doc/api-header.html
+echo '---' >> source/doc/api-header.html
+echo '' > source/doc/api-footer.html
+
+doxygen source/Doxyfile
+
+rm -rf source
+rm -rf api
+
+mv doc/html api

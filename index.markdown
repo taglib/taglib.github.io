@@ -55,7 +55,7 @@ Please, **for all questions related to TagLib** and / or patches use the
 
 {% include release-1.7.2.markdown %}
 
-[Older Releases](older)
+[Older Releases](older.html)
 
 ### Language Bindings
 
