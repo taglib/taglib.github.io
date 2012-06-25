@@ -11,6 +11,10 @@
     <div id="container" class="container">
       <div id="navigation" class="well">
         <a href="{{ site.url }}"><img src="{{ site.url }}images/taglib.png" /></a>
+        <h3>API Documentation</h3>
+        <ul>
+          <li><a href="{{ site.url }}api">Online</a></li>
+        </ul>
         <h3>Files</h3>
         <div id="files">
           {% capture files %}{% include files.markdown %}{% endcapture %}{{ files | markdownify }}
