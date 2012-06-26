@@ -85,7 +85,8 @@ div.fragment {
 }
 
 div.fragment .line {
-    line-height: 1.25em;
+    line-height: 1.5em;
+    white-space: pre-wrap;
 }
 
 div.ah {
