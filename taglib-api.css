@@ -1,6 +1,6 @@
 #header {
     border: 1px solid #ccc;
-    width: 100%;
+    width: 900px;
 }
 
 #header h1 {
@@ -32,9 +32,22 @@
 }
 
 #content {
-    width: 100%;
+    width: 900px;
     float: none;
     background: #fff;
+}
+
+#content .headertitle .title {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    background: #ceeeff;
+}
+
+#content .headertitle .title:before {
+    /* content: "# "; */
 }
 
 #content table {
@@ -45,6 +58,7 @@
     border: none;
     width: inherit;
     padding: 0.2em;
+    border: 1px solid #ccc;
 }
 
 /* stuff for the doxygen output */
@@ -66,6 +80,12 @@ div.fragment {
     background-color: #f5f5f5;
     padding-left: 4px;
     margin: 4px;
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+div.fragment .line {
+    line-height: 1.25em;
 }
 
 div.ah {
