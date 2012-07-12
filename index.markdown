@@ -94,7 +94,7 @@ CMake. Most Linux distributions ship with TagLib already.
   [Mozilla Public License]: http://www.mozilla.org/MPL/MPL-1.1.html
   [API documentation]: http://developer.kde.org/~wheeler/taglib/api/
   [development list]: https://mail.kde.org/mailman/listinfo/taglib-devel
-  [Perl]: http://search.cpan.org/~dongxu/
+  [Perl]: http://search.cpan.org/~gleach/Audio-TagLib/
   [TagPy]: http://news.tiker.net/software/tagpy
   [Python-TagLib]: http://developer.berlios.de/project/showfiles.php?group_id=2066
   [Ruby]: http://rtaglib.rubyforge.org/
