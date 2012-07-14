@@ -1,17 +1,4 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$mp4tag_8h.html" title="mp4tag.h" alt="" coords="313,238,389,266"/>
-<area shape="rect" id="node7" href="$oggfile_8h.html" title="oggfile.h" alt="" coords="824,161,894,189"/>
-<area shape="rect" id="node15" href="$oggpage_8h.html" title="oggpage.h" alt="" coords="548,83,631,111"/>
-<area shape="rect" id="node17" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="388,83,471,111"/>
-<area shape="rect" id="node5" href="$mp4file_8h.html" title="mp4file.h" alt="" coords="314,315,389,343"/>
-<area shape="rect" id="node9" href="$oggflacfile_8h.html" title="oggflacfile.h" alt="" coords="757,238,849,266"/>
-<area shape="rect" id="node11" href="$speexfile_8h.html" title="speexfile.h" alt="" coords="874,238,958,266"/>
-<area shape="rect" id="node13" href="$vorbisfile_8h.html" title="vorbisfile.h" alt="" coords="648,238,731,266"/>
-<area shape="rect" id="node19" href="$apeitem_8h.html" title="apeitem.h" alt="" coords="496,161,574,189"/>
-<area shape="rect" id="node23" href="$fileref_8h.html" title="fileref.h" alt="" coords="599,161,663,189"/>
-<area shape="rect" id="node26" href="$mp4item_8h.html" title="mp4item.h" alt="" coords="388,161,471,189"/>
-<area shape="rect" id="node29" href="$id3v1genres_8h.html" title="id3v1genres.h" alt="" coords="23,161,127,189"/>
-<area shape="rect" id="node31" href="$textidentificationframe_8h.html" title="textidentificationframe.h" alt="" coords="152,161,313,189"/>
-<area shape="rect" id="node33" href="$xiphcomment_8h.html" title="xiphcomment.h" alt="" coords="688,161,798,189"/>
-<area shape="rect" id="node21" href="$apetag_8h.html" title="apetag.h" alt="" coords="499,238,571,266"/>
+<area shape="rect" id="node3" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="20,83,105,112"/>
+<area shape="rect" id="node5" href="$tpropertymap_8h.html" title="tpropertymap.h" alt="" coords="8,160,117,189"/>
 </map>

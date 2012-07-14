@@ -1,5 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1TextIdentificationFrame.html" title="An ID3v2 text identification frame implementation." alt="" coords="19,161,228,205"/>
-<area shape="rect" id="node4" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="50,83,197,111"/>
-<area shape="rect" id="node6" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="47,6,200,34"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1TextIdentificationFrame.html" title="An ID3v2 text identification frame implementation." alt="" coords="20,232,268,261"/>
+<area shape="rect" id="node4" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="69,152,219,181"/>
+<area shape="rect" id="node6" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="19,5,173,35"/>
+<area shape="rect" id="node8" href="$classTagLib_1_1String.html" title="A wide string class suitable for unicode." alt="" coords="197,5,299,35"/>
 </map>

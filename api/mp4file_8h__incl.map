@@ -1,18 +1,7 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$tag_8h.html" title="tag.h" alt="" coords="345,238,396,266"/>
-<area shape="rect" id="node5" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="330,470,437,498"/>
-<area shape="rect" id="node26" href="$tfile_8h.html" title="tfile.h" alt="" coords="396,315,448,343"/>
-<area shape="rect" id="node32" href="$mp4properties_8h.html" title="mp4properties.h" alt="" coords="97,315,215,343"/>
-<area shape="rect" id="node38" href="$mp4tag_8h.html" title="mp4tag.h" alt="" coords="715,83,791,111"/>
-<area shape="rect" id="node9" href="$tstring_8h.html" title="tstring.h" alt="" coords="703,315,771,343"/>
-<area shape="rect" id="node12" href="$taglib_8h.html" title="taglib.h" alt="" coords="904,470,968,498"/>
-<area shape="rect" id="node16" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="801,393,897,421"/>
-<area shape="rect" id="node35" href="$audioproperties_8h.html" title="audioproperties.h" alt="" coords="45,393,168,421"/>
-<area shape="rect" id="node41" href="$tbytevectorlist_8h.html" title="tbytevectorlist.h" alt="" coords="1004,315,1117,343"/>
-<area shape="rect" id="node55" href="$tmap_8h.html" title="tmap.h" alt="" coords="993,161,1055,189"/>
-<area shape="rect" id="node62" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="791,238,875,266"/>
-<area shape="rect" id="node70" href="$mp4atom_8h.html" title="mp4atom.h" alt="" coords="1079,161,1167,189"/>
-<area shape="rect" id="node72" href="$mp4item_8h.html" title="mp4item.h" alt="" coords="712,161,795,189"/>
-<area shape="rect" id="node45" href="$tlist_8h.html" title="tlist.h" alt="" coords="1123,393,1175,421"/>
-<area shape="rect" id="node75" href="$mp4coverart_8h.html" title="mp4coverart.h" alt="" coords="796,315,901,343"/>
+<area shape="rect" id="node9" href="$mp4properties_8h.html" title="mp4properties.h" alt="" coords="44,83,158,112"/>
+<area shape="rect" id="node14" href="$mp4tag_8h.html" title="mp4tag.h" alt="" coords="469,83,544,112"/>
+<area shape="rect" id="node25" href="$mp4atom_8h.html" title="mp4atom.h" alt="" coords="804,315,889,344"/>
+<area shape="rect" id="node27" href="$mp4item_8h.html" title="mp4item.h" alt="" coords="612,160,694,189"/>
+<area shape="rect" id="node30" href="$mp4coverart_8h.html" title="mp4coverart.h" alt="" coords="601,237,705,267"/>
 </map>

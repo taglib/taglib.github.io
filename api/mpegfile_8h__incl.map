@@ -1,9 +1,4 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="264,238,372,266"/>
-<area shape="rect" id="node7" href="$tfile_8h.html" title="tfile.h" alt="" coords="404,83,456,111"/>
-<area shape="rect" id="node22" href="$mpegproperties_8h.html" title="mpegproperties.h" alt="" coords="165,83,289,111"/>
-<area shape="rect" id="node10" href="$taglib_8h.html" title="taglib.h" alt="" coords="417,238,481,266"/>
-<area shape="rect" id="node14" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="486,161,583,189"/>
-<area shape="rect" id="node25" href="$audioproperties_8h.html" title="audioproperties.h" alt="" coords="4,161,128,189"/>
-<area shape="rect" id="node28" href="$mpegheader_8h.html" title="mpegheader.h" alt="" coords="153,161,259,189"/>
+<area shape="rect" id="node9" href="$mpegproperties_8h.html" title="mpegproperties.h" alt="" coords="173,83,296,112"/>
+<area shape="rect" id="node14" href="$mpegheader_8h.html" title="mpegheader.h" alt="" coords="266,160,370,189"/>
 </map>

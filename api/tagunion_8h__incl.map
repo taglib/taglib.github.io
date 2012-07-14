@@ -1,7 +1,4 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$tag_8h.html" title="tag.h" alt="" coords="271,83,321,111"/>
-<area shape="rect" id="node5" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="302,315,409,343"/>
-<area shape="rect" id="node9" href="$tstring_8h.html" title="tstring.h" alt="" coords="164,161,232,189"/>
-<area shape="rect" id="node12" href="$taglib_8h.html" title="taglib.h" alt="" coords="35,315,99,343"/>
-<area shape="rect" id="node16" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="108,238,204,266"/>
+<area shape="rect" id="node3" href="$tag_8h.html" title="tag.h" alt="" coords="89,83,140,112"/>
+<area shape="rect" id="node5" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="5,160,112,189"/>
 </map>

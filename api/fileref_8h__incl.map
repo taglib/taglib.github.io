@@ -1,11 +1,4 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$tfile_8h.html" title="tfile.h" alt="" coords="567,161,619,189"/>
-<area shape="rect" id="node5" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="627,315,735,343"/>
-<area shape="rect" id="node21" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="274,83,358,111"/>
-<area shape="rect" id="node47" href="$audioproperties_8h.html" title="audioproperties.h" alt="" coords="665,83,788,111"/>
-<area shape="rect" id="node9" href="$taglib_8h.html" title="taglib.h" alt="" coords="267,315,331,343"/>
-<area shape="rect" id="node13" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="295,238,391,266"/>
-<area shape="rect" id="node23" href="$tstring_8h.html" title="tstring.h" alt="" coords="223,161,291,189"/>
-<area shape="rect" id="node30" href="$tlist_8h.html" title="tlist.h" alt="" coords="66,238,118,266"/>
-<area shape="rect" id="node37" href="$tbytevectorlist_8h.html" title="tbytevectorlist.h" alt="" coords="317,161,430,189"/>
+<area shape="rect" id="node7" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="200,160,307,189"/>
+<area shape="rect" id="node11" href="$audioproperties_8h.html" title="audioproperties.h" alt="" coords="243,83,363,112"/>
 </map>

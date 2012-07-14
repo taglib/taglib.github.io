@@ -1,21 +1,4 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$attachedpictureframe_8h.html" title="attachedpictureframe.h" alt="" coords="5,83,163,111"/>
-<area shape="rect" id="node13" href="$commentsframe_8h.html" title="commentsframe.h" alt="" coords="187,83,315,111"/>
-<area shape="rect" id="node15" href="$generalencapsulatedobjectframe_8h.html" title="generalencapsulatedobjectframe.h" alt="" coords="339,83,564,111"/>
-<area shape="rect" id="node17" href="$popularimeterframe_8h.html" title="popularimeterframe.h" alt="" coords="589,83,736,111"/>
-<area shape="rect" id="node19" href="$privateframe_8h.html" title="privateframe.h" alt="" coords="760,83,865,111"/>
-<area shape="rect" id="node21" href="$relativevolumeframe_8h.html" title="relativevolumeframe.h" alt="" coords="890,83,1043,111"/>
-<area shape="rect" id="node23" href="$textidentificationframe_8h.html" title="textidentificationframe.h" alt="" coords="1067,83,1228,111"/>
-<area shape="rect" id="node25" href="$uniquefileidentifierframe_8h.html" title="uniquefileidentifierframe.h" alt="" coords="1253,83,1427,111"/>
-<area shape="rect" id="node27" href="$unknownframe_8h.html" title="unknownframe.h" alt="" coords="1451,83,1569,111"/>
-<area shape="rect" id="node29" href="$unsynchronizedlyricsframe_8h.html" title="unsynchronizedlyricsframe.h" alt="" coords="1594,83,1784,111"/>
-<area shape="rect" id="node31" href="$urllinkframe_8h.html" title="urllinkframe.h" alt="" coords="1808,83,1909,111"/>
-<area shape="rect" id="node33" href="$id3v2framefactory_8h.html" title="id3v2framefactory.h" alt="" coords="1934,83,2071,111"/>
-<area shape="rect" id="node5" href="$asfpicture_8h.html" title="asfpicture.h" alt="" coords="39,161,128,189"/>
-<area shape="rect" id="node7" href="$asfattribute_8h.html" title="asfattribute.h" alt="" coords="35,238,132,266"/>
-<area shape="rect" id="node9" href="$asftag_8h.html" title="asftag.h" alt="" coords="50,315,117,343"/>
-<area shape="rect" id="node11" href="$asffile_8h.html" title="asffile.h" alt="" coords="50,393,117,421"/>
-<area shape="rect" id="node35" href="$id3v2tag_8h.html" title="id3v2tag.h" alt="" coords="1961,161,2044,189"/>
-<area shape="rect" id="node37" href="$aifffile_8h.html" title="aifffile.h" alt="" coords="1921,238,1988,266"/>
-<area shape="rect" id="node39" href="$wavfile_8h.html" title="wavfile.h" alt="" coords="2013,238,2085,266"/>
+<area shape="rect" id="node3" href="$id3v2framefactory_8h.html" title="id3v2framefactory.h" alt="" coords="5,83,141,112"/>
+<area shape="rect" id="node5" href="$id3v2tag_8h.html" title="id3v2tag.h" alt="" coords="32,160,115,189"/>
 </map>

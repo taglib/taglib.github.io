@@ -1,16 +1,3 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="304,393,412,421"/>
-<area shape="rect" id="node7" href="$oggfile_8h.html" title="oggfile.h" alt="" coords="316,161,387,189"/>
-<area shape="rect" id="node38" href="$xiphcomment_8h.html" title="xiphcomment.h" alt="" coords="746,83,856,111"/>
-<area shape="rect" id="node68" href="$vorbisproperties_8h.html" title="vorbisproperties.h" alt="" coords="92,238,219,266"/>
-<area shape="rect" id="node10" href="$tfile_8h.html" title="tfile.h" alt="" coords="345,238,397,266"/>
-<area shape="rect" id="node25" href="$tbytevectorlist_8h.html" title="tbytevectorlist.h" alt="" coords="570,238,683,266"/>
-<area shape="rect" id="node13" href="$taglib_8h.html" title="taglib.h" alt="" coords="949,393,1013,421"/>
-<area shape="rect" id="node17" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="750,315,847,343"/>
-<area shape="rect" id="node29" href="$tlist_8h.html" title="tlist.h" alt="" coords="1074,315,1125,343"/>
-<area shape="rect" id="node40" href="$tag_8h.html" title="tag.h" alt="" coords="673,161,724,189"/>
-<area shape="rect" id="node43" href="$tstring_8h.html" title="tstring.h" alt="" coords="879,238,947,266"/>
-<area shape="rect" id="node51" href="$tmap_8h.html" title="tmap.h" alt="" coords="1036,161,1097,189"/>
-<area shape="rect" id="node59" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="799,161,883,189"/>
-<area shape="rect" id="node71" href="$audioproperties_8h.html" title="audioproperties.h" alt="" coords="45,315,168,343"/>
+<area shape="rect" id="node9" href="$vorbisproperties_8h.html" title="vorbisproperties.h" alt="" coords="249,83,374,112"/>
 </map>

@@ -1,12 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="208,315,316,343"/>
-<area shape="rect" id="node7" href="$tfile_8h.html" title="tfile.h" alt="" coords="285,161,337,189"/>
-<area shape="rect" id="node22" href="$tlist_8h.html" title="tlist.h" alt="" coords="749,238,801,266"/>
-<area shape="rect" id="node29" href="$flacpicture_8h.html" title="flacpicture.h" alt="" coords="438,83,530,111"/>
-<area shape="rect" id="node46" href="$flacproperties_8h.html" title="flacproperties.h" alt="" coords="30,161,142,189"/>
-<area shape="rect" id="node10" href="$taglib_8h.html" title="taglib.h" alt="" coords="610,315,674,343"/>
-<area shape="rect" id="node14" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="426,238,522,266"/>
-<area shape="rect" id="node32" href="$tstring_8h.html" title="tstring.h" alt="" coords="576,161,644,189"/>
-<area shape="rect" id="node41" href="$flacmetadatablock_8h.html" title="flacmetadatablock.h" alt="" coords="362,161,501,189"/>
-<area shape="rect" id="node49" href="$audioproperties_8h.html" title="audioproperties.h" alt="" coords="24,238,148,266"/>
+<area shape="rect" id="node11" href="$flacpicture_8h.html" title="flacpicture.h" alt="" coords="209,83,303,112"/>
+<area shape="rect" id="node24" href="$flacproperties_8h.html" title="flacproperties.h" alt="" coords="483,83,592,112"/>
+<area shape="rect" id="node19" href="$flacmetadatablock_8h.html" title="flacmetadatablock.h" alt="" coords="163,160,301,189"/>
 </map>
