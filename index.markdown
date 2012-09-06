@@ -21,7 +21,7 @@ TagLib that can be found in the [API documentation][].
 ### Contact:
 
 Please, **for all questions related to TagLib** and / or patches use the
-[development list][].
+[development list][]. Bugs should be reported at the [GitHub bug tracker][].
 
 ### Goals and Features:
 
@@ -99,3 +99,5 @@ CMake. Most Linux distributions ship with TagLib already.
   [Python-TagLib]: http://developer.berlios.de/project/showfiles.php?group_id=2066
   [Ruby]: http://rtaglib.rubyforge.org/
   [Ruby (alternative, older)]: http://www.hakubi.us/ruby-taglib/
+  [GitHub bug tracker]: https://github.com/taglib/taglib/issues
+
