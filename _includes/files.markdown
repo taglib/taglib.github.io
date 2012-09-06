@@ -1,4 +1,4 @@
-* [TagLib 1.8 BETA](https://github.com/downloads/taglib/taglib/taglib-1.8beta.tar.gz)
+* [TagLib 1.8](https://github.com/downloads/taglib/taglib/taglib-1.8.tar.gz)
 * [TagLib 1.7.2](https://github.com/downloads/taglib/taglib/taglib-1.7.2.tar.gz)
 * [TagLib 1.7.1](https://github.com/downloads/taglib/taglib/taglib-1.7.1.tar.gz)
 * [TagLib 1.7](https://github.com/downloads/taglib/taglib/taglib-1.7.tar.gz)
