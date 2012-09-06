@@ -114,7 +114,9 @@ Protected Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Contructs an <a class="el" href="namespaceTagLib_1_1Ogg.html" title="A namespace for the classes used by Ogg-based metadata files.">Ogg</a> file from <em>file</em>. If <em>readProperties</em> is true the file's audio properties will also be read using <em>propertiesStyle</em>. If false, <em>propertiesStyle</em> is ignored.</p>
-<dl class="note"><dt><b>Note:</b></dt><dd>This constructor is protected since <a class="el" href="classTagLib_1_1Ogg_1_1File.html" title="An implementation of TagLib::File with some helpers for Ogg based formats.">Ogg::File</a> shouldn't be instantiated directly but rather should be used through the codec specific subclasses. </dd></dl>
+<dl class="note"><dt><b>Note:</b></dt><dd>This constructor is protected since <a class="el" href="classTagLib_1_1Ogg_1_1File.html" title="An implementation of TagLib::File with some helpers for Ogg based formats.">Ogg::File</a> shouldn't be instantiated directly but rather should be used through the codec specific subclasses.</dd>
+<dd>
+<a class="el" href="namespaceTagLib.html" title="A namespace for all TagLib related classes and functions.">TagLib</a> will *not* take ownership of the stream, the caller is responsible for deleting it after the <a class="el" href="classTagLib_1_1Ogg_1_1File.html" title="An implementation of TagLib::File with some helpers for Ogg based formats.">File</a> object. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classTagLib_1_1File.html#a364fdfc30d530bb91c4a043cdd9ea6a9">TagLib::File</a>.</p>
 

@@ -74,6 +74,7 @@ Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><h2><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1APE_1_1Tag.html#ad4ac39b00d58c1cf07d451193173627c">fileIdentifier</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1APE_1_1Tag.html#a08f9b8c14bde6ad056da05b829cf0b9d">checkKey</a> (const <a class="el" href="classTagLib_1_1String.html">String</a> &amp;)</td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1APE_1_1Tag.html#a90afc5199f007e239eaa9bb7ed2b64cd">read</a> ()</td></tr>
@@ -218,6 +219,24 @@ Protected Member Functions</h2></td></tr>
 <p>Returns the artist name; if no artist name is present in the tag <a class="el" href="classTagLib_1_1String.html#ae3087f44184e477e36345583298cf072">String::null</a> will be returned. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#ac1cbeed86f119214384196f4cb828374">TagLib::Tag</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a08f9b8c14bde6ad056da05b829cf0b9d"></a><!-- doxytag: member="TagLib::APE::Tag::checkKey" ref="a08f9b8c14bde6ad056da05b829cf0b9d" args="(const String &amp;)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool TagLib::APE::Tag::checkKey </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classTagLib_1_1String.html">String</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Check if the given <a class="el" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> is a valid <a class="el" href="namespaceTagLib_1_1APE.html" title="An implementation of APE metadata.">APE</a> tag key. </p>
 
 </div>
 </div>
@@ -592,7 +611,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Implements the unified tag dictionary interface -- import function. The same comments as for the export function apply. </p>
+<p>Implements the unified tag dictionary interface -- import function. The same comments as for the export function apply; additionally note that the <a class="el" href="namespaceTagLib_1_1APE.html" title="An implementation of APE metadata.">APE</a> tag specification requires keys to have between 2 and 16 printable ASCII characters with the exception of the fixed strings "ID3", "TAG", "OGGS", and "MP+". </p>
 
 <p>Reimplemented from <a class="el" href="classTagLib_1_1Tag.html#a2d3ee11b9691a7bcc8c3aacf44f808eb">TagLib::Tag</a>.</p>
 

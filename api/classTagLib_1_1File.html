@@ -165,7 +165,9 @@ Static Protected Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Construct a <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> object and use the <em>stream</em> instance.</p>
-<dl class="note"><dt><b>Note:</b></dt><dd>Constructor is protected since this class should only be instantiated through subclasses. </dd></dl>
+<dl class="note"><dt><b>Note:</b></dt><dd><a class="el" href="namespaceTagLib.html" title="A namespace for all TagLib related classes and functions.">TagLib</a> will *not* take ownership of the stream, the caller is responsible for deleting it after the <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> object.</dd>
+<dd>
+Constructor is protected since this class should only be instantiated through subclasses. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classTagLib_1_1Ogg_1_1File.html#acddc6cbea3e23f92b75d9bd198fb90f1">TagLib::Ogg::File</a>.</p>
 

@@ -383,7 +383,8 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Sets the string handler that decides how the <a class="el" href="namespaceTagLib_1_1ID3v1.html" title="An ID3v1 implementation.">ID3v1</a> data will be converted to and from binary data.</p>
+<p>Sets the string handler that decides how the <a class="el" href="namespaceTagLib_1_1ID3v1.html" title="An ID3v1 implementation.">ID3v1</a> data will be converted to and from binary data. If the parameter <em>handler</em> is null, the previous handler is released and default ISO-8859-1 handler is restored.</p>
+<dl class="note"><dt><b>Note:</b></dt><dd>The caller is responsible for deleting the previous handler as needed after it is released.</dd></dl>
 <dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classTagLib_1_1ID3v1_1_1StringHandler.html" title="A abstraction for the string to data encoding in ID3v1 tags.">StringHandler</a> </dd></dl>
 
 </div>

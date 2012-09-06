@@ -13,6 +13,7 @@ header: "1.8.0 (TagLib: TagLib::ID3v2::Tag Class Reference)"
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a>  </div>
   <div class="headertitle">
 <h1>TagLib::ID3v2::Tag Class Reference</h1>  </div>
@@ -74,6 +75,10 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTagLib_1_1PropertyMap.html">PropertyMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#ad53529047de7ee0fc7970321d8060467">setProperties</a> (const <a class="el" href="classTagLib_1_1PropertyMap.html">PropertyMap</a> &amp;)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a98a703ca625b6298f36ca5792faf2d3d">render</a> () const </td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#ac55456221ea29e51bdf88515a233ece3">render</a> (int version) const </td></tr>
+<tr><td colspan="2"><h2><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classTagLib_1_1ID3v2_1_1Latin1StringHandler.html">Latin1StringHandler</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a000983f38ff403a1cb9ff7c83fddb068">latin1StringHandler</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a7c066449146a1a0187da2840edd0c584">setLatin1StringHandler</a> (const <a class="el" href="classTagLib_1_1ID3v2_1_1Latin1StringHandler.html">Latin1StringHandler</a> *handler)</td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a1e08af5feb6ea2521bd5496c413d0af9">read</a> ()</td></tr>
@@ -432,6 +437,24 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a000983f38ff403a1cb9ff7c83fddb068"></a><!-- doxytag: member="TagLib::ID3v2::Tag::latin1StringHandler" ref="a000983f38ff403a1cb9ff7c83fddb068" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classTagLib_1_1ID3v2_1_1Latin1StringHandler.html">Latin1StringHandler</a> const* TagLib::ID3v2::Tag::latin1StringHandler </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Gets the current string handler that decides how the "Latin-1" data will be converted to and from binary data.</p>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classTagLib_1_1ID3v2_1_1Latin1StringHandler.html" title="An abstraction for the ISO-8859-1 string to data encoding in ID3v2 tags.">Latin1StringHandler</a> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a878c91b714fef44e11c1fd3a6d294fe5"></a><!-- doxytag: member="TagLib::ID3v2::Tag::parse" ref="a878c91b714fef44e11c1fd3a6d294fe5" args="(const ByteVector &amp;data)" -->
 <div class="memitem">
 <div class="memproto">
@@ -693,6 +716,26 @@ Protected Member Functions</h2></td></tr>
 <p>Sets the genre to <em>s</em>. If <em>s</em> is <a class="el" href="classTagLib_1_1String.html#ae3087f44184e477e36345583298cf072">String::null</a> then this value will be cleared. For tag formats that use a fixed set of genres, the appropriate value will be selected based on a string comparison. A list of available genres for those formats should be available in that type's implementation. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#ae3f94c7c47343fa38c59e51558ed4695">TagLib::Tag</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7c066449146a1a0187da2840edd0c584"></a><!-- doxytag: member="TagLib::ID3v2::Tag::setLatin1StringHandler" ref="a7c066449146a1a0187da2840edd0c584" args="(const Latin1StringHandler *handler)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void TagLib::ID3v2::Tag::setLatin1StringHandler </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classTagLib_1_1ID3v2_1_1Latin1StringHandler.html">Latin1StringHandler</a> *&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Sets the string handler that decides how the "Latin-1" data will be converted to and from binary data. If the parameter <em>handler</em> is null, the previous handler is released and default ISO-8859-1 handler is restored.</p>
+<dl class="note"><dt><b>Note:</b></dt><dd>The caller is responsible for deleting the previous handler as needed after it is released.</dd></dl>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="classTagLib_1_1ID3v2_1_1Latin1StringHandler.html" title="An abstraction for the ISO-8859-1 string to data encoding in ID3v2 tags.">Latin1StringHandler</a> </dd></dl>
 
 </div>
 </div>

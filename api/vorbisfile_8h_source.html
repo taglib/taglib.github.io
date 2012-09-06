@@ -67,48 +67,48 @@ header: "1.8.0 (TagLib: vorbisfile.h Source File)"
 <a name="l00070"></a>00070       <a class="code" href="classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods.">File</a>(<a class="code" href="namespaceTagLib.html#a14b47d9629bae2779b5c8a7517329fbb">FileName</a> file, <span class="keywordtype">bool</span> readProperties = <span class="keyword">true</span>,
 <a name="l00071"></a>00071            <a class="code" href="classTagLib_1_1AudioProperties.html#ae43831c9807aaf08d60d9b3b5efb67bb">Properties::ReadStyle</a> propertiesStyle = <a class="code" href="classTagLib_1_1AudioProperties.html#ae43831c9807aaf08d60d9b3b5efb67bbac7b0fcdd909bbb360f26d60c6bc57f4e" title="Read more of the file and make better values guesses.">Properties::Average</a>);
 <a name="l00072"></a>00072 
-<a name="l00078"></a>00078       <a class="code" href="classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods.">File</a>(<a class="code" href="classTagLib_1_1IOStream.html" title="An abstract class that provides operations on a sequence of bytes.">IOStream</a> *stream, <span class="keywordtype">bool</span> readProperties = <span class="keyword">true</span>,
-<a name="l00079"></a>00079            <a class="code" href="classTagLib_1_1AudioProperties.html#ae43831c9807aaf08d60d9b3b5efb67bb">Properties::ReadStyle</a> propertiesStyle = <a class="code" href="classTagLib_1_1AudioProperties.html#ae43831c9807aaf08d60d9b3b5efb67bbac7b0fcdd909bbb360f26d60c6bc57f4e" title="Read more of the file and make better values guesses.">Properties::Average</a>);
-<a name="l00080"></a>00080 
-<a name="l00084"></a>00084       <span class="keyword">virtual</span> ~<a class="code" href="classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods.">File</a>();
-<a name="l00085"></a>00085 
-<a name="l00091"></a>00091       <span class="keyword">virtual</span> <a class="code" href="classTagLib_1_1Ogg_1_1XiphComment.html" title="Ogg Vorbis comment implementation.">Ogg::XiphComment</a> *tag() <span class="keyword">const</span>;
-<a name="l00092"></a>00092 
-<a name="l00093"></a>00093 
-<a name="l00098"></a>00098       <a class="code" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &amp;lt;key,valuelist&amp;gt; tag representations.">PropertyMap</a> properties() <span class="keyword">const</span>;
-<a name="l00099"></a>00099 
-<a name="l00104"></a>00104       <a class="code" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &amp;lt;key,valuelist&amp;gt; tag representations.">PropertyMap</a> setProperties(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &amp;lt;key,valuelist&amp;gt; tag representations.">PropertyMap</a> &amp;);
-<a name="l00105"></a>00105 
-<a name="l00110"></a>00110       <span class="keyword">virtual</span> <a class="code" href="classTagLib_1_1Ogg_1_1Vorbis_1_1Properties.html" title="An implementation of audio property reading for Ogg Vorbis.">Properties</a> *audioProperties() <span class="keyword">const</span>;
-<a name="l00111"></a>00111 
-<a name="l00112"></a>00112       <span class="keyword">virtual</span> <span class="keywordtype">bool</span> save();
-<a name="l00113"></a>00113 
-<a name="l00114"></a>00114     <span class="keyword">private</span>:
-<a name="l00115"></a>00115       <a class="code" href="classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods.">File</a>(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods.">File</a> &amp;);
-<a name="l00116"></a>00116       <a class="code" href="classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods.">File</a> &amp;operator=(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods.">File</a> &amp;);
-<a name="l00117"></a>00117 
-<a name="l00118"></a>00118       <span class="keywordtype">void</span> read(<span class="keywordtype">bool</span> readProperties, <a class="code" href="classTagLib_1_1AudioProperties.html#ae43831c9807aaf08d60d9b3b5efb67bb">Properties::ReadStyle</a> propertiesStyle);
-<a name="l00119"></a>00119 
-<a name="l00120"></a>00120       <span class="keyword">class </span>FilePrivate;
-<a name="l00121"></a>00121       FilePrivate *d;
-<a name="l00122"></a>00122     };
-<a name="l00123"></a>00123   }
-<a name="l00124"></a>00124 
-<a name="l00125"></a>00125 <span class="comment">/*</span>
-<a name="l00126"></a>00126 <span class="comment"> * To keep compatibility with the current version put Vorbis in the Ogg namespace</span>
-<a name="l00127"></a>00127 <span class="comment"> * only in the docs and provide a typedef to make it work.  In the next BIC</span>
-<a name="l00128"></a>00128 <span class="comment"> * version this will be removed and it will only exist in the Ogg namespace.</span>
-<a name="l00129"></a>00129 <span class="comment"> */</span>
-<a name="l00130"></a>00130 
-<a name="l00131"></a>00131 <span class="preprocessor">#ifdef DOXYGEN</span>
-<a name="l00132"></a>00132 <span class="preprocessor"></span>  }
-<a name="l00133"></a>00133 <span class="preprocessor">#else</span>
-<a name="l00134"></a>00134 <span class="preprocessor"></span>  <span class="keyword">namespace </span>Ogg { <span class="keyword">namespace </span>Vorbis { <span class="keyword">typedef</span> TagLib::Vorbis::File <a class="code" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a>; } }
-<a name="l00135"></a>00135 <span class="preprocessor">#endif</span>
-<a name="l00136"></a>00136 <span class="preprocessor"></span>
-<a name="l00137"></a>00137 }
-<a name="l00138"></a>00138 
-<a name="l00139"></a>00139 <span class="preprocessor">#endif</span>
+<a name="l00081"></a>00081       <a class="code" href="classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods.">File</a>(<a class="code" href="classTagLib_1_1IOStream.html" title="An abstract class that provides operations on a sequence of bytes.">IOStream</a> *stream, <span class="keywordtype">bool</span> readProperties = <span class="keyword">true</span>,
+<a name="l00082"></a>00082            <a class="code" href="classTagLib_1_1AudioProperties.html#ae43831c9807aaf08d60d9b3b5efb67bb">Properties::ReadStyle</a> propertiesStyle = <a class="code" href="classTagLib_1_1AudioProperties.html#ae43831c9807aaf08d60d9b3b5efb67bbac7b0fcdd909bbb360f26d60c6bc57f4e" title="Read more of the file and make better values guesses.">Properties::Average</a>);
+<a name="l00083"></a>00083 
+<a name="l00087"></a>00087       <span class="keyword">virtual</span> ~<a class="code" href="classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods.">File</a>();
+<a name="l00088"></a>00088 
+<a name="l00094"></a>00094       <span class="keyword">virtual</span> <a class="code" href="classTagLib_1_1Ogg_1_1XiphComment.html" title="Ogg Vorbis comment implementation.">Ogg::XiphComment</a> *tag() <span class="keyword">const</span>;
+<a name="l00095"></a>00095 
+<a name="l00096"></a>00096 
+<a name="l00101"></a>00101       <a class="code" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &amp;lt;key,valuelist&amp;gt; tag representations.">PropertyMap</a> properties() <span class="keyword">const</span>;
+<a name="l00102"></a>00102 
+<a name="l00107"></a>00107       <a class="code" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &amp;lt;key,valuelist&amp;gt; tag representations.">PropertyMap</a> setProperties(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &amp;lt;key,valuelist&amp;gt; tag representations.">PropertyMap</a> &amp;);
+<a name="l00108"></a>00108 
+<a name="l00113"></a>00113       <span class="keyword">virtual</span> <a class="code" href="classTagLib_1_1Ogg_1_1Vorbis_1_1Properties.html" title="An implementation of audio property reading for Ogg Vorbis.">Properties</a> *audioProperties() <span class="keyword">const</span>;
+<a name="l00114"></a>00114 
+<a name="l00115"></a>00115       <span class="keyword">virtual</span> <span class="keywordtype">bool</span> save();
+<a name="l00116"></a>00116 
+<a name="l00117"></a>00117     <span class="keyword">private</span>:
+<a name="l00118"></a>00118       <a class="code" href="classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods.">File</a>(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods.">File</a> &amp;);
+<a name="l00119"></a>00119       <a class="code" href="classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods.">File</a> &amp;operator=(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods.">File</a> &amp;);
+<a name="l00120"></a>00120 
+<a name="l00121"></a>00121       <span class="keywordtype">void</span> read(<span class="keywordtype">bool</span> readProperties, <a class="code" href="classTagLib_1_1AudioProperties.html#ae43831c9807aaf08d60d9b3b5efb67bb">Properties::ReadStyle</a> propertiesStyle);
+<a name="l00122"></a>00122 
+<a name="l00123"></a>00123       <span class="keyword">class </span>FilePrivate;
+<a name="l00124"></a>00124       FilePrivate *d;
+<a name="l00125"></a>00125     };
+<a name="l00126"></a>00126   }
+<a name="l00127"></a>00127 
+<a name="l00128"></a>00128 <span class="comment">/*</span>
+<a name="l00129"></a>00129 <span class="comment"> * To keep compatibility with the current version put Vorbis in the Ogg namespace</span>
+<a name="l00130"></a>00130 <span class="comment"> * only in the docs and provide a typedef to make it work.  In the next BIC</span>
+<a name="l00131"></a>00131 <span class="comment"> * version this will be removed and it will only exist in the Ogg namespace.</span>
+<a name="l00132"></a>00132 <span class="comment"> */</span>
+<a name="l00133"></a>00133 
+<a name="l00134"></a>00134 <span class="preprocessor">#ifdef DOXYGEN</span>
+<a name="l00135"></a>00135 <span class="preprocessor"></span>  }
+<a name="l00136"></a>00136 <span class="preprocessor">#else</span>
+<a name="l00137"></a>00137 <span class="preprocessor"></span>  <span class="keyword">namespace </span>Ogg { <span class="keyword">namespace </span>Vorbis { <span class="keyword">typedef</span> TagLib::Vorbis::File <a class="code" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a>; } }
+<a name="l00138"></a>00138 <span class="preprocessor">#endif</span>
+<a name="l00139"></a>00139 <span class="preprocessor"></span>
+<a name="l00140"></a>00140 }
+<a name="l00141"></a>00141 
+<a name="l00142"></a>00142 <span class="preprocessor">#endif</span>
 </pre></div></div>
 </div>
 

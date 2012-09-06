@@ -13,6 +13,7 @@ header: "1.8.0 (TagLib: TagLib::Ogg::XiphComment Class Reference)"
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a>  </div>
   <div class="headertitle">
 <h1>TagLib::Ogg::XiphComment Class Reference</h1>  </div>
@@ -70,6 +71,9 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#a3dce4ce35c992bb225fdd56b0918c735">contains</a> (const <a class="el" href="classTagLib_1_1String.html">String</a> &amp;key) const </td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#a47d0444e1e6b4a5ed3fd086fe67693e7">render</a> () const </td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#aba1cbb5421a5a2c67bbcda4987d4a636">render</a> (bool addFramingBit) const </td></tr>
+<tr><td colspan="2"><h2><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#ac6843f80a46713d7c7408c634fc80ab0">checkKey</a> (const <a class="el" href="classTagLib_1_1String.html">String</a> &amp;)</td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#a9c4775c353064f2f3cba24bf2773b911">parse</a> (const <a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a> &amp;data)</td></tr>
@@ -203,6 +207,24 @@ Protected Member Functions</h2></td></tr>
 <p>Returns the artist name; if no artist name is present in the tag <a class="el" href="classTagLib_1_1String.html#ae3087f44184e477e36345583298cf072">String::null</a> will be returned. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#ac1cbeed86f119214384196f4cb828374">TagLib::Tag</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac6843f80a46713d7c7408c634fc80ab0"></a><!-- doxytag: member="TagLib::Ogg::XiphComment::checkKey" ref="ac6843f80a46713d7c7408c634fc80ab0" args="(const String &amp;)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool TagLib::Ogg::XiphComment::checkKey </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classTagLib_1_1String.html">String</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [static]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Check if the given <a class="el" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> is a valid Xiph comment key. </p>
 
 </div>
 </div>
@@ -413,6 +435,23 @@ ISRC </li>
 
 </div>
 </div>
+<a class="anchor" id="a47d0444e1e6b4a5ed3fd086fe67693e7"></a><!-- doxytag: member="TagLib::Ogg::XiphComment::render" ref="a47d0444e1e6b4a5ed3fd086fe67693e7" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a> TagLib::Ogg::XiphComment::render </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Renders the comment to a <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> suitable for inserting into a file. </p>
+
+</div>
+</div>
 <a class="anchor" id="aba1cbb5421a5a2c67bbcda4987d4a636"></a><!-- doxytag: member="TagLib::Ogg::XiphComment::render" ref="aba1cbb5421a5a2c67bbcda4987d4a636" args="(bool addFramingBit) const " -->
 <div class="memitem">
 <div class="memproto">
@@ -429,23 +468,6 @@ ISRC </li>
 <div class="memdoc">
 <p>Renders the comment to a <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> suitable for inserting into a file.</p>
 <p>If <em>addFramingBit</em> is true the standard <a class="el" href="namespaceTagLib_1_1Ogg_1_1Vorbis.html" title="A namespace containing classes for Vorbis metadata.">Vorbis</a> comment framing bit will be appended. However some formats (notably <a class="el" href="namespaceTagLib_1_1Ogg_1_1FLAC.html" title="An implementation of Ogg FLAC metadata.">FLAC</a>) do not work with this in place. </p>
-
-</div>
-</div>
-<a class="anchor" id="a47d0444e1e6b4a5ed3fd086fe67693e7"></a><!-- doxytag: member="TagLib::Ogg::XiphComment::render" ref="a47d0444e1e6b4a5ed3fd086fe67693e7" args="() const " -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a> TagLib::Ogg::XiphComment::render </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-<p>Renders the comment to a <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> suitable for inserting into a file. </p>
 
 </div>
 </div>
@@ -543,7 +565,7 @@ ISRC </li>
       </table>
 </div>
 <div class="memdoc">
-<p>Implements the unified property interface -- import function. The tags from the given map will be stored one-to-one in the file. </p>
+<p>Implements the unified property interface -- import function. The tags from the given map will be stored one-to-one in the file, except for invalid keys (less than one character, non-ASCII, or containing '=' or '~') in which case the according values will be contained in the returned <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,valuelist&gt; tag representations.">PropertyMap</a>. </p>
 
 <p>Reimplemented from <a class="el" href="classTagLib_1_1Tag.html#a2d3ee11b9691a7bcc8c3aacf44f808eb">TagLib::Tag</a>.</p>
 

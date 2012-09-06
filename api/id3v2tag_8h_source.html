@@ -61,86 +61,100 @@ header: "1.8.0 (TagLib: id3v2tag.h Source File)"
 <a name="l00058"></a>00058     <span class="keyword">typedef</span> <a class="code" href="classTagLib_1_1Map.html" title="A generic, implicitly shared map.">Map&lt;ByteVector, FrameList&gt;</a> <a class="code" href="namespaceTagLib_1_1ID3v2.html#a74384965b0d2809008a487da2b926092">FrameListMap</a>;
 <a name="l00059"></a><a class="code" href="namespaceTagLib_1_1ID3v2.html#a74384965b0d2809008a487da2b926092">00059</a> 
 <a name="l00061"></a>00061 
-<a name="l00105"></a>00105     <span class="keyword">class </span><a class="code" href="taglib__export_8h.html#a869a58b518ef871f14a9b4ccfe86ecfb">TAGLIB_EXPORT</a> <a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a> : <span class="keyword">public</span> TagLib::<a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a>
-<a name="l00106"></a><a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html">00106</a>     {
-<a name="l00107"></a>00107     <span class="keyword">public</span>:
-<a name="l00113"></a>00113       <a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a>();
-<a name="l00114"></a>00114 
-<a name="l00127"></a>00127       <a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a>(<a class="code" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> *file, <span class="keywordtype">long</span> tagOffset,
-<a name="l00128"></a>00128           <span class="keyword">const</span> <a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html" title="A factory for creating ID3v2 frames during parsing.">FrameFactory</a> *factory = <a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html#a6ab4884405b6b1c6d9f68f9f7514fb45">FrameFactory::instance</a>());
-<a name="l00129"></a>00129 
-<a name="l00133"></a>00133       <span class="keyword">virtual</span> ~<a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a>();
-<a name="l00134"></a>00134 
-<a name="l00135"></a>00135       <span class="comment">// Reimplementations.</span>
-<a name="l00136"></a>00136 
-<a name="l00137"></a>00137       <span class="keyword">virtual</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> title() <span class="keyword">const</span>;
-<a name="l00138"></a>00138       <span class="keyword">virtual</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> artist() <span class="keyword">const</span>;
-<a name="l00139"></a>00139       <span class="keyword">virtual</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> album() <span class="keyword">const</span>;
-<a name="l00140"></a>00140       <span class="keyword">virtual</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> comment() <span class="keyword">const</span>;
-<a name="l00141"></a>00141       <span class="keyword">virtual</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> <a class="code" href="namespaceTagLib_1_1ID3v1.html#af1b3dc39764491732aebde673229ed5f">genre</a>() <span class="keyword">const</span>;
-<a name="l00142"></a>00142       <span class="keyword">virtual</span> <a class="code" href="namespaceTagLib.html#a0d56da3fb97ff5e823c2c4b3aea77e25">uint</a> year() <span class="keyword">const</span>;
-<a name="l00143"></a>00143       <span class="keyword">virtual</span> <a class="code" href="namespaceTagLib.html#a0d56da3fb97ff5e823c2c4b3aea77e25">uint</a> track() <span class="keyword">const</span>;
+<a name="l00077"></a>00077     <span class="keyword">class </span><a class="code" href="taglib__export_8h.html#a869a58b518ef871f14a9b4ccfe86ecfb">TAGLIB_EXPORT</a> <a class="code" href="classTagLib_1_1ID3v2_1_1Latin1StringHandler.html" title="An abstraction for the ISO-8859-1 string to data encoding in ID3v2 tags.">Latin1StringHandler</a>
+<a name="l00078"></a><a class="code" href="classTagLib_1_1ID3v2_1_1Latin1StringHandler.html">00078</a>     {
+<a name="l00079"></a>00079     <span class="keyword">public</span>:
+<a name="l00080"></a>00080       <a class="code" href="classTagLib_1_1ID3v2_1_1Latin1StringHandler.html" title="An abstraction for the ISO-8859-1 string to data encoding in ID3v2 tags.">Latin1StringHandler</a>();
+<a name="l00081"></a>00081       <span class="keyword">virtual</span> ~<a class="code" href="classTagLib_1_1ID3v2_1_1Latin1StringHandler.html" title="An abstraction for the ISO-8859-1 string to data encoding in ID3v2 tags.">Latin1StringHandler</a>();
+<a name="l00082"></a>00082 
+<a name="l00087"></a>00087       <span class="keyword">virtual</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> parse(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> &amp;data) <span class="keyword">const</span>;
+<a name="l00088"></a>00088     };
+<a name="l00089"></a>00089 
+<a name="l00091"></a>00091 
+<a name="l00135"></a>00135     <span class="keyword">class </span><a class="code" href="taglib__export_8h.html#a869a58b518ef871f14a9b4ccfe86ecfb">TAGLIB_EXPORT</a> <a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a> : <span class="keyword">public</span> TagLib::<a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a>
+<a name="l00136"></a><a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html">00136</a>     {
+<a name="l00137"></a>00137     <span class="keyword">public</span>:
+<a name="l00143"></a>00143       <a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a>();
 <a name="l00144"></a>00144 
-<a name="l00145"></a>00145       <span class="keyword">virtual</span> <span class="keywordtype">void</span> setTitle(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> &amp;s);
-<a name="l00146"></a>00146       <span class="keyword">virtual</span> <span class="keywordtype">void</span> setArtist(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> &amp;s);
-<a name="l00147"></a>00147       <span class="keyword">virtual</span> <span class="keywordtype">void</span> setAlbum(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> &amp;s);
-<a name="l00148"></a>00148       <span class="keyword">virtual</span> <span class="keywordtype">void</span> setComment(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> &amp;s);
-<a name="l00149"></a>00149       <span class="keyword">virtual</span> <span class="keywordtype">void</span> setGenre(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> &amp;s);
-<a name="l00150"></a>00150       <span class="keyword">virtual</span> <span class="keywordtype">void</span> setYear(<a class="code" href="namespaceTagLib.html#a0d56da3fb97ff5e823c2c4b3aea77e25">uint</a> i);
-<a name="l00151"></a>00151       <span class="keyword">virtual</span> <span class="keywordtype">void</span> setTrack(<a class="code" href="namespaceTagLib.html#a0d56da3fb97ff5e823c2c4b3aea77e25">uint</a> i);
-<a name="l00152"></a>00152 
-<a name="l00153"></a>00153       <span class="keyword">virtual</span> <span class="keywordtype">bool</span> isEmpty() <span class="keyword">const</span>;
-<a name="l00154"></a>00154 
-<a name="l00158"></a>00158       <a class="code" href="classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers.">Header</a> *header() <span class="keyword">const</span>;
+<a name="l00157"></a>00157       <a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a>(<a class="code" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> *file, <span class="keywordtype">long</span> tagOffset,
+<a name="l00158"></a>00158           <span class="keyword">const</span> <a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html" title="A factory for creating ID3v2 frames during parsing.">FrameFactory</a> *factory = <a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html#a6ab4884405b6b1c6d9f68f9f7514fb45">FrameFactory::instance</a>());
 <a name="l00159"></a>00159 
-<a name="l00164"></a>00164       <a class="code" href="classTagLib_1_1ID3v2_1_1ExtendedHeader.html" title="ID3v2 extended header implementation.">ExtendedHeader</a> *extendedHeader() <span class="keyword">const</span>;
-<a name="l00165"></a>00165 
-<a name="l00174"></a>00174       <a class="code" href="classTagLib_1_1ID3v2_1_1Footer.html" title="ID3v2 footer implementation.">Footer</a> *footer() <span class="keyword">const</span>;
-<a name="l00175"></a>00175 
-<a name="l00210"></a>00210       <span class="keyword">const</span> <a class="code" href="classTagLib_1_1Map.html" title="A generic, implicitly shared map.">FrameListMap</a> &amp;frameListMap() <span class="keyword">const</span>;
-<a name="l00211"></a>00211 
-<a name="l00222"></a>00222       <span class="keyword">const</span> <a class="code" href="classTagLib_1_1List.html" title="A generic, implicitly shared list.">FrameList</a> &amp;frameList() <span class="keyword">const</span>;
-<a name="l00223"></a>00223 
-<a name="l00235"></a>00235       <span class="keyword">const</span> <a class="code" href="classTagLib_1_1List.html" title="A generic, implicitly shared list.">FrameList</a> &amp;frameList(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> &amp;frameID) <span class="keyword">const</span>;
-<a name="l00236"></a>00236 
-<a name="l00244"></a>00244       <span class="keywordtype">void</span> addFrame(<a class="code" href="classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation.">Frame</a> *frame);
-<a name="l00245"></a>00245 
-<a name="l00253"></a>00253       <span class="keywordtype">void</span> removeFrame(<a class="code" href="classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation.">Frame</a> *frame, <span class="keywordtype">bool</span> del = <span class="keyword">true</span>);
-<a name="l00254"></a>00254 
-<a name="l00261"></a>00261       <span class="keywordtype">void</span> removeFrames(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> &amp;<span class="keywordtype">id</span>);
-<a name="l00262"></a>00262 
-<a name="l00292"></a>00292       <a class="code" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &amp;lt;key,valuelist&amp;gt; tag representations.">PropertyMap</a> properties() <span class="keyword">const</span>;
-<a name="l00293"></a>00293 
-<a name="l00305"></a>00305       <span class="keywordtype">void</span> removeUnsupportedProperties(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1StringList.html" title="A list of strings.">StringList</a> &amp;properties);
-<a name="l00306"></a>00306 
-<a name="l00311"></a>00311       <a class="code" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &amp;lt;key,valuelist&amp;gt; tag representations.">PropertyMap</a> setProperties(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &amp;lt;key,valuelist&amp;gt; tag representations.">PropertyMap</a> &amp;);
-<a name="l00312"></a>00312 
-<a name="l00316"></a>00316       <a class="code" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> render() <span class="keyword">const</span>;
-<a name="l00317"></a>00317 
-<a name="l00324"></a>00324       <span class="comment">// BIC: combine with the above method</span>
-<a name="l00325"></a>00325       <a class="code" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> render(<span class="keywordtype">int</span> version) <span class="keyword">const</span>;
-<a name="l00326"></a>00326 
-<a name="l00327"></a>00327     <span class="keyword">protected</span>:
-<a name="l00334"></a>00334       <span class="keywordtype">void</span> read();
-<a name="l00335"></a>00335 
-<a name="l00340"></a>00340       <span class="keywordtype">void</span> parse(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> &amp;data);
-<a name="l00341"></a>00341 
-<a name="l00346"></a>00346       <span class="keywordtype">void</span> setTextFrame(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> &amp;<span class="keywordtype">id</span>, <span class="keyword">const</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> &amp;value);
+<a name="l00163"></a>00163       <span class="keyword">virtual</span> ~<a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a>();
+<a name="l00164"></a>00164 
+<a name="l00165"></a>00165       <span class="comment">// Reimplementations.</span>
+<a name="l00166"></a>00166 
+<a name="l00167"></a>00167       <span class="keyword">virtual</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> title() <span class="keyword">const</span>;
+<a name="l00168"></a>00168       <span class="keyword">virtual</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> artist() <span class="keyword">const</span>;
+<a name="l00169"></a>00169       <span class="keyword">virtual</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> album() <span class="keyword">const</span>;
+<a name="l00170"></a>00170       <span class="keyword">virtual</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> comment() <span class="keyword">const</span>;
+<a name="l00171"></a>00171       <span class="keyword">virtual</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> <a class="code" href="namespaceTagLib_1_1ID3v1.html#af1b3dc39764491732aebde673229ed5f">genre</a>() <span class="keyword">const</span>;
+<a name="l00172"></a>00172       <span class="keyword">virtual</span> <a class="code" href="namespaceTagLib.html#a0d56da3fb97ff5e823c2c4b3aea77e25">uint</a> year() <span class="keyword">const</span>;
+<a name="l00173"></a>00173       <span class="keyword">virtual</span> <a class="code" href="namespaceTagLib.html#a0d56da3fb97ff5e823c2c4b3aea77e25">uint</a> track() <span class="keyword">const</span>;
+<a name="l00174"></a>00174 
+<a name="l00175"></a>00175       <span class="keyword">virtual</span> <span class="keywordtype">void</span> setTitle(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> &amp;s);
+<a name="l00176"></a>00176       <span class="keyword">virtual</span> <span class="keywordtype">void</span> setArtist(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> &amp;s);
+<a name="l00177"></a>00177       <span class="keyword">virtual</span> <span class="keywordtype">void</span> setAlbum(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> &amp;s);
+<a name="l00178"></a>00178       <span class="keyword">virtual</span> <span class="keywordtype">void</span> setComment(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> &amp;s);
+<a name="l00179"></a>00179       <span class="keyword">virtual</span> <span class="keywordtype">void</span> setGenre(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> &amp;s);
+<a name="l00180"></a>00180       <span class="keyword">virtual</span> <span class="keywordtype">void</span> setYear(<a class="code" href="namespaceTagLib.html#a0d56da3fb97ff5e823c2c4b3aea77e25">uint</a> i);
+<a name="l00181"></a>00181       <span class="keyword">virtual</span> <span class="keywordtype">void</span> setTrack(<a class="code" href="namespaceTagLib.html#a0d56da3fb97ff5e823c2c4b3aea77e25">uint</a> i);
+<a name="l00182"></a>00182 
+<a name="l00183"></a>00183       <span class="keyword">virtual</span> <span class="keywordtype">bool</span> isEmpty() <span class="keyword">const</span>;
+<a name="l00184"></a>00184 
+<a name="l00188"></a>00188       <a class="code" href="classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers.">Header</a> *header() <span class="keyword">const</span>;
+<a name="l00189"></a>00189 
+<a name="l00194"></a>00194       <a class="code" href="classTagLib_1_1ID3v2_1_1ExtendedHeader.html" title="ID3v2 extended header implementation.">ExtendedHeader</a> *extendedHeader() <span class="keyword">const</span>;
+<a name="l00195"></a>00195 
+<a name="l00204"></a>00204       <a class="code" href="classTagLib_1_1ID3v2_1_1Footer.html" title="ID3v2 footer implementation.">Footer</a> *footer() <span class="keyword">const</span>;
+<a name="l00205"></a>00205 
+<a name="l00240"></a>00240       <span class="keyword">const</span> <a class="code" href="classTagLib_1_1Map.html" title="A generic, implicitly shared map.">FrameListMap</a> &amp;frameListMap() <span class="keyword">const</span>;
+<a name="l00241"></a>00241 
+<a name="l00252"></a>00252       <span class="keyword">const</span> <a class="code" href="classTagLib_1_1List.html" title="A generic, implicitly shared list.">FrameList</a> &amp;frameList() <span class="keyword">const</span>;
+<a name="l00253"></a>00253 
+<a name="l00265"></a>00265       <span class="keyword">const</span> <a class="code" href="classTagLib_1_1List.html" title="A generic, implicitly shared list.">FrameList</a> &amp;frameList(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> &amp;frameID) <span class="keyword">const</span>;
+<a name="l00266"></a>00266 
+<a name="l00274"></a>00274       <span class="keywordtype">void</span> addFrame(<a class="code" href="classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation.">Frame</a> *frame);
+<a name="l00275"></a>00275 
+<a name="l00283"></a>00283       <span class="keywordtype">void</span> removeFrame(<a class="code" href="classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation.">Frame</a> *frame, <span class="keywordtype">bool</span> del = <span class="keyword">true</span>);
+<a name="l00284"></a>00284 
+<a name="l00291"></a>00291       <span class="keywordtype">void</span> removeFrames(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> &amp;<span class="keywordtype">id</span>);
+<a name="l00292"></a>00292 
+<a name="l00322"></a>00322       <a class="code" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &amp;lt;key,valuelist&amp;gt; tag representations.">PropertyMap</a> properties() <span class="keyword">const</span>;
+<a name="l00323"></a>00323 
+<a name="l00335"></a>00335       <span class="keywordtype">void</span> removeUnsupportedProperties(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1StringList.html" title="A list of strings.">StringList</a> &amp;properties);
+<a name="l00336"></a>00336 
+<a name="l00341"></a>00341       <a class="code" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &amp;lt;key,valuelist&amp;gt; tag representations.">PropertyMap</a> setProperties(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &amp;lt;key,valuelist&amp;gt; tag representations.">PropertyMap</a> &amp;);
+<a name="l00342"></a>00342 
+<a name="l00346"></a>00346       <a class="code" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> render() <span class="keyword">const</span>;
 <a name="l00347"></a>00347 
-<a name="l00348"></a>00348       <span class="keywordtype">void</span> downgradeFrames(<a class="code" href="classTagLib_1_1List.html" title="A generic, implicitly shared list.">FrameList</a> *existingFrames, <a class="code" href="classTagLib_1_1List.html" title="A generic, implicitly shared list.">FrameList</a> *newFrames) <span class="keyword">const</span>;
-<a name="l00349"></a>00349 
-<a name="l00350"></a>00350     <span class="keyword">private</span>:
-<a name="l00351"></a>00351       <a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a>(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a> &amp;);
-<a name="l00352"></a>00352       <a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a> &amp;operator=(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a> &amp;);
-<a name="l00353"></a>00353 
-<a name="l00354"></a>00354       <span class="keyword">class </span>TagPrivate;
-<a name="l00355"></a>00355       TagPrivate *d;
-<a name="l00356"></a>00356     };
-<a name="l00357"></a>00357 
-<a name="l00358"></a>00358   }
-<a name="l00359"></a>00359 }
-<a name="l00360"></a>00360 
-<a name="l00361"></a>00361 <span class="preprocessor">#endif</span>
+<a name="l00354"></a>00354       <span class="comment">// BIC: combine with the above method</span>
+<a name="l00355"></a>00355       <a class="code" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> render(<span class="keywordtype">int</span> version) <span class="keyword">const</span>;
+<a name="l00356"></a>00356       
+<a name="l00363"></a>00363       <span class="keyword">static</span> <a class="code" href="classTagLib_1_1ID3v2_1_1Latin1StringHandler.html" title="An abstraction for the ISO-8859-1 string to data encoding in ID3v2 tags.">Latin1StringHandler</a> <span class="keyword">const</span> *latin1StringHandler();
+<a name="l00364"></a>00364 
+<a name="l00376"></a>00376       <span class="keyword">static</span> <span class="keywordtype">void</span> setLatin1StringHandler(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ID3v2_1_1Latin1StringHandler.html" title="An abstraction for the ISO-8859-1 string to data encoding in ID3v2 tags.">Latin1StringHandler</a> *handler);
+<a name="l00377"></a>00377 
+<a name="l00378"></a>00378     <span class="keyword">protected</span>:
+<a name="l00385"></a>00385       <span class="keywordtype">void</span> read();
+<a name="l00386"></a>00386 
+<a name="l00391"></a>00391       <span class="keywordtype">void</span> parse(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> &amp;data);
+<a name="l00392"></a>00392 
+<a name="l00397"></a>00397       <span class="keywordtype">void</span> setTextFrame(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> &amp;<span class="keywordtype">id</span>, <span class="keyword">const</span> <a class="code" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> &amp;value);
+<a name="l00398"></a>00398 
+<a name="l00399"></a>00399       <span class="keywordtype">void</span> downgradeFrames(<a class="code" href="classTagLib_1_1List.html" title="A generic, implicitly shared list.">FrameList</a> *existingFrames, <a class="code" href="classTagLib_1_1List.html" title="A generic, implicitly shared list.">FrameList</a> *newFrames) <span class="keyword">const</span>;
+<a name="l00400"></a>00400 
+<a name="l00401"></a>00401     <span class="keyword">private</span>:
+<a name="l00402"></a>00402       <a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a>(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a> &amp;);
+<a name="l00403"></a>00403       <a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a> &amp;operator=(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation.">Tag</a> &amp;);
+<a name="l00404"></a>00404 
+<a name="l00405"></a>00405       <span class="keyword">class </span>TagPrivate;
+<a name="l00406"></a>00406       TagPrivate *d;
+<a name="l00407"></a>00407     };
+<a name="l00408"></a>00408 
+<a name="l00409"></a>00409   }
+<a name="l00410"></a>00410 }
+<a name="l00411"></a>00411 
+<a name="l00412"></a>00412 <span class="preprocessor">#endif</span>
 </pre></div></div>
 </div>
 

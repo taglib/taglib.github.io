@@ -67,29 +67,29 @@ header: "1.8.0 (TagLib: id3v2framefactory.h Source File)"
 <a name="l00118"></a>00118     <span class="keyword">protected</span>:
 <a name="l00123"></a>00123       <a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html" title="A factory for creating ID3v2 frames during parsing.">FrameFactory</a>();
 <a name="l00124"></a>00124 
-<a name="l00129"></a>00129       <span class="keyword">virtual</span> ~<a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html" title="A factory for creating ID3v2 frames during parsing.">FrameFactory</a>();
-<a name="l00130"></a>00130 
-<a name="l00142"></a>00142       <span class="keyword">virtual</span> <span class="keywordtype">bool</span> updateFrame(<a class="code" href="classTagLib_1_1ID3v2_1_1Header.html#af2d151fa068b19896de9988b6de5f026">Frame::Header</a> *header) <span class="keyword">const</span>;
-<a name="l00143"></a>00143 
-<a name="l00144"></a>00144     <span class="keyword">private</span>:
-<a name="l00145"></a>00145       <a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html" title="A factory for creating ID3v2 frames during parsing.">FrameFactory</a>(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html" title="A factory for creating ID3v2 frames during parsing.">FrameFactory</a> &amp;);
-<a name="l00146"></a>00146       <a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html" title="A factory for creating ID3v2 frames during parsing.">FrameFactory</a> &amp;operator=(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html" title="A factory for creating ID3v2 frames during parsing.">FrameFactory</a> &amp;);
-<a name="l00147"></a>00147 
-<a name="l00153"></a>00153       <span class="keywordtype">void</span> convertFrame(<span class="keyword">const</span> <span class="keywordtype">char</span> *from, <span class="keyword">const</span> <span class="keywordtype">char</span> *to,
-<a name="l00154"></a>00154                         <a class="code" href="classTagLib_1_1ID3v2_1_1Header.html#af2d151fa068b19896de9988b6de5f026">Frame::Header</a> *header) <span class="keyword">const</span>;
-<a name="l00155"></a>00155 
-<a name="l00156"></a>00156       <span class="keywordtype">void</span> updateGenre(<a class="code" href="classTagLib_1_1ID3v2_1_1TextIdentificationFrame.html" title="An ID3v2 text identification frame implementation.">TextIdentificationFrame</a> *frame) <span class="keyword">const</span>;
-<a name="l00157"></a>00157 
-<a name="l00158"></a>00158       <span class="keyword">static</span> <a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html" title="A factory for creating ID3v2 frames during parsing.">FrameFactory</a> factory;
-<a name="l00159"></a>00159 
-<a name="l00160"></a>00160       <span class="keyword">class </span>FrameFactoryPrivate;
-<a name="l00161"></a>00161       FrameFactoryPrivate *d;
-<a name="l00162"></a>00162     };
-<a name="l00163"></a>00163 
-<a name="l00164"></a>00164   }
-<a name="l00165"></a>00165 }
-<a name="l00166"></a>00166 
-<a name="l00167"></a>00167 <span class="preprocessor">#endif</span>
+<a name="l00128"></a>00128       <span class="keyword">virtual</span> ~<a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html" title="A factory for creating ID3v2 frames during parsing.">FrameFactory</a>();
+<a name="l00129"></a>00129 
+<a name="l00141"></a>00141       <span class="keyword">virtual</span> <span class="keywordtype">bool</span> updateFrame(<a class="code" href="classTagLib_1_1ID3v2_1_1Header.html#af2d151fa068b19896de9988b6de5f026">Frame::Header</a> *header) <span class="keyword">const</span>;
+<a name="l00142"></a>00142 
+<a name="l00143"></a>00143     <span class="keyword">private</span>:
+<a name="l00144"></a>00144       <a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html" title="A factory for creating ID3v2 frames during parsing.">FrameFactory</a>(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html" title="A factory for creating ID3v2 frames during parsing.">FrameFactory</a> &amp;);
+<a name="l00145"></a>00145       <a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html" title="A factory for creating ID3v2 frames during parsing.">FrameFactory</a> &amp;operator=(<span class="keyword">const</span> <a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html" title="A factory for creating ID3v2 frames during parsing.">FrameFactory</a> &amp;);
+<a name="l00146"></a>00146 
+<a name="l00152"></a>00152       <span class="keywordtype">void</span> convertFrame(<span class="keyword">const</span> <span class="keywordtype">char</span> *from, <span class="keyword">const</span> <span class="keywordtype">char</span> *to,
+<a name="l00153"></a>00153                         <a class="code" href="classTagLib_1_1ID3v2_1_1Header.html#af2d151fa068b19896de9988b6de5f026">Frame::Header</a> *header) <span class="keyword">const</span>;
+<a name="l00154"></a>00154 
+<a name="l00155"></a>00155       <span class="keywordtype">void</span> updateGenre(<a class="code" href="classTagLib_1_1ID3v2_1_1TextIdentificationFrame.html" title="An ID3v2 text identification frame implementation.">TextIdentificationFrame</a> *frame) <span class="keyword">const</span>;
+<a name="l00156"></a>00156 
+<a name="l00157"></a>00157       <span class="keyword">static</span> <a class="code" href="classTagLib_1_1ID3v2_1_1FrameFactory.html" title="A factory for creating ID3v2 frames during parsing.">FrameFactory</a> factory;
+<a name="l00158"></a>00158 
+<a name="l00159"></a>00159       <span class="keyword">class </span>FrameFactoryPrivate;
+<a name="l00160"></a>00160       FrameFactoryPrivate *d;
+<a name="l00161"></a>00161     };
+<a name="l00162"></a>00162 
+<a name="l00163"></a>00163   }
+<a name="l00164"></a>00164 }
+<a name="l00165"></a>00165 
+<a name="l00166"></a>00166 <span class="preprocessor">#endif</span>
 </pre></div></div>
 </div>
 

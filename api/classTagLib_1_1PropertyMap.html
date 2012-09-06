@@ -12,8 +12,7 @@ header: "1.8.0 (TagLib: TagLib::PropertyMap Class Reference)"
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
 <h1>TagLib::PropertyMap Class Reference</h1>  </div>
 </div>
@@ -61,17 +60,11 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classTagLib_1_1StringList.html">StringList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1PropertyMap.html#a09fe9cd245361b7e7f0d47f55ce360ca">unsupportedData</a> () const </td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1PropertyMap.html#a8cdd7cfa4592e34da56bf6758302a614">removeEmpty</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTagLib_1_1String.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1PropertyMap.html#a99d8f7c22a7ac5416334836ac195f7e7">toString</a> () const </td></tr>
-<tr><td colspan="2"><h2><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classTagLib_1_1String.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1PropertyMap.html#a9189740db7fe6f9fa784adfa0863efc4">prepareKey</a> (const <a class="el" href="classTagLib_1_1String.html">String</a> &amp;proposed)</td></tr>
 </table>
 <hr/><a name="_details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>A map for format-independent &lt;key,valuelist&gt; tag representations. </p>
-<p>This map implements a generic representation of textual audio metadata ("tags") realized as pairs of a case-insensitive key and a nonempty list of corresponding values, each value being an an arbitrary unicode <a class="el" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a>. The key has the same restrictions as in the vorbis comment specification, i.e. it must contain at least one character; all printable ASCII characters except '=' and '~' are allowed.</p>
-<p>In order to be safe with other formats, keep these additional restrictions in mind:</p>
-<ul>
-<li><a class="el" href="namespaceTagLib_1_1APE.html" title="An implementation of APE metadata.">APE</a> only allows keys from 2 to 16 printable ASCII characters (including space), with the exception of these strings: ID3, TAG, OggS, MP+ </li>
-</ul>
+<p>This map implements a generic representation of textual audio metadata ("tags") realized as pairs of a case-insensitive key and a nonempty list of corresponding values, each value being an an arbitrary unicode <a class="el" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a>.</p>
+<p>Note that most metadata formats pose additional conditions on the tag keys. The most popular ones (Vorbis, <a class="el" href="namespaceTagLib_1_1APE.html" title="An implementation of APE metadata.">APE</a>, <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a>) should support all ASCII only words of length between 2 and 16. </p>
 </div><hr/><h2>Member Typedef Documentation</h2>
 <a class="anchor" id="a8ce948174bfde349db1f42e0e67ceb1f"></a><!-- doxytag: member="TagLib::PropertyMap::ConstIterator" ref="a8ce948174bfde349db1f42e0e67ceb1f" args="" -->
 <div class="memitem">
@@ -358,25 +351,6 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af5b18e6208e61db6fe5088ea4cd6e635"></a><!-- doxytag: member="TagLib::PropertyMap::operator[]" ref="af5b18e6208e61db6fe5088ea4cd6e635" args="(const String &amp;key) const " -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classTagLib_1_1StringList.html">StringList</a>&amp; TagLib::PropertyMap::operator[] </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classTagLib_1_1String.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>key</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-<p>Returns a reference to the value associated with <em>key</em>.</p>
-<dl class="note"><dt><b>Note:</b></dt><dd>: This has undefined behavior if the key is not valid or not present in the map. </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="a0a8821acaeebebc7be6b531f6caecb7b"></a><!-- doxytag: member="TagLib::PropertyMap::operator[]" ref="a0a8821acaeebebc7be6b531f6caecb7b" args="(const String &amp;key)" -->
 <div class="memitem">
 <div class="memproto">
@@ -392,25 +366,26 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Returns a reference to the value associated with <em>key</em>.</p>
-<dl class="note"><dt><b>Note:</b></dt><dd>: This has undefined behavior if the key is not valid or not present in the map. </dd></dl>
+<dl class="note"><dt><b>Note:</b></dt><dd>: If <em>key</em> is not contained in the map, an empty <a class="el" href="classTagLib_1_1StringList.html" title="A list of strings.">StringList</a> is returned. You can also directly add entries by using this function as an lvalue. </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a9189740db7fe6f9fa784adfa0863efc4"></a><!-- doxytag: member="TagLib::PropertyMap::prepareKey" ref="a9189740db7fe6f9fa784adfa0863efc4" args="(const String &amp;proposed)" -->
+<a class="anchor" id="af5b18e6208e61db6fe5088ea4cd6e635"></a><!-- doxytag: member="TagLib::PropertyMap::operator[]" ref="af5b18e6208e61db6fe5088ea4cd6e635" args="(const String &amp;key) const " -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classTagLib_1_1String.html">String</a> TagLib::PropertyMap::prepareKey </td>
+          <td class="memname">const <a class="el" href="classTagLib_1_1StringList.html">StringList</a>&amp; TagLib::PropertyMap::operator[] </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classTagLib_1_1String.html">String</a> &amp;&#160;</td>
-          <td class="paramname"><em>proposed</em></td><td>)</td>
-          <td><code> [static]</code></td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
-<p>Converts <em>proposed</em> into another <a class="el" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a> suitable to be used as a key, or returns <a class="el" href="classTagLib_1_1String.html#ae3087f44184e477e36345583298cf072">String::null</a> if this is not possible. </p>
+<p>Returns a reference to the value associated with <em>key</em>.</p>
+<dl class="note"><dt><b>Note:</b></dt><dd>: If <em>key</em> is not contained in the map, an empty <a class="el" href="classTagLib_1_1StringList.html" title="A list of strings.">StringList</a> is returned without error. </dd></dl>
 
 </div>
 </div>
