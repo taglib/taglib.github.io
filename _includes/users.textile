@@ -3,6 +3,7 @@
 |"Last.fm":http://last.fm/|Social music site|
 |"Amazon Kindle":http://www.amazon.com/kindle/|eBook Reader|
 |"Songbird":http://www.getsongbird.com/|Mozilla powered open music player|
+|"Nightingale":http://getnightingale.com/|Mozilla powered open source music player based on Songbird|
 |"Native Instruments Traktor":http://www.native-instruments.com/traktormicrosite/|Profesionall DJing Software|
 |"VLC Media Player":http://www.videolan.org/vlc/|Multi-purpose media player|
 |"Audiobox.fm":http://audiobox.fm/|Cloud-based media library and player|
