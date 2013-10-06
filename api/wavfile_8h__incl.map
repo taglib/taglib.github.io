@@ -1,3 +1,21 @@
-<map id="G" name="G">
-<area shape="rect" id="node7" href="$wavproperties_8h.html" title="wavproperties.h" alt="" coords="200,83,315,112"/>
+<map id="wavfile.h" name="wavfile.h">
+<area shape="rect" id="node3" href="$rifffile_8h.html" title="rifffile.h" alt="" coords="443,83,507,112"/>
+<area shape="rect" id="node39" href="$id3v2tag_8h.html" title="id3v2tag.h" alt="" coords="843,83,925,112"/>
+<area shape="rect" id="node74" href="$infotag_8h.html" title="infotag.h" alt="" coords="1104,160,1176,189"/>
+<area shape="rect" id="node95" href="$wavproperties_8h.html" title="wavproperties.h" alt="" coords="11,315,125,344"/>
+<area shape="rect" id="node5" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="547,488,653,517"/>
+<area shape="rect" id="node7" href="$tfile_8h.html" title="tfile.h" alt="" coords="448,160,501,189"/>
+<area shape="rect" id="node10" href="$taglib_8h.html" title="taglib.h" alt="" coords="807,488,871,517"/>
+<area shape="rect" id="node16" href="$tag_8h.html" title="tag.h" alt="" coords="891,237,941,267"/>
+<area shape="rect" id="node23" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="789,401,888,431"/>
+<area shape="rect" id="node34" href="$tiostream_8h.html" title="tiostream.h" alt="" coords="352,315,437,344"/>
+<area shape="rect" id="node19" href="$tstring_8h.html" title="tstring.h" alt="" coords="941,315,1011,344"/>
+<area shape="rect" id="node44" href="$tlist_8h.html" title="tlist.h" alt="" coords="1717,401,1771,431"/>
+<area shape="rect" id="node51" href="$tmap_8h.html" title="tmap.h" alt="" coords="1109,237,1171,267"/>
+<area shape="rect" id="node61" href="$id3v2framefactory_8h.html" title="id3v2framefactory.h" alt="" coords="649,160,785,189"/>
+<area shape="rect" id="node65" href="$id3v2frame_8h.html" title="id3v2frame.h" alt="" coords="669,237,765,267"/>
+<area shape="rect" id="node70" href="$id3v2header_8h.html" title="id3v2header.h" alt="" coords="512,315,613,344"/>
+<area shape="rect" id="node79" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="1484,237,1569,267"/>
+<area shape="rect" id="node83" href="$tbytevectorlist_8h.html" title="tbytevectorlist.h" alt="" coords="1517,315,1632,344"/>
+<area shape="rect" id="node98" href="$audioproperties_8h.html" title="audioproperties.h" alt="" coords="5,401,125,431"/>
 </map>

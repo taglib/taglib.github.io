@@ -1,4 +1,14 @@
-<map id="G" name="G">
-<area shape="rect" id="node11" href="$asfattribute_8h.html" title="asfattribute.h" alt="" coords="316,83,415,112"/>
-<area shape="rect" id="node18" href="$asfpicture_8h.html" title="asfpicture.h" alt="" coords="403,160,493,189"/>
+<map id="asftag.h" name="asftag.h">
+<area shape="rect" id="node3" href="$tag_8h.html" title="tag.h" alt="" coords="824,333,875,363"/>
+<area shape="rect" id="node5" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="1080,565,1187,595"/>
+<area shape="rect" id="node26" href="$tlist_8h.html" title="tlist.h" alt="" coords="108,83,161,112"/>
+<area shape="rect" id="node33" href="$tmap_8h.html" title="tmap.h" alt="" coords="535,83,596,112"/>
+<area shape="rect" id="node43" href="$asfattribute_8h.html" title="asfattribute.h" alt="" coords="737,83,836,112"/>
+<area shape="rect" id="node7" href="$tstring_8h.html" title="tstring.h" alt="" coords="787,411,856,440"/>
+<area shape="rect" id="node10" href="$taglib_8h.html" title="taglib.h" alt="" coords="587,565,651,595"/>
+<area shape="rect" id="node16" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="808,488,907,517"/>
+<area shape="rect" id="node48" href="$asfpicture_8h.html" title="asfpicture.h" alt="" coords="917,169,1008,199"/>
+<area shape="rect" id="node53" href="$attachedpictureframe_8h.html" title="attachedpictureframe.h" alt="" coords="1028,256,1183,285"/>
+<area shape="rect" id="node55" href="$id3v2frame_8h.html" title="id3v2frame.h" alt="" coords="1000,333,1096,363"/>
+<area shape="rect" id="node60" href="$id3v2header_8h.html" title="id3v2header.h" alt="" coords="1083,411,1184,440"/>
 </map>

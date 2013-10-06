@@ -1,4 +1,12 @@
-<map id="G" name="G">
-<area shape="rect" id="node9" href="$mpegproperties_8h.html" title="mpegproperties.h" alt="" coords="173,83,296,112"/>
-<area shape="rect" id="node14" href="$mpegheader_8h.html" title="mpegheader.h" alt="" coords="266,160,370,189"/>
+<map id="mpegfile.h" name="mpegfile.h">
+<area shape="rect" id="node3" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="456,392,563,421"/>
+<area shape="rect" id="node5" href="$tfile_8h.html" title="tfile.h" alt="" coords="320,83,373,112"/>
+<area shape="rect" id="node14" href="$tag_8h.html" title="tag.h" alt="" coords="472,160,523,189"/>
+<area shape="rect" id="node38" href="$mpegproperties_8h.html" title="mpegproperties.h" alt="" coords="664,237,787,267"/>
+<area shape="rect" id="node8" href="$taglib_8h.html" title="taglib.h" alt="" coords="27,392,91,421"/>
+<area shape="rect" id="node21" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="120,315,219,344"/>
+<area shape="rect" id="node32" href="$tiostream_8h.html" title="tiostream.h" alt="" coords="185,237,271,267"/>
+<area shape="rect" id="node17" href="$tstring_8h.html" title="tstring.h" alt="" coords="295,237,364,267"/>
+<area shape="rect" id="node41" href="$audioproperties_8h.html" title="audioproperties.h" alt="" coords="597,315,717,344"/>
+<area shape="rect" id="node44" href="$mpegheader_8h.html" title="mpegheader.h" alt="" coords="741,315,845,344"/>
 </map>

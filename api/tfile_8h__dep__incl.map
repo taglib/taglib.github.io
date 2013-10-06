@@ -1,0 +1,25 @@
+<map id="tfile.h" name="tfile.h">
+<area shape="rect" id="node3" href="$apefile_8h.html" title="apefile.h" alt="" coords="5,83,75,112"/>
+<area shape="rect" id="node5" href="$asffile_8h.html" title="asffile.h" alt="" coords="99,83,165,112"/>
+<area shape="rect" id="node7" href="$fileref_8h.html" title="fileref.h" alt="" coords="189,83,253,112"/>
+<area shape="rect" id="node9" href="$flacfile_8h.html" title="flacfile.h" alt="" coords="277,83,347,112"/>
+<area shape="rect" id="node11" href="$itfile_8h.html" title="itfile.h" alt="" coords="353,160,409,189"/>
+<area shape="rect" id="node13" href="$modfile_8h.html" title="modfile.h" alt="" coords="433,160,508,189"/>
+<area shape="rect" id="node15" href="$modfilebase_8h.html" title="modfilebase.h" alt="" coords="472,83,573,112"/>
+<area shape="rect" id="node19" href="$s3mfile_8h.html" title="s3mfile.h" alt="" coords="532,160,607,189"/>
+<area shape="rect" id="node21" href="$xmfile_8h.html" title="xmfile.h" alt="" coords="631,160,697,189"/>
+<area shape="rect" id="node23" href="$mp4file_8h.html" title="mp4file.h" alt="" coords="725,160,800,189"/>
+<area shape="rect" id="node25" href="$mp4tag_8h.html" title="mp4tag.h" alt="" coords="699,83,773,112"/>
+<area shape="rect" id="node28" href="$mpcfile_8h.html" title="mpcfile.h" alt="" coords="848,83,923,112"/>
+<area shape="rect" id="node30" href="$mpegfile_8h.html" title="mpegfile.h" alt="" coords="947,83,1029,112"/>
+<area shape="rect" id="node32" href="$oggfile_8h.html" title="oggfile.h" alt="" coords="1053,83,1123,112"/>
+<area shape="rect" id="node42" href="$rifffile_8h.html" title="rifffile.h" alt="" coords="1147,83,1211,112"/>
+<area shape="rect" id="node49" href="$trueaudiofile_8h.html" title="trueaudiofile.h" alt="" coords="1235,83,1336,112"/>
+<area shape="rect" id="node51" href="$wavpackfile_8h.html" title="wavpackfile.h" alt="" coords="1360,83,1461,112"/>
+<area shape="rect" id="node34" href="$oggflacfile_8h.html" title="oggflacfile.h" alt="" coords="1152,160,1243,189"/>
+<area shape="rect" id="node36" href="$opusfile_8h.html" title="opusfile.h" alt="" coords="832,160,909,189"/>
+<area shape="rect" id="node38" href="$speexfile_8h.html" title="speexfile.h" alt="" coords="933,160,1019,189"/>
+<area shape="rect" id="node40" href="$vorbisfile_8h.html" title="vorbisfile.h" alt="" coords="1043,160,1128,189"/>
+<area shape="rect" id="node44" href="$aifffile_8h.html" title="aifffile.h" alt="" coords="1365,160,1432,189"/>
+<area shape="rect" id="node46" href="$wavfile_8h.html" title="wavfile.h" alt="" coords="1267,160,1341,189"/>
+</map>

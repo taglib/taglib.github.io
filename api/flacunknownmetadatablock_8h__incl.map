@@ -1,3 +1,7 @@
-<map id="G" name="G">
-<area shape="rect" id="node9" href="$flacmetadatablock_8h.html" title="flacmetadatablock.h" alt="" coords="67,83,205,112"/>
+<map id="flacunknownmetadatablock.h" name="flacunknownmetadatablock.h">
+<area shape="rect" id="node3" href="$tlist_8h.html" title="tlist.h" alt="" coords="160,160,213,189"/>
+<area shape="rect" id="node15" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="260,160,359,189"/>
+<area shape="rect" id="node18" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="421,237,528,267"/>
+<area shape="rect" id="node25" href="$flacmetadatablock_8h.html" title="flacmetadatablock.h" alt="" coords="283,83,421,112"/>
+<area shape="rect" id="node5" href="$taglib_8h.html" title="taglib.h" alt="" coords="155,237,219,267"/>
 </map>

@@ -1,4 +1,13 @@
-<map id="G" name="G">
-<area shape="rect" id="node7" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="200,160,307,189"/>
-<area shape="rect" id="node11" href="$audioproperties_8h.html" title="audioproperties.h" alt="" coords="243,83,363,112"/>
+<map id="fileref.h" name="fileref.h">
+<area shape="rect" id="node3" href="$tfile_8h.html" title="tfile.h" alt="" coords="319,83,372,112"/>
+<area shape="rect" id="node5" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="261,411,368,440"/>
+<area shape="rect" id="node36" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="700,160,785,189"/>
+<area shape="rect" id="node58" href="$audioproperties_8h.html" title="audioproperties.h" alt="" coords="5,83,125,112"/>
+<area shape="rect" id="node7" href="$taglib_8h.html" title="taglib.h" alt="" coords="696,411,760,440"/>
+<area shape="rect" id="node13" href="$tag_8h.html" title="tag.h" alt="" coords="352,160,403,189"/>
+<area shape="rect" id="node20" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="555,324,653,353"/>
+<area shape="rect" id="node31" href="$tiostream_8h.html" title="tiostream.h" alt="" coords="561,237,647,267"/>
+<area shape="rect" id="node16" href="$tstring_8h.html" title="tstring.h" alt="" coords="468,237,537,267"/>
+<area shape="rect" id="node39" href="$tlist_8h.html" title="tlist.h" alt="" coords="1280,324,1333,353"/>
+<area shape="rect" id="node46" href="$tbytevectorlist_8h.html" title="tbytevectorlist.h" alt="" coords="880,237,995,267"/>
 </map>

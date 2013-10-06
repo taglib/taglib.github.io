@@ -1,3 +1,11 @@
-<map id="G" name="G">
-<area shape="rect" id="node7" href="$wavpackproperties_8h.html" title="wavpackproperties.h" alt="" coords="133,83,275,112"/>
+<map id="wavpackfile.h" name="wavpackfile.h">
+<area shape="rect" id="node3" href="$tfile_8h.html" title="tfile.h" alt="" coords="236,83,289,112"/>
+<area shape="rect" id="node5" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="408,392,515,421"/>
+<area shape="rect" id="node37" href="$wavpackproperties_8h.html" title="wavpackproperties.h" alt="" coords="575,237,716,267"/>
+<area shape="rect" id="node7" href="$taglib_8h.html" title="taglib.h" alt="" coords="27,392,91,421"/>
+<area shape="rect" id="node13" href="$tag_8h.html" title="tag.h" alt="" coords="273,160,324,189"/>
+<area shape="rect" id="node20" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="97,315,196,344"/>
+<area shape="rect" id="node31" href="$tiostream_8h.html" title="tiostream.h" alt="" coords="104,237,189,267"/>
+<area shape="rect" id="node16" href="$tstring_8h.html" title="tstring.h" alt="" coords="264,237,333,267"/>
+<area shape="rect" id="node40" href="$audioproperties_8h.html" title="audioproperties.h" alt="" coords="575,315,695,344"/>
 </map>

@@ -1,2 +1,10 @@
-<map id="G" name="G">
+<map id="modfilebase.h" name="modfilebase.h">
+<area shape="rect" id="node3" href="$taglib_8h.html" title="taglib.h" alt="" coords="536,392,600,421"/>
+<area shape="rect" id="node9" href="$tfile_8h.html" title="tfile.h" alt="" coords="260,83,313,112"/>
+<area shape="rect" id="node11" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="79,392,185,421"/>
+<area shape="rect" id="node17" href="$tstring_8h.html" title="tstring.h" alt="" coords="401,237,471,267"/>
+<area shape="rect" id="node38" href="$tlist_8h.html" title="tlist.h" alt="" coords="672,83,725,112"/>
+<area shape="rect" id="node14" href="$tag_8h.html" title="tag.h" alt="" coords="167,160,217,189"/>
+<area shape="rect" id="node21" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="245,315,344,344"/>
+<area shape="rect" id="node32" href="$tiostream_8h.html" title="tiostream.h" alt="" coords="292,237,377,267"/>
 </map>

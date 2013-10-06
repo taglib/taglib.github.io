@@ -1,5 +1,12 @@
-<map id="G" name="G">
-<area shape="rect" id="node15" href="$id3v2framefactory_8h.html" title="id3v2framefactory.h" alt="" coords="287,83,423,112"/>
-<area shape="rect" id="node19" href="$id3v2frame_8h.html" title="id3v2frame.h" alt="" coords="307,160,403,189"/>
-<area shape="rect" id="node24" href="$id3v2header_8h.html" title="id3v2header.h" alt="" coords="181,160,283,189"/>
+<map id="id3v2tag.h" name="id3v2tag.h">
+<area shape="rect" id="node3" href="$tag_8h.html" title="tag.h" alt="" coords="773,169,824,199"/>
+<area shape="rect" id="node5" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="891,411,997,440"/>
+<area shape="rect" id="node7" href="$tstring_8h.html" title="tstring.h" alt="" coords="357,256,427,285"/>
+<area shape="rect" id="node16" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="625,333,724,363"/>
+<area shape="rect" id="node28" href="$tlist_8h.html" title="tlist.h" alt="" coords="100,83,153,112"/>
+<area shape="rect" id="node35" href="$tmap_8h.html" title="tmap.h" alt="" coords="505,83,567,112"/>
+<area shape="rect" id="node45" href="$id3v2framefactory_8h.html" title="id3v2framefactory.h" alt="" coords="879,83,1015,112"/>
+<area shape="rect" id="node10" href="$taglib_8h.html" title="taglib.h" alt="" coords="256,411,320,440"/>
+<area shape="rect" id="node49" href="$id3v2frame_8h.html" title="id3v2frame.h" alt="" coords="899,169,995,199"/>
+<area shape="rect" id="node54" href="$id3v2header_8h.html" title="id3v2header.h" alt="" coords="981,256,1083,285"/>
 </map>

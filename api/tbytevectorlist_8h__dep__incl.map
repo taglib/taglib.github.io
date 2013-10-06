@@ -1,4 +1,21 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="20,83,105,112"/>
-<area shape="rect" id="node5" href="$tpropertymap_8h.html" title="tpropertymap.h" alt="" coords="8,160,117,189"/>
+<map id="tbytevectorlist.h" name="tbytevectorlist.h">
+<area shape="rect" id="node3" href="$mp4tag_8h.html" title="mp4tag.h" alt="" coords="187,237,262,267"/>
+<area shape="rect" id="node7" href="$oggfile_8h.html" title="oggfile.h" alt="" coords="1046,160,1115,189"/>
+<area shape="rect" id="node17" href="$oggpage_8h.html" title="oggpage.h" alt="" coords="655,83,738,112"/>
+<area shape="rect" id="node19" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="495,83,580,112"/>
+<area shape="rect" id="node5" href="$mp4file_8h.html" title="mp4file.h" alt="" coords="187,315,262,344"/>
+<area shape="rect" id="node9" href="$oggflacfile_8h.html" title="oggflacfile.h" alt="" coords="924,237,1015,267"/>
+<area shape="rect" id="node11" href="$opusfile_8h.html" title="opusfile.h" alt="" coords="1039,237,1116,267"/>
+<area shape="rect" id="node13" href="$speexfile_8h.html" title="speexfile.h" alt="" coords="1140,237,1226,267"/>
+<area shape="rect" id="node15" href="$vorbisfile_8h.html" title="vorbisfile.h" alt="" coords="815,237,900,267"/>
+<area shape="rect" id="node21" href="$apeitem_8h.html" title="apeitem.h" alt="" coords="686,160,763,189"/>
+<area shape="rect" id="node25" href="$fileref_8h.html" title="fileref.h" alt="" coords="598,160,662,189"/>
+<area shape="rect" id="node28" href="$mp4item_8h.html" title="mp4item.h" alt="" coords="262,160,344,189"/>
+<area shape="rect" id="node31" href="$id3v1genres_8h.html" title="id3v1genres.h" alt="" coords="787,160,888,189"/>
+<area shape="rect" id="node33" href="$textidentificationframe_8h.html" title="textidentificationframe.h" alt="" coords="27,160,187,189"/>
+<area shape="rect" id="node35" href="$xiphcomment_8h.html" title="xiphcomment.h" alt="" coords="912,160,1022,189"/>
+<area shape="rect" id="node41" href="$infotag_8h.html" title="infotag.h" alt="" coords="502,160,574,189"/>
+<area shape="rect" id="node45" href="$tpropertymap_8h.html" title="tpropertymap.h" alt="" coords="368,160,478,189"/>
+<area shape="rect" id="node23" href="$apetag_8h.html" title="apetag.h" alt="" coords="688,237,760,267"/>
+<area shape="rect" id="node43" href="$wavfile_8h.html" title="wavfile.h" alt="" coords="500,237,575,267"/>
 </map>

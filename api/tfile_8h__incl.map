@@ -1,5 +1,8 @@
-<map id="G" name="G">
-<area shape="rect" id="node5" href="$taglib_8h.html" title="taglib.h" alt="" coords="315,237,379,267"/>
-<area shape="rect" id="node11" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="156,160,255,189"/>
-<area shape="rect" id="node19" href="$tiostream_8h.html" title="tiostream.h" alt="" coords="223,83,308,112"/>
+<map id="tfile.h" name="tfile.h">
+<area shape="rect" id="node3" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="27,315,133,344"/>
+<area shape="rect" id="node5" href="$taglib_8h.html" title="taglib.h" alt="" coords="336,315,400,344"/>
+<area shape="rect" id="node11" href="$tag_8h.html" title="tag.h" alt="" coords="59,83,109,112"/>
+<area shape="rect" id="node18" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="180,237,279,267"/>
+<area shape="rect" id="node29" href="$tiostream_8h.html" title="tiostream.h" alt="" coords="193,160,279,189"/>
+<area shape="rect" id="node14" href="$tstring_8h.html" title="tstring.h" alt="" coords="49,160,119,189"/>
 </map>

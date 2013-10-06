@@ -1,3 +1,38 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$fileref_8h.html" title="fileref.h" alt="" coords="33,83,97,112"/>
+<map id="audioproperties.h" name="audioproperties.h">
+<area shape="rect" id="node3" href="$apeproperties_8h.html" title="apeproperties.h" alt="" coords="5,83,115,112"/>
+<area shape="rect" id="node7" href="$asfproperties_8h.html" title="asfproperties.h" alt="" coords="139,83,245,112"/>
+<area shape="rect" id="node11" href="$fileref_8h.html" title="fileref.h" alt="" coords="269,83,333,112"/>
+<area shape="rect" id="node13" href="$flacproperties_8h.html" title="flacproperties.h" alt="" coords="357,83,467,112"/>
+<area shape="rect" id="node19" href="$itfile_8h.html" title="itfile.h" alt="" coords="537,160,593,189"/>
+<area shape="rect" id="node21" href="$itproperties_8h.html" title="itproperties.h" alt="" coords="541,83,637,112"/>
+<area shape="rect" id="node24" href="$modfile_8h.html" title="modfile.h" alt="" coords="684,160,759,189"/>
+<area shape="rect" id="node26" href="$modproperties_8h.html" title="modproperties.h" alt="" coords="712,83,827,112"/>
+<area shape="rect" id="node29" href="$mp4properties_8h.html" title="mp4properties.h" alt="" coords="851,83,965,112"/>
+<area shape="rect" id="node33" href="$mpcproperties_8h.html" title="mpcproperties.h" alt="" coords="989,83,1104,112"/>
+<area shape="rect" id="node37" href="$mpegproperties_8h.html" title="mpegproperties.h" alt="" coords="1128,83,1251,112"/>
+<area shape="rect" id="node41" href="$opusproperties_8h.html" title="opusproperties.h" alt="" coords="1275,83,1392,112"/>
+<area shape="rect" id="node45" href="$speexproperties_8h.html" title="speexproperties.h" alt="" coords="1416,83,1541,112"/>
+<area shape="rect" id="node49" href="$vorbisproperties_8h.html" title="vorbisproperties.h" alt="" coords="1565,83,1691,112"/>
+<area shape="rect" id="node53" href="$aiffproperties_8h.html" title="aiffproperties.h" alt="" coords="1715,83,1821,112"/>
+<area shape="rect" id="node57" href="$wavproperties_8h.html" title="wavproperties.h" alt="" coords="1845,83,1960,112"/>
+<area shape="rect" id="node61" href="$s3mfile_8h.html" title="s3mfile.h" alt="" coords="2009,160,2084,189"/>
+<area shape="rect" id="node63" href="$s3mproperties_8h.html" title="s3mproperties.h" alt="" coords="2035,83,2149,112"/>
+<area shape="rect" id="node66" href="$trueaudioproperties_8h.html" title="trueaudioproperties.h" alt="" coords="2173,83,2315,112"/>
+<area shape="rect" id="node70" href="$wavpackproperties_8h.html" title="wavpackproperties.h" alt="" coords="2339,83,2480,112"/>
+<area shape="rect" id="node74" href="$xmfile_8h.html" title="xmfile.h" alt="" coords="2529,160,2596,189"/>
+<area shape="rect" id="node76" href="$xmproperties_8h.html" title="xmproperties.h" alt="" coords="2555,83,2661,112"/>
+<area shape="rect" id="node5" href="$apefile_8h.html" title="apefile.h" alt="" coords="25,160,95,189"/>
+<area shape="rect" id="node9" href="$asffile_8h.html" title="asffile.h" alt="" coords="159,160,225,189"/>
+<area shape="rect" id="node15" href="$flacfile_8h.html" title="flacfile.h" alt="" coords="292,160,361,189"/>
+<area shape="rect" id="node17" href="$oggflacfile_8h.html" title="oggflacfile.h" alt="" coords="385,160,476,189"/>
+<area shape="rect" id="node31" href="$mp4file_8h.html" title="mp4file.h" alt="" coords="871,160,945,189"/>
+<area shape="rect" id="node35" href="$mpcfile_8h.html" title="mpcfile.h" alt="" coords="1009,160,1084,189"/>
+<area shape="rect" id="node39" href="$mpegfile_8h.html" title="mpegfile.h" alt="" coords="1148,160,1231,189"/>
+<area shape="rect" id="node43" href="$opusfile_8h.html" title="opusfile.h" alt="" coords="1295,160,1372,189"/>
+<area shape="rect" id="node47" href="$speexfile_8h.html" title="speexfile.h" alt="" coords="1436,160,1521,189"/>
+<area shape="rect" id="node51" href="$vorbisfile_8h.html" title="vorbisfile.h" alt="" coords="1585,160,1671,189"/>
+<area shape="rect" id="node55" href="$aifffile_8h.html" title="aifffile.h" alt="" coords="1735,160,1801,189"/>
+<area shape="rect" id="node59" href="$wavfile_8h.html" title="wavfile.h" alt="" coords="1865,160,1940,189"/>
+<area shape="rect" id="node68" href="$trueaudiofile_8h.html" title="trueaudiofile.h" alt="" coords="2193,160,2295,189"/>
+<area shape="rect" id="node72" href="$wavpackfile_8h.html" title="wavpackfile.h" alt="" coords="2359,160,2460,189"/>
 </map>

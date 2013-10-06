@@ -1,2 +1,9 @@
-<map id="G" name="G">
+<map id="rifffile.h" name="rifffile.h">
+<area shape="rect" id="node3" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="59,392,165,421"/>
+<area shape="rect" id="node5" href="$tfile_8h.html" title="tfile.h" alt="" coords="253,83,307,112"/>
+<area shape="rect" id="node8" href="$taglib_8h.html" title="taglib.h" alt="" coords="451,392,515,421"/>
+<area shape="rect" id="node14" href="$tag_8h.html" title="tag.h" alt="" coords="219,160,269,189"/>
+<area shape="rect" id="node21" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="347,315,445,344"/>
+<area shape="rect" id="node32" href="$tiostream_8h.html" title="tiostream.h" alt="" coords="353,237,439,267"/>
+<area shape="rect" id="node17" href="$tstring_8h.html" title="tstring.h" alt="" coords="209,237,279,267"/>
 </map>

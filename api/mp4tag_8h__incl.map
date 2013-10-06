@@ -1,5 +1,16 @@
-<map id="G" name="G">
-<area shape="rect" id="node15" href="$mp4atom_8h.html" title="mp4atom.h" alt="" coords="355,237,440,267"/>
-<area shape="rect" id="node17" href="$mp4item_8h.html" title="mp4item.h" alt="" coords="532,83,615,112"/>
-<area shape="rect" id="node20" href="$mp4coverart_8h.html" title="mp4coverart.h" alt="" coords="541,160,645,189"/>
+<map id="mp4tag.h" name="mp4tag.h">
+<area shape="rect" id="node3" href="$tag_8h.html" title="tag.h" alt="" coords="43,160,93,189"/>
+<area shape="rect" id="node5" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="160,411,267,440"/>
+<area shape="rect" id="node26" href="$tbytevectorlist_8h.html" title="tbytevectorlist.h" alt="" coords="889,237,1004,267"/>
+<area shape="rect" id="node41" href="$tfile_8h.html" title="tfile.h" alt="" coords="435,83,488,112"/>
+<area shape="rect" id="node52" href="$tmap_8h.html" title="tmap.h" alt="" coords="1393,237,1455,267"/>
+<area shape="rect" id="node60" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="683,160,768,189"/>
+<area shape="rect" id="node68" href="$mp4atom_8h.html" title="mp4atom.h" alt="" coords="824,324,909,353"/>
+<area shape="rect" id="node70" href="$mp4item_8h.html" title="mp4item.h" alt="" coords="604,83,687,112"/>
+<area shape="rect" id="node7" href="$tstring_8h.html" title="tstring.h" alt="" coords="284,237,353,267"/>
+<area shape="rect" id="node10" href="$taglib_8h.html" title="taglib.h" alt="" coords="704,411,768,440"/>
+<area shape="rect" id="node16" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="549,324,648,353"/>
+<area shape="rect" id="node30" href="$tlist_8h.html" title="tlist.h" alt="" coords="984,324,1037,353"/>
+<area shape="rect" id="node47" href="$tiostream_8h.html" title="tiostream.h" alt="" coords="377,237,463,267"/>
+<area shape="rect" id="node73" href="$mp4coverart_8h.html" title="mp4coverart.h" alt="" coords="545,237,649,267"/>
 </map>

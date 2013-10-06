@@ -1,9 +1,10 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$tmap_8h.html" title="tmap.h" alt="" coords="123,83,184,112"/>
-<area shape="rect" id="node13" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="333,83,419,112"/>
-<area shape="rect" id="node7" href="$taglib_8h.html" title="taglib.h" alt="" coords="336,315,400,344"/>
-<area shape="rect" id="node15" href="$tstring_8h.html" title="tstring.h" alt="" coords="527,160,596,189"/>
-<area shape="rect" id="node30" href="$tlist_8h.html" title="tlist.h" alt="" coords="239,237,292,267"/>
-<area shape="rect" id="node37" href="$tbytevectorlist_8h.html" title="tbytevectorlist.h" alt="" coords="272,160,387,189"/>
-<area shape="rect" id="node20" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="468,237,567,267"/>
+<map id="tpropertymap.h" name="tpropertymap.h">
+<area shape="rect" id="node3" href="$tmap_8h.html" title="tmap.h" alt="" coords="153,160,215,189"/>
+<area shape="rect" id="node17" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="663,83,748,112"/>
+<area shape="rect" id="node7" href="$taglib_8h.html" title="taglib.h" alt="" coords="624,333,688,363"/>
+<area shape="rect" id="node19" href="$tstring_8h.html" title="tstring.h" alt="" coords="857,160,927,189"/>
+<area shape="rect" id="node21" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="712,333,819,363"/>
+<area shape="rect" id="node34" href="$tlist_8h.html" title="tlist.h" alt="" coords="472,247,525,276"/>
+<area shape="rect" id="node41" href="$tbytevectorlist_8h.html" title="tbytevectorlist.h" alt="" coords="592,160,707,189"/>
+<area shape="rect" id="node24" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="800,247,899,276"/>
 </map>

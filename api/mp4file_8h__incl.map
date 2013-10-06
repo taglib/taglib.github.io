@@ -1,7 +1,19 @@
-<map id="G" name="G">
-<area shape="rect" id="node9" href="$mp4properties_8h.html" title="mp4properties.h" alt="" coords="44,83,158,112"/>
-<area shape="rect" id="node14" href="$mp4tag_8h.html" title="mp4tag.h" alt="" coords="469,83,544,112"/>
-<area shape="rect" id="node25" href="$mp4atom_8h.html" title="mp4atom.h" alt="" coords="804,315,889,344"/>
-<area shape="rect" id="node27" href="$mp4item_8h.html" title="mp4item.h" alt="" coords="612,160,694,189"/>
-<area shape="rect" id="node30" href="$mp4coverart_8h.html" title="mp4coverart.h" alt="" coords="601,237,705,267"/>
+<map id="mp4file.h" name="mp4file.h">
+<area shape="rect" id="node3" href="$tag_8h.html" title="tag.h" alt="" coords="301,237,352,267"/>
+<area shape="rect" id="node5" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="363,488,469,517"/>
+<area shape="rect" id="node26" href="$tfile_8h.html" title="tfile.h" alt="" coords="413,160,467,189"/>
+<area shape="rect" id="node38" href="$mp4properties_8h.html" title="mp4properties.h" alt="" coords="61,315,176,344"/>
+<area shape="rect" id="node44" href="$mp4tag_8h.html" title="mp4tag.h" alt="" coords="656,83,731,112"/>
+<area shape="rect" id="node7" href="$tstring_8h.html" title="tstring.h" alt="" coords="876,315,945,344"/>
+<area shape="rect" id="node10" href="$taglib_8h.html" title="taglib.h" alt="" coords="917,488,981,517"/>
+<area shape="rect" id="node16" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="968,401,1067,431"/>
+<area shape="rect" id="node32" href="$tiostream_8h.html" title="tiostream.h" alt="" coords="504,315,589,344"/>
+<area shape="rect" id="node41" href="$audioproperties_8h.html" title="audioproperties.h" alt="" coords="5,401,125,431"/>
+<area shape="rect" id="node47" href="$tbytevectorlist_8h.html" title="tbytevectorlist.h" alt="" coords="1252,315,1367,344"/>
+<area shape="rect" id="node63" href="$tmap_8h.html" title="tmap.h" alt="" coords="1652,315,1713,344"/>
+<area shape="rect" id="node71" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="1020,237,1105,267"/>
+<area shape="rect" id="node79" href="$mp4atom_8h.html" title="mp4atom.h" alt="" coords="656,401,741,431"/>
+<area shape="rect" id="node81" href="$mp4item_8h.html" title="mp4item.h" alt="" coords="733,160,816,189"/>
+<area shape="rect" id="node51" href="$tlist_8h.html" title="tlist.h" alt="" coords="1243,401,1296,431"/>
+<area shape="rect" id="node84" href="$mp4coverart_8h.html" title="mp4coverart.h" alt="" coords="731,315,835,344"/>
 </map>
