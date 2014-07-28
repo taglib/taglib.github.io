@@ -16,3 +16,4 @@
 |"Goggles Music Manager":http://code.google.com/p/gogglesmm/|Music manager that uses the FOX toolkit|
 |"Gnomad 2":http://gnomad2.sourceforge.net/|Music manager for the Creative NOMAD, Creative Zen and Dell DJ MP3 players|
 |"GNOME Commander":http://www.nongnu.org/gcmd/|Two-pane graphical file manager for GNOME|
+|"XBMC":http://www.xbmc.org/|XBMC Media Center|
