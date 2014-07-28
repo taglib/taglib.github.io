@@ -99,7 +99,7 @@ CMake. Most Linux distributions ship with TagLib already.
   [TagPy]: http://news.tiker.net/software/tagpy
   [pytaglib]: https://github.com/supermihi/pytaglib
   [taglib-ruby]: http://robinst.github.io/taglib-ruby/
-  [rtaglib]: http://rtaglib.rubyforge.org/
+  [rtaglib]: https://rubygems.org/gems/rtaglib
   [ruby-taglib (alternative, older)]: http://www.hakubi.us/ruby-taglib/
   [GitHub bug tracker]: https://github.com/taglib/taglib/issues
 
