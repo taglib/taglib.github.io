@@ -64,9 +64,10 @@ Please, **for all questions related to TagLib** and / or patches use the
 -   **Python**
     -   [TagPy][]
     -   [pytaglib][]
-
--   **[Ruby][]** (Abstract API only)
--   **[Ruby (alternative, older)][]** (Abstract API only)
+-   **Ruby**
+    -   [taglib-ruby][]
+    -   [rtaglib][] (Abstract API only)
+    -   [ruby-taglib (alternative, older)][] (Abstract API only)
 
 ### Projects Using TagLib
 
@@ -97,7 +98,8 @@ CMake. Most Linux distributions ship with TagLib already.
   [Perl]: http://search.cpan.org/~gleach/Audio-TagLib/
   [TagPy]: http://news.tiker.net/software/tagpy
   [pytaglib]: https://github.com/supermihi/pytaglib
-  [Ruby]: http://rtaglib.rubyforge.org/
-  [Ruby (alternative, older)]: http://www.hakubi.us/ruby-taglib/
+  [taglib-ruby]: http://robinst.github.io/taglib-ruby/
+  [rtaglib]: http://rtaglib.rubyforge.org/
+  [ruby-taglib (alternative, older)]: http://www.hakubi.us/ruby-taglib/
   [GitHub bug tracker]: https://github.com/taglib/taglib/issues
 
