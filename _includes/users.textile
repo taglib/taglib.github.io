@@ -1,5 +1,6 @@
 |"JuK":http://developer.kde.org/~wheeler/juk.html|Jukebox for KDE|
 |"Amarok":http://amarok.kde.org/|Music player for KDE|
+|"Clementine":https://www.clementine-player.org/|Multi-platform player inspired by Amarok 1.4|
 |"Last.fm":http://last.fm/|Social music site|
 |"Amazon Kindle":http://www.amazon.com/kindle/|eBook Reader|
 |"Native Instruments Traktor":http://www.native-instruments.com/traktormicrosite/|Profesionall DJing Software|
