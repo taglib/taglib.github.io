@@ -1,11 +1,11 @@
 <map id="mp4item.h" name="mp4item.h">
-<area shape="rect" id="node3" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="787,83,872,112"/>
-<area shape="rect" id="node7" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="741,333,848,363"/>
-<area shape="rect" id="node43" href="$mp4coverart_8h.html" title="mp4coverart.h" alt="" coords="153,160,257,189"/>
-<area shape="rect" id="node5" href="$tstring_8h.html" title="tstring.h" alt="" coords="867,160,936,189"/>
-<area shape="rect" id="node25" href="$tlist_8h.html" title="tlist.h" alt="" coords="115,247,168,276"/>
-<area shape="rect" id="node32" href="$tbytevectorlist_8h.html" title="tbytevectorlist.h" alt="" coords="559,160,673,189"/>
-<area shape="rect" id="node9" href="$taglib_8h.html" title="taglib.h" alt="" coords="571,333,635,363"/>
-<area shape="rect" id="node15" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="643,247,741,276"/>
-<area shape="rect" id="node48" href="$mp4atom_8h.html" title="mp4atom.h" alt="" coords="5,247,91,276"/>
+<area shape="rect" id="node2" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="792,80,879,107"/>
+<area shape="rect" id="node4" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="747,319,854,345"/>
+<area shape="rect" id="node17" href="$mp4coverart_8h.html" title="mp4coverart.h" alt="" coords="156,155,261,181"/>
+<area shape="rect" id="node3" href="$tstring_8h.html" title="tstring.h" alt="" coords="873,155,942,181"/>
+<area shape="rect" id="node11" href="$tlist_8h.html" title="tlist.h" alt="" coords="116,237,171,263"/>
+<area shape="rect" id="node14" href="$tbytevectorlist_8h.html" title="tbytevectorlist.h" alt="" coords="565,155,679,181"/>
+<area shape="rect" id="node5" href="$taglib_8h.html" title="taglib.h" alt="" coords="577,319,641,345"/>
+<area shape="rect" id="node8" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="649,237,747,263"/>
+<area shape="rect" id="node18" href="$mp4atom_8h.html" title="mp4atom.h" alt="" coords="5,237,92,263"/>
 </map>

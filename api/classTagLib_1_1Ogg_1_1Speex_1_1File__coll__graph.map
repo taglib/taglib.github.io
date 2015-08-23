@@ -1,4 +1,4 @@
 <map id="TagLib::Ogg::Speex::File" name="TagLib::Ogg::Speex::File">
-<area shape="rect" id="node2" href="$classTagLib_1_1Ogg_1_1File.html" title="An implementation of TagLib::File with some helpers for Ogg based formats." alt="" coords="13,83,136,112"/>
-<area shape="rect" id="node4" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation." alt="" coords="29,5,120,35"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1Ogg_1_1File.html" title="An implementation of TagLib::File with some helpers for Ogg based formats. " alt="" coords="13,80,136,107"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation. " alt="" coords="29,5,120,32"/>
 </map>

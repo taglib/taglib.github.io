@@ -1,11 +1,11 @@
 <map id="xiphcomment.h" name="xiphcomment.h">
-<area shape="rect" id="node3" href="$tag_8h.html" title="tag.h" alt="" coords="65,83,116,112"/>
-<area shape="rect" id="node5" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="21,333,128,363"/>
-<area shape="rect" id="node7" href="$tstring_8h.html" title="tstring.h" alt="" coords="87,160,156,189"/>
-<area shape="rect" id="node16" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="188,247,287,276"/>
-<area shape="rect" id="node26" href="$tlist_8h.html" title="tlist.h" alt="" coords="561,247,615,276"/>
-<area shape="rect" id="node33" href="$tmap_8h.html" title="tmap.h" alt="" coords="872,160,933,189"/>
-<area shape="rect" id="node43" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="261,83,347,112"/>
-<area shape="rect" id="node10" href="$taglib_8h.html" title="taglib.h" alt="" coords="393,333,457,363"/>
-<area shape="rect" id="node47" href="$tbytevectorlist_8h.html" title="tbytevectorlist.h" alt="" coords="412,160,527,189"/>
+<area shape="rect" id="node2" href="$tag_8h.html" title="tag.h" alt="" coords="65,80,116,107"/>
+<area shape="rect" id="node3" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="21,319,128,345"/>
+<area shape="rect" id="node4" href="$tstring_8h.html" title="tstring.h" alt="" coords="86,155,156,181"/>
+<area shape="rect" id="node8" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="188,237,286,263"/>
+<area shape="rect" id="node11" href="$tlist_8h.html" title="tlist.h" alt="" coords="562,237,616,263"/>
+<area shape="rect" id="node14" href="$tmap_8h.html" title="tmap.h" alt="" coords="875,155,938,181"/>
+<area shape="rect" id="node18" href="$tstringlist_8h.html" title="tstringlist.h" alt="" coords="262,80,348,107"/>
+<area shape="rect" id="node5" href="$taglib_8h.html" title="taglib.h" alt="" coords="393,319,457,345"/>
+<area shape="rect" id="node19" href="$tbytevectorlist_8h.html" title="tbytevectorlist.h" alt="" coords="412,155,526,181"/>
 </map>

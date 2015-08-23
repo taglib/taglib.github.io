@@ -1,7 +1,7 @@
 <map id="TagLib::Mod::FileBase" name="TagLib::Mod::FileBase">
-<area shape="rect" id="node5" href="$classTagLib_1_1IT_1_1File.html" title="TagLib::IT::File" alt="" coords="5,160,115,189"/>
-<area shape="rect" id="node7" href="$classTagLib_1_1Mod_1_1File.html" title="TagLib::Mod::File" alt="" coords="139,160,261,189"/>
-<area shape="rect" id="node9" href="$classTagLib_1_1S3M_1_1File.html" title="TagLib::S3M::File" alt="" coords="285,160,411,189"/>
-<area shape="rect" id="node11" href="$classTagLib_1_1XM_1_1File.html" title="TagLib::XM::File" alt="" coords="435,160,552,189"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation." alt="" coords="228,5,319,35"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1IT_1_1File.html" title="TagLib::IT::File" alt="" coords="5,155,116,181"/>
+<area shape="rect" id="node4" href="$classTagLib_1_1Mod_1_1File.html" title="TagLib::Mod::File" alt="" coords="141,155,263,181"/>
+<area shape="rect" id="node5" href="$classTagLib_1_1S3M_1_1File.html" title="TagLib::S3M::File" alt="" coords="287,155,413,181"/>
+<area shape="rect" id="node6" href="$classTagLib_1_1XM_1_1File.html" title="TagLib::XM::File" alt="" coords="437,155,556,181"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation. " alt="" coords="230,5,321,32"/>
 </map>

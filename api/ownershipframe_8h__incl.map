@@ -1,7 +1,7 @@
 <map id="ownershipframe.h" name="ownershipframe.h">
-<area shape="rect" id="node3" href="$id3v2frame_8h.html" title="id3v2frame.h" alt="" coords="73,83,169,112"/>
-<area shape="rect" id="node7" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="8,315,115,344"/>
-<area shape="rect" id="node5" href="$tstring_8h.html" title="tstring.h" alt="" coords="211,160,280,189"/>
-<area shape="rect" id="node15" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="153,237,252,267"/>
-<area shape="rect" id="node9" href="$taglib_8h.html" title="taglib.h" alt="" coords="317,315,381,344"/>
+<area shape="rect" id="node2" href="$id3v2frame_8h.html" title="id3v2frame.h" alt="" coords="74,80,171,107"/>
+<area shape="rect" id="node4" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="8,304,115,331"/>
+<area shape="rect" id="node3" href="$tstring_8h.html" title="tstring.h" alt="" coords="211,155,280,181"/>
+<area shape="rect" id="node8" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="153,229,252,256"/>
+<area shape="rect" id="node5" href="$taglib_8h.html" title="taglib.h" alt="" coords="317,304,381,331"/>
 </map>
