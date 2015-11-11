@@ -2,6 +2,8 @@
 
 taglib_dir=$1
 
+set -e
+
 if [[ ! ($taglib_dir && -d $taglib_dir && -f $taglib_dir/Doxyfile.cmake) ]] ; then
     echo "You must specify the TagLib source directory as a command line option."
     exit 1

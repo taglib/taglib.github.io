@@ -2,6 +2,7 @@
 layout: default
 title: Older Releases
 ---
+{% include release-1.10beta.markdown %}
 {% include release-1.9.1.markdown %}
 {% include release-1.9.markdown %}
 {% include release-1.8.markdown %}
