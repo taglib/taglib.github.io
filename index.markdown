@@ -49,7 +49,7 @@ Please, **for all questions related to TagLib** and / or patches use the
     their applications
 -   **TagLib is not toolkit specific** - while TagLib does use KDE-style
     programming conventions and C++ by default, it does not link to
-    either Qt or Glib (in fact it has **no** external dependancies) and
+    either Qt or Glib (in fact it has **no** external dependencies) and
     does provide Glib-style C bindings (currently for the generic API
     only)
 
