@@ -93,11 +93,11 @@ TagLib can be built on various UNIXes (including OS X) and Windows using
 CMake. Most Linux distributions ship with TagLib already.
 
   [ID3v2]: http://www.id3.org 
-  [Ogg Vorbis]: http://www.xiph.org/ogg/vorbis/
-  [FLAC]: http://flac.sourceforge.net/
+  [Ogg Vorbis]: http://vorbis.com/
+  [FLAC]: https://xiph.org/flac/
   [GNU Lesser General Public License]: http://www.gnu.org/licenses/lgpl.html
   [Mozilla Public License]: http://www.mozilla.org/MPL/MPL-1.1.html
-  [API documentation]: http://developer.kde.org/~wheeler/taglib/api/
+  [API documentation]: http://taglib.github.io/api/
   [development list]: https://mail.kde.org/mailman/listinfo/taglib-devel
   [Perl]: http://search.cpan.org/~gleach/Audio-TagLib/
   [TagPy]: http://mathema.tician.de/software/tagpy/
