@@ -14,4 +14,4 @@
 |"Sonata":http://www.nongnu.org/sonata/|GTK+ based music client for MPD|
 |"Quick File Rename":http://www.skyjuicesoftware.com/software/QuickFileRename/|Shareware, meta-data aware batch file renamer for Windows|
 |"Goggles Music Manager":https://gogglesmm.github.io/|Music manager that uses the FOX toolkit|
-|"GNOME Commander":http://www.nongnu.org/gcmd/|Two-pane graphical file manager for GNOME|
+|"GNOME Commander":http://gcmd.github.io/|Two-pane graphical file manager for GNOME|
