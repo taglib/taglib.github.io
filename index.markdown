@@ -94,7 +94,7 @@ CMake. Most Linux distributions ship with TagLib already.
 
   [ID3v2]: http://www.id3.org 
   [Ogg Vorbis]: http://www.xiph.org/ogg/vorbis/
-  [FLAC]: http://flac.sourceforge.net/
+  [FLAC]: https://xiph.org/flac/
   [GNU Lesser General Public License]: http://www.gnu.org/licenses/lgpl.html
   [Mozilla Public License]: http://www.mozilla.org/MPL/MPL-1.1.html
   [API documentation]: http://taglib.github.io/api/
