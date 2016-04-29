@@ -1,5 +1,5 @@
 <map id="TagLib::ID3v2::UrlLinkFrame" name="TagLib::ID3v2::UrlLinkFrame">
-<area shape="rect" id="node4" href="$classTagLib_1_1ID3v2_1_1UserUrlLinkFrame.html" title="ID3v2 User defined URL frame. " alt="" coords="10,229,191,271"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation. " alt="" coords="26,80,175,107"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers. " alt="" coords="23,5,178,32"/>
+<area shape="rect" id="node4" href="$classTagLib_1_1ID3v2_1_1UserUrlLinkFrame.html" title="ID3v2 User defined URL frame. " alt="" coords="9,230,191,271"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation. " alt="" coords="25,80,173,107"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers. " alt="" coords="23,5,176,32"/>
 </map>

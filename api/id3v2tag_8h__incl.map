@@ -1,12 +1,12 @@
 <map id="id3v2tag.h" name="id3v2tag.h">
-<area shape="rect" id="node2" href="$tag_8h.html" title="tag.h" alt="" coords="782,162,833,189"/>
-<area shape="rect" id="node3" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="901,393,1007,420"/>
-<area shape="rect" id="node4" href="$tstring_8h.html" title="tstring.h" alt="" coords="362,244,431,271"/>
-<area shape="rect" id="node8" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="634,319,733,345"/>
-<area shape="rect" id="node11" href="$tlist_8h.html" title="tlist.h" alt="" coords="101,80,156,107"/>
-<area shape="rect" id="node14" href="$tmap_8h.html" title="tmap.h" alt="" coords="509,80,572,107"/>
-<area shape="rect" id="node18" href="$id3v2framefactory_8h.html" title="id3v2framefactory.h" alt="" coords="888,80,1025,107"/>
-<area shape="rect" id="node5" href="$taglib_8h.html" title="taglib.h" alt="" coords="261,393,325,420"/>
-<area shape="rect" id="node19" href="$id3v2frame_8h.html" title="id3v2frame.h" alt="" coords="908,162,1005,189"/>
-<area shape="rect" id="node20" href="$id3v2header_8h.html" title="id3v2header.h" alt="" coords="992,244,1095,271"/>
+<area shape="rect" id="node2" href="$tag_8h.html" title="tag.h" alt="" coords="792,163,843,189"/>
+<area shape="rect" id="node3" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="911,395,1017,421"/>
+<area shape="rect" id="node4" href="$tstring_8h.html" title="tstring.h" alt="" coords="361,245,431,272"/>
+<area shape="rect" id="node8" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="641,320,740,347"/>
+<area shape="rect" id="node11" href="$tlist_8h.html" title="tlist.h" alt="" coords="101,80,155,107"/>
+<area shape="rect" id="node14" href="$tmap_8h.html" title="tmap.h" alt="" coords="515,80,577,107"/>
+<area shape="rect" id="node18" href="$id3v2framefactory_8h.html" title="id3v2framefactory.h" alt="" coords="898,80,1035,107"/>
+<area shape="rect" id="node5" href="$taglib_8h.html" title="taglib.h" alt="" coords="260,395,324,421"/>
+<area shape="rect" id="node19" href="$id3v2frame_8h.html" title="id3v2frame.h" alt="" coords="918,163,1015,189"/>
+<area shape="rect" id="node20" href="$id3v2header_8h.html" title="id3v2header.h" alt="" coords="1002,245,1104,272"/>
 </map>

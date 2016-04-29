@@ -1,3 +1,8 @@
 <map id="flacpicture.h" name="flacpicture.h">
-<area shape="rect" id="node2" href="$flacfile_8h.html" title="flacfile.h" alt="" coords="17,80,87,107"/>
+<area shape="rect" id="node2" href="$flacfile_8h.html" title="flacfile.h" alt="" coords="63,80,133,107"/>
+<area shape="rect" id="node3" href="$xiphcomment_8h.html" title="xiphcomment.h" alt="" coords="158,80,268,107"/>
+<area shape="rect" id="node4" href="$oggflacfile_8h.html" title="oggflacfile.h" alt="" coords="5,155,96,181"/>
+<area shape="rect" id="node5" href="$opusfile_8h.html" title="opusfile.h" alt="" coords="121,155,199,181"/>
+<area shape="rect" id="node6" href="$speexfile_8h.html" title="speexfile.h" alt="" coords="224,155,309,181"/>
+<area shape="rect" id="node7" href="$vorbisfile_8h.html" title="vorbisfile.h" alt="" coords="333,155,419,181"/>
 </map>

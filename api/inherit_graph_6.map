@@ -1,20 +1,20 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classTagLib_1_1AudioProperties.html" title="A simple, abstract interface to common audio properties. " alt="" coords="5,419,167,445"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1APE_1_1Properties.html" title="An implementation of audio property reading for APE. " alt="" coords="230,5,393,32"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ASF_1_1Properties.html" title="An implementation of ASF audio properties. " alt="" coords="230,56,393,83"/>
-<area shape="rect" id="node4" href="$classTagLib_1_1FLAC_1_1Properties.html" title="An implementation of audio property reading for FLAC. " alt="" coords="226,107,397,133"/>
-<area shape="rect" id="node5" href="$classTagLib_1_1IT_1_1Properties.html" title="TagLib::IT::Properties" alt="" coords="237,157,385,184"/>
-<area shape="rect" id="node6" href="$classTagLib_1_1Mod_1_1Properties.html" title="TagLib::Mod::Properties" alt="" coords="231,208,392,235"/>
-<area shape="rect" id="node7" href="$classTagLib_1_1MP4_1_1Properties.html" title="An implementation of MP4 audio properties. " alt="" coords="230,259,393,285"/>
-<area shape="rect" id="node8" href="$classTagLib_1_1MPC_1_1Properties.html" title="An implementation of audio property reading for MPC. " alt="" coords="228,309,395,336"/>
-<area shape="rect" id="node9" href="$classTagLib_1_1MPEG_1_1Properties.html" title="An implementation of audio property reading for MP3. " alt="" coords="224,360,399,387"/>
-<area shape="rect" id="node10" href="$classTagLib_1_1Ogg_1_1Opus_1_1Properties.html" title="An implementation of audio property reading for Ogg Opus. " alt="" coords="241,411,381,453"/>
-<area shape="rect" id="node11" href="$classTagLib_1_1Ogg_1_1Speex_1_1Properties.html" title="An implementation of audio property reading for Ogg Speex. " alt="" coords="242,477,381,518"/>
-<area shape="rect" id="node12" href="$classTagLib_1_1Ogg_1_1Vorbis_1_1Properties.html" title="An implementation of audio property reading for Ogg Vorbis. " alt="" coords="242,542,381,583"/>
-<area shape="rect" id="node13" href="$classTagLib_1_1RIFF_1_1AIFF_1_1Properties.html" title="An implementation of audio property reading for AIFF. " alt="" coords="243,607,379,649"/>
-<area shape="rect" id="node14" href="$classTagLib_1_1RIFF_1_1WAV_1_1Properties.html" title="An implementation of audio property reading for WAV. " alt="" coords="238,673,385,714"/>
-<area shape="rect" id="node15" href="$classTagLib_1_1S3M_1_1Properties.html" title="TagLib::S3M::Properties" alt="" coords="230,739,393,765"/>
-<area shape="rect" id="node16" href="$classTagLib_1_1TrueAudio_1_1Properties.html" title="An implementation of audio property reading for TrueAudio. " alt="" coords="243,790,379,831"/>
-<area shape="rect" id="node17" href="$classTagLib_1_1WavPack_1_1Properties.html" title="An implementation of audio property reading for WavPack. " alt="" coords="215,856,408,883"/>
-<area shape="rect" id="node18" href="$classTagLib_1_1XM_1_1Properties.html" title="TagLib::XM::Properties" alt="" coords="233,907,389,933"/>
+<area shape="rect" id="node1" href="$classTagLib_1_1AudioProperties.html" title="A simple, abstract interface to common audio properties. " alt="" coords="6,419,167,445"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1APE_1_1Properties.html" title="An implementation of audio property reading for APE. " alt="" coords="232,5,395,32"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1ASF_1_1Properties.html" title="An implementation of ASF audio properties. " alt="" coords="232,56,395,83"/>
+<area shape="rect" id="node4" href="$classTagLib_1_1FLAC_1_1Properties.html" title="An implementation of audio property reading for FLAC. " alt="" coords="228,107,399,133"/>
+<area shape="rect" id="node5" href="$classTagLib_1_1IT_1_1Properties.html" title="TagLib::IT::Properties" alt="" coords="239,157,387,184"/>
+<area shape="rect" id="node6" href="$classTagLib_1_1Mod_1_1Properties.html" title="TagLib::Mod::Properties" alt="" coords="233,208,394,235"/>
+<area shape="rect" id="node7" href="$classTagLib_1_1MP4_1_1Properties.html" title="An implementation of MP4 audio properties. " alt="" coords="232,259,395,285"/>
+<area shape="rect" id="node8" href="$classTagLib_1_1MPC_1_1Properties.html" title="An implementation of audio property reading for MPC. " alt="" coords="230,309,397,336"/>
+<area shape="rect" id="node9" href="$classTagLib_1_1MPEG_1_1Properties.html" title="An implementation of audio property reading for MP3. " alt="" coords="226,360,401,387"/>
+<area shape="rect" id="node10" href="$classTagLib_1_1Ogg_1_1Opus_1_1Properties.html" title="An implementation of audio property reading for Ogg Opus. " alt="" coords="243,411,383,453"/>
+<area shape="rect" id="node11" href="$classTagLib_1_1Ogg_1_1Speex_1_1Properties.html" title="An implementation of audio property reading for Ogg Speex. " alt="" coords="244,477,383,518"/>
+<area shape="rect" id="node12" href="$classTagLib_1_1Ogg_1_1Vorbis_1_1Properties.html" title="An implementation of audio property reading for Ogg Vorbis. " alt="" coords="244,542,383,583"/>
+<area shape="rect" id="node13" href="$classTagLib_1_1RIFF_1_1AIFF_1_1Properties.html" title="An implementation of audio property reading for AIFF. " alt="" coords="245,607,381,649"/>
+<area shape="rect" id="node14" href="$classTagLib_1_1RIFF_1_1WAV_1_1Properties.html" title="An implementation of audio property reading for WAV. " alt="" coords="240,673,387,714"/>
+<area shape="rect" id="node15" href="$classTagLib_1_1S3M_1_1Properties.html" title="TagLib::S3M::Properties" alt="" coords="232,739,395,765"/>
+<area shape="rect" id="node16" href="$classTagLib_1_1TrueAudio_1_1Properties.html" title="An implementation of audio property reading for TrueAudio. " alt="" coords="245,790,381,831"/>
+<area shape="rect" id="node17" href="$classTagLib_1_1WavPack_1_1Properties.html" title="An implementation of audio property reading for WavPack. " alt="" coords="217,856,410,883"/>
+<area shape="rect" id="node18" href="$classTagLib_1_1XM_1_1Properties.html" title="TagLib::XM::Properties" alt="" coords="235,907,391,933"/>
 </map>
