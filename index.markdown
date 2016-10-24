@@ -78,7 +78,7 @@ list. If you know of something else, please send me a mail with a link
 and I'll add it here. (Note that inclusion here is not an endorsement of
 the listed software.)
 
-{% capture users %}{% include users.textile %}{% endcapture %} {{ users | textilize }}
+{% include users.markdown %}
 
 ### Git Access
 

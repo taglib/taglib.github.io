@@ -50,6 +50,7 @@ body {
 #content table {
     width: 100%;
     border: 1px solid #ddd;
+    empty-cells: hide;
 }
 
 #content td {
