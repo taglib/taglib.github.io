@@ -49,12 +49,13 @@ body {
 
 #content table {
     width: 100%;
-    border: 1px solid #ddd;
-    empty-cells: hide;
+}
+
+#content th {
+    display: none;
 }
 
 #content td {
     padding: 0.25em 0.75em;
-    border-bottom: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+    border: 1px solid #ddd;
 }
