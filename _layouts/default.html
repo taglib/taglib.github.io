@@ -3,16 +3,27 @@
 <html>
   <head>
     <title>{% if page.title %} {{ page.title }} | {% endif %} TagLib</title>
-    {% include stylesheets.html %}
+    <link href="/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="/taglib.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <div id="container" class="container">
       <div id="navigation" class="well">
-        {% if layout.navigation %}
-        {% include {{ layout.navigation }} %}
-        {% else %}
-        {% include navigation.html %}
-        {% endif %}
+        <a href="/"><img src="/images/taglib.png" /></a>
+        <h3>API Documentation</h3>
+        <ul>
+          <li><a href="/api">Online</a></li>
+        </ul>
+        <h3>Mailing List</h3>
+        <ul>
+          <li><a href="mailto:taglib-devel@kde.org">Post</a></li>
+          <li><a href="https://mail.kde.org/mailman/listinfo/taglib-devel">Subscribe</a></li>
+          <li><a href="http://mail.kde.org/pipermail/taglib-devel/">Archives</a></li>
+        </ul>
+        <h3>Files</h3>
+        <div id="files">
+          {% capture files %}{% include files.markdown %}{% endcapture %}{{ files | markdownify }}
+        </div>
       </div>
       <div id="content" class="well">
         {{ content }}
