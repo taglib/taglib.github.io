@@ -1,0 +1,5 @@
+<link href="/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="/taglib.css" rel="stylesheet" type="text/css" />
+{% for stylesheet in layout.stylesheets %}
+<link rel="stylesheet" href="/{{ stylesheet }}.css" type="text/css" media="screen" charset="utf-8" />
+{% endfor %}

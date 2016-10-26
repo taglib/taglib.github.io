@@ -1,43 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-  <head>
-    <title>{% if page.title %} {{ page.title }} | {% endif %} TagLib</title>
-    <link href="{{ site.url }}bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="{{ site.url }}taglib.css" rel="stylesheet" type="text/css">
-    <link href="{{ site.url }}taglib-api.css" rel="stylesheet" type="text/css">
-    <!-- <link href="{{ site.url }}bootstrap/css/bootstrap-responsive.css.css" rel="stylesheet" type="text/css"> -->
-  </head>
-  <body>
-    <div id="container" class="container">
-      <div id="header" class="well">
-        <table>
-          <tr>
-            <td rowspan="2">
-            <a href="{{ site.url }}"><img src="../images/taglib.png" /></a></td>
-            <td><h1>TagLib API Documentation</h1></td>
-          </tr>
-          <tr>
-            <td class="navigation">
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="inherits.html">Class&nbsp;Hierarchy</a></li>
-                <li><a href="namespaces.html">Namespaces</a></li>
-                <li><a href="annotated.html">Classes</a></li>
-                <li><a href="files.html">Headers</a></li>
-                <li><a href="namespacemembers.html">Namespace&nbsp;Members</a></li>
-                <li><a href="functions.html">Class&nbsp;Members</a></li>
-                <li><a href="globals.html">File&nbsp;Members</a></li>
-              </ul>
-            </td>
-          </tr>
-        </table>
-      </div>
-      <div id="content" class="well">
-        <div id="top">
-          {{ content }}
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+---
+layout: default
+stylesheets: [ taglib-api ]
+navigation: navigation-api.html
+---
+<!-- Doxygen expects this div to be open -->
+<div class="top">
+  {{ content }}
+</div>

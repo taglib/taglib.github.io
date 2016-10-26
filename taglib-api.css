@@ -1,39 +1,30 @@
-#header {
+#navigation {
     border: 1px solid #ccc;
     width: 900px;
 }
 
-#header h1 {
-    margin-bottom: 0.25em;
-}
-
-#header h1, #header ul {
-    padding-left: 0;
-    margin-left: 10px;
-}
-
-#header ul {
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-#header li {
-    display: inline;
-    border-bottom: 1px solid #ccc;
-    margin-right: 0.3em;
-}
-
-#header td {
+#navigation td.right {
+    padding-left: 1em;
     vertical-align: top;
 }
 
-#header .navigation {
+#navigation tr:last-child td.right:last-child {
     vertical-align: bottom;
+}
+
+#navigation ul {
+    font-size: 0.8em;
+}
+
+#navigation li {
+    display: inline;
+    border-bottom: 1px solid #ccc;
+    margin-right: 0.3em;
+    padding-bottom: 0;
 }
 
 #content {
     width: 900px;
-    float: none;
     background: #fff;
 }
 

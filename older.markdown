@@ -2,6 +2,7 @@
 layout: default
 title: Older Releases
 ---
+# {{ page.title }}
 {% include release-1.11beta2.markdown %}
 {% include release-1.11beta.markdown %}
 {% include release-1.10.markdown %}
