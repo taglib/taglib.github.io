@@ -347,3 +347,15 @@ td.tiny {
     background: #eee;
     border-radius: 0.5em;
 }
+
+.levels {
+    border: 1px solid #ccc;
+    background: #eee;
+    padding: 0.5em;
+    margin: 1em 0;
+}
+
+.levels span {
+    margin: 0.25em;
+    border-bottom: 1px solid #999;
+}
