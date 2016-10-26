@@ -3,6 +3,10 @@
     width: 900px;
 }
 
+#navigation td.left {
+    width: 200px;
+}
+
 #navigation td.right {
     padding-left: 1em;
     vertical-align: top;
@@ -21,6 +25,11 @@
     border-bottom: 1px solid #ccc;
     margin-right: 0.3em;
     padding-bottom: 0;
+}
+
+#navigation li a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #999;
 }
 
 #content {
