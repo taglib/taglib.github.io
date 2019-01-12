@@ -14,3 +14,4 @@
 |[Quick File Rename](http://www.skyjuicesoftware.com/software/QuickFileRename/)|Shareware, meta-data aware batch file renamer for Windows|
 |[Goggles Music Manager](https://gogglesmm.github.io/)|Music manager that uses the FOX toolkit|
 |[GNOME Commander](http://gcmd.github.io/)|Two-pane graphical file manager for GNOME|
+|[Strawberry Music Player](http://www.strawbs.org/)|Audio player and music collection organizer|
