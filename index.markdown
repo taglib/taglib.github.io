@@ -55,9 +55,7 @@ Please, **for all questions related to TagLib** and / or patches use the
     does provide Glib-style C bindings (currently for the generic API
     only)
 
-{% include release-1.11.1.markdown %}
-
-{% include release-1.11.markdown %}
+{% include release-1.12.markdown %}
 
 [Older Releases](older.html)
 
