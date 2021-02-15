@@ -92,18 +92,18 @@ source [there](https://github.com/taglib/taglib).
 TagLib can be built on various UNIXes (including OS X) and Windows using
 CMake. Most Linux distributions ship with TagLib already.
 
-  [ID3v2]: http://www.id3.org 
-  [Ogg Vorbis]: http://vorbis.com/
+  [ID3v2]: https://id3.org/
+  [Ogg Vorbis]: https://xiph.org/vorbis/
   [FLAC]: https://xiph.org/flac/
-  [GNU Lesser General Public License]: http://www.gnu.org/licenses/lgpl.html
-  [Mozilla Public License]: http://www.mozilla.org/MPL/MPL-1.1.html
-  [API documentation]: http://taglib.org/api/
+  [GNU Lesser General Public License]: https://www.gnu.org/licenses/lgpl.html
+  [Mozilla Public License]: https://www.mozilla.org/MPL/MPL-1.1.html
+  [API documentation]: https://taglib.org/api/
   [development list]: https://mail.kde.org/mailman/listinfo/taglib-devel
-  [Perl]: http://search.cpan.org/~gleach/Audio-TagLib/
-  [TagPy]: http://mathema.tician.de/software/tagpy/
+  [Perl]: https://metacpan.org/release/Audio-TagLib
+  [TagPy]: https://mathema.tician.de/software/tagpy/
   [pytaglib]: https://github.com/supermihi/pytaglib
-  [taglib-ruby]: http://robinst.github.io/taglib-ruby/
+  [taglib-ruby]: https://robinst.github.io/taglib-ruby/
   [rtaglib]: https://rubygems.org/gems/rtaglib
-  [ruby-taglib (alternative, older)]: http://www.hakubi.us/ruby-taglib/
+  [ruby-taglib (alternative, older)]: https://www.hakubi.us/ruby-taglib/
   [GitHub bug tracker]: https://github.com/taglib/taglib/issues
 
