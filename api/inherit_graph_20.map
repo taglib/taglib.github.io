@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structTagLib_1_1ID3v2_1_1RelativeVolumeFrame_1_1PeakVolume.html" title="Struct that stores the relevant values for ID3v2 peak volume. " alt="" coords="6,5,210,46"/>
+<area shape="rect" id="node1" href="$classTagLib_1_1IOStream.html" title="An abstract class that provides operations on a sequence of bytes. " alt="" coords="5,31,131,57"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1ByteVectorStream.html" title="In&#45;memory Stream class using ByteVector for its storage. " alt="" coords="179,5,355,32"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1FileStream.html" title="A file class with some useful methods for tag manipulation. " alt="" coords="201,56,333,83"/>
 </map>

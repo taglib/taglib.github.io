@@ -1,18 +1,19 @@
 <map id="aifffile.h" name="aifffile.h">
-<area shape="rect" id="node2" href="$rifffile_8h.html" title="rifffile.h" alt="" coords="454,80,519,107"/>
-<area shape="rect" id="node14" href="$id3v2tag_8h.html" title="id3v2tag.h" alt="" coords="623,80,704,107"/>
-<area shape="rect" id="node25" href="$aiffproperties_8h.html" title="aiffproperties.h" alt="" coords="165,80,272,107"/>
-<area shape="rect" id="node3" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="313,469,420,496"/>
-<area shape="rect" id="node4" href="$tfile_8h.html" title="tfile.h" alt="" coords="761,155,815,181"/>
-<area shape="rect" id="node5" href="$taglib_8h.html" title="taglib.h" alt="" coords="871,469,935,496"/>
-<area shape="rect" id="node8" href="$tag_8h.html" title="tag.h" alt="" coords="479,237,529,264"/>
-<area shape="rect" id="node10" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="767,395,865,421"/>
-<area shape="rect" id="node13" href="$tiostream_8h.html" title="tiostream.h" alt="" coords="778,320,864,347"/>
-<area shape="rect" id="node9" href="$tstring_8h.html" title="tstring.h" alt="" coords="583,320,652,347"/>
-<area shape="rect" id="node15" href="$tlist_8h.html" title="tlist.h" alt="" coords="1077,155,1131,181"/>
-<area shape="rect" id="node18" href="$tmap_8h.html" title="tmap.h" alt="" coords="1431,155,1493,181"/>
-<area shape="rect" id="node22" href="$id3v2framefactory_8h.html" title="id3v2framefactory.h" alt="" coords="463,155,600,181"/>
-<area shape="rect" id="node23" href="$id3v2frame_8h.html" title="id3v2frame.h" alt="" coords="554,237,651,264"/>
-<area shape="rect" id="node24" href="$id3v2header_8h.html" title="id3v2header.h" alt="" coords="405,320,507,347"/>
-<area shape="rect" id="node26" href="$audioproperties_8h.html" title="audioproperties.h" alt="" coords="5,395,125,421"/>
+<area shape="rect" id="node2" href="$rifffile_8h.html" title="rifffile.h" alt="" coords="317,80,383,107"/>
+<area shape="rect" id="node14" href="$id3v2tag_8h.html" title="id3v2tag.h" alt="" coords="706,80,789,107"/>
+<area shape="rect" id="node26" href="$aiffproperties_8h.html" title="aiffproperties.h" alt="" coords="84,80,192,107"/>
+<area shape="rect" id="node3" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="314,483,421,509"/>
+<area shape="rect" id="node4" href="$tfile_8h.html" title="tfile.h" alt="" coords="385,155,440,181"/>
+<area shape="rect" id="node5" href="$taglib_8h.html" title="taglib.h" alt="" coords="1034,483,1098,509"/>
+<area shape="rect" id="node8" href="$tag_8h.html" title="tag.h" alt="" coords="466,244,517,271"/>
+<area shape="rect" id="node10" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="689,408,787,435"/>
+<area shape="rect" id="node13" href="$tiostream_8h.html" title="tiostream.h" alt="" coords="456,333,543,360"/>
+<area shape="rect" id="node9" href="$tstring_8h.html" title="tstring.h" alt="" coords="871,333,941,360"/>
+<area shape="rect" id="node15" href="$tlist_8h.html" title="tlist.h" alt="" coords="1088,155,1143,181"/>
+<area shape="rect" id="node18" href="$tmap_8h.html" title="tmap.h" alt="" coords="1532,155,1595,181"/>
+<area shape="rect" id="node22" href="$id3v2_8h.html" title="id3v2.h" alt="" coords="965,333,1029,360"/>
+<area shape="rect" id="node23" href="$id3v2framefactory_8h.html" title="id3v2framefactory.h" alt="" coords="679,155,816,181"/>
+<area shape="rect" id="node24" href="$id3v2frame_8h.html" title="id3v2frame.h" alt="" coords="821,244,919,271"/>
+<area shape="rect" id="node25" href="$id3v2header_8h.html" title="id3v2header.h" alt="" coords="643,244,745,271"/>
+<area shape="rect" id="node27" href="$audioproperties_8h.html" title="audioproperties.h" alt="" coords="5,408,127,435"/>
 </map>

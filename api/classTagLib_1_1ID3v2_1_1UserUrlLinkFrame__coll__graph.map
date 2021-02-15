@@ -1,6 +1,6 @@
 <map id="TagLib::ID3v2::UserUrlLinkFrame" name="TagLib::ID3v2::UserUrlLinkFrame">
-<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1UrlLinkFrame.html" title="ID3v2 URL frame. " alt="" coords="37,216,227,243"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation. " alt="" coords="57,139,205,165"/>
-<area shape="rect" id="node4" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers. " alt="" coords="5,5,159,32"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1UrlLinkFrame.html" title="ID3v2 URL frame. " alt="" coords="9,215,199,241"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation. " alt="" coords="29,139,179,165"/>
+<area shape="rect" id="node4" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers. " alt="" coords="5,5,160,32"/>
 <area shape="rect" id="node5" href="$classTagLib_1_1String.html" title="A wide string class suitable for unicode. " alt="" coords="185,5,287,32"/>
 </map>
