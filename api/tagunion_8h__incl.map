@@ -1,7 +1,12 @@
 <map id="tagunion.h" name="tagunion.h">
-<area shape="rect" id="node2" href="$tag_8h.html" title="tag.h" alt="" coords="101,80,152,107"/>
-<area shape="rect" id="node3" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="5,304,112,331"/>
-<area shape="rect" id="node4" href="$tstring_8h.html" title="tstring.h" alt="" coords="204,155,273,181"/>
-<area shape="rect" id="node5" href="$taglib_8h.html" title="taglib.h" alt="" coords="315,304,379,331"/>
-<area shape="rect" id="node8" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="147,229,245,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="85,5,168,32"/>
+<area shape="rect" id="node2" href="$tag_8h.html" title=" " alt="" coords="101,80,152,107"/>
+<area shape="rect" id="node3" href="$taglib__export_8h.html" title=" " alt="" coords="5,304,112,331"/>
+<area shape="rect" id="node4" href="$tstring_8h.html" title=" " alt="" coords="204,155,273,181"/>
+<area shape="rect" id="node5" href="$taglib_8h.html" title=" " alt="" coords="315,304,379,331"/>
+<area shape="rect" id="node7" title=" " alt="" coords="389,379,443,405"/>
+<area shape="rect" id="node8" href="$tbytevector_8h.html" title=" " alt="" coords="147,229,245,256"/>
+<area shape="rect" id="node10" title=" " alt="" coords="219,304,291,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="257,379,364,405"/>
+<area shape="rect" id="node9" title=" " alt="" coords="136,304,195,331"/>
 </map>

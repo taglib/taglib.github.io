@@ -1,8 +1,15 @@
 <map id="relativevolumeframe.h" name="relativevolumeframe.h">
-<area shape="rect" id="node2" href="$tlist_8h.html" title="tlist.h" alt="" coords="430,80,485,107"/>
-<area shape="rect" id="node8" href="$id3v2frame_8h.html" title="id3v2frame.h" alt="" coords="157,80,254,107"/>
-<area shape="rect" id="node10" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="5,304,112,331"/>
-<area shape="rect" id="node3" href="$taglib_8h.html" title="taglib.h" alt="" coords="371,304,435,331"/>
-<area shape="rect" id="node9" href="$tstring_8h.html" title="tstring.h" alt="" coords="171,155,240,181"/>
-<area shape="rect" id="node11" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="243,229,341,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="130,5,281,32"/>
+<area shape="rect" id="node2" href="$tlist_8h.html" title=" " alt="" coords="430,80,485,107"/>
+<area shape="rect" id="node8" href="$id3v2frame_8h.html" title=" " alt="" coords="157,80,254,107"/>
+<area shape="rect" id="node10" href="$taglib__export_8h.html" title=" " alt="" coords="5,304,112,331"/>
+<area shape="rect" id="node3" href="$taglib_8h.html" title=" " alt="" coords="371,304,435,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="467,155,506,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="530,155,595,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="349,379,456,405"/>
+<area shape="rect" id="node5" title=" " alt="" coords="199,379,254,405"/>
+<area shape="rect" id="node9" href="$tstring_8h.html" title=" " alt="" coords="171,155,240,181"/>
+<area shape="rect" id="node11" href="$tbytevector_8h.html" title=" " alt="" coords="243,229,341,256"/>
+<area shape="rect" id="node13" title=" " alt="" coords="192,304,264,331"/>
+<area shape="rect" id="node12" title=" " alt="" coords="288,304,347,331"/>
 </map>

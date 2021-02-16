@@ -1,9 +1,14 @@
 <map id="rifffile.h" name="rifffile.h">
-<area shape="rect" id="node2" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="59,379,165,405"/>
-<area shape="rect" id="node3" href="$tfile_8h.html" title="tfile.h" alt="" coords="251,80,306,107"/>
-<area shape="rect" id="node4" href="$taglib_8h.html" title="taglib.h" alt="" coords="451,379,515,405"/>
-<area shape="rect" id="node7" href="$tag_8h.html" title="tag.h" alt="" coords="217,155,268,181"/>
-<area shape="rect" id="node9" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="347,304,445,331"/>
-<area shape="rect" id="node12" href="$tiostream_8h.html" title="tiostream.h" alt="" coords="353,229,439,256"/>
-<area shape="rect" id="node8" href="$tstring_8h.html" title="tstring.h" alt="" coords="208,229,277,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="91,5,157,32"/>
+<area shape="rect" id="node2" href="$taglib__export_8h.html" title=" " alt="" coords="59,379,165,405"/>
+<area shape="rect" id="node3" href="$tfile_8h.html" title=" " alt="" coords="251,80,306,107"/>
+<area shape="rect" id="node4" href="$taglib_8h.html" title=" " alt="" coords="451,379,515,405"/>
+<area shape="rect" id="node7" href="$tag_8h.html" title=" " alt="" coords="217,155,268,181"/>
+<area shape="rect" id="node9" href="$tbytevector_8h.html" title=" " alt="" coords="347,304,445,331"/>
+<area shape="rect" id="node12" href="$tiostream_8h.html" title=" " alt="" coords="353,229,439,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="429,453,536,480"/>
+<area shape="rect" id="node6" title=" " alt="" coords="266,453,321,480"/>
+<area shape="rect" id="node8" href="$tstring_8h.html" title=" " alt="" coords="208,229,277,256"/>
+<area shape="rect" id="node11" title=" " alt="" coords="259,379,331,405"/>
+<area shape="rect" id="node10" title=" " alt="" coords="367,379,425,405"/>
 </map>

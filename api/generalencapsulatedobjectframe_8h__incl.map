@@ -1,9 +1,14 @@
 <map id="generalencapsulatedobjectframe.h" name="generalencapsulatedobjectframe.h">
-<area shape="rect" id="node2" href="$id3v2frame_8h.html" title="id3v2frame.h" alt="" coords="276,80,373,107"/>
-<area shape="rect" id="node4" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="306,304,413,331"/>
-<area shape="rect" id="node11" href="$id3v2header_8h.html" title="id3v2header.h" alt="" coords="388,155,491,181"/>
-<area shape="rect" id="node3" href="$tstring_8h.html" title="tstring.h" alt="" coords="135,155,205,181"/>
-<area shape="rect" id="node8" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="163,229,262,256"/>
-<area shape="rect" id="node5" href="$taglib_8h.html" title="taglib.h" alt="" coords="135,304,199,331"/>
-<area shape="rect" id="node12" href="$id3v2_8h.html" title="id3v2.h" alt="" coords="438,229,502,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="329,5,549,32"/>
+<area shape="rect" id="node2" href="$id3v2frame_8h.html" title=" " alt="" coords="276,80,373,107"/>
+<area shape="rect" id="node4" href="$taglib__export_8h.html" title=" " alt="" coords="306,304,413,331"/>
+<area shape="rect" id="node11" href="$id3v2header_8h.html" title=" " alt="" coords="388,155,491,181"/>
+<area shape="rect" id="node3" href="$tstring_8h.html" title=" " alt="" coords="135,155,205,181"/>
+<area shape="rect" id="node8" href="$tbytevector_8h.html" title=" " alt="" coords="164,229,261,256"/>
+<area shape="rect" id="node5" href="$taglib_8h.html" title=" " alt="" coords="135,304,199,331"/>
+<area shape="rect" id="node7" title=" " alt="" coords="5,379,60,405"/>
+<area shape="rect" id="node10" title=" " alt="" coords="39,304,111,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="114,379,221,405"/>
+<area shape="rect" id="node9" title=" " alt="" coords="223,304,282,331"/>
+<area shape="rect" id="node12" href="$id3v2_8h.html" title=" " alt="" coords="438,229,502,256"/>
 </map>

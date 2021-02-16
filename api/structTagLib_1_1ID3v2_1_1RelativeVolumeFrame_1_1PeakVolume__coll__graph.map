@@ -1,3 +1,4 @@
 <map id="TagLib::ID3v2::RelativeVolumeFrame::PeakVolume" name="TagLib::ID3v2::RelativeVolumeFrame::PeakVolume">
-<area shape="rect" id="node2" href="$classTagLib_1_1ByteVector.html" title="A byte vector. " alt="" coords="40,5,175,32"/>
+<area shape="rect" id="node1" title="Struct that stores the relevant values for ID3v2 peak volume." alt="" coords="5,95,208,136"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1ByteVector.html" title="A byte vector." alt="" coords="40,5,173,32"/>
 </map>

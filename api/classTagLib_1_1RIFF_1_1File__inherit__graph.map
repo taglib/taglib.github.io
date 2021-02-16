@@ -1,5 +1,6 @@
 <map id="TagLib::RIFF::File" name="TagLib::RIFF::File">
-<area shape="rect" id="node3" href="$classTagLib_1_1RIFF_1_1AIFF_1_1File.html" title="An implementation of TagLib::File with AIFF specific methods. " alt="" coords="5,155,141,196"/>
-<area shape="rect" id="node4" href="$classTagLib_1_1RIFF_1_1WAV_1_1File.html" title="An implementation of TagLib::File with WAV specific methods. " alt="" coords="166,162,333,189"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation. " alt="" coords="116,5,207,32"/>
+<area shape="rect" id="node1" title="An RIFF file class with some useful methods specific to RIFF." alt="" coords="96,80,223,107"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1RIFF_1_1AIFF_1_1File.html" title="An implementation of TagLib::File with AIFF specific methods." alt="" coords="5,155,140,196"/>
+<area shape="rect" id="node4" href="$classTagLib_1_1RIFF_1_1WAV_1_1File.html" title="An implementation of TagLib::File with WAV specific methods." alt="" coords="165,162,327,189"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation." alt="" coords="115,5,204,32"/>
 </map>

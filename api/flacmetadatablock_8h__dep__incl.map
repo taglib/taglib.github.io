@@ -1,10 +1,11 @@
 <map id="flacmetadatablock.h" name="flacmetadatablock.h">
-<area shape="rect" id="node2" href="$flacpicture_8h.html" title="flacpicture.h" alt="" coords="110,80,203,107"/>
-<area shape="rect" id="node9" href="$flacunknownmetadatablock_8h.html" title="flacunknownmetadatablock.h" alt="" coords="228,80,419,107"/>
-<area shape="rect" id="node3" href="$flacfile_8h.html" title="flacfile.h" alt="" coords="64,155,135,181"/>
-<area shape="rect" id="node4" href="$xiphcomment_8h.html" title="xiphcomment.h" alt="" coords="159,155,269,181"/>
-<area shape="rect" id="node5" href="$oggflacfile_8h.html" title="oggflacfile.h" alt="" coords="5,229,97,256"/>
-<area shape="rect" id="node6" href="$opusfile_8h.html" title="opusfile.h" alt="" coords="121,229,200,256"/>
-<area shape="rect" id="node7" href="$speexfile_8h.html" title="speexfile.h" alt="" coords="225,229,310,256"/>
-<area shape="rect" id="node8" href="$vorbisfile_8h.html" title="vorbisfile.h" alt="" coords="334,229,419,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="170,5,309,32"/>
+<area shape="rect" id="node2" href="$flacpicture_8h.html" title=" " alt="" coords="110,80,203,107"/>
+<area shape="rect" id="node9" href="$flacunknownmetadatablock_8h.html" title=" " alt="" coords="228,80,419,107"/>
+<area shape="rect" id="node3" href="$flacfile_8h.html" title=" " alt="" coords="64,155,135,181"/>
+<area shape="rect" id="node4" href="$xiphcomment_8h.html" title=" " alt="" coords="159,155,269,181"/>
+<area shape="rect" id="node5" href="$oggflacfile_8h.html" title=" " alt="" coords="5,229,97,256"/>
+<area shape="rect" id="node6" href="$opusfile_8h.html" title=" " alt="" coords="121,229,200,256"/>
+<area shape="rect" id="node7" href="$speexfile_8h.html" title=" " alt="" coords="225,229,310,256"/>
+<area shape="rect" id="node8" href="$vorbisfile_8h.html" title=" " alt="" coords="334,229,419,256"/>
 </map>

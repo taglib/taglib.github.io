@@ -1,3 +1,4 @@
 <map id="TagLib::FileStream" name="TagLib::FileStream">
-<area shape="rect" id="node2" href="$classTagLib_1_1IOStream.html" title="An abstract class that provides operations on a sequence of bytes. " alt="" coords="9,5,134,32"/>
+<area shape="rect" id="node1" title="A file class with some useful methods for tag manipulation." alt="" coords="5,80,136,107"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1IOStream.html" title="An abstract class that provides operations on a sequence of bytes." alt="" coords="9,5,133,32"/>
 </map>

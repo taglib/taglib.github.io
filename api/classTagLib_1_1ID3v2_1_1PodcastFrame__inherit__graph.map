@@ -1,4 +1,5 @@
 <map id="TagLib::ID3v2::PodcastFrame" name="TagLib::ID3v2::PodcastFrame">
-<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation. " alt="" coords="29,80,179,107"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers. " alt="" coords="27,5,181,32"/>
+<area shape="rect" id="node1" title="ID3v2 podcast frame." alt="" coords="5,155,201,181"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="29,80,177,107"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="27,5,180,32"/>
 </map>

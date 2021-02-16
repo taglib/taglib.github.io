@@ -1,3 +1,4 @@
 <map id="TagLib::PropertyMap" name="TagLib::PropertyMap">
-<area shape="rect" id="node2" href="$classTagLib_1_1Map.html" title="A generic, implicitly shared map. " alt="" coords="9,5,145,32"/>
+<area shape="rect" id="node1" title="A map for format&#45;independent &lt;key,valuelist&gt; tag representations." alt="" coords="5,80,148,107"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1Map.html" title="A generic, implicitly shared map." alt="" coords="9,5,145,32"/>
 </map>

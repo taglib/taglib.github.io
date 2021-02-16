@@ -1,7 +1,12 @@
 <map id="xmproperties.h" name="xmproperties.h">
-<area shape="rect" id="node2" href="$taglib_8h.html" title="taglib.h" alt="" coords="347,229,411,256"/>
-<area shape="rect" id="node5" href="$tstring_8h.html" title="tstring.h" alt="" coords="303,80,373,107"/>
-<area shape="rect" id="node10" href="$audioproperties_8h.html" title="audioproperties.h" alt="" coords="5,155,127,181"/>
-<area shape="rect" id="node6" href="$taglib__export_8h.html" title="taglib_export.h" alt="" coords="38,229,145,256"/>
-<area shape="rect" id="node7" href="$tbytevector_8h.html" title="tbytevector.h" alt="" coords="202,155,301,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="284,5,392,32"/>
+<area shape="rect" id="node2" href="$taglib_8h.html" title=" " alt="" coords="347,229,411,256"/>
+<area shape="rect" id="node5" href="$tstring_8h.html" title=" " alt="" coords="303,80,373,107"/>
+<area shape="rect" id="node10" href="$audioproperties_8h.html" title=" " alt="" coords="5,155,127,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="290,304,397,331"/>
+<area shape="rect" id="node4" title=" " alt="" coords="421,304,476,331"/>
+<area shape="rect" id="node6" href="$taglib__export_8h.html" title=" " alt="" coords="38,229,145,256"/>
+<area shape="rect" id="node7" href="$tbytevector_8h.html" title=" " alt="" coords="203,155,300,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="251,229,323,256"/>
+<area shape="rect" id="node8" title=" " alt="" coords="169,229,227,256"/>
 </map>

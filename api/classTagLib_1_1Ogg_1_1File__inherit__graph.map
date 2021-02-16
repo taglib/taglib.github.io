@@ -1,7 +1,8 @@
 <map id="TagLib::Ogg::File" name="TagLib::Ogg::File">
-<area shape="rect" id="node3" href="$classTagLib_1_1Ogg_1_1FLAC_1_1File.html" title="An implementation of TagLib::File with Ogg/FLAC specific methods. " alt="" coords="315,5,479,32"/>
-<area shape="rect" id="node4" href="$classTagLib_1_1Ogg_1_1Opus_1_1File.html" title="An implementation of Ogg::File with Opus specific methods. " alt="" coords="316,56,477,83"/>
-<area shape="rect" id="node5" href="$classTagLib_1_1Ogg_1_1Speex_1_1File.html" title="An implementation of Ogg::File with Speex specific methods. " alt="" coords="327,107,466,149"/>
-<area shape="rect" id="node6" href="$classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods. " alt="" coords="327,173,466,214"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation. " alt="" coords="5,85,96,112"/>
+<area shape="rect" id="node1" title="An implementation of TagLib::File with some helpers for Ogg based formats." alt="" coords="143,85,264,112"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1Ogg_1_1FLAC_1_1File.html" title="An implementation of TagLib::File with Ogg/FLAC specific methods." alt="" coords="312,5,475,32"/>
+<area shape="rect" id="node4" href="$classTagLib_1_1Ogg_1_1Opus_1_1File.html" title="An implementation of Ogg::File with Opus specific methods." alt="" coords="313,56,473,83"/>
+<area shape="rect" id="node5" href="$classTagLib_1_1Ogg_1_1Speex_1_1File.html" title="An implementation of Ogg::File with Speex specific methods." alt="" coords="325,107,462,149"/>
+<area shape="rect" id="node6" href="$classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods." alt="" coords="325,173,462,214"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation." alt="" coords="5,85,95,112"/>
 </map>

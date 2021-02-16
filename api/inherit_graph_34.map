@@ -1,11 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classTagLib_1_1Tag.html" title="TagLib::Tag" alt="" coords="5,183,96,209"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1APE_1_1Tag.html" title="An APE tag implementation. " alt="" coords="173,5,299,32"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ASF_1_1Tag.html" title="TagLib::ASF::Tag" alt="" coords="173,56,299,83"/>
-<area shape="rect" id="node4" href="$classTagLib_1_1ID3v1_1_1Tag.html" title="The main class in the ID3v1 implementation. " alt="" coords="169,107,303,133"/>
-<area shape="rect" id="node5" href="$classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation. " alt="" coords="169,157,303,184"/>
-<area shape="rect" id="node6" href="$classTagLib_1_1Mod_1_1Tag.html" title="TagLib::Mod::Tag" alt="" coords="174,208,298,235"/>
-<area shape="rect" id="node7" href="$classTagLib_1_1MP4_1_1Tag.html" title="TagLib::MP4::Tag" alt="" coords="173,259,299,285"/>
-<area shape="rect" id="node8" href="$classTagLib_1_1Ogg_1_1XiphComment.html" title="Ogg Vorbis comment implementation. " alt="" coords="144,309,328,336"/>
-<area shape="rect" id="node9" href="$classTagLib_1_1RIFF_1_1Info_1_1Tag.html" title="The main class in the ID3v2 implementation. " alt="" coords="157,360,315,387"/>
+<area shape="rect" id="node1" href="$classTagLib_1_1Tag.html" title=" " alt="" coords="5,183,95,209"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1APE_1_1Tag.html" title="An APE tag implementation." alt="" coords="172,5,296,32"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1ASF_1_1Tag.html" title=" " alt="" coords="173,56,295,83"/>
+<area shape="rect" id="node4" href="$classTagLib_1_1ID3v1_1_1Tag.html" title="The main class in the ID3v1 implementation." alt="" coords="168,107,300,133"/>
+<area shape="rect" id="node5" href="$classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation." alt="" coords="168,157,300,184"/>
+<area shape="rect" id="node6" href="$classTagLib_1_1MP4_1_1Tag.html" title=" " alt="" coords="172,208,296,235"/>
+<area shape="rect" id="node7" href="$classTagLib_1_1Mod_1_1Tag.html" title=" " alt="" coords="173,259,295,285"/>
+<area shape="rect" id="node8" href="$classTagLib_1_1Ogg_1_1XiphComment.html" title="Ogg Vorbis comment implementation." alt="" coords="143,309,325,336"/>
+<area shape="rect" id="node9" href="$classTagLib_1_1RIFF_1_1Info_1_1Tag.html" title="The main class in the ID3v2 implementation." alt="" coords="155,360,313,387"/>
 </map>

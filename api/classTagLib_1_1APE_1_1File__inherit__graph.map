@@ -1,3 +1,4 @@
 <map id="TagLib::APE::File" name="TagLib::APE::File">
-<area shape="rect" id="node2" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation. " alt="" coords="23,5,113,32"/>
+<area shape="rect" id="node1" title="An implementation of TagLib::File with APE specific methods." alt="" coords="5,80,129,107"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation." alt="" coords="23,5,112,32"/>
 </map>
