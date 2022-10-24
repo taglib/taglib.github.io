@@ -55,7 +55,7 @@ Please, **for all questions related to TagLib** and / or patches use the
     does provide Glib-style C bindings (currently for the generic API
     only)
 
-{% include release-1.12.markdown %}
+{% include release-1.13.markdown %}
 
 [Older Releases](older.html)
 
@@ -102,4 +102,3 @@ CMake. Most Linux distributions ship with TagLib already.
   [rtaglib]: https://rubygems.org/gems/rtaglib
   [ruby-taglib (alternative, older)]: https://www.hakubi.us/ruby-taglib/
   [GitHub bug tracker]: https://github.com/taglib/taglib/issues
-

@@ -1,3 +1,4 @@
+* [TagLib 1.13](/releases/taglib-1.13.tar.gz)
 * [TagLib 1.12](/releases/taglib-1.12.tar.gz)
 * [TagLib 1.11.1](/releases/taglib-1.11.1.tar.gz)
 * [TagLib 1.11](/releases/taglib-1.11.tar.gz)
