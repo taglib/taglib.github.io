@@ -1,5 +1,5 @@
 <map id="TagLib::ID3v2::SynchronizedLyricsFrame" name="TagLib::ID3v2::SynchronizedLyricsFrame">
-<area shape="rect" id="node1" title="ID3v2 synchronized lyrics frame." alt="" coords="5,155,196,196"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="27,80,175,107"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="24,5,177,32"/>
+<area shape="rect" id="node1" title="ID3v2 synchronized lyrics frame." alt="" coords="5,155,209,196"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="28,80,187,107"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="25,5,189,32"/>
 </map>

@@ -1,14 +1,14 @@
 <map id="mp4coverart.h" name="mp4coverart.h">
-<area shape="rect" id="node1" title=" " alt="" coords="247,5,353,32"/>
-<area shape="rect" id="node2" href="$tlist_8h.html" title=" " alt="" coords="323,80,378,107"/>
-<area shape="rect" id="node8" href="$tbytevector_8h.html" title=" " alt="" coords="202,80,299,107"/>
-<area shape="rect" id="node9" href="$taglib__export_8h.html" title=" " alt="" coords="5,155,112,181"/>
-<area shape="rect" id="node12" href="$mp4atom_8h.html" title=" " alt="" coords="402,80,489,107"/>
-<area shape="rect" id="node3" href="$taglib_8h.html" title=" " alt="" coords="315,155,379,181"/>
-<area shape="rect" id="node6" title=" " alt="" coords="403,155,442,181"/>
-<area shape="rect" id="node7" title=" " alt="" coords="466,155,531,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="240,229,347,256"/>
-<area shape="rect" id="node5" title=" " alt="" coords="371,229,426,256"/>
-<area shape="rect" id="node10" title=" " alt="" coords="136,155,195,181"/>
-<area shape="rect" id="node11" title=" " alt="" coords="219,155,291,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="268,5,385,32"/>
+<area shape="rect" id="node2" href="$tlist_8h.html" title=" " alt="" coords="352,80,411,107"/>
+<area shape="rect" id="node8" href="$tbytevector_8h.html" title=" " alt="" coords="219,80,327,107"/>
+<area shape="rect" id="node9" href="$taglib__export_8h.html" title=" " alt="" coords="5,155,125,181"/>
+<area shape="rect" id="node12" href="$mp4atom_8h.html" title=" " alt="" coords="435,80,533,107"/>
+<area shape="rect" id="node3" href="$taglib_8h.html" title=" " alt="" coords="342,155,413,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="437,155,480,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="505,155,575,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="263,229,380,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="404,229,463,256"/>
+<area shape="rect" id="node10" title=" " alt="" coords="150,155,213,181"/>
+<area shape="rect" id="node11" title=" " alt="" coords="237,155,317,181"/>
 </map>

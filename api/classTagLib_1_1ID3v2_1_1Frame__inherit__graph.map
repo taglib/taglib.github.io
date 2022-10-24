@@ -1,24 +1,24 @@
 <map id="TagLib::ID3v2::Frame" name="TagLib::ID3v2::Frame">
-<area shape="rect" id="node1" title="ID3v2 frame implementation." alt="" coords="207,487,355,514"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1AttachedPictureFrame.html" title="An ID3v2 attached picture frame implementation." alt="" coords="418,5,622,47"/>
-<area shape="rect" id="node5" href="$classTagLib_1_1ID3v2_1_1ChapterFrame.html" title="An implementation of ID3v2 chapter frames." alt="" coords="423,71,617,98"/>
-<area shape="rect" id="node6" href="$classTagLib_1_1ID3v2_1_1CommentsFrame.html" title="An implementation of ID3v2 comments." alt="" coords="414,122,626,149"/>
-<area shape="rect" id="node7" href="$classTagLib_1_1ID3v2_1_1EventTimingCodesFrame.html" title="ID3v2 event timing codes frame." alt="" coords="428,173,612,215"/>
-<area shape="rect" id="node8" href="$classTagLib_1_1ID3v2_1_1GeneralEncapsulatedObjectFrame.html" title="An ID3v2 general encapsulated object frame implementation." alt="" coords="403,239,637,280"/>
-<area shape="rect" id="node9" href="$classTagLib_1_1ID3v2_1_1OwnershipFrame.html" title="An implementation of ID3v2 &quot;ownership&quot;." alt="" coords="433,304,607,345"/>
-<area shape="rect" id="node10" href="$classTagLib_1_1ID3v2_1_1PodcastFrame.html" title="ID3v2 podcast frame." alt="" coords="422,370,618,397"/>
-<area shape="rect" id="node11" href="$classTagLib_1_1ID3v2_1_1PopularimeterFrame.html" title="An implementation of ID3v2 &quot;popularimeter&quot;." alt="" coords="425,421,615,463"/>
-<area shape="rect" id="node12" href="$classTagLib_1_1ID3v2_1_1PrivateFrame.html" title="An implementation of ID3v2 privateframe." alt="" coords="425,487,615,514"/>
-<area shape="rect" id="node13" href="$classTagLib_1_1ID3v2_1_1RelativeVolumeFrame.html" title="An ID3v2 relative volume adjustment frame implementation." alt="" coords="419,539,621,580"/>
-<area shape="rect" id="node14" href="$classTagLib_1_1ID3v2_1_1SynchronizedLyricsFrame.html" title="ID3v2 synchronized lyrics frame." alt="" coords="425,604,615,645"/>
-<area shape="rect" id="node15" href="$classTagLib_1_1ID3v2_1_1TableOfContentsFrame.html" title="An implementation of ID3v2 table of contents frames." alt="" coords="415,669,625,711"/>
-<area shape="rect" id="node16" href="$classTagLib_1_1ID3v2_1_1TextIdentificationFrame.html" title="An ID3v2 text identification frame implementation." alt="" coords="415,735,625,776"/>
-<area shape="rect" id="node18" href="$classTagLib_1_1ID3v2_1_1UniqueFileIdentifierFrame.html" title="An implementation of ID3v2 unique identifier frames." alt="" coords="433,800,607,841"/>
-<area shape="rect" id="node19" href="$classTagLib_1_1ID3v2_1_1UnknownFrame.html" title="A frame type unknown to TagLib." alt="" coords="419,866,621,893"/>
-<area shape="rect" id="node20" href="$classTagLib_1_1ID3v2_1_1UnsynchronizedLyricsFrame.html" title="ID3v2 unsynchronized lyrics frame." alt="" coords="417,917,623,959"/>
-<area shape="rect" id="node21" href="$classTagLib_1_1ID3v2_1_1UrlLinkFrame.html" title="ID3v2 URL frame." alt="" coords="425,983,615,1010"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="5,487,159,514"/>
-<area shape="rect" id="node4" href="$classTagLib_1_1ID3v2_1_1AttachedPictureFrameV22.html" title="support for ID3v2.2 PIC frames" alt="" coords="703,5,907,47"/>
-<area shape="rect" id="node17" href="$classTagLib_1_1ID3v2_1_1UserTextIdentificationFrame.html" title="An ID3v2 custom text identification frame implementation." alt="" coords="685,735,924,776"/>
-<area shape="rect" id="node22" href="$classTagLib_1_1ID3v2_1_1UserUrlLinkFrame.html" title="ID3v2 User defined URL frame." alt="" coords="715,976,895,1017"/>
+<area shape="rect" id="node1" title="ID3v2 frame implementation." alt="" coords="217,487,376,514"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1AttachedPictureFrame.html" title="An ID3v2 attached picture frame implementation." alt="" coords="441,5,661,47"/>
+<area shape="rect" id="node5" href="$classTagLib_1_1ID3v2_1_1ChapterFrame.html" title="An implementation of ID3v2 chapter frames." alt="" coords="447,71,656,98"/>
+<area shape="rect" id="node6" href="$classTagLib_1_1ID3v2_1_1CommentsFrame.html" title="An implementation of ID3v2 comments." alt="" coords="437,122,666,149"/>
+<area shape="rect" id="node7" href="$classTagLib_1_1ID3v2_1_1EventTimingCodesFrame.html" title="ID3v2 event timing codes frame." alt="" coords="452,173,651,215"/>
+<area shape="rect" id="node8" href="$classTagLib_1_1ID3v2_1_1GeneralEncapsulatedObjectFrame.html" title="An ID3v2 general encapsulated object frame implementation." alt="" coords="424,239,679,280"/>
+<area shape="rect" id="node9" href="$classTagLib_1_1ID3v2_1_1OwnershipFrame.html" title="An implementation of ID3v2 &quot;ownership&quot;." alt="" coords="458,304,645,345"/>
+<area shape="rect" id="node10" href="$classTagLib_1_1ID3v2_1_1PodcastFrame.html" title="ID3v2 podcast frame." alt="" coords="447,370,656,397"/>
+<area shape="rect" id="node11" href="$classTagLib_1_1ID3v2_1_1PopularimeterFrame.html" title="An implementation of ID3v2 &quot;popularimeter&quot;." alt="" coords="447,421,656,463"/>
+<area shape="rect" id="node12" href="$classTagLib_1_1ID3v2_1_1PrivateFrame.html" title="An implementation of ID3v2 privateframe." alt="" coords="449,487,653,514"/>
+<area shape="rect" id="node13" href="$classTagLib_1_1ID3v2_1_1RelativeVolumeFrame.html" title="An ID3v2 relative volume adjustment frame implementation." alt="" coords="441,539,661,580"/>
+<area shape="rect" id="node14" href="$classTagLib_1_1ID3v2_1_1SynchronizedLyricsFrame.html" title="ID3v2 synchronized lyrics frame." alt="" coords="449,604,653,645"/>
+<area shape="rect" id="node15" href="$classTagLib_1_1ID3v2_1_1TableOfContentsFrame.html" title="An implementation of ID3v2 table of contents frames." alt="" coords="439,669,663,711"/>
+<area shape="rect" id="node16" href="$classTagLib_1_1ID3v2_1_1TextIdentificationFrame.html" title="An ID3v2 text identification frame implementation." alt="" coords="437,735,666,776"/>
+<area shape="rect" id="node18" href="$classTagLib_1_1ID3v2_1_1UniqueFileIdentifierFrame.html" title="An implementation of ID3v2 unique identifier frames." alt="" coords="458,800,645,841"/>
+<area shape="rect" id="node19" href="$classTagLib_1_1ID3v2_1_1UnknownFrame.html" title="A frame type unknown to TagLib." alt="" coords="442,866,661,893"/>
+<area shape="rect" id="node20" href="$classTagLib_1_1ID3v2_1_1UnsynchronizedLyricsFrame.html" title="ID3v2 unsynchronized lyrics frame." alt="" coords="441,917,662,959"/>
+<area shape="rect" id="node21" href="$classTagLib_1_1ID3v2_1_1UrlLinkFrame.html" title="ID3v2 URL frame." alt="" coords="449,983,653,1010"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="5,487,169,514"/>
+<area shape="rect" id="node4" href="$classTagLib_1_1ID3v2_1_1AttachedPictureFrameV22.html" title="support for ID3v2.2 PIC frames" alt="" coords="746,5,966,47"/>
+<area shape="rect" id="node17" href="$classTagLib_1_1ID3v2_1_1UserTextIdentificationFrame.html" title="An ID3v2 custom text identification frame implementation." alt="" coords="727,735,985,776"/>
+<area shape="rect" id="node22" href="$classTagLib_1_1ID3v2_1_1UserUrlLinkFrame.html" title="ID3v2 User defined URL frame." alt="" coords="759,976,953,1017"/>
 </map>

@@ -1,24 +1,24 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation." alt="" coords="5,259,95,285"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1APE_1_1File.html" title="An implementation of TagLib::File with APE specific methods." alt="" coords="159,5,283,32"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ASF_1_1File.html" title=" " alt="" coords="159,56,282,83"/>
-<area shape="rect" id="node4" href="$classTagLib_1_1FLAC_1_1File.html" title="An implementation of TagLib::File with FLAC specific methods." alt="" coords="155,107,286,133"/>
-<area shape="rect" id="node5" href="$classTagLib_1_1MP4_1_1File.html" title=" " alt="" coords="159,157,283,184"/>
-<area shape="rect" id="node6" href="$classTagLib_1_1MPC_1_1File.html" title="An implementation of TagLib::File with MPC specific methods." alt="" coords="157,208,284,235"/>
-<area shape="rect" id="node7" href="$classTagLib_1_1MPEG_1_1File.html" title="An MPEG file class with some useful methods specific to MPEG." alt="" coords="153,259,289,285"/>
-<area shape="rect" id="node8" href="$classTagLib_1_1Mod_1_1FileBase.html" title=" " alt="" coords="145,309,297,336"/>
-<area shape="rect" id="node13" href="$classTagLib_1_1Ogg_1_1File.html" title="An implementation of TagLib::File with some helpers for Ogg based formats." alt="" coords="160,385,281,412"/>
-<area shape="rect" id="node18" href="$classTagLib_1_1RIFF_1_1File.html" title="An RIFF file class with some useful methods specific to RIFF." alt="" coords="157,436,284,463"/>
-<area shape="rect" id="node21" href="$classTagLib_1_1TrueAudio_1_1File.html" title="An implementation of TagLib::File with TrueAudio specific methods." alt="" coords="143,487,299,513"/>
-<area shape="rect" id="node22" href="$classTagLib_1_1WavPack_1_1File.html" title="An implementation of TagLib::File with WavPack specific methods." alt="" coords="144,537,297,564"/>
-<area shape="rect" id="node9" href="$classTagLib_1_1IT_1_1File.html" title=" " alt="" coords="375,144,481,171"/>
-<area shape="rect" id="node10" href="$classTagLib_1_1Mod_1_1File.html" title=" " alt="" coords="367,195,489,221"/>
-<area shape="rect" id="node11" href="$classTagLib_1_1S3M_1_1File.html" title=" " alt="" coords="366,245,490,272"/>
-<area shape="rect" id="node12" href="$classTagLib_1_1XM_1_1File.html" title=" " alt="" coords="369,296,487,323"/>
-<area shape="rect" id="node14" href="$classTagLib_1_1Ogg_1_1FLAC_1_1File.html" title="An implementation of TagLib::File with Ogg/FLAC specific methods." alt="" coords="347,347,509,373"/>
-<area shape="rect" id="node15" href="$classTagLib_1_1Ogg_1_1Opus_1_1File.html" title="An implementation of Ogg::File with Opus specific methods." alt="" coords="348,397,508,424"/>
-<area shape="rect" id="node16" href="$classTagLib_1_1Ogg_1_1Speex_1_1File.html" title="An implementation of Ogg::File with Speex specific methods." alt="" coords="359,449,497,490"/>
-<area shape="rect" id="node17" href="$classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods." alt="" coords="359,514,497,555"/>
-<area shape="rect" id="node19" href="$classTagLib_1_1RIFF_1_1AIFF_1_1File.html" title="An implementation of TagLib::File with AIFF specific methods." alt="" coords="361,579,495,621"/>
-<area shape="rect" id="node20" href="$classTagLib_1_1RIFF_1_1WAV_1_1File.html" title="An implementation of TagLib::File with WAV specific methods." alt="" coords="347,645,509,672"/>
+<area shape="rect" id="node1" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation." alt="" coords="5,259,100,285"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1APE_1_1File.html" title="An implementation of TagLib::File with APE specific methods." alt="" coords="168,5,295,32"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1ASF_1_1File.html" title=" " alt="" coords="168,56,295,83"/>
+<area shape="rect" id="node4" href="$classTagLib_1_1FLAC_1_1File.html" title="An implementation of TagLib::File with FLAC specific methods." alt="" coords="163,107,299,133"/>
+<area shape="rect" id="node5" href="$classTagLib_1_1MP4_1_1File.html" title=" " alt="" coords="166,157,297,184"/>
+<area shape="rect" id="node6" href="$classTagLib_1_1MPC_1_1File.html" title="An implementation of TagLib::File with MPC specific methods." alt="" coords="166,208,297,235"/>
+<area shape="rect" id="node7" href="$classTagLib_1_1MPEG_1_1File.html" title="An MPEG file class with some useful methods specific to MPEG." alt="" coords="161,259,301,285"/>
+<area shape="rect" id="node8" href="$classTagLib_1_1Mod_1_1FileBase.html" title=" " alt="" coords="150,309,313,336"/>
+<area shape="rect" id="node13" href="$classTagLib_1_1Ogg_1_1File.html" title="An implementation of TagLib::File with some helpers for Ogg based formats." alt="" coords="167,385,295,412"/>
+<area shape="rect" id="node18" href="$classTagLib_1_1RIFF_1_1File.html" title="An RIFF file class with some useful methods specific to RIFF." alt="" coords="166,436,297,463"/>
+<area shape="rect" id="node21" href="$classTagLib_1_1TrueAudio_1_1File.html" title="An implementation of TagLib::File with TrueAudio specific methods." alt="" coords="148,487,315,513"/>
+<area shape="rect" id="node22" href="$classTagLib_1_1WavPack_1_1File.html" title="An implementation of TagLib::File with WavPack specific methods." alt="" coords="151,537,311,564"/>
+<area shape="rect" id="node9" href="$classTagLib_1_1IT_1_1File.html" title=" " alt="" coords="391,144,505,171"/>
+<area shape="rect" id="node10" href="$classTagLib_1_1Mod_1_1File.html" title=" " alt="" coords="383,195,513,221"/>
+<area shape="rect" id="node11" href="$classTagLib_1_1S3M_1_1File.html" title=" " alt="" coords="383,245,513,272"/>
+<area shape="rect" id="node12" href="$classTagLib_1_1XM_1_1File.html" title=" " alt="" coords="387,296,509,323"/>
+<area shape="rect" id="node14" href="$classTagLib_1_1Ogg_1_1FLAC_1_1File.html" title="An implementation of TagLib::File with Ogg/FLAC specific methods." alt="" coords="363,347,533,373"/>
+<area shape="rect" id="node15" href="$classTagLib_1_1Ogg_1_1Opus_1_1File.html" title="An implementation of Ogg::File with Opus specific methods." alt="" coords="363,397,533,424"/>
+<area shape="rect" id="node16" href="$classTagLib_1_1Ogg_1_1Speex_1_1File.html" title="An implementation of Ogg::File with Speex specific methods." alt="" coords="375,449,521,490"/>
+<area shape="rect" id="node17" href="$classTagLib_1_1Ogg_1_1Vorbis_1_1File.html" title="An implementation of Ogg::File with Vorbis specific methods." alt="" coords="375,514,521,555"/>
+<area shape="rect" id="node19" href="$classTagLib_1_1RIFF_1_1AIFF_1_1File.html" title="An implementation of TagLib::File with AIFF specific methods." alt="" coords="380,579,516,621"/>
+<area shape="rect" id="node20" href="$classTagLib_1_1RIFF_1_1WAV_1_1File.html" title="An implementation of TagLib::File with WAV specific methods." alt="" coords="365,645,531,672"/>
 </map>

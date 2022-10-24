@@ -1,5 +1,5 @@
 <map id="TagLib::Ogg::FLAC::File" name="TagLib::Ogg::FLAC::File">
-<area shape="rect" id="node1" title="An implementation of TagLib::File with Ogg/FLAC specific methods." alt="" coords="5,155,168,181"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1Ogg_1_1File.html" title="An implementation of TagLib::File with some helpers for Ogg based formats." alt="" coords="26,80,147,107"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation." alt="" coords="42,5,131,32"/>
+<area shape="rect" id="node1" title="An implementation of TagLib::File with Ogg/FLAC specific methods." alt="" coords="5,155,176,181"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1Ogg_1_1File.html" title="An implementation of TagLib::File with some helpers for Ogg based formats." alt="" coords="27,80,155,107"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation." alt="" coords="43,5,138,32"/>
 </map>

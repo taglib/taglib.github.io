@@ -1,12 +1,12 @@
 <map id="ownershipframe.h" name="ownershipframe.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,131,32"/>
-<area shape="rect" id="node2" href="$id3v2frame_8h.html" title=" " alt="" coords="78,80,175,107"/>
-<area shape="rect" id="node4" href="$taglib__export_8h.html" title=" " alt="" coords="19,304,125,331"/>
-<area shape="rect" id="node3" href="$tstring_8h.html" title=" " alt="" coords="217,155,287,181"/>
-<area shape="rect" id="node8" href="$tbytevector_8h.html" title=" " alt="" coords="165,229,262,256"/>
-<area shape="rect" id="node5" href="$taglib_8h.html" title=" " alt="" coords="328,304,392,331"/>
-<area shape="rect" id="node7" title=" " alt="" coords="402,379,457,405"/>
-<area shape="rect" id="node10" title=" " alt="" coords="232,304,304,331"/>
-<area shape="rect" id="node6" title=" " alt="" coords="271,379,377,405"/>
-<area shape="rect" id="node9" title=" " alt="" coords="149,304,208,331"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,145,32"/>
+<area shape="rect" id="node2" href="$id3v2frame_8h.html" title=" " alt="" coords="79,80,189,107"/>
+<area shape="rect" id="node4" href="$taglib__export_8h.html" title=" " alt="" coords="14,304,134,331"/>
+<area shape="rect" id="node3" href="$tstring_8h.html" title=" " alt="" coords="227,155,303,181"/>
+<area shape="rect" id="node8" href="$tbytevector_8h.html" title=" " alt="" coords="169,229,277,256"/>
+<area shape="rect" id="node5" href="$taglib_8h.html" title=" " alt="" coords="351,304,421,331"/>
+<area shape="rect" id="node7" title=" " alt="" coords="430,379,489,405"/>
+<area shape="rect" id="node10" title=" " alt="" coords="246,304,326,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="289,379,406,405"/>
+<area shape="rect" id="node9" title=" " alt="" coords="159,304,221,331"/>
 </map>

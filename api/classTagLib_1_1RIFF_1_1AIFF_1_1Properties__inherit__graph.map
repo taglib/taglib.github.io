@@ -1,4 +1,4 @@
 <map id="TagLib::RIFF::AIFF::Properties" name="TagLib::RIFF::AIFF::Properties">
-<area shape="rect" id="node1" title="An implementation of audio property reading for AIFF." alt="" coords="18,80,153,121"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1AudioProperties.html" title="A simple, abstract interface to common audio properties." alt="" coords="5,5,165,32"/>
+<area shape="rect" id="node1" title="An implementation of audio property reading for AIFF." alt="" coords="25,80,161,121"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1AudioProperties.html" title="A simple, abstract interface to common audio properties." alt="" coords="5,5,180,32"/>
 </map>

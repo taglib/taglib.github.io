@@ -1,16 +1,16 @@
 <map id="trueaudiofile.h" name="trueaudiofile.h">
-<area shape="rect" id="node1" title=" " alt="" coords="274,5,377,32"/>
-<area shape="rect" id="node2" href="$tfile_8h.html" title=" " alt="" coords="237,80,291,107"/>
-<area shape="rect" id="node13" href="$trueaudioproperties_8h.html" title=" " alt="" coords="390,80,533,107"/>
-<area shape="rect" id="node3" href="$taglib__export_8h.html" title=" " alt="" coords="377,379,484,405"/>
-<area shape="rect" id="node4" href="$taglib_8h.html" title=" " alt="" coords="27,379,91,405"/>
-<area shape="rect" id="node7" href="$tag_8h.html" title=" " alt="" coords="275,155,325,181"/>
-<area shape="rect" id="node9" href="$tbytevector_8h.html" title=" " alt="" coords="98,304,195,331"/>
-<area shape="rect" id="node12" href="$tiostream_8h.html" title=" " alt="" coords="103,229,190,256"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,453,112,480"/>
-<area shape="rect" id="node6" title=" " alt="" coords="222,453,277,480"/>
-<area shape="rect" id="node8" href="$tstring_8h.html" title=" " alt="" coords="265,229,335,256"/>
-<area shape="rect" id="node11" title=" " alt="" coords="197,379,269,405"/>
-<area shape="rect" id="node10" title=" " alt="" coords="115,379,173,405"/>
-<area shape="rect" id="node14" href="$audioproperties_8h.html" title=" " alt="" coords="525,304,646,331"/>
+<area shape="rect" id="node1" title=" " alt="" coords="290,5,406,32"/>
+<area shape="rect" id="node2" href="$tfile_8h.html" title=" " alt="" coords="252,80,311,107"/>
+<area shape="rect" id="node13" href="$trueaudioproperties_8h.html" title=" " alt="" coords="403,80,565,107"/>
+<area shape="rect" id="node3" href="$taglib__export_8h.html" title=" " alt="" coords="389,379,509,405"/>
+<area shape="rect" id="node4" href="$taglib_8h.html" title=" " alt="" coords="29,379,99,405"/>
+<area shape="rect" id="node7" href="$tag_8h.html" title=" " alt="" coords="293,155,347,181"/>
+<area shape="rect" id="node9" href="$tbytevector_8h.html" title=" " alt="" coords="103,304,211,331"/>
+<area shape="rect" id="node12" href="$tiostream_8h.html" title=" " alt="" coords="109,229,206,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,453,123,480"/>
+<area shape="rect" id="node6" title=" " alt="" coords="235,453,293,480"/>
+<area shape="rect" id="node8" href="$tstring_8h.html" title=" " alt="" coords="282,229,358,256"/>
+<area shape="rect" id="node11" title=" " alt="" coords="211,379,291,405"/>
+<area shape="rect" id="node10" title=" " alt="" coords="123,379,186,405"/>
+<area shape="rect" id="node14" href="$audioproperties_8h.html" title=" " alt="" coords="540,304,676,331"/>
 </map>

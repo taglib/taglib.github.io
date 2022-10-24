@@ -1,10 +1,10 @@
 <map id="ogg" name="ogg">
 <area shape="rect" id="node1" href="dir_6c55353c8ddedc1504b0a543e75141a6.html" title="toolkit" alt="" coords="364,255,436,303"/>
 <area shape="rect" id="node2" href="dir_b287875b49d08facd3e0538b2efdc446.html" title="flac" alt="" coords="412,159,484,207"/>
-<area shape="rect" id="edge3-headlabel" href="dir_000009_000021.html" title="9" alt="" coords="424,235,432,250"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000016_000021.html" title="10" alt="" coords="393,228,407,242"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000009_000021.html" title="9" alt="" coords="423,235,432,250"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000016_000021.html" title="10" alt="" coords="391,228,409,242"/>
 <area shape="rect" id="node4" href="dir_cde0c56b0dc78a339d714b5777552fd8.html" title="flac" alt="" coords="421,63,493,111"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000017_000009.html" title="1" alt="" coords="456,134,464,149"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000017_000009.html" title="1" alt="" coords="456,134,465,149"/>
 <area shape="rect" id="node5" href="dir_37d88f59915ebb3319156b7f66155777.html" title="opus" alt="" coords="229,63,301,111"/>
 <area shape="rect" id="node6" href="dir_a87222a7719c3861c2eaa0ffdf0e5ab2.html" title="speex" alt="" coords="133,63,205,111"/>
 <area shape="rect" id="node7" href="dir_b81e27b8938ad604d160e0cc70108c66.html" title="vorbis" alt="" coords="37,63,109,111"/>

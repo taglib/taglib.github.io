@@ -1,5 +1,5 @@
 <map id="TagLib::ID3v2::UnknownFrame" name="TagLib::ID3v2::UnknownFrame">
-<area shape="rect" id="node1" title="A frame type unknown to TagLib." alt="" coords="5,155,208,181"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="33,80,181,107"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="30,5,183,32"/>
+<area shape="rect" id="node1" title="A frame type unknown to TagLib." alt="" coords="5,155,224,181"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="35,80,194,107"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="33,5,197,32"/>
 </map>

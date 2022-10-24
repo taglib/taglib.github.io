@@ -1,12 +1,12 @@
 <map id="popularimeterframe.h" name="popularimeterframe.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,149,32"/>
-<area shape="rect" id="node2" href="$id3v2frame_8h.html" title=" " alt="" coords="87,80,185,107"/>
-<area shape="rect" id="node4" href="$taglib__export_8h.html" title=" " alt="" coords="28,304,135,331"/>
-<area shape="rect" id="node3" href="$tstring_8h.html" title=" " alt="" coords="227,155,296,181"/>
-<area shape="rect" id="node8" href="$tbytevector_8h.html" title=" " alt="" coords="174,229,271,256"/>
-<area shape="rect" id="node5" href="$taglib_8h.html" title=" " alt="" coords="337,304,401,331"/>
-<area shape="rect" id="node7" title=" " alt="" coords="411,379,466,405"/>
-<area shape="rect" id="node10" title=" " alt="" coords="241,304,313,331"/>
-<area shape="rect" id="node6" title=" " alt="" coords="280,379,387,405"/>
-<area shape="rect" id="node9" title=" " alt="" coords="159,304,217,331"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,171,32"/>
+<area shape="rect" id="node2" href="$id3v2frame_8h.html" title=" " alt="" coords="92,80,201,107"/>
+<area shape="rect" id="node4" href="$taglib__export_8h.html" title=" " alt="" coords="27,304,147,331"/>
+<area shape="rect" id="node3" href="$tstring_8h.html" title=" " alt="" coords="239,155,315,181"/>
+<area shape="rect" id="node8" href="$tbytevector_8h.html" title=" " alt="" coords="182,229,290,256"/>
+<area shape="rect" id="node5" href="$taglib_8h.html" title=" " alt="" coords="363,304,434,331"/>
+<area shape="rect" id="node7" title=" " alt="" coords="443,379,501,405"/>
+<area shape="rect" id="node10" title=" " alt="" coords="259,304,339,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="301,379,419,405"/>
+<area shape="rect" id="node9" title=" " alt="" coords="171,304,234,331"/>
 </map>

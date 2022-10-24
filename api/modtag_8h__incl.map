@@ -1,12 +1,12 @@
 <map id="modtag.h" name="modtag.h">
-<area shape="rect" id="node1" title=" " alt="" coords="89,5,165,32"/>
-<area shape="rect" id="node2" href="$tag_8h.html" title=" " alt="" coords="101,80,152,107"/>
-<area shape="rect" id="node3" href="$taglib__export_8h.html" title=" " alt="" coords="5,304,112,331"/>
-<area shape="rect" id="node4" href="$tstring_8h.html" title=" " alt="" coords="204,155,273,181"/>
-<area shape="rect" id="node5" href="$taglib_8h.html" title=" " alt="" coords="315,304,379,331"/>
-<area shape="rect" id="node7" title=" " alt="" coords="389,379,443,405"/>
-<area shape="rect" id="node8" href="$tbytevector_8h.html" title=" " alt="" coords="147,229,245,256"/>
-<area shape="rect" id="node10" title=" " alt="" coords="219,304,291,331"/>
-<area shape="rect" id="node6" title=" " alt="" coords="257,379,364,405"/>
-<area shape="rect" id="node9" title=" " alt="" coords="136,304,195,331"/>
+<area shape="rect" id="node1" title=" " alt="" coords="94,5,178,32"/>
+<area shape="rect" id="node2" href="$tag_8h.html" title=" " alt="" coords="109,80,163,107"/>
+<area shape="rect" id="node3" href="$taglib__export_8h.html" title=" " alt="" coords="5,304,125,331"/>
+<area shape="rect" id="node4" href="$tstring_8h.html" title=" " alt="" coords="215,155,291,181"/>
+<area shape="rect" id="node5" href="$taglib_8h.html" title=" " alt="" coords="342,304,413,331"/>
+<area shape="rect" id="node7" title=" " alt="" coords="421,379,480,405"/>
+<area shape="rect" id="node8" href="$tbytevector_8h.html" title=" " alt="" coords="154,229,262,256"/>
+<area shape="rect" id="node10" title=" " alt="" coords="237,304,317,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="280,379,397,405"/>
+<area shape="rect" id="node9" title=" " alt="" coords="150,304,213,331"/>
 </map>

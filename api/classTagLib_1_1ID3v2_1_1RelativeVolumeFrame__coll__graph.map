@@ -1,6 +1,6 @@
 <map id="TagLib::ID3v2::RelativeVolumeFrame" name="TagLib::ID3v2::RelativeVolumeFrame">
-<area shape="rect" id="node1" title="An ID3v2 relative volume adjustment frame implementation." alt="" coords="29,215,231,256"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="56,139,204,165"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="5,5,159,32"/>
-<area shape="rect" id="node4" href="$classTagLib_1_1String.html" title="A wide string class suitable for unicode." alt="" coords="183,5,285,32"/>
+<area shape="rect" id="node1" title="An ID3v2 relative volume adjustment frame implementation." alt="" coords="5,215,225,256"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="36,139,195,165"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="12,5,176,32"/>
+<area shape="rect" id="node4" href="$classTagLib_1_1String.html" title="A wide string class suitable for unicode." alt="" coords="201,5,310,32"/>
 </map>

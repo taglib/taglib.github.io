@@ -1,5 +1,5 @@
 <map id="TagLib::IOStream" name="TagLib::IOStream">
-<area shape="rect" id="node1" title="An abstract class that provides operations on a sequence of bytes." alt="" coords="119,5,243,32"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1ByteVectorStream.html" title="In&#45;memory Stream class using ByteVector for its storage." alt="" coords="5,80,180,107"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1FileStream.html" title="A file class with some useful methods for tag manipulation." alt="" coords="205,80,335,107"/>
+<area shape="rect" id="node1" title="An abstract class that provides operations on a sequence of bytes." alt="" coords="129,5,261,32"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1ByteVectorStream.html" title="In&#45;memory Stream class using ByteVector for its storage." alt="" coords="5,80,195,107"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1FileStream.html" title="A file class with some useful methods for tag manipulation." alt="" coords="219,80,360,107"/>
 </map>

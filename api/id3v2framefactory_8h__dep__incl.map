@@ -1,8 +1,8 @@
 <map id="id3v2framefactory.h" name="id3v2framefactory.h">
-<area shape="rect" id="node1" title=" " alt="" coords="217,5,351,32"/>
-<area shape="rect" id="node2" href="$id3v2tag_8h.html" title=" " alt="" coords="243,80,325,107"/>
-<area shape="rect" id="node3" href="$chapterframe_8h.html" title=" " alt="" coords="5,155,115,181"/>
-<area shape="rect" id="node4" href="$tableofcontentsframe_8h.html" title=" " alt="" coords="139,155,293,181"/>
-<area shape="rect" id="node5" href="$aifffile_8h.html" title=" " alt="" coords="318,155,386,181"/>
-<area shape="rect" id="node6" href="$wavfile_8h.html" title=" " alt="" coords="411,155,485,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="238,5,391,32"/>
+<area shape="rect" id="node2" href="$id3v2tag_8h.html" title=" " alt="" coords="269,80,360,107"/>
+<area shape="rect" id="node3" href="$chapterframe_8h.html" title=" " alt="" coords="5,155,128,181"/>
+<area shape="rect" id="node4" href="$tableofcontentsframe_8h.html" title=" " alt="" coords="153,155,327,181"/>
+<area shape="rect" id="node5" href="$aifffile_8h.html" title=" " alt="" coords="352,155,427,181"/>
+<area shape="rect" id="node6" href="$wavfile_8h.html" title=" " alt="" coords="451,155,533,181"/>
 </map>
