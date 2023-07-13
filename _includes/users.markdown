@@ -9,7 +9,7 @@
 |[Native Instruments Traktor](https://www.native-instruments.com/traktormicrosite/)|Profesional DJing Software|
 |[Native Instruments Battery](https://www.native-instruments.com/en/products/komplete/drums/battery-4/)|Drum Sampler|
 |[Mixxx](https://mixxx.org/)|DJing Software|
-|[Isotope RX](https://mixxx.org/)|DJing Software|
+|[Izotope RX](https://www.izotope.com/en/products/rx.html)|Audio Editor|
 |[Gerbera](https://gerbera.io/)|UPnP MediaServer|
 |[Audacious Media Player](https://audacious-media-player.org/)|GTK2 Based Music Player (XMMS, BMP family)|
 |[Goggles Music Manager](https://gogglesmm.dev/)|Music manager that uses the FOX toolkit|
