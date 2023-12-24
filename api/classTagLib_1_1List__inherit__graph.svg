@@ -13,8 +13,8 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="A generic, implicitly shared list.">
-<polygon fill="#bfbfbf" stroke="black" points="87.5,-124.5 87.5,-143.5 186.5,-143.5 186.5,-124.5 87.5,-124.5"/>
-<text text-anchor="middle" x="137" y="-131.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::List&lt; T &gt;</text>
+<polygon fill="#bfbfbf" stroke="black" points="99.5,-124.5 99.5,-143.5 198.5,-143.5 198.5,-124.5 99.5,-124.5"/>
+<text text-anchor="middle" x="149" y="-131.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::List&lt; T &gt;</text>
 </a>
 </g>
 </g>
@@ -22,63 +22,63 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="classTagLib_1_1List.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="0,-57.5 0,-76.5 122,-76.5 122,-57.5 0,-57.5"/>
-<text text-anchor="middle" x="61" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::List&lt; String &gt;</text>
+<polygon fill="white" stroke="black" points="0,-57.5 0,-76.5 146,-76.5 146,-57.5 0,-57.5"/>
+<text text-anchor="middle" x="73" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::List&lt; ByteVector &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M119.13,-117.71C104.15,-104.91 83.32,-87.09 71.09,-76.63"/>
-<polygon fill="orange" stroke="orange" points="116.88,-120.39 126.75,-124.23 121.43,-115.07 116.88,-120.39"/>
-<text text-anchor="middle" x="131.5" y="-98" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; String &gt;</text>
+<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M127.36,-118.57C121.89,-114.66 116.11,-110.32 111,-106 99.88,-96.61 88.2,-84.55 80.78,-76.56"/>
+<polygon fill="orange" stroke="orange" points="125.37,-121.45 135.58,-124.28 129.36,-115.7 125.37,-121.45"/>
+<text text-anchor="middle" x="150.5" y="-98" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; ByteVector &gt;</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="classTagLib_1_1List.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="140,-57.5 140,-76.5 286,-76.5 286,-57.5 140,-57.5"/>
-<text text-anchor="middle" x="213" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::List&lt; ByteVector &gt;</text>
+<polygon fill="white" stroke="black" points="164,-57.5 164,-76.5 286,-76.5 286,-57.5 164,-57.5"/>
+<text text-anchor="middle" x="225" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::List&lt; String &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M154.87,-117.71C169.85,-104.91 190.68,-87.09 202.91,-76.63"/>
-<polygon fill="orange" stroke="orange" points="152.57,-115.07 147.25,-124.23 157.12,-120.39 152.57,-115.07"/>
-<text text-anchor="middle" x="219.5" y="-98" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; ByteVector &gt;</text>
+<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M172.83,-118.72C178.65,-114.86 184.72,-110.49 190,-106 200.66,-96.94 211.33,-84.81 218.03,-76.72"/>
+<polygon fill="orange" stroke="orange" points="170.59,-116 164.04,-124.33 174.35,-121.9 170.59,-116"/>
+<text text-anchor="middle" x="229.5" y="-98" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt; String &gt;</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classTagLib_1_1StringList.html" target="_top" xlink:title="A list of strings.">
-<polygon fill="white" stroke="black" points="11.5,-0.5 11.5,-19.5 110.5,-19.5 110.5,-0.5 11.5,-0.5"/>
-<text text-anchor="middle" x="61" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::StringList</text>
+<g id="a_node3"><a xlink:href="classTagLib_1_1ByteVectorList.html" target="_top" xlink:title="A list of ByteVectors.">
+<polygon fill="white" stroke="black" points="11,-0.5 11,-19.5 135,-19.5 135,-0.5 11,-0.5"/>
+<text text-anchor="middle" x="73" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::ByteVectorList</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M61,-47.12C61,-37.82 61,-27.06 61,-19.71"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="57.5,-47.41 61,-57.41 64.5,-47.41 57.5,-47.41"/>
+<path fill="none" stroke="midnightblue" d="M73,-47.12C73,-37.82 73,-27.06 73,-19.71"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="69.5,-47.41 73,-57.41 76.5,-47.41 69.5,-47.41"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classTagLib_1_1ByteVectorList.html" target="_top" xlink:title="A list of ByteVectors.">
-<polygon fill="white" stroke="black" points="151,-0.5 151,-19.5 275,-19.5 275,-0.5 151,-0.5"/>
-<text text-anchor="middle" x="213" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::ByteVectorList</text>
+<g id="a_node5"><a xlink:href="classTagLib_1_1StringList.html" target="_top" xlink:title="A list of strings.">
+<polygon fill="white" stroke="black" points="175.5,-0.5 175.5,-19.5 274.5,-19.5 274.5,-0.5 175.5,-0.5"/>
+<text text-anchor="middle" x="225" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::StringList</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M213,-47.12C213,-37.82 213,-27.06 213,-19.71"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="209.5,-47.41 213,-57.41 216.5,-47.41 209.5,-47.41"/>
+<path fill="none" stroke="midnightblue" d="M225,-47.12C225,-37.82 225,-27.06 225,-19.71"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="221.5,-47.41 225,-57.41 228.5,-47.41 221.5,-47.41"/>
 </g>
 </g>
 </svg>

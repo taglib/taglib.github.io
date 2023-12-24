@@ -1,5 +1,10 @@
 <map id="apeproperties.h" name="apeproperties.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,129,32"/>
-<area shape="rect" id="node2" href="$taglib__export_8h.html" title=" " alt="" coords="7,155,127,181"/>
-<area shape="rect" id="node3" href="$audioproperties_8h.html" title=" " alt="" coords="53,80,189,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="238,5,362,32"/>
+<area shape="rect" id="node2" href="$taglib_8h.html" title=" " alt="" coords="159,155,230,181"/>
+<area shape="rect" id="node6" href="$taglib__export_8h.html" title=" " alt="" coords="356,155,476,181"/>
+<area shape="rect" id="node7" href="$audioproperties_8h.html" title=" " alt="" coords="232,80,368,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,229,123,256"/>
+<area shape="rect" id="node4" title=" " alt="" coords="147,229,243,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="267,229,325,256"/>
+<area shape="rect" id="node8" title=" " alt="" coords="255,155,332,181"/>
 </map>

@@ -1,11 +1,13 @@
 <map id="tdebuglistener.h" name="tdebuglistener.h">
-<area shape="rect" id="node1" title=" " alt="" coords="73,5,199,32"/>
-<area shape="rect" id="node2" href="$taglib__export_8h.html" title=" " alt="" coords="5,229,125,256"/>
-<area shape="rect" id="node3" href="$tstring_8h.html" title=" " alt="" coords="215,80,291,107"/>
-<area shape="rect" id="node4" href="$taglib_8h.html" title=" " alt="" coords="342,229,413,256"/>
-<area shape="rect" id="node6" title=" " alt="" coords="421,304,480,331"/>
-<area shape="rect" id="node7" href="$tbytevector_8h.html" title=" " alt="" coords="154,155,262,181"/>
-<area shape="rect" id="node9" title=" " alt="" coords="237,229,317,256"/>
-<area shape="rect" id="node5" title=" " alt="" coords="280,304,397,331"/>
-<area shape="rect" id="node8" title=" " alt="" coords="150,229,213,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="355,5,482,32"/>
+<area shape="rect" id="node2" href="$tstring_8h.html" title=" " alt="" coords="330,80,406,107"/>
+<area shape="rect" id="node11" href="$taglib__export_8h.html" title=" " alt="" coords="480,229,600,256"/>
+<area shape="rect" id="node3" title=" " alt="" coords="376,229,456,256"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,304,64,331"/>
+<area shape="rect" id="node5" href="$tbytevector_8h.html" title=" " alt="" coords="262,155,370,181"/>
+<area shape="rect" id="node8" href="$taglib_8h.html" title=" " alt="" coords="93,229,163,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="275,229,352,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="187,229,250,256"/>
+<area shape="rect" id="node9" title=" " alt="" coords="208,304,325,331"/>
+<area shape="rect" id="node10" title=" " alt="" coords="88,304,184,331"/>
 </map>

@@ -1,6 +1,7 @@
 <map id="mp4coverart.h" name="mp4coverart.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,123,32"/>
-<area shape="rect" id="node2" href="$mp4item_8h.html" title=" " alt="" coords="17,80,111,107"/>
-<area shape="rect" id="node3" href="$mp4tag_8h.html" title=" " alt="" coords="22,155,106,181"/>
-<area shape="rect" id="node4" href="$mp4file_8h.html" title=" " alt="" coords="23,229,105,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="82,5,199,32"/>
+<area shape="rect" id="node2" href="$mp4item_8h.html" title=" " alt="" coords="94,80,187,107"/>
+<area shape="rect" id="node3" href="$mp4itemfactory_8h.html" title=" " alt="" coords="5,155,143,181"/>
+<area shape="rect" id="node4" href="$mp4tag_8h.html" title=" " alt="" coords="167,155,251,181"/>
+<area shape="rect" id="node5" href="$mp4file_8h.html" title=" " alt="" coords="167,229,250,256"/>
 </map>

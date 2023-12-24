@@ -1,6 +1,6 @@
 <map id="TagLib::ID3v2::TextIdentificationFrame" name="TagLib::ID3v2::TextIdentificationFrame">
-<area shape="rect" id="node1" title="An ID3v2 text identification frame implementation." alt="" coords="5,215,235,256"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="41,139,199,165"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="17,5,181,32"/>
-<area shape="rect" id="node4" href="$classTagLib_1_1String.html" title="A wide string class suitable for unicode." alt="" coords="205,5,315,32"/>
+<area shape="rect" id="node1" title="An ID3v2 text identification frame implementation." alt="" coords="53,215,282,256"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="88,139,247,165"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="5,5,169,32"/>
+<area shape="rect" id="node4" href="$classTagLib_1_1String.html" title="A wide string class suitable for unicode." alt="" coords="194,5,303,32"/>
 </map>

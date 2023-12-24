@@ -1,5 +1,10 @@
 <map id="mp4properties.h" name="mp4properties.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,135,32"/>
-<area shape="rect" id="node2" href="$taglib__export_8h.html" title=" " alt="" coords="10,155,130,181"/>
-<area shape="rect" id="node3" href="$audioproperties_8h.html" title=" " alt="" coords="55,80,191,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="61,5,190,32"/>
+<area shape="rect" id="node2" href="$taglib__export_8h.html" title=" " alt="" coords="5,155,125,181"/>
+<area shape="rect" id="node3" href="$audioproperties_8h.html" title=" " alt="" coords="115,80,251,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="149,155,227,181"/>
+<area shape="rect" id="node5" href="$taglib_8h.html" title=" " alt="" coords="251,155,322,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="97,229,215,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="239,229,335,256"/>
+<area shape="rect" id="node8" title=" " alt="" coords="359,229,417,256"/>
 </map>

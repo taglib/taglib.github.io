@@ -1,10 +1,12 @@
 <map id="id3v2synchdata.h" name="id3v2synchdata.h">
-<area shape="rect" id="node1" title=" " alt="" coords="111,5,249,32"/>
-<area shape="rect" id="node2" href="$tbytevector_8h.html" title=" " alt="" coords="186,80,294,107"/>
-<area shape="rect" id="node3" href="$taglib_8h.html" title=" " alt="" coords="85,155,155,181"/>
-<area shape="rect" id="node6" href="$taglib__export_8h.html" title=" " alt="" coords="180,155,300,181"/>
-<area shape="rect" id="node7" title=" " alt="" coords="325,155,387,181"/>
-<area shape="rect" id="node8" title=" " alt="" coords="412,155,492,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,229,123,256"/>
-<area shape="rect" id="node5" title=" " alt="" coords="147,229,205,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="277,5,414,32"/>
+<area shape="rect" id="node2" href="$tbytevector_8h.html" title=" " alt="" coords="246,80,354,107"/>
+<area shape="rect" id="node6" href="$taglib_8h.html" title=" " alt="" coords="443,155,514,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,155,85,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="109,155,187,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="211,155,274,181"/>
+<area shape="rect" id="node10" href="$taglib__export_8h.html" title=" " alt="" coords="299,155,419,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="289,229,407,256"/>
+<area shape="rect" id="node8" title=" " alt="" coords="431,229,527,256"/>
+<area shape="rect" id="node9" title=" " alt="" coords="551,229,609,256"/>
 </map>

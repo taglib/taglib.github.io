@@ -1,7 +1,8 @@
 <map id="mp4atom.h" name="mp4atom.h">
-<area shape="rect" id="node1" title=" " alt="" coords="63,5,161,32"/>
-<area shape="rect" id="node2" href="$mp4coverart_8h.html" title=" " alt="" coords="5,80,123,107"/>
-<area shape="rect" id="node4" href="$mp4tag_8h.html" title=" " alt="" coords="73,229,157,256"/>
-<area shape="rect" id="node3" href="$mp4item_8h.html" title=" " alt="" coords="23,155,116,181"/>
-<area shape="rect" id="node5" href="$mp4file_8h.html" title=" " alt="" coords="73,304,156,331"/>
+<area shape="rect" id="node1" title=" " alt="" coords="112,5,209,32"/>
+<area shape="rect" id="node2" href="$mp4coverart_8h.html" title=" " alt="" coords="54,80,171,107"/>
+<area shape="rect" id="node5" href="$mp4tag_8h.html" title=" " alt="" coords="167,229,251,256"/>
+<area shape="rect" id="node3" href="$mp4item_8h.html" title=" " alt="" coords="66,155,159,181"/>
+<area shape="rect" id="node4" href="$mp4itemfactory_8h.html" title=" " alt="" coords="5,229,143,256"/>
+<area shape="rect" id="node6" href="$mp4file_8h.html" title=" " alt="" coords="167,304,250,331"/>
 </map>

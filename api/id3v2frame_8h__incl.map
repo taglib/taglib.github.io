@@ -1,11 +1,13 @@
 <map id="id3v2frame.h" name="id3v2frame.h">
-<area shape="rect" id="node1" title=" " alt="" coords="153,5,263,32"/>
-<area shape="rect" id="node2" href="$tstring_8h.html" title=" " alt="" coords="254,80,330,107"/>
-<area shape="rect" id="node3" href="$taglib__export_8h.html" title=" " alt="" coords="5,229,125,256"/>
-<area shape="rect" id="node7" href="$tbytevector_8h.html" title=" " alt="" coords="154,155,262,181"/>
-<area shape="rect" id="node4" href="$taglib_8h.html" title=" " alt="" coords="237,229,307,256"/>
-<area shape="rect" id="node6" title=" " alt="" coords="387,304,445,331"/>
-<area shape="rect" id="node9" title=" " alt="" coords="332,229,412,256"/>
-<area shape="rect" id="node5" title=" " alt="" coords="213,304,331,331"/>
-<area shape="rect" id="node8" title=" " alt="" coords="150,229,213,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="221,5,331,32"/>
+<area shape="rect" id="node2" href="$tstring_8h.html" title=" " alt="" coords="154,80,230,107"/>
+<area shape="rect" id="node5" href="$tbytevector_8h.html" title=" " alt="" coords="222,155,330,181"/>
+<area shape="rect" id="node11" href="$taglib__export_8h.html" title=" " alt="" coords="429,229,549,256"/>
+<area shape="rect" id="node3" title=" " alt="" coords="40,229,120,256"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,304,64,331"/>
+<area shape="rect" id="node8" href="$taglib_8h.html" title=" " alt="" coords="145,229,215,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="240,229,317,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="342,229,405,256"/>
+<area shape="rect" id="node9" title=" " alt="" coords="104,304,221,331"/>
+<area shape="rect" id="node10" title=" " alt="" coords="245,304,341,331"/>
 </map>
