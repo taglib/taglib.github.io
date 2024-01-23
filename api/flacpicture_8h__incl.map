@@ -1,19 +1,16 @@
 <map id="flacpicture.h" name="flacpicture.h">
-<area shape="rect" id="node1" title=" " alt="" coords="615,5,718,32"/>
-<area shape="rect" id="node2" href="$tlist_8h.html" title=" " alt="" coords="312,155,371,181"/>
-<area shape="rect" id="node11" href="$tstring_8h.html" title=" " alt="" coords="699,80,775,107"/>
-<area shape="rect" id="node13" href="$tbytevector_8h.html" title=" " alt="" coords="465,155,573,181"/>
-<area shape="rect" id="node15" href="$taglib__export_8h.html" title=" " alt="" coords="691,229,811,256"/>
-<area shape="rect" id="node16" href="$tpicturetype_8h.html" title=" " alt="" coords="925,80,1038,107"/>
-<area shape="rect" id="node17" href="$flacmetadatablock_8h.html" title=" " alt="" coords="520,80,675,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,229,48,256"/>
-<area shape="rect" id="node4" title=" " alt="" coords="73,229,183,256"/>
-<area shape="rect" id="node5" title=" " alt="" coords="303,229,380,256"/>
-<area shape="rect" id="node6" href="$taglib_8h.html" title=" " alt="" coords="405,229,475,256"/>
-<area shape="rect" id="node10" title=" " alt="" coords="207,229,278,256"/>
-<area shape="rect" id="node7" title=" " alt="" coords="447,304,564,331"/>
-<area shape="rect" id="node8" title=" " alt="" coords="327,304,423,331"/>
-<area shape="rect" id="node9" title=" " alt="" coords="736,304,795,331"/>
-<area shape="rect" id="node12" title=" " alt="" coords="587,229,667,256"/>
-<area shape="rect" id="node14" title=" " alt="" coords="499,229,562,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="475,5,577,32"/>
+<area shape="rect" id="node2" href="$tlist_8h.html" title=" " alt="" coords="194,80,253,107"/>
+<area shape="rect" id="node7" href="$tstring_8h.html" title=" " alt="" coords="621,80,697,107"/>
+<area shape="rect" id="node9" href="$tbytevector_8h.html" title=" " alt="" coords="387,155,495,181"/>
+<area shape="rect" id="node12" href="$taglib__export_8h.html" title=" " alt="" coords="539,229,659,256"/>
+<area shape="rect" id="node13" href="$tpicturetype_8h.html" title=" " alt="" coords="721,80,835,107"/>
+<area shape="rect" id="node14" href="$flacmetadatablock_8h.html" title=" " alt="" coords="391,80,546,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="101,155,143,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="168,155,279,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="262,229,339,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,155,76,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="621,155,679,181"/>
+<area shape="rect" id="node10" title=" " alt="" coords="364,229,427,256"/>
+<area shape="rect" id="node11" title=" " alt="" coords="451,229,515,256"/>
 </map>

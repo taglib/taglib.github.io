@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="The main class in the ID3v2 implementation.">
+<g id="a_node1"><a xlink:title="The main class in the INFO tag implementation.">
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-19.5 122,-19.5 122,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="61" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::RIFF::Info::Tag</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classTagLib_1_1Tag.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classTagLib_1_1Tag.html" target="_top" xlink:title="A simple, generic interface to common audio metadata fields.">
 <polygon fill="white" stroke="black" points="26,-56.5 26,-75.5 96,-75.5 96,-56.5 26,-56.5"/>
 <text text-anchor="middle" x="61" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::Tag</text>
 </a>

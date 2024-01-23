@@ -1,26 +1,20 @@
 <map id="infotag.h" name="infotag.h">
-<area shape="rect" id="node1" title=" " alt="" coords="419,5,499,32"/>
-<area shape="rect" id="node2" href="$tmap_8h.html" title=" " alt="" coords="420,229,488,256"/>
-<area shape="rect" id="node12" href="$tstring_8h.html" title=" " alt="" coords="302,155,378,181"/>
-<area shape="rect" id="node14" href="$tbytevector_8h.html" title=" " alt="" coords="286,229,394,256"/>
-<area shape="rect" id="node16" href="$taglib__export_8h.html" title=" " alt="" coords="970,304,1090,331"/>
-<area shape="rect" id="node17" href="$tstringlist_8h.html" title=" " alt="" coords="454,80,550,107"/>
-<area shape="rect" id="node22" href="$tag_8h.html" title=" " alt="" coords="674,80,729,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="308,304,359,331"/>
-<area shape="rect" id="node4" title=" " alt="" coords="383,304,460,331"/>
-<area shape="rect" id="node5" title=" " alt="" coords="672,304,782,331"/>
-<area shape="rect" id="node6" title=" " alt="" coords="485,304,545,331"/>
-<area shape="rect" id="node7" href="$taglib_8h.html" title=" " alt="" coords="213,304,284,331"/>
-<area shape="rect" id="node11" title=" " alt="" coords="569,304,648,331"/>
-<area shape="rect" id="node8" title=" " alt="" coords="255,379,372,405"/>
-<area shape="rect" id="node9" title=" " alt="" coords="135,379,231,405"/>
-<area shape="rect" id="node10" title=" " alt="" coords="36,379,95,405"/>
-<area shape="rect" id="node13" title=" " alt="" coords="22,304,102,331"/>
-<area shape="rect" id="node15" title=" " alt="" coords="126,304,189,331"/>
-<area shape="rect" id="node18" href="$tlist_8h.html" title=" " alt="" coords="512,229,571,256"/>
-<area shape="rect" id="node21" href="$tbytevectorlist_8h.html" title=" " alt="" coords="505,155,634,181"/>
-<area shape="rect" id="node19" title=" " alt="" coords="807,304,850,331"/>
-<area shape="rect" id="node20" title=" " alt="" coords="874,304,945,331"/>
-<area shape="rect" id="node23" href="$tvariant_8h.html" title=" " alt="" coords="659,155,744,181"/>
-<area shape="rect" id="node24" title=" " alt="" coords="748,229,834,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="709,5,789,32"/>
+<area shape="rect" id="node2" href="$tmap_8h.html" title=" " alt="" coords="289,229,357,256"/>
+<area shape="rect" id="node8" href="$tstring_8h.html" title=" " alt="" coords="871,155,947,181"/>
+<area shape="rect" id="node10" href="$tbytevector_8h.html" title=" " alt="" coords="649,229,757,256"/>
+<area shape="rect" id="node13" href="$taglib__export_8h.html" title=" " alt="" coords="842,304,962,331"/>
+<area shape="rect" id="node14" href="$tag_8h.html" title=" " alt="" coords="656,80,711,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="193,304,243,331"/>
+<area shape="rect" id="node4" title=" " alt="" coords="498,304,575,331"/>
+<area shape="rect" id="node5" title=" " alt="" coords="268,304,379,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,304,65,331"/>
+<area shape="rect" id="node7" title=" " alt="" coords="89,304,168,331"/>
+<area shape="rect" id="node9" title=" " alt="" coords="934,229,993,256"/>
+<area shape="rect" id="node11" title=" " alt="" coords="755,304,817,331"/>
+<area shape="rect" id="node12" title=" " alt="" coords="666,304,730,331"/>
+<area shape="rect" id="node15" href="$tlist_8h.html" title=" " alt="" coords="507,229,566,256"/>
+<area shape="rect" id="node18" href="$tvariant_8h.html" title=" " alt="" coords="574,155,659,181"/>
+<area shape="rect" id="node16" title=" " alt="" coords="599,304,642,331"/>
+<area shape="rect" id="node17" title=" " alt="" coords="403,304,473,331"/>
 </map>

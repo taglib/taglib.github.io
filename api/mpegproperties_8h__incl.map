@@ -1,11 +1,9 @@
 <map id="mpegproperties.h" name="mpegproperties.h">
-<area shape="rect" id="node1" title=" " alt="" coords="75,5,213,32"/>
-<area shape="rect" id="node2" href="$taglib__export_8h.html" title=" " alt="" coords="15,155,135,181"/>
-<area shape="rect" id="node3" href="$audioproperties_8h.html" title=" " alt="" coords="225,80,361,107"/>
-<area shape="rect" id="node9" href="$mpegheader_8h.html" title=" " alt="" coords="87,80,201,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="255,155,332,181"/>
-<area shape="rect" id="node5" href="$taglib_8h.html" title=" " alt="" coords="159,155,230,181"/>
-<area shape="rect" id="node6" title=" " alt="" coords="5,229,123,256"/>
-<area shape="rect" id="node7" title=" " alt="" coords="147,229,243,256"/>
-<area shape="rect" id="node8" title=" " alt="" coords="267,229,325,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="66,5,203,32"/>
+<area shape="rect" id="node2" href="$taglib__export_8h.html" title=" " alt="" coords="5,155,125,181"/>
+<area shape="rect" id="node3" href="$audioproperties_8h.html" title=" " alt="" coords="216,80,352,107"/>
+<area shape="rect" id="node7" href="$mpegheader_8h.html" title=" " alt="" coords="77,80,192,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="245,155,323,181"/>
+<area shape="rect" id="node5" href="$taglib_8h.html" title=" " alt="" coords="150,155,221,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="137,229,233,256"/>
 </map>

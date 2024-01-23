@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classTagLib_1_1FileStream.html" target="_top" xlink:title="A file class with some useful methods for tag manipulation.">
+<g id="a_node3"><a xlink:href="classTagLib_1_1FileStream.html" target="_top" xlink:title="I/O stream with data from a file.">
 <polygon fill="white" stroke="black" points="160,-0.5 160,-19.5 266,-19.5 266,-0.5 160,-0.5"/>
 <text text-anchor="middle" x="213" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::FileStream</text>
 </a>

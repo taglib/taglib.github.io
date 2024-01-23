@@ -51,20 +51,19 @@ $(function() {
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#ifndef TAGLIB_MP4TAG_H</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#define TAGLIB_MP4TAG_H</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &quot;<a class="code" href="tbytevectorlist_8h.html">tbytevectorlist.h</a>&quot;</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &quot;<a class="code" href="tfile_8h.html">tfile.h</a>&quot;</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &quot;<a class="code" href="tmap_8h.html">tmap.h</a>&quot;</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#include &quot;<a class="code" href="tstringlist_8h.html">tstringlist.h</a>&quot;</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#include &quot;<a class="code" href="taglib__export_8h.html">taglib_export.h</a>&quot;</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#include &quot;<a class="code" href="tag_8h.html">tag.h</a>&quot;</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#include &quot;<a class="code" href="mp4atom_8h.html">mp4atom.h</a>&quot;</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#include &quot;<a class="code" href="mp4item_8h.html">mp4item.h</a>&quot;</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceTagLib.html">TagLib</a> {</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  <span class="keyword">namespace </span>MP4 {</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">class </span>ItemFactory;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &quot;<a class="code" href="tfile_8h.html">tfile.h</a>&quot;</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#include &quot;<a class="code" href="tmap_8h.html">tmap.h</a>&quot;</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &quot;<a class="code" href="tstringlist_8h.html">tstringlist.h</a>&quot;</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#include &quot;<a class="code" href="taglib__export_8h.html">taglib_export.h</a>&quot;</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#include &quot;<a class="code" href="tag_8h.html">tag.h</a>&quot;</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#include &quot;<a class="code" href="mp4atom_8h.html">mp4atom.h</a>&quot;</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#include &quot;<a class="code" href="mp4item_8h.html">mp4item.h</a>&quot;</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceTagLib.html">TagLib</a> {</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  <span class="keyword">namespace </span>MP4 {</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keyword">class </span>ItemFactory;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classTagLib_1_1MP4_1_1Tag.html">   43</a></span>    <span class="keyword">class </span><a class="code hl_define" href="taglib__export_8h.html#a869a58b518ef871f14a9b4ccfe86ecfb">TAGLIB_EXPORT</a> <a class="code hl_class" href="classTagLib_1_1MP4_1_1Tag.html">Tag</a>: <span class="keyword">public</span> <a class="code hl_class" href="classTagLib_1_1Tag.html">TagLib::Tag</a></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    {</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">public</span>:</div>
@@ -137,12 +136,12 @@ $(function() {
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>  }  <span class="comment">// namespace MP4</span></div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>}  <span class="comment">// namespace TagLib</span></div>
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassTagLib_1_1ByteVector_html"><div class="ttname"><a href="classTagLib_1_1ByteVector.html">TagLib::ByteVector</a></div><div class="ttdoc">A byte vector.</div><div class="ttdef"><b>Definition:</b> tbytevector.h:47</div></div>
+<div class="ttc" id="aclassTagLib_1_1ByteVector_html"><div class="ttname"><a href="classTagLib_1_1ByteVector.html">TagLib::ByteVector</a></div><div class="ttdoc">A byte vector.</div><div class="ttdef"><b>Definition:</b> tbytevector.h:46</div></div>
 <div class="ttc" id="aclassTagLib_1_1File_html"><div class="ttname"><a href="classTagLib_1_1File.html">TagLib::File</a></div><div class="ttdoc">A file class with some useful methods for tag manipulation.</div><div class="ttdef"><b>Definition:</b> tfile.h:51</div></div>
-<div class="ttc" id="aclassTagLib_1_1List_html"><div class="ttname"><a href="classTagLib_1_1List.html">TagLib::List</a></div><div class="ttdoc">A generic, implicitly shared list.</div><div class="ttdef"><b>Definition:</b> tlist.h:56</div></div>
+<div class="ttc" id="aclassTagLib_1_1List_html"><div class="ttname"><a href="classTagLib_1_1List.html">TagLib::List</a></div><div class="ttdoc">A generic, implicitly shared list.</div><div class="ttdef"><b>Definition:</b> tlist.h:54</div></div>
 <div class="ttc" id="aclassTagLib_1_1MP4_1_1ItemFactory_html"><div class="ttname"><a href="classTagLib_1_1MP4_1_1ItemFactory.html">TagLib::MP4::ItemFactory</a></div><div class="ttdoc">A factory for creating MP4 items during parsing.</div><div class="ttdef"><b>Definition:</b> mp4itemfactory.h:70</div></div>
-<div class="ttc" id="aclassTagLib_1_1MP4_1_1Item_html"><div class="ttname"><a href="classTagLib_1_1MP4_1_1Item.html">TagLib::MP4::Item</a></div><div class="ttdef"><b>Definition:</b> mp4item.h:36</div></div>
-<div class="ttc" id="aclassTagLib_1_1MP4_1_1Tag_html"><div class="ttname"><a href="classTagLib_1_1MP4_1_1Tag.html">TagLib::MP4::Tag</a></div><div class="ttdef"><b>Definition:</b> mp4tag.h:44</div></div>
+<div class="ttc" id="aclassTagLib_1_1MP4_1_1Item_html"><div class="ttname"><a href="classTagLib_1_1MP4_1_1Item.html">TagLib::MP4::Item</a></div><div class="ttdoc">MP4 item.</div><div class="ttdef"><b>Definition:</b> mp4item.h:37</div></div>
+<div class="ttc" id="aclassTagLib_1_1MP4_1_1Tag_html"><div class="ttname"><a href="classTagLib_1_1MP4_1_1Tag.html">TagLib::MP4::Tag</a></div><div class="ttdoc">An MP4 tag implementation.</div><div class="ttdef"><b>Definition:</b> mp4tag.h:44</div></div>
 <div class="ttc" id="aclassTagLib_1_1MP4_1_1Tag_html_a00119f6bb1370162ba7eff1134ebcb15"><div class="ttname"><a href="classTagLib_1_1MP4_1_1Tag.html#a00119f6bb1370162ba7eff1134ebcb15">TagLib::MP4::Tag::Tag</a></div><div class="ttdeci">Tag(TagLib::File *file, Atoms *atoms, const ItemFactory *factory=nullptr)</div></div>
 <div class="ttc" id="aclassTagLib_1_1MP4_1_1Tag_html_a0286b59ab0d1695e64f4f2a1bd8dbe43"><div class="ttname"><a href="classTagLib_1_1MP4_1_1Tag.html#a0286b59ab0d1695e64f4f2a1bd8dbe43">TagLib::MP4::Tag::strip</a></div><div class="ttdeci">bool strip()</div></div>
 <div class="ttc" id="aclassTagLib_1_1MP4_1_1Tag_html_a079f04f5a120e1f6852ff27fb8602a15"><div class="ttname"><a href="classTagLib_1_1MP4_1_1Tag.html#a079f04f5a120e1f6852ff27fb8602a15">TagLib::MP4::Tag::setAlbum</a></div><div class="ttdeci">void setAlbum(const String &amp;value) override</div></div>
@@ -177,20 +176,19 @@ $(function() {
 <div class="ttc" id="aclassTagLib_1_1MP4_1_1Tag_html_af2af094f01386513fa714f0252afe6ba"><div class="ttname"><a href="classTagLib_1_1MP4_1_1Tag.html#af2af094f01386513fa714f0252afe6ba">TagLib::MP4::Tag::item</a></div><div class="ttdeci">Item item(const String &amp;key) const</div></div>
 <div class="ttc" id="aclassTagLib_1_1MP4_1_1Tag_html_afa24fc9b810464bb9fd87c0933398bda"><div class="ttname"><a href="classTagLib_1_1MP4_1_1Tag.html#afa24fc9b810464bb9fd87c0933398bda">TagLib::MP4::Tag::setProperties</a></div><div class="ttdeci">PropertyMap setProperties(const PropertyMap &amp;props) override</div></div>
 <div class="ttc" id="aclassTagLib_1_1MP4_1_1Tag_html_afab15080a50bda006262fef21afc28f6"><div class="ttname"><a href="classTagLib_1_1MP4_1_1Tag.html#afab15080a50bda006262fef21afc28f6">TagLib::MP4::Tag::setTitle</a></div><div class="ttdeci">void setTitle(const String &amp;value) override</div></div>
-<div class="ttc" id="aclassTagLib_1_1Map_html"><div class="ttname"><a href="classTagLib_1_1Map.html">TagLib::Map</a></div><div class="ttdoc">A generic, implicitly shared map.</div><div class="ttdef"><b>Definition:</b> tmap.h:47</div></div>
-<div class="ttc" id="aclassTagLib_1_1PropertyMap_html"><div class="ttname"><a href="classTagLib_1_1PropertyMap.html">TagLib::PropertyMap</a></div><div class="ttdoc">A map for format-independent &lt;key,valuelist&gt; tag representations.</div><div class="ttdef"><b>Definition:</b> tpropertymap.h:122</div></div>
-<div class="ttc" id="aclassTagLib_1_1StringList_html"><div class="ttname"><a href="classTagLib_1_1StringList.html">TagLib::StringList</a></div><div class="ttdoc">A list of strings.</div><div class="ttdef"><b>Definition:</b> tstringlist.h:46</div></div>
-<div class="ttc" id="aclassTagLib_1_1String_html"><div class="ttname"><a href="classTagLib_1_1String.html">TagLib::String</a></div><div class="ttdoc">A wide string class suitable for unicode.</div><div class="ttdef"><b>Definition:</b> tstring.h:85</div></div>
-<div class="ttc" id="aclassTagLib_1_1Tag_html"><div class="ttname"><a href="classTagLib_1_1Tag.html">TagLib::Tag</a></div><div class="ttdef"><b>Definition:</b> tag.h:49</div></div>
+<div class="ttc" id="aclassTagLib_1_1Map_html"><div class="ttname"><a href="classTagLib_1_1Map.html">TagLib::Map</a></div><div class="ttdoc">A generic, implicitly shared map.</div><div class="ttdef"><b>Definition:</b> tmap.h:45</div></div>
+<div class="ttc" id="aclassTagLib_1_1PropertyMap_html"><div class="ttname"><a href="classTagLib_1_1PropertyMap.html">TagLib::PropertyMap</a></div><div class="ttdoc">A map for format-independent &lt;key,values&gt; tag representations.</div><div class="ttdef"><b>Definition:</b> tpropertymap.h:122</div></div>
+<div class="ttc" id="aclassTagLib_1_1StringList_html"><div class="ttname"><a href="classTagLib_1_1StringList.html">TagLib::StringList</a></div><div class="ttdoc">A list of strings.</div><div class="ttdef"><b>Definition:</b> tstringlist.h:44</div></div>
+<div class="ttc" id="aclassTagLib_1_1String_html"><div class="ttname"><a href="classTagLib_1_1String.html">TagLib::String</a></div><div class="ttdoc">A wide string class suitable for unicode.</div><div class="ttdef"><b>Definition:</b> tstring.h:83</div></div>
+<div class="ttc" id="aclassTagLib_1_1Tag_html"><div class="ttname"><a href="classTagLib_1_1Tag.html">TagLib::Tag</a></div><div class="ttdoc">A simple, generic interface to common audio metadata fields.</div><div class="ttdef"><b>Definition:</b> tag.h:49</div></div>
 <div class="ttc" id="amp4atom_8h_html"><div class="ttname"><a href="mp4atom_8h.html">mp4atom.h</a></div></div>
 <div class="ttc" id="amp4item_8h_html"><div class="ttname"><a href="mp4item_8h.html">mp4item.h</a></div></div>
 <div class="ttc" id="anamespaceTagLib_html"><div class="ttname"><a href="namespaceTagLib.html">TagLib</a></div><div class="ttdoc">A namespace for all TagLib related classes and functions.</div><div class="ttdef"><b>Definition:</b> apefile.h:41</div></div>
-<div class="ttc" id="anamespaceTagLib_html_a09d39bc352b8aaf304b7c5ae453f37ad"><div class="ttname"><a href="namespaceTagLib.html#a09d39bc352b8aaf304b7c5ae453f37ad">TagLib::offset_t</a></div><div class="ttdeci">off_t offset_t</div><div class="ttdef"><b>Definition:</b> taglib.h:77</div></div>
+<div class="ttc" id="anamespaceTagLib_html_a09d39bc352b8aaf304b7c5ae453f37ad"><div class="ttname"><a href="namespaceTagLib.html#a09d39bc352b8aaf304b7c5ae453f37ad">TagLib::offset_t</a></div><div class="ttdeci">off_t offset_t</div><div class="ttdef"><b>Definition:</b> taglib.h:64</div></div>
 <div class="ttc" id="atag_8h_html"><div class="ttname"><a href="tag_8h.html">tag.h</a></div></div>
 <div class="ttc" id="ataglib__export_8h_html"><div class="ttname"><a href="taglib__export_8h.html">taglib_export.h</a></div></div>
 <div class="ttc" id="ataglib__export_8h_html_a869a58b518ef871f14a9b4ccfe86ecfb"><div class="ttname"><a href="taglib__export_8h.html#a869a58b518ef871f14a9b4ccfe86ecfb">TAGLIB_EXPORT</a></div><div class="ttdeci">#define TAGLIB_EXPORT</div><div class="ttdef"><b>Definition:</b> taglib_export.h:40</div></div>
 <div class="ttc" id="ataglib__export_8h_html_ae72fa8fa5b017a1f989eaf47d5a93c88"><div class="ttname"><a href="taglib__export_8h.html#ae72fa8fa5b017a1f989eaf47d5a93c88">TAGLIB_MSVC_SUPPRESS_WARNING_NEEDS_TO_HAVE_DLL_INTERFACE</a></div><div class="ttdeci">#define TAGLIB_MSVC_SUPPRESS_WARNING_NEEDS_TO_HAVE_DLL_INTERFACE</div><div class="ttdef"><b>Definition:</b> taglib_export.h:55</div></div>
-<div class="ttc" id="atbytevectorlist_8h_html"><div class="ttname"><a href="tbytevectorlist_8h.html">tbytevectorlist.h</a></div></div>
 <div class="ttc" id="atfile_8h_html"><div class="ttname"><a href="tfile_8h.html">tfile.h</a></div></div>
 <div class="ttc" id="atmap_8h_html"><div class="ttname"><a href="tmap_8h.html">tmap.h</a></div></div>
 <div class="ttc" id="atstringlist_8h_html"><div class="ttname"><a href="tstringlist_8h.html">tstringlist.h</a></div></div>

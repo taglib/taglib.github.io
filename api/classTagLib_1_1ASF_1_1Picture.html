@@ -38,8 +38,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a10181ea8cf21089aef9428787c826561"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b98ec43123ef87b498ee35187e94a44"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ASF_1_1Picture.html#a9b98ec43123ef87b498ee35187e94a44">Picture</a> (const <a class="el" href="classTagLib_1_1ASF_1_1Picture.html">Picture</a> &amp;other)</td></tr>
 <tr class="separator:a9b98ec43123ef87b498ee35187e94a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a378d8b7ff39099b7aa4c2de229a5f85c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ASF_1_1Picture.html#a378d8b7ff39099b7aa4c2de229a5f85c">~Picture</a> ()</td></tr>
-<tr class="separator:a378d8b7ff39099b7aa4c2de229a5f85c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b39f9e7a98f7a01e17f4b6307d291f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ASF_1_1Picture.html#a6b39f9e7a98f7a01e17f4b6307d291f1">~Picture</a> ()</td></tr>
+<tr class="separator:a6b39f9e7a98f7a01e17f4b6307d291f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9fdf38935dd8c9c6178e732ef6e9f2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTagLib_1_1ASF_1_1Picture.html">Picture</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ASF_1_1Picture.html#ac9fdf38935dd8c9c6178e732ef6e9f2f">operator=</a> (const <a class="el" href="classTagLib_1_1ASF_1_1Picture.html">Picture</a> &amp;other)</td></tr>
 <tr class="separator:ac9fdf38935dd8c9c6178e732ef6e9f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af08799c49fd5b9c81283277ae7ad4025"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ASF_1_1Picture.html#af08799c49fd5b9c81283277ae7ad4025">swap</a> (<a class="el" href="classTagLib_1_1ASF_1_1Picture.html">Picture</a> &amp;other) noexcept</td></tr>
@@ -69,7 +69,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >An <a class="el" href="namespaceTagLib_1_1ASF.html" title="An implementation of ASF (WMA) metadata.">ASF</a> attached picture interface implementation. </p>
-<p >This is an implementation of <a class="el" href="namespaceTagLib_1_1ASF.html" title="An implementation of ASF (WMA) metadata.">ASF</a> attached pictures interface. Pictures may be included in attributes, one per WM/Picture attribute (but there may be multiple WM/Picture attribute in a single tag). These pictures are usually in either JPEG or PNG format. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ASF_1_1Attribute.html#afc2f4e069312f60409e066a7261749c4">Attribute::toPicture()</a> </dd>
+<p >This is an implementation of <a class="el" href="namespaceTagLib_1_1ASF.html" title="An implementation of ASF (WMA) metadata.">ASF</a> attached pictures. Pictures may be included in attributes, one per WM/Picture attribute (but there may be multiple WM/Picture attributes in a single tag). These pictures are usually in either JPEG or PNG format. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ASF_1_1Attribute.html#afc2f4e069312f60409e066a7261749c4">Attribute::toPicture()</a> </dd>
 <dd>
 <a class="el" href="classTagLib_1_1ASF_1_1Attribute.html#a8a90de38deb9964e54e48647ddde900f">Attribute::Attribute(const Picture&amp; picture)</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -87,7 +87,6 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >This describes the function or content of the picture.</p>
 <p >Constructs an empty picture. </p>
 
 </div>
@@ -107,31 +106,23 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Construct an picture as a copy of <em>other</em>. </p>
+<p >Construct a picture as a copy of <em>other</em>. </p>
 
 </div>
 </div>
-<a id="a378d8b7ff39099b7aa4c2de229a5f85c" name="a378d8b7ff39099b7aa4c2de229a5f85c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a378d8b7ff39099b7aa4c2de229a5f85c">&#9670;&nbsp;</a></span>~Picture()</h2>
+<a id="a6b39f9e7a98f7a01e17f4b6307d291f1" name="a6b39f9e7a98f7a01e17f4b6307d291f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b39f9e7a98f7a01e17f4b6307d291f1">&#9670;&nbsp;</a></span>~Picture()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual TagLib::ASF::Picture::~Picture </td>
+          <td class="memname">TagLib::ASF::Picture::~Picture </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p >Destroys the picture. </p>
 
@@ -189,7 +180,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if <a class="el" href="classTagLib_1_1ASF_1_1Picture.html" title="An ASF attached picture interface implementation.">Picture</a> stores valid picture </p>
+<p >Returns <code>true</code> if <a class="el" href="classTagLib_1_1ASF_1_1Picture.html" title="An ASF attached picture interface implementation.">Picture</a> stores valid picture </p>
 
 </div>
 </div>
@@ -249,7 +240,7 @@ setPicture(const ByteArray&amp;) </dd></dl>
       </table>
 </div><div class="memdoc">
 <p >Returns the image data as a <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a>.</p>
-<dl class="section note"><dt>Note</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> has a data() method that returns a const char * which should make it easy to export this data to external programs.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> has a data() method that returns a <code>const char *</code> which should make it easy to export this data to external programs.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ASF_1_1Picture.html#ab742db3d6374aca15364dd0d33884c48">setPicture()</a> </dd>
 <dd>
 <a class="el" href="classTagLib_1_1ASF_1_1Picture.html#acbc8e740c37073fd5bd1bae993f6ade8">mimeType()</a> </dd></dl>
@@ -386,7 +377,7 @@ setPicture(const ByteArray&amp;) </dd></dl>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Exchanges the content of the <a class="el" href="classTagLib_1_1ASF_1_1Picture.html" title="An ASF attached picture interface implementation.">Picture</a> by the content of <em>other</em>. </p>
+<p >Exchanges the content of the <a class="el" href="classTagLib_1_1ASF_1_1Picture.html" title="An ASF attached picture interface implementation.">Picture</a> with the content of <em>other</em>. </p>
 
 </div>
 </div>

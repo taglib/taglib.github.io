@@ -1,11 +1,7 @@
 <map id="tlist.h" name="tlist.h">
-<area shape="rect" id="node1" title=" " alt="" coords="217,5,276,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="157,5,216,32"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,80,48,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="73,80,183,107"/>
 <area shape="rect" id="node4" title=" " alt="" coords="208,80,285,107"/>
-<area shape="rect" id="node5" href="$taglib_8h.html" title=" " alt="" coords="310,80,381,107"/>
-<area shape="rect" id="node9" title=" " alt="" coords="405,80,475,107"/>
-<area shape="rect" id="node6" title=" " alt="" coords="156,155,273,181"/>
-<area shape="rect" id="node7" title=" " alt="" coords="297,155,393,181"/>
-<area shape="rect" id="node8" title=" " alt="" coords="417,155,476,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="310,80,381,107"/>
 </map>

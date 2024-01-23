@@ -60,72 +60,75 @@ $(function() {
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceTagLib.html">TagLib</a> {</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <span class="keyword">namespace </span>FLAC {</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html">   38</a></span>    <span class="keyword">class </span><a class="code hl_define" href="taglib__export_8h.html#a869a58b518ef871f14a9b4ccfe86ecfb">TAGLIB_EXPORT</a> <a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a> : <span class="keyword">public</span> <a class="code hl_class" href="classTagLib_1_1FLAC_1_1MetadataBlock.html">MetadataBlock</a></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    {</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>      DECLARE_PICTURE_TYPE_ENUM(Type)</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a2647940a3bec4e3c00975fd2b8d5117d">   47</a></span>      <a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a>();</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a95e98a3812296d5e718c0044a53b8f26">   48</a></span>      <a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a>(const <a class="code hl_class" href="classTagLib_1_1ByteVector.html">ByteVector</a> &amp;data);</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#aaec7bcdb585beedfd081ab44ee453cbd">   49</a></span>      ~<a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a>() override;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a1e0075d4f4b44318ff7f486e6b278e21">   51</a></span>      <a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a>(const <a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a> &amp;item) = delete;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#ab76176b430ee3d1e4fe8c05f59a8896a">   52</a></span>      <a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a> &amp;operator=(const <a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a> &amp;item) = delete;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#af126c162949b7031e24c3d08f654a96f">   57</a></span>      Type type() const;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#ad6d38f13b49d9146213b22b3e1b61c3a">   62</a></span>      <span class="keywordtype">void</span> setType(Type type);</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a10173e627bc5e73d7d93f6792d5cb70f">   68</a></span>      <a class="code hl_class" href="classTagLib_1_1String.html">String</a> mimeType() const;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#ae1cc58e5f6fab391c9ea54e9b130a0ef">   74</a></span>      <span class="keywordtype">void</span> setMimeType(const <a class="code hl_class" href="classTagLib_1_1String.html">String</a> &amp;m);</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#ad93b08accda68f7f15023da98a35be12">   80</a></span>      <a class="code hl_class" href="classTagLib_1_1String.html">String</a> description() const;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#af6cb46426ba7e6932a81289f8f9f7035">   86</a></span>      <span class="keywordtype">void</span> setDescription(const <a class="code hl_class" href="classTagLib_1_1String.html">String</a> &amp;desc);</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a4b9adae237fb8f811f638bd2331c5034">   91</a></span>      <span class="keywordtype">int</span> width() const;</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a6d6a61bf64e8d3798a4e8ba7b42b31e1">   96</a></span>      <span class="keywordtype">void</span> setWidth(<span class="keywordtype">int</span> w);</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#aa679467d6fdcf796babe559cdc490421">  101</a></span>      <span class="keywordtype">int</span> height() const;</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a6848dbb3e704479c2e63a20704ef466e">  106</a></span>      <span class="keywordtype">void</span> setHeight(<span class="keywordtype">int</span> h);</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a3241bc8b10dced38a8735d6bf102bc17">  111</a></span>      <span class="keywordtype">int</span> colorDepth() const;</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a044f3710ebbb6afeb496e0e5e8d0df53">  116</a></span>      <span class="keywordtype">void</span> setColorDepth(<span class="keywordtype">int</span> depth);</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a5faa1ec3b82d44ed6a05b58331cdcaed">  121</a></span>      <span class="keywordtype">int</span> numColors() const;</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#abcc81a47f73ee865927ef114dcbd8d3b">  126</a></span>      <span class="keywordtype">void</span> setNumColors(<span class="keywordtype">int</span> numColors);</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a24ea8787509f177b40dac7acd67f7b61">  131</a></span>      <a class="code hl_class" href="classTagLib_1_1ByteVector.html">ByteVector</a> data() const;</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a8fc9b9e7d93f158ea1b1169205512707">  136</a></span>      <span class="keywordtype">void</span> setData(const <a class="code hl_class" href="classTagLib_1_1ByteVector.html">ByteVector</a> &amp;data);</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a300f67eb5bbc55d1aa14b66697a751bb">  141</a></span>      <span class="keywordtype">int</span> code() const override;</div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a18db0c7578ad19d3ec03cfa5ec464423">  146</a></span>      <a class="code hl_class" href="classTagLib_1_1ByteVector.html">ByteVector</a> render() const override;</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#ad30a86aaba6e88efd6982a94ae67a357">  151</a></span>      <span class="keywordtype">bool</span> parse(const <a class="code hl_class" href="classTagLib_1_1ByteVector.html">ByteVector</a> &amp;rawData);</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    private:</div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>      class PicturePrivate;</div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>      <a class="code hl_define" href="taglib__export_8h.html#ae72fa8fa5b017a1f989eaf47d5a93c88">TAGLIB_MSVC_SUPPRESS_WARNING_NEEDS_TO_HAVE_DLL_INTERFACE</a></div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>      std::unique_ptr&lt;PicturePrivate&gt; d;</div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    };</div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="namespaceTagLib_1_1FLAC.html#ab8fb2d126d05db08330dbb7abb7a18b1">  159</a></span>    using <a class="code hl_class" href="classTagLib_1_1List.html">PictureList</a> = <a class="code hl_class" href="classTagLib_1_1List.html">List</a>&lt;<a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a>&gt;;</div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>  }  <span class="comment">// namespace FLAC</span></div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>}  <span class="comment">// namespace TagLib</span></div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassTagLib_1_1ByteVector_html"><div class="ttname"><a href="classTagLib_1_1ByteVector.html">TagLib::ByteVector</a></div><div class="ttdoc">A byte vector.</div><div class="ttdef"><b>Definition:</b> tbytevector.h:47</div></div>
-<div class="ttc" id="aclassTagLib_1_1FLAC_1_1MetadataBlock_html"><div class="ttname"><a href="classTagLib_1_1FLAC_1_1MetadataBlock.html">TagLib::FLAC::MetadataBlock</a></div><div class="ttdef"><b>Definition:</b> flacmetadatablock.h:36</div></div>
-<div class="ttc" id="aclassTagLib_1_1FLAC_1_1Picture_html"><div class="ttname"><a href="classTagLib_1_1FLAC_1_1Picture.html">TagLib::FLAC::Picture</a></div><div class="ttdef"><b>Definition:</b> flacpicture.h:39</div></div>
-<div class="ttc" id="aclassTagLib_1_1List_html"><div class="ttname"><a href="classTagLib_1_1List.html">TagLib::List</a></div><div class="ttdoc">A generic, implicitly shared list.</div><div class="ttdef"><b>Definition:</b> tlist.h:56</div></div>
-<div class="ttc" id="aclassTagLib_1_1String_html"><div class="ttname"><a href="classTagLib_1_1String.html">TagLib::String</a></div><div class="ttdoc">A wide string class suitable for unicode.</div><div class="ttdef"><b>Definition:</b> tstring.h:85</div></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html">   39</a></span>    <span class="keyword">class </span><a class="code hl_define" href="taglib__export_8h.html#a869a58b518ef871f14a9b4ccfe86ecfb">TAGLIB_EXPORT</a> <a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a> : <span class="keyword">public</span> <a class="code hl_class" href="classTagLib_1_1FLAC_1_1MetadataBlock.html">MetadataBlock</a></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    {</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>      <span class="comment">/*</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment">       * This describes the function or content of the picture.</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment">       */</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>      DECLARE_PICTURE_TYPE_ENUM(Type)</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a2647940a3bec4e3c00975fd2b8d5117d">   48</a></span>      <a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a>();</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a95e98a3812296d5e718c0044a53b8f26">   49</a></span>      <a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a>(const <a class="code hl_class" href="classTagLib_1_1ByteVector.html">ByteVector</a> &amp;data);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#aaec7bcdb585beedfd081ab44ee453cbd">   50</a></span>      ~<a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a>() override;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a1e0075d4f4b44318ff7f486e6b278e21">   52</a></span>      <a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a>(const <a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a> &amp;item) = delete;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#ab76176b430ee3d1e4fe8c05f59a8896a">   53</a></span>      <a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a> &amp;operator=(const <a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a> &amp;item) = delete;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#af126c162949b7031e24c3d08f654a96f">   58</a></span>      Type type() const;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#ad6d38f13b49d9146213b22b3e1b61c3a">   63</a></span>      <span class="keywordtype">void</span> setType(Type type);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a10173e627bc5e73d7d93f6792d5cb70f">   69</a></span>      <a class="code hl_class" href="classTagLib_1_1String.html">String</a> mimeType() const;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#ac2be8fbdc14a36e61b3bc7edae0ba489">   75</a></span>      <span class="keywordtype">void</span> setMimeType(const <a class="code hl_class" href="classTagLib_1_1String.html">String</a> &amp;mimeType);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#ad93b08accda68f7f15023da98a35be12">   81</a></span>      <a class="code hl_class" href="classTagLib_1_1String.html">String</a> description() const;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a699cc5f3b3101b2f0b38411401d360f4">   87</a></span>      <span class="keywordtype">void</span> setDescription(const <a class="code hl_class" href="classTagLib_1_1String.html">String</a> &amp;description);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a4b9adae237fb8f811f638bd2331c5034">   92</a></span>      <span class="keywordtype">int</span> width() const;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#ab1fd0c1cbbe8533948d793f627e174d7">   97</a></span>      <span class="keywordtype">void</span> setWidth(<span class="keywordtype">int</span> width);</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#aa679467d6fdcf796babe559cdc490421">  102</a></span>      <span class="keywordtype">int</span> height() const;</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a048ab38d9483c5d914eb14b0d0ce68ed">  107</a></span>      <span class="keywordtype">void</span> setHeight(<span class="keywordtype">int</span> height);</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a3241bc8b10dced38a8735d6bf102bc17">  112</a></span>      <span class="keywordtype">int</span> colorDepth() const;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a8a4599e53b825d8c76a71f7657110f76">  117</a></span>      <span class="keywordtype">void</span> setColorDepth(<span class="keywordtype">int</span> colorDepth);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a5faa1ec3b82d44ed6a05b58331cdcaed">  122</a></span>      <span class="keywordtype">int</span> numColors() const;</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#abcc81a47f73ee865927ef114dcbd8d3b">  127</a></span>      <span class="keywordtype">void</span> setNumColors(<span class="keywordtype">int</span> numColors);</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a24ea8787509f177b40dac7acd67f7b61">  132</a></span>      <a class="code hl_class" href="classTagLib_1_1ByteVector.html">ByteVector</a> data() const;</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a8fc9b9e7d93f158ea1b1169205512707">  137</a></span>      <span class="keywordtype">void</span> setData(const <a class="code hl_class" href="classTagLib_1_1ByteVector.html">ByteVector</a> &amp;data);</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a300f67eb5bbc55d1aa14b66697a751bb">  142</a></span>      <span class="keywordtype">int</span> code() const override;</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a18db0c7578ad19d3ec03cfa5ec464423">  147</a></span>      <a class="code hl_class" href="classTagLib_1_1ByteVector.html">ByteVector</a> render() const override;</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno"><a class="line" href="classTagLib_1_1FLAC_1_1Picture.html#a8c0e34139f00d4f3ac713c7caff6ef8f">  152</a></span>      <span class="keywordtype">bool</span> parse(const <a class="code hl_class" href="classTagLib_1_1ByteVector.html">ByteVector</a> &amp;data);</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    private:</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>      class PicturePrivate;</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>      <a class="code hl_define" href="taglib__export_8h.html#ae72fa8fa5b017a1f989eaf47d5a93c88">TAGLIB_MSVC_SUPPRESS_WARNING_NEEDS_TO_HAVE_DLL_INTERFACE</a></div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>      std::unique_ptr&lt;PicturePrivate&gt; d;</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    };</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="namespaceTagLib_1_1FLAC.html#ab8fb2d126d05db08330dbb7abb7a18b1">  160</a></span>    using <a class="code hl_class" href="classTagLib_1_1List.html">PictureList</a> = <a class="code hl_class" href="classTagLib_1_1List.html">List</a>&lt;<a class="code hl_class" href="classTagLib_1_1FLAC_1_1Picture.html">Picture</a>&gt;;</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>  }  <span class="comment">// namespace FLAC</span></div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>}  <span class="comment">// namespace TagLib</span></div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassTagLib_1_1ByteVector_html"><div class="ttname"><a href="classTagLib_1_1ByteVector.html">TagLib::ByteVector</a></div><div class="ttdoc">A byte vector.</div><div class="ttdef"><b>Definition:</b> tbytevector.h:46</div></div>
+<div class="ttc" id="aclassTagLib_1_1FLAC_1_1MetadataBlock_html"><div class="ttname"><a href="classTagLib_1_1FLAC_1_1MetadataBlock.html">TagLib::FLAC::MetadataBlock</a></div><div class="ttdoc">FLAC metadata block.</div><div class="ttdef"><b>Definition:</b> flacmetadatablock.h:36</div></div>
+<div class="ttc" id="aclassTagLib_1_1FLAC_1_1Picture_html"><div class="ttname"><a href="classTagLib_1_1FLAC_1_1Picture.html">TagLib::FLAC::Picture</a></div><div class="ttdoc">FLAC picture.</div><div class="ttdef"><b>Definition:</b> flacpicture.h:40</div></div>
+<div class="ttc" id="aclassTagLib_1_1List_html"><div class="ttname"><a href="classTagLib_1_1List.html">TagLib::List</a></div><div class="ttdoc">A generic, implicitly shared list.</div><div class="ttdef"><b>Definition:</b> tlist.h:54</div></div>
+<div class="ttc" id="aclassTagLib_1_1String_html"><div class="ttname"><a href="classTagLib_1_1String.html">TagLib::String</a></div><div class="ttdoc">A wide string class suitable for unicode.</div><div class="ttdef"><b>Definition:</b> tstring.h:83</div></div>
 <div class="ttc" id="aflacmetadatablock_8h_html"><div class="ttname"><a href="flacmetadatablock_8h.html">flacmetadatablock.h</a></div></div>
 <div class="ttc" id="anamespaceTagLib_html"><div class="ttname"><a href="namespaceTagLib.html">TagLib</a></div><div class="ttdoc">A namespace for all TagLib related classes and functions.</div><div class="ttdef"><b>Definition:</b> apefile.h:41</div></div>
 <div class="ttc" id="ataglib__export_8h_html"><div class="ttname"><a href="taglib__export_8h.html">taglib_export.h</a></div></div>

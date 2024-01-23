@@ -28,6 +28,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>An implementation of <a class="el" href="namespaceTagLib_1_1ASF.html" title="An implementation of ASF (WMA) metadata.">ASF</a> (WMA) tags.  
+ <a href="classTagLib_1_1ASF_1_1Tag.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="asftag_8h_source.html">asftag.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for TagLib::ASF::Tag:</div>
@@ -184,7 +187,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:afe0982ca2061e8ddf3f7bf43671aa93d inherit pro_methods_classTagLib_1_1Tag"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Tag.html#afe0982ca2061e8ddf3f7bf43671aa93d">Tag</a> ()</td></tr>
 <tr class="separator:afe0982ca2061e8ddf3f7bf43671aa93d inherit pro_methods_classTagLib_1_1Tag"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >An implementation of <a class="el" href="namespaceTagLib_1_1ASF.html" title="An implementation of ASF (WMA) metadata.">ASF</a> (WMA) tags. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab7c2932ac6e2479cd4bfda8de64df14c" name="ab7c2932ac6e2479cd4bfda8de64df14c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab7c2932ac6e2479cd4bfda8de64df14c">&#9670;&nbsp;</a></span>Tag() <span class="overload">[1/2]</span></h2>
 
@@ -224,7 +229,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Destroys this <a class="el" href="classTagLib_1_1ASF_1_1Tag.html">Tag</a> instance. </p>
+<p >Destroys this <a class="el" href="classTagLib_1_1ASF_1_1Tag.html" title="An implementation of ASF (WMA) tags.">Tag</a> instance. </p>
 
 <p>Reimplemented from <a class="el" href="classTagLib_1_1Tag.html#ac55be0b7de77d12cacc0f756252dd312">TagLib::Tag</a>.</p>
 
@@ -308,7 +313,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the album name; if no album name is present in the tag String::null will be returned. </p>
+<p >Returns the album name; if no album name is present in the tag an empty string will be returned. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#a0a00182da6392498b7aae580a3e3b185">TagLib::Tag</a>.</p>
 
@@ -515,7 +520,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>True if a value for <em>key</em> is currently set. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if a value for <em>key</em> is currently set. </dd></dl>
 
 </div>
 </div>
@@ -541,7 +546,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the genre name; if no genre is present in the tag String::null will be returned. </p>
+<p >Returns the copyright information; if no copyright information is present in the tag an empty string will be returned. </p>
 
 </div>
 </div>
@@ -567,7 +572,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the genre name; if no genre is present in the tag String::null will be returned. </p>
+<p >Returns the genre name; if no genre is present in the tag an empty string will be returned. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#a8cb3ab94a9ae13f47ac4583b07bf538a">TagLib::Tag</a>.</p>
 
@@ -595,7 +600,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns true if the tag does not contain any data. This should be reimplemented in subclasses that provide more than the basic tagging abilities in this class. </p>
+<p >Returns <code>true</code> if the tag does not contain any data. This should be reimplemented in subclasses that provide more than the basic tagging abilities in this class. </p>
 
 <p>Reimplemented from <a class="el" href="classTagLib_1_1Tag.html#a1584bba81a059dddf1b24940c55f5e3e">TagLib::Tag</a>.</p>
 
@@ -752,7 +757,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the album to <em>value</em>. If <em>value</em> is String::null then this value will be cleared. </p>
+<p >Sets the album to <em>value</em>. If <em>value</em> is an empty string then this value will be cleared. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#acedb56ba6f422bfed2d50cbaa1c867dd">TagLib::Tag</a>.</p>
 
@@ -992,7 +997,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the tags of this <a class="el" href="classTagLib_1_1ASF_1_1File.html">File</a> to those specified in <em>origProps</em>. This default implementation sets only the tags for which setter methods exist in this class (artist, album, ...), and only one value per key; the rest will be contained in the returned <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,valuelist&gt; tag representations.">PropertyMap</a>. </p>
+<p >Sets the tags of this <a class="el" href="classTagLib_1_1ASF_1_1File.html" title="An implementation of TagLib::File with ASF specific methods.">File</a> to those specified in <em>origProps</em>. This default implementation sets only the tags for which setter methods exist in this class (artist, album, ...), and only one value per key; the rest will be contained in the returned <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,values&gt; tag representations.">PropertyMap</a>. </p>
 
 <p>Reimplemented from <a class="el" href="classTagLib_1_1Tag.html#afa12848c84b03a856fec0b3254986521">TagLib::Tag</a>.</p>
 

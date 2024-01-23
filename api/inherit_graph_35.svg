@@ -12,7 +12,7 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="classTagLib_1_1Tag.html" target="_top" xlink:title=" ">
+<g id="a_node1"><a xlink:href="classTagLib_1_1Tag.html" target="_top" xlink:title="A simple, generic interface to common audio metadata fields.">
 <polygon fill="white" stroke="black" points="0,-152.5 0,-171.5 70,-171.5 70,-152.5 0,-152.5"/>
 <text text-anchor="middle" x="35" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::Tag</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node2 -->
 <g id="node3" class="node">
 <title>Node2</title>
-<g id="a_node3"><a xlink:href="classTagLib_1_1ASF_1_1Tag.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classTagLib_1_1ASF_1_1Tag.html" target="_top" xlink:title="An implementation of ASF (WMA) tags.">
 <polygon fill="white" stroke="black" points="133.5,-266.5 133.5,-285.5 227.5,-285.5 227.5,-266.5 133.5,-266.5"/>
 <text text-anchor="middle" x="180.5" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::ASF::Tag</text>
 </a>
@@ -96,7 +96,7 @@
 <!-- Node6 -->
 <g id="node7" class="node">
 <title>Node6</title>
-<g id="a_node7"><a xlink:href="classTagLib_1_1MP4_1_1Tag.html" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="classTagLib_1_1MP4_1_1Tag.html" target="_top" xlink:title="An MP4 tag implementation.">
 <polygon fill="white" stroke="black" points="132,-114.5 132,-133.5 229,-133.5 229,-114.5 132,-114.5"/>
 <text text-anchor="middle" x="180.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::MP4::Tag</text>
 </a>
@@ -111,7 +111,7 @@
 <!-- Node7 -->
 <g id="node8" class="node">
 <title>Node7</title>
-<g id="a_node8"><a xlink:href="classTagLib_1_1Mod_1_1Tag.html" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="classTagLib_1_1Mod_1_1Tag.html" target="_top" xlink:title="A module file tag implementation.">
 <polygon fill="white" stroke="black" points="132,-76.5 132,-95.5 229,-95.5 229,-76.5 132,-76.5"/>
 <text text-anchor="middle" x="180.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::Mod::Tag</text>
 </a>
@@ -141,7 +141,7 @@
 <!-- Node9 -->
 <g id="node10" class="node">
 <title>Node9</title>
-<g id="a_node10"><a xlink:href="classTagLib_1_1RIFF_1_1Info_1_1Tag.html" target="_top" xlink:title="The main class in the ID3v2 implementation.">
+<g id="a_node10"><a xlink:href="classTagLib_1_1RIFF_1_1Info_1_1Tag.html" target="_top" xlink:title="The main class in the INFO tag implementation.">
 <polygon fill="white" stroke="black" points="119.5,-0.5 119.5,-19.5 241.5,-19.5 241.5,-0.5 119.5,-0.5"/>
 <text text-anchor="middle" x="180.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::RIFF::Info::Tag</text>
 </a>

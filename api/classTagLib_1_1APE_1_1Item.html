@@ -51,8 +51,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a98e307496aadb366ab95bb75c3966576"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb38cff33dd8b4d2f75e0b6ddad2ccec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1APE_1_1Item.html#afb38cff33dd8b4d2f75e0b6ddad2ccec">Item</a> (const <a class="el" href="classTagLib_1_1APE_1_1Item.html">Item</a> &amp;item)</td></tr>
 <tr class="separator:afb38cff33dd8b4d2f75e0b6ddad2ccec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4906070c19ebdff10c5213773bb9d1a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1APE_1_1Item.html#af4906070c19ebdff10c5213773bb9d1a">~Item</a> ()</td></tr>
-<tr class="separator:af4906070c19ebdff10c5213773bb9d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a811fc25a3e34be558d527f43a3bfef89"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1APE_1_1Item.html#a811fc25a3e34be558d527f43a3bfef89">~Item</a> ()</td></tr>
+<tr class="separator:a811fc25a3e34be558d527f43a3bfef89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a234402c55e543a55b3c6764e0b909517"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTagLib_1_1APE_1_1Item.html">Item</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1APE_1_1Item.html#a234402c55e543a55b3c6764e0b909517">operator=</a> (const <a class="el" href="classTagLib_1_1APE_1_1Item.html">Item</a> &amp;item)</td></tr>
 <tr class="separator:a234402c55e543a55b3c6764e0b909517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4ce0ba205bcd86c2ff0d22b7aa3be43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1APE_1_1Item.html#ab4ce0ba205bcd86c2ff0d22b7aa3be43">swap</a> (<a class="el" href="classTagLib_1_1APE_1_1Item.html">Item</a> &amp;item) noexcept</td></tr>
@@ -200,7 +200,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Constructs an item with <em>key</em> and <em>value</em>. If <em>binary</em> is true a Binary item will be created, otherwise <em>value</em> will be interpreted as text </p>
+<p >Constructs an item with <em>key</em> and <em>value</em>. If <em>binary</em> is <code>true</code> a Binary item will be created, otherwise <em>value</em> will be interpreted as text </p>
 
 </div>
 </div>
@@ -223,27 +223,19 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af4906070c19ebdff10c5213773bb9d1a" name="af4906070c19ebdff10c5213773bb9d1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4906070c19ebdff10c5213773bb9d1a">&#9670;&nbsp;</a></span>~Item()</h2>
+<a id="a811fc25a3e34be558d527f43a3bfef89" name="a811fc25a3e34be558d527f43a3bfef89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a811fc25a3e34be558d527f43a3bfef89">&#9670;&nbsp;</a></span>~Item()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual TagLib::APE::Item::~Item </td>
+          <td class="memname">TagLib::APE::Item::~Item </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p >Destroys the item. </p>
 
@@ -322,7 +314,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns if the item has any real content. </p>
+<p >Returns <code>false</code> if the item has any real content. </p>
 
 </div>
 </div>
@@ -340,7 +332,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Return true if the item is read-only. </p>
+<p >Return <code>true</code> if the item is read-only. </p>
 
 </div>
 </div>
@@ -576,7 +568,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Exchanges the content of this item by the content of <em>item</em>. </p>
+<p >Exchanges the content of this item with the content of <em>item</em>. </p>
 
 </div>
 </div>

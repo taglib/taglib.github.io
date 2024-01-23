@@ -1,17 +1,12 @@
 <map id="attachedpictureframe.h" name="attachedpictureframe.h">
-<area shape="rect" id="node1" title=" " alt="" coords="73,5,248,32"/>
-<area shape="rect" id="node2" href="$taglib__export_8h.html" title=" " alt="" coords="11,304,131,331"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node2" href="$taglib__export_8h.html" title=" " alt="" coords="23,304,143,331"/>
 <area shape="rect" id="node3" href="$tpicturetype_8h.html" title=" " alt="" coords="36,80,149,107"/>
 <area shape="rect" id="node4" href="$id3v2frame_8h.html" title=" " alt="" coords="174,80,283,107"/>
-<area shape="rect" id="node14" href="$id3v2header_8h.html" title=" " alt="" coords="263,155,378,181"/>
-<area shape="rect" id="node5" href="$tstring_8h.html" title=" " alt="" coords="403,155,479,181"/>
-<area shape="rect" id="node8" href="$tbytevector_8h.html" title=" " alt="" coords="200,229,308,256"/>
-<area shape="rect" id="node6" title=" " alt="" coords="441,304,521,331"/>
-<area shape="rect" id="node7" title=" " alt="" coords="511,379,570,405"/>
-<area shape="rect" id="node11" href="$taglib_8h.html" title=" " alt="" coords="345,304,416,331"/>
-<area shape="rect" id="node9" title=" " alt="" coords="243,304,321,331"/>
-<area shape="rect" id="node10" title=" " alt="" coords="156,304,219,331"/>
-<area shape="rect" id="node12" title=" " alt="" coords="338,379,455,405"/>
-<area shape="rect" id="node13" title=" " alt="" coords="218,379,314,405"/>
-<area shape="rect" id="node15" href="$id3v2_8h.html" title=" " alt="" coords="332,229,403,256"/>
+<area shape="rect" id="node5" href="$tstring_8h.html" title=" " alt="" coords="167,155,243,181"/>
+<area shape="rect" id="node7" href="$tbytevector_8h.html" title=" " alt="" coords="251,229,359,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="167,229,226,256"/>
+<area shape="rect" id="node8" title=" " alt="" coords="171,304,249,331"/>
+<area shape="rect" id="node9" title=" " alt="" coords="273,304,336,331"/>
+<area shape="rect" id="node10" title=" " alt="" coords="361,304,425,331"/>
 </map>

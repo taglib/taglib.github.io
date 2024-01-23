@@ -35,15 +35,15 @@ Functions</h2></td></tr>
 <tr class="separator:ae6d67aab1aa04e55ddd13bb345c8bdcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a094f8cf57a9534e96d6a93739cf4498b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="taglib__export_8h.html#a869a58b518ef871f14a9b4ccfe86ecfb">TAGLIB_EXPORT</a> <a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTagLib_1_1ID3v2_1_1SynchData.html#a094f8cf57a9534e96d6a93739cf4498b">fromUInt</a> (unsigned int value)</td></tr>
 <tr class="separator:a094f8cf57a9534e96d6a93739cf4498b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b7fba6cc4ccc1fb46535b8e064f3c2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="taglib__export_8h.html#a869a58b518ef871f14a9b4ccfe86ecfb">TAGLIB_EXPORT</a> <a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTagLib_1_1ID3v2_1_1SynchData.html#a7b7fba6cc4ccc1fb46535b8e064f3c2c">decode</a> (const <a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a> &amp;input)</td></tr>
-<tr class="separator:a7b7fba6cc4ccc1fb46535b8e064f3c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9108ba2d3853631d166e9440da360eb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="taglib__export_8h.html#a869a58b518ef871f14a9b4ccfe86ecfb">TAGLIB_EXPORT</a> <a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTagLib_1_1ID3v2_1_1SynchData.html#a9108ba2d3853631d166e9440da360eb8">decode</a> (const <a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a> &amp;data)</td></tr>
+<tr class="separator:a9108ba2d3853631d166e9440da360eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A few functions for <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> synch safe integer conversion. </p>
 <p >In the ID3v2.4 standard most integer values are encoded as "synch safe" integers which are encoded in such a way that they will not give false <a class="el" href="namespaceTagLib_1_1MPEG.html" title="An implementation of TagLib::File with MPEG (MP3) specific methods.">MPEG</a> syncs and confuse <a class="el" href="namespaceTagLib_1_1MPEG.html" title="An implementation of TagLib::File with MPEG (MP3) specific methods.">MPEG</a> decoders. This namespace provides some methods for converting to and from these values to ByteVectors for things rendering and parsing <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> data. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a7b7fba6cc4ccc1fb46535b8e064f3c2c" name="a7b7fba6cc4ccc1fb46535b8e064f3c2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b7fba6cc4ccc1fb46535b8e064f3c2c">&#9670;&nbsp;</a></span>decode()</h2>
+<a id="a9108ba2d3853631d166e9440da360eb8" name="a9108ba2d3853631d166e9440da360eb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9108ba2d3853631d166e9440da360eb8">&#9670;&nbsp;</a></span>decode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -52,7 +52,7 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="taglib__export_8h.html#a869a58b518ef871f14a9b4ccfe86ecfb">TAGLIB_EXPORT</a> <a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a> TagLib::ID3v2::SynchData::decode </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>input</em></td><td>)</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -95,7 +95,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >This returns the unsigned integer value of <em>data</em> where <em>data</em> is a <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> that contains a <em>synchsafe</em> integer (Structure, <a href="id3v2-structure.html#6.2">6.2</a>). The default <em>length</em> of 4 is used if another value is not specified. </p>
+<p >This returns the unsigned integer value of <em>data</em> where <em>data</em> is a <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> that contains a <em>synchsafe</em> integer (<a href="https://github.com/taglib/taglib/blob/master/taglib/mpeg/id3v2/id3v2.4.0-structure.txt">id3v2.4.0-structure.txt</a>, 6.2). The default <em>length</em> of 4 is used if another value is not specified. </p>
 
 </div>
 </div>

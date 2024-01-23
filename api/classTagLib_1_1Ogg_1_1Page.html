@@ -52,8 +52,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9f988ca2b62c75bb473d7067492a002a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Ogg_1_1Page.html#a9f988ca2b62c75bb473d7067492a002a">Page</a> (<a class="el" href="classTagLib_1_1Ogg_1_1File.html">File</a> *file, <a class="el" href="namespaceTagLib.html#a09d39bc352b8aaf304b7c5ae453f37ad">offset_t</a> pageOffset)</td></tr>
 <tr class="separator:a9f988ca2b62c75bb473d7067492a002a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7b134c31a9387f4cf4b18b559f1036f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Ogg_1_1Page.html#aa7b134c31a9387f4cf4b18b559f1036f">~Page</a> ()</td></tr>
-<tr class="separator:aa7b134c31a9387f4cf4b18b559f1036f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59d1d93fea39a53e6899b10063d82824"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Ogg_1_1Page.html#a59d1d93fea39a53e6899b10063d82824">~Page</a> ()</td></tr>
+<tr class="separator:a59d1d93fea39a53e6899b10063d82824"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5755be606c341a55486f7d1ce504842c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Ogg_1_1Page.html#a5755be606c341a55486f7d1ce504842c">Page</a> (const <a class="el" href="classTagLib_1_1Ogg_1_1Page.html">Page</a> &amp;)=delete</td></tr>
 <tr class="separator:a5755be606c341a55486f7d1ce504842c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f1ca316d0896ed344726519a7aadc40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTagLib_1_1Ogg_1_1Page.html">Page</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Ogg_1_1Page.html#a6f1ca316d0896ed344726519a7aadc40">operator=</a> (const <a class="el" href="classTagLib_1_1Ogg_1_1Page.html">Page</a> &amp;)=delete</td></tr>
@@ -94,7 +94,7 @@ Protected Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >An implementation of <a class="el" href="namespaceTagLib_1_1Ogg.html" title="A namespace for the classes used by Ogg-based metadata files.">Ogg</a> pages. </p>
 <p >This is an implementation of the pages that make up an <a class="el" href="namespaceTagLib_1_1Ogg.html" title="A namespace for the classes used by Ogg-based metadata files.">Ogg</a> stream. This handles parsing pages and breaking them down into packets and handles the details of packets spanning multiple pages and pages that contain multiple packets.</p>
-<p >In most Xiph.org formats the comments are found in the first few packets, this however is a reasonably complete implementation of <a class="el" href="namespaceTagLib_1_1Ogg.html" title="A namespace for the classes used by Ogg-based metadata files.">Ogg</a> pages that could potentially be useful for non-meta data purposes. </p>
+<p >In most Xiph.org formats the comments are found in the first few packets, this however is a reasonably complete implementation of <a class="el" href="namespaceTagLib_1_1Ogg.html" title="A namespace for the classes used by Ogg-based metadata files.">Ogg</a> pages that could potentially be useful for non-metadata purposes. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a8fd971051aba938abb6263a5509c4bb4" name="a8fd971051aba938abb6263a5509c4bb4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8fd971051aba938abb6263a5509c4bb4">&#9670;&nbsp;</a></span>ContainsPacketFlags</h2>
@@ -107,7 +107,7 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >When checking to see if a page contains a given packet this set of flags represents the possible values for that packets status in the page.</p>
+<p >When checking to see if a page contains a given packet this set of flags represents the possible values for that packet's status in the page.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1Ogg_1_1Page.html#aa45829cebaf7928a74ea079c08e87b66">containsPacket()</a> </dd></dl>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8fd971051aba938abb6263a5509c4bb4a223eb5ed1bbe4ec766245332f5cff3b9" name="a8fd971051aba938abb6263a5509c4bb4a223eb5ed1bbe4ec766245332f5cff3b9"></a>DoesNotContainPacket&#160;</td><td class="fielddoc"><p >No part of the packet is contained in the page. </p>
@@ -174,27 +174,19 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa7b134c31a9387f4cf4b18b559f1036f" name="aa7b134c31a9387f4cf4b18b559f1036f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7b134c31a9387f4cf4b18b559f1036f">&#9670;&nbsp;</a></span>~Page()</h2>
+<a id="a59d1d93fea39a53e6899b10063d82824" name="a59d1d93fea39a53e6899b10063d82824"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59d1d93fea39a53e6899b10063d82824">&#9670;&nbsp;</a></span>~Page()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual TagLib::Ogg::Page::~Page </td>
+          <td class="memname">TagLib::Ogg::Page::~Page </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -508,7 +500,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Pack <em>packets</em> into <a class="el" href="namespaceTagLib_1_1Ogg.html" title="A namespace for the classes used by Ogg-based metadata files.">Ogg</a> pages using the <em>strategy</em> for pagination. The page number indicator inside of the rendered packets will start with <em>firstPage</em> and be incremented for each page rendered. <em>containsLastPacket</em> should be set to true if <em>packets</em> contains the last page in the stream and will set the appropriate flag in the last rendered <a class="el" href="namespaceTagLib_1_1Ogg.html" title="A namespace for the classes used by Ogg-based metadata files.">Ogg</a> page's header. <em>streamSerialNumber</em> should be set to the serial number for this stream.</p>
+<p >Pack <em>packets</em> into <a class="el" href="namespaceTagLib_1_1Ogg.html" title="A namespace for the classes used by Ogg-based metadata files.">Ogg</a> pages using the <em>strategy</em> for pagination. The page number indicator inside of the rendered packets will start with <em>firstPage</em> and be incremented for each page rendered. <em>containsLastPacket</em> should be set to <code>true</code> if <em>packets</em> contains the last page in the stream and will set the appropriate flag in the last rendered <a class="el" href="namespaceTagLib_1_1Ogg.html" title="A namespace for the classes used by Ogg-based metadata files.">Ogg</a> page's header. <em>streamSerialNumber</em> should be set to the serial number for this stream.</p>
 <dl class="section note"><dt>Note</dt><dd>The "absolute granule position" is currently always zeroed using this method as this suffices for the comment headers.</dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>The pages returned by this method must be deleted by the user. You can use List&lt;T&gt;::setAutoDelete(true) to set these pages to be automatically deleted when this list passes out of scope.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1Ogg_1_1Page.html#a6802093f7b959a20ea1e7b25c6294e5b">PaginationStrategy</a> </dd>

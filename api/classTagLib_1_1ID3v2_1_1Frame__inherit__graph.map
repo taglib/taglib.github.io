@@ -8,7 +8,7 @@
 <area shape="rect" id="node9" href="$classTagLib_1_1ID3v2_1_1OwnershipFrame.html" title="An implementation of ID3v2 &quot;ownership&quot;." alt="" coords="458,304,645,345"/>
 <area shape="rect" id="node10" href="$classTagLib_1_1ID3v2_1_1PodcastFrame.html" title="ID3v2 podcast frame." alt="" coords="447,370,656,397"/>
 <area shape="rect" id="node11" href="$classTagLib_1_1ID3v2_1_1PopularimeterFrame.html" title="An implementation of ID3v2 &quot;popularimeter&quot;." alt="" coords="447,421,656,463"/>
-<area shape="rect" id="node12" href="$classTagLib_1_1ID3v2_1_1PrivateFrame.html" title="An implementation of ID3v2 privateframe." alt="" coords="449,487,653,514"/>
+<area shape="rect" id="node12" href="$classTagLib_1_1ID3v2_1_1PrivateFrame.html" title="An implementation of ID3v2 private frame." alt="" coords="449,487,653,514"/>
 <area shape="rect" id="node13" href="$classTagLib_1_1ID3v2_1_1RelativeVolumeFrame.html" title="An ID3v2 relative volume adjustment frame implementation." alt="" coords="441,539,661,580"/>
 <area shape="rect" id="node14" href="$classTagLib_1_1ID3v2_1_1SynchronizedLyricsFrame.html" title="ID3v2 synchronized lyrics frame." alt="" coords="449,604,653,645"/>
 <area shape="rect" id="node15" href="$classTagLib_1_1ID3v2_1_1TableOfContentsFrame.html" title="An implementation of ID3v2 table of contents frames." alt="" coords="439,669,663,711"/>

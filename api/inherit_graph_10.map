@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classTagLib_1_1FLAC_1_1MetadataBlock.html" title=" " alt="" coords="5,35,216,61"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1FLAC_1_1Picture.html" title=" " alt="" coords="303,5,461,32"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1FLAC_1_1UnknownMetadataBlock.html" title=" " alt="" coords="264,57,500,98"/>
+<area shape="rect" id="node1" href="$classTagLib_1_1FLAC_1_1MetadataBlock.html" title="FLAC metadata block." alt="" coords="5,35,216,61"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1FLAC_1_1Picture.html" title="FLAC picture." alt="" coords="303,5,461,32"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1FLAC_1_1UnknownMetadataBlock.html" title="Unknown FLAC metadata block." alt="" coords="264,57,500,98"/>
 </map>

@@ -1,12 +1,8 @@
 <map id="tmap.h" name="tmap.h">
-<area shape="rect" id="node1" title=" " alt="" coords="258,5,326,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="203,5,271,32"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,80,56,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="80,80,157,107"/>
 <area shape="rect" id="node4" title=" " alt="" coords="182,80,293,107"/>
 <area shape="rect" id="node5" title=" " alt="" coords="317,80,377,107"/>
-<area shape="rect" id="node6" href="$taglib_8h.html" title=" " alt="" coords="401,80,471,107"/>
-<area shape="rect" id="node10" title=" " alt="" coords="495,80,574,107"/>
-<area shape="rect" id="node7" title=" " alt="" coords="247,155,364,181"/>
-<area shape="rect" id="node8" title=" " alt="" coords="388,155,484,181"/>
-<area shape="rect" id="node9" title=" " alt="" coords="508,155,567,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="401,80,479,107"/>
 </map>

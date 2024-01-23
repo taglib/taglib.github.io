@@ -219,7 +219,7 @@ Related Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A byte vector. </p>
-<p >This class provides a byte vector with some methods that are useful for tagging purposes. Many of the search functions are tailored to what is useful for finding tag related patterns in a data array. </p>
+<p >This class provides an implicitly shared byte vector with some methods that are useful for tagging purposes. Many of the search functions are tailored to what is useful for finding tag related patterns in a data array. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af6e5b2614dacfc049b5b6e32063d4aa1" name="af6e5b2614dacfc049b5b6e32063d4aa1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af6e5b2614dacfc049b5b6e32063d4aa1">&#9670;&nbsp;</a></span>ByteVector() <span class="overload">[1/7]</span></h2>
@@ -656,6 +656,7 @@ Related Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >If this <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> is being shared via implicit sharing, do a deep copy of the data and separate from the shared members. This should be called by all non-const subclass members. </p>
 
 </div>
 </div>
@@ -710,7 +711,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if the vector ends with <em>pattern</em>. </p>
+<p >Returns <code>true</code> if the vector ends with <em>pattern</em>. </p>
 
 </div>
 </div>
@@ -827,7 +828,8 @@ Related Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Decodes the base64 encoded byte vector. </p>
+<p >Decodes the base64 encoded byte vector.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a6b42194375d3bf08131ad680b5078647">toBase64()</a> </dd></dl>
 
 </div>
 </div>
@@ -892,7 +894,7 @@ Related Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p >Creates a 4 byte <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> based on <em>value</em> as an IEEE754 32-bit big-endian floating point number.</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a75e0045d245950a0b1e73f79bc3b6f7d">fromFloat32LE()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a93f0a17258a7aeab6d9e61b211ff7816">toFloat32BE()</a> </dd></dl>
 
 </div>
 </div>
@@ -920,7 +922,7 @@ Related Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p >Creates a 4 byte <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> based on <em>value</em> as an IEEE754 32-bit little-endian floating point number.</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#ad8776da15f1e921a9643a4b10c39ddec">fromFloat32BE()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a505752b163a2896ca700fd634a0b3d25">toFloat32LE()</a> </dd></dl>
 
 </div>
 </div>
@@ -947,8 +949,8 @@ Related Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Creates a 8 byte <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> based on <em>value</em> as an IEEE754 64-bit big-endian floating point number.</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a545dd80c5cff59a070b804d3d2bcc979">fromFloat64LE()</a> </dd></dl>
+<p >Creates an 8 byte <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> based on <em>value</em> as an IEEE754 64-bit big-endian floating point number.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#ac0cfd1f2d5cf744e51301dc7fabe64c6">toFloat64BE()</a> </dd></dl>
 
 </div>
 </div>
@@ -975,8 +977,8 @@ Related Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Creates a 8 byte <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> based on <em>value</em> as an IEEE754 64-bit little-endian floating point number.</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#ab86ed6c1ddef60bd2a1b3c099fba1982">fromFloat64BE()</a> </dd></dl>
+<p >Creates an 8 byte <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> based on <em>value</em> as an IEEE754 64-bit little-endian floating point number.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a4785d204bc4dc9276312a57452fc8d4f">toFloat64LE()</a> </dd></dl>
 
 </div>
 </div>
@@ -1013,7 +1015,7 @@ Related Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Creates a 8 byte <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> based on <em>value</em>. If <em>mostSignificantByteFirst</em> is true, then this will operate left to right in building the <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a>. For example if <em>mostSignificantByteFirst</em> is true then $00 00 00 01 == 0x0000000000000001 == 1, if false, $01 00 00 00 00 00 00 00 == 0x0100000000000000 == 1.</p>
+<p >Creates an 8 byte <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> based on <em>value</em>. If <em>mostSignificantByteFirst</em> is <code>true</code>, then this will operate left to right in building the <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a>. For example if <em>mostSignificantByteFirst</em> is <code>true</code> then $00 00 00 01 == 0x0000000000000001 == 1, if <code>false</code>, $01 00 00 00 00 00 00 00 == 0x0100000000000000 == 1.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#ade89536283f902a1e05624d283d63fb2">toLongLong()</a> </dd></dl>
 
 </div>
@@ -1051,7 +1053,7 @@ Related Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Creates a 2 byte <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> based on <em>value</em>. If <em>mostSignificantByteFirst</em> is true, then this will operate left to right in building the <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a>. For example if <em>mostSignificantByteFirst</em> is true then $00 01 == 0x0001 == 1, if false, $01 00 == 0x0100 == 1.</p>
+<p >Creates a 2 byte <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> based on <em>value</em>. If <em>mostSignificantByteFirst</em> is <code>true</code>, then this will operate left to right in building the <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a>. For example if <em>mostSignificantByteFirst</em> is <code>true</code> then $00 01 == 0x0001 == 1, if <code>false</code>, $01 00 == 0x0100 == 1.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#afd80366f7c2ec2f04c9033b411fc28fc">toShort()</a> </dd></dl>
 
 </div>
@@ -1089,7 +1091,7 @@ Related Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Creates a 4 byte <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> based on <em>value</em>. If <em>mostSignificantByteFirst</em> is true, then this will operate left to right in building the <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a>. For example if <em>mostSignificantByteFirst</em> is true then $00 00 00 01 == 0x00000001 == 1, if false, $01 00 00 00 == 0x01000000 == 1.</p>
+<p >Creates a 4 byte <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> based on <em>value</em>. If <em>mostSignificantByteFirst</em> is <code>true</code>, then this will operate left to right in building the <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a>. For example if <em>mostSignificantByteFirst</em> is <code>true</code> then $00 00 00 01 == 0x00000001 == 1, if <code>false</code>, $01 00 00 00 == 0x01000000 == 1.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#abcf244fad24bb966607e9cc418e97a99">toUInt()</a> </dd></dl>
 
 </div>
@@ -1127,7 +1129,7 @@ Related Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Creates a 8 byte <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> based on <em>value</em>. If <em>mostSignificantByteFirst</em> is true, then this will operate left to right in building the <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a>. For example if <em>mostSignificantByteFirst</em> is true then $00 00 00 01 == 0x0000000000000001 == 1, if false, $01 00 00 00 00 00 00 00 == 0x0100000000000000 == 1.</p>
+<p >Creates an 8 byte <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> based on <em>value</em>. If <em>mostSignificantByteFirst</em> is <code>true</code>, then this will operate left to right in building the <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a>. For example if <em>mostSignificantByteFirst</em> is <code>true</code> then $00 00 00 01 == 0x0000000000000001 == 1, if <code>false</code>, $01 00 00 00 00 00 00 00 == 0x0100000000000000 == 1.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a6caf04fa53db2ae5bc851cfe1250650c">toULongLong()</a> </dd></dl>
 
 </div>
@@ -1165,7 +1167,7 @@ Related Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Creates a 2 byte <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> based on <em>value</em>. If <em>mostSignificantByteFirst</em> is true, then this will operate left to right in building the <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a>. For example if <em>mostSignificantByteFirst</em> is true then $00 01 == 0x0001 == 1, if false, $01 00 == 0x0100 == 1.</p>
+<p >Creates a 2 byte <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> based on <em>value</em>. If <em>mostSignificantByteFirst</em> is <code>true</code>, then this will operate left to right in building the <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a>. For example if <em>mostSignificantByteFirst</em> is <code>true</code> then $00 01 == 0x0001 == 1, if <code>false</code>, $01 00 == 0x0100 == 1.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a2a71a86707473f3a6310f6dd1cdb4f1f">toUShort()</a> </dd></dl>
 
 </div>
@@ -1184,7 +1186,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if the <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> is empty.</p>
+<p >Returns <code>true</code> if the <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> is empty.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#abd17238daa4fad5eae1ff421e550facd">size()</a> </dd></dl>
 
 </div>
@@ -1233,7 +1235,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if this <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> and <em>v</em> are not equal. </p>
+<p >Returns <code>true</code> if this <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> and <em>v</em> are not equal. </p>
 
 </div>
 </div>
@@ -1252,7 +1254,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if this <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> and the null terminated C string <em>s</em> do not contain the same data. </p>
+<p >Returns <code>true</code> if this <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> and the null terminated C string <em>s</em> do not contain the same data. </p>
 
 </div>
 </div>
@@ -1290,7 +1292,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if this <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> is less than <em>v</em>. The value of the vectors is determined by evaluating the character from left to right, and in the event one vector is a superset of the other, the size is used. </p>
+<p >Returns <code>true</code> if this <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> is less than <em>v</em>. The value of the vectors is determined by evaluating the character from left to right, and in the event one vector is a superset of the other, the size is used. </p>
 
 </div>
 </div>
@@ -1367,7 +1369,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if this <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> and <em>v</em> are equal. </p>
+<p >Returns <code>true</code> if this <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> and <em>v</em> are equal. </p>
 
 </div>
 </div>
@@ -1386,7 +1388,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if this <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> and the null terminated C string <em>s</em> contain the same data. </p>
+<p >Returns <code>true</code> if this <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> and the null terminated C string <em>s</em> contain the same data. </p>
 
 </div>
 </div>
@@ -1405,7 +1407,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if this <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> is greater than <em>v</em>. </p>
+<p >Returns <code>true</code> if this <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> is greater than <em>v</em>. </p>
 
 </div>
 </div>
@@ -1722,7 +1724,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if the vector starts with <em>pattern</em>. </p>
+<p >Returns <code>true</code> if the vector starts with <em>pattern</em>. </p>
 
 </div>
 </div>
@@ -1749,7 +1751,7 @@ Related Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Exchanges the content of the <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> by the content of <em>v</em>. </p>
+<p >Exchanges the content of the <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> with the content of <em>v</em>. </p>
 
 </div>
 </div>
@@ -1767,7 +1769,8 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns a base64 encoded copy of the byte vector </p>
+<p >Returns a base64 encoded copy of the byte vector</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a258b37359217aacf0c494a192129589c">fromBase64()</a> </dd></dl>
 
 </div>
 </div>
@@ -1786,6 +1789,8 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Converts the 4 bytes at <em>offset</em> of the vector to a float as an IEEE754 32-bit big-endian floating point number.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#ad8776da15f1e921a9643a4b10c39ddec">fromFloat32BE()</a> </dd></dl>
 
 </div>
 </div>
@@ -1804,6 +1809,8 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Converts the 4 bytes at <em>offset</em> of the vector to a float as an IEEE754 32-bit little-endian floating point number.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a75e0045d245950a0b1e73f79bc3b6f7d">fromFloat32LE()</a> </dd></dl>
 
 </div>
 </div>
@@ -1822,6 +1829,8 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Converts the 8 bytes at <em>offset</em> of the vector to a double as an IEEE754 64-bit big-endian floating point number.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#ab86ed6c1ddef60bd2a1b3c099fba1982">fromFloat64BE()</a> </dd></dl>
 
 </div>
 </div>
@@ -1840,6 +1849,8 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Converts the 8 bytes at <em>offset</em> of the vector to a double as an IEEE754 64-bit little-endian floating point number.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a545dd80c5cff59a070b804d3d2bcc979">fromFloat64LE()</a> </dd></dl>
 
 </div>
 </div>
@@ -1858,6 +1869,8 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Converts the 10 bytes at <em>offset</em> of the vector to a long double as an IEEE754 80-bit big-endian floating point number.</p>
+<dl class="section note"><dt>Note</dt><dd>This may compromise the precision depending on the size of long double. </dd></dl>
 
 </div>
 </div>
@@ -1876,6 +1889,8 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Converts the 10 bytes at <em>offset</em> of the vector to a long double as an IEEE754 80-bit little-endian floating point number.</p>
+<dl class="section note"><dt>Note</dt><dd>This may compromise the precision depending on the size of long double. </dd></dl>
 
 </div>
 </div>
@@ -1913,7 +1928,7 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Converts the first 8 bytes of the vector to a (signed) long long.</p>
-<p >If <em>mostSignificantByteFirst</em> is true this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is true then $00 00 00 00 00 00 00 01 == 0x0000000000000001 == 1, if false, $01 00 00 00 00 00 00 00 == 0x0100000000000000 == 1.</p>
+<p >If <em>mostSignificantByteFirst</em> is <code>true</code> this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is <code>true</code> then $00 00 00 00 00 00 00 01 == 0x0000000000000001 == 1, if <code>false</code>, $01 00 00 00 00 00 00 00 == 0x0100000000000000 == 1.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a51b81a576453f38fb816294f1e77a76d">fromLongLong()</a> </dd></dl>
 
 </div>
@@ -1944,7 +1959,7 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Converts the 8 bytes at <em>offset</em> of the vector to a (signed) long long.</p>
-<p >If <em>mostSignificantByteFirst</em> is true this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is true then $00 00 00 00 00 00 00 01 == 0x0000000000000001 == 1, if false, $01 00 00 00 00 00 00 00 == 0x0100000000000000 == 1.</p>
+<p >If <em>mostSignificantByteFirst</em> is <code>true</code> this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is <code>true</code> then $00 00 00 00 00 00 00 01 == 0x0000000000000001 == 1, if <code>false</code>, $01 00 00 00 00 00 00 00 == 0x0100000000000000 == 1.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a51b81a576453f38fb816294f1e77a76d">fromLongLong()</a> </dd></dl>
 
 </div>
@@ -1965,7 +1980,7 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Converts the first 2 bytes of the vector to a (signed) short.</p>
-<p >If <em>mostSignificantByteFirst</em> is true this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is true then $00 $01 == 0x0001 == 1, if false, $01 00 == 0x01000000 == 1.</p>
+<p >If <em>mostSignificantByteFirst</em> is <code>true</code> this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is <code>true</code> then $00 $01 == 0x0001 == 1, if <code>false</code>, $01 00 == 0x01000000 == 1.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a162543bf4b280468a677799686178522">fromShort()</a> </dd></dl>
 
 </div>
@@ -1996,7 +2011,7 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Converts the 2 bytes at <em>offset</em> of the vector to a (signed) short.</p>
-<p >If <em>mostSignificantByteFirst</em> is true this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is true then $00 $01 == 0x0001 == 1, if false, $01 00 == 0x01000000 == 1.</p>
+<p >If <em>mostSignificantByteFirst</em> is <code>true</code> this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is <code>true</code> then $00 $01 == 0x0001 == 1, if <code>false</code>, $01 00 == 0x01000000 == 1.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a162543bf4b280468a677799686178522">fromShort()</a> </dd></dl>
 
 </div>
@@ -2017,7 +2032,7 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Converts the first 4 bytes of the vector to an unsigned integer.</p>
-<p >If <em>mostSignificantByteFirst</em> is true this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is true then $00 $00 $00 $01 == 0x00000001 == 1, if false, $01 00 00 00 == 0x01000000 == 1.</p>
+<p >If <em>mostSignificantByteFirst</em> is <code>true</code> this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is <code>true</code> then $00 $00 $00 $01 == 0x00000001 == 1, if <code>false</code>, $01 00 00 00 == 0x01000000 == 1.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a8b8cc9274056ef65cdcfe026843cbfb8">fromUInt()</a> </dd></dl>
 
 </div>
@@ -2048,7 +2063,7 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Converts the 4 bytes at <em>offset</em> of the vector to an unsigned integer.</p>
-<p >If <em>mostSignificantByteFirst</em> is true this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is true then $00 $00 $00 $01 == 0x00000001 == 1, if false, $01 00 00 00 == 0x01000000 == 1.</p>
+<p >If <em>mostSignificantByteFirst</em> is <code>true</code> this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is <code>true</code> then $00 $00 $00 $01 == 0x00000001 == 1, if <code>false</code>, $01 00 00 00 == 0x01000000 == 1.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a8b8cc9274056ef65cdcfe026843cbfb8">fromUInt()</a> </dd></dl>
 
 </div>
@@ -2085,7 +2100,7 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Converts the <em>length</em> bytes at <em>offset</em> of the vector to an unsigned integer. If <em>length</em> is larger than 4, the excess is ignored.</p>
-<p >If <em>mostSignificantByteFirst</em> is true this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is true then $00 $00 $00 $01 == 0x00000001 == 1, if false, $01 00 00 00 == 0x01000000 == 1.</p>
+<p >If <em>mostSignificantByteFirst</em> is <code>true</code> this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is <code>true</code> then $00 $00 $00 $01 == 0x00000001 == 1, if <code>false</code>, $01 00 00 00 == 0x01000000 == 1.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a8b8cc9274056ef65cdcfe026843cbfb8">fromUInt()</a> </dd></dl>
 
 </div>
@@ -2106,7 +2121,7 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Converts the first 8 bytes of the vector to an unsigned long long.</p>
-<p >If <em>mostSignificantByteFirst</em> is true this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is true then $00 00 00 00 00 00 00 01 == 0x0000000000000001 == 1, if false, $01 00 00 00 00 00 00 00 == 0x0100000000000000 == 1.</p>
+<p >If <em>mostSignificantByteFirst</em> is <code>true</code> this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is <code>true</code> then $00 00 00 00 00 00 00 01 == 0x0000000000000001 == 1, if <code>false</code>, $01 00 00 00 00 00 00 00 == 0x0100000000000000 == 1.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#af0119a6cdef00b3343786f35bf1a6b7a">fromULongLong()</a> </dd></dl>
 
 </div>
@@ -2137,7 +2152,7 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Converts the 8 bytes at <em>offset</em> of the vector to an unsigned long long.</p>
-<p >If <em>mostSignificantByteFirst</em> is true this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is true then $00 00 00 00 00 00 00 01 == 0x0000000000000001 == 1, if false, $01 00 00 00 00 00 00 00 == 0x0100000000000000 == 1.</p>
+<p >If <em>mostSignificantByteFirst</em> is <code>true</code> this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is <code>true</code> then $00 00 00 00 00 00 00 01 == 0x0000000000000001 == 1, if <code>false</code>, $01 00 00 00 00 00 00 00 == 0x0100000000000000 == 1.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#af0119a6cdef00b3343786f35bf1a6b7a">fromULongLong()</a> </dd></dl>
 
 </div>
@@ -2158,7 +2173,7 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Converts the first 2 bytes of the vector to an unsigned short.</p>
-<p >If <em>mostSignificantByteFirst</em> is true this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is true then $00 $01 == 0x0001 == 1, if false, $01 00 == 0x01000000 == 1.</p>
+<p >If <em>mostSignificantByteFirst</em> is <code>true</code> this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is <code>true</code> then $00 $01 == 0x0001 == 1, if <code>false</code>, $01 00 == 0x01000000 == 1.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a439ec22666f883d2ee2c60ab442a76b7">fromUShort()</a> </dd></dl>
 
 </div>
@@ -2189,7 +2204,7 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Converts the 2 bytes at <em>offset</em> of the vector to an unsigned short.</p>
-<p >If <em>mostSignificantByteFirst</em> is true this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is true then $00 $01 == 0x0001 == 1, if false, $01 00 == 0x01000000 == 1.</p>
+<p >If <em>mostSignificantByteFirst</em> is <code>true</code> this will operate left to right evaluating the integer. For example if <em>mostSignificantByteFirst</em> is <code>true</code> then $00 $01 == 0x0001 == 1, if <code>false</code>, $01 00 == 0x01000000 == 1.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1ByteVector.html#a439ec22666f883d2ee2c60ab442a76b7">fromUShort()</a> </dd></dl>
 
 </div>

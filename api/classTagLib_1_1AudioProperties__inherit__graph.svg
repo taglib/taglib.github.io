@@ -66,7 +66,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classTagLib_1_1DSF_1_1Properties.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classTagLib_1_1DSF_1_1Properties.html" target="_top" xlink:title="An implementation of audio properties for DSF.">
 <polygon fill="white" stroke="black" points="179,-638.5 179,-657.5 307,-657.5 307,-638.5 179,-638.5"/>
 <text text-anchor="middle" x="243" y="-645.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::DSF::Properties</text>
 </a>
@@ -96,7 +96,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="classTagLib_1_1IT_1_1Properties.html" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="classTagLib_1_1IT_1_1Properties.html" target="_top" xlink:title="An implementation of audio property reading for IT.">
 <polygon fill="white" stroke="black" points="184.5,-562.5 184.5,-581.5 301.5,-581.5 301.5,-562.5 184.5,-562.5"/>
 <text text-anchor="middle" x="243" y="-569.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::IT::Properties</text>
 </a>
@@ -156,7 +156,7 @@
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="classTagLib_1_1Mod_1_1Properties.html" target="_top" xlink:title=" ">
+<g id="a_node11"><a xlink:href="classTagLib_1_1Mod_1_1Properties.html" target="_top" xlink:title="An implementation of audio property reading for Mod.">
 <polygon fill="white" stroke="black" points="178,-410.5 178,-429.5 308,-429.5 308,-410.5 178,-410.5"/>
 <text text-anchor="middle" x="243" y="-417.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::Mod::Properties</text>
 </a>
@@ -251,7 +251,7 @@
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="classTagLib_1_1S3M_1_1Properties.html" target="_top" xlink:title=" ">
+<g id="a_node17"><a xlink:href="classTagLib_1_1S3M_1_1Properties.html" target="_top" xlink:title="An implementation of audio property reading for S3M.">
 <polygon fill="white" stroke="black" points="178,-126.5 178,-145.5 308,-145.5 308,-126.5 178,-126.5"/>
 <text text-anchor="middle" x="243" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::S3M::Properties</text>
 </a>
@@ -297,7 +297,7 @@
 <!-- Node20 -->
 <g id="node20" class="node">
 <title>Node20</title>
-<g id="a_node20"><a xlink:href="classTagLib_1_1XM_1_1Properties.html" target="_top" xlink:title=" ">
+<g id="a_node20"><a xlink:href="classTagLib_1_1XM_1_1Properties.html" target="_top" xlink:title="An implementation of audio property reading for XM.">
 <polygon fill="white" stroke="black" points="180.5,-0.5 180.5,-19.5 305.5,-19.5 305.5,-0.5 180.5,-0.5"/>
 <text text-anchor="middle" x="243" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::XM::Properties</text>
 </a>

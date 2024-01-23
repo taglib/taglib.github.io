@@ -28,7 +28,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>A map for format-independent &lt;key,valuelist&gt; tag representations.  
+<p>A map for format-independent &lt;key,values&gt; tag representations.  
  <a href="classTagLib_1_1PropertyMap.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="tpropertymap_8h_source.html">tpropertymap.h</a>&gt;</code></p>
@@ -163,7 +163,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ae5d5f7c7021e07679aa1a710f3ae8dc0 inherit pro_methods_classTagLib_1_1Map"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >A map for format-independent &lt;key,valuelist&gt; tag representations. </p>
+<div class="textblock"><p >A map for format-independent &lt;key,values&gt; tag representations. </p>
 <p >This map implements a generic representation of textual audio metadata ("tags") realized as pairs of a case-insensitive key and a nonempty list of corresponding values, each value being an arbitrary unicode <a class="el" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a>.</p>
 <p >See <a class="el" href="p_propertymapping.html">Mapping of Properties to Various Formats</a> for the mapping of the different formats to properties.</p>
 <p >Note that most metadata formats pose additional conditions on the tag keys. The most popular ones (Vorbis, <a class="el" href="namespaceTagLib_1_1APE.html" title="An implementation of APE metadata.">APE</a>, <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a>) should support all ASCII only words of length between 2 and 16.</p>
@@ -308,7 +308,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Creates a <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,valuelist&gt; tag representations.">PropertyMap</a> initialized from a SimplePropertyMap. Copies all entries from <em>m</em> that have valid keys. Invalid keys will be appended to the <a class="el" href="classTagLib_1_1PropertyMap.html#aeaacbf420bc25ee23f97312989aa26c6">unsupportedData()</a> list. </p>
+<p >Creates a <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,values&gt; tag representations.">PropertyMap</a> initialized from a SimplePropertyMap. Copies all entries from <em>m</em> that have valid keys. Invalid keys will be appended to the <a class="el" href="classTagLib_1_1PropertyMap.html#aeaacbf420bc25ee23f97312989aa26c6">unsupportedData()</a> list. </p>
 
 </div>
 </div>
@@ -365,7 +365,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if this map contains all keys of <em>other</em> and the values coincide for that keys. Does not take the unsupportedData list into account. </p>
+<p >Returns <code>true</code> if this map contains all keys of <em>other</em> and the values coincide for those keys. Does not take the unsupportedData list into account. </p>
 
 </div>
 </div>
@@ -384,7 +384,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if the map contains values for <em>key</em>. </p>
+<p >Returns <code>true</code> if the map contains values for <em>key</em>. </p>
 
 </div>
 </div>
@@ -508,7 +508,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Merge the contents of <em>other</em> into this <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,valuelist&gt; tag representations.">PropertyMap</a>. If a key is contained in both maps, the values of the second are appended to that of the first. The <a class="el" href="classTagLib_1_1PropertyMap.html#aeaacbf420bc25ee23f97312989aa26c6">unsupportedData()</a> lists are concatenated as well. </p>
+<p >Merge the contents of <em>other</em> into this <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,values&gt; tag representations.">PropertyMap</a>. If a key is contained in both maps, the values of the second are appended to that of the first. The <a class="el" href="classTagLib_1_1PropertyMap.html#aeaacbf420bc25ee23f97312989aa26c6">unsupportedData()</a> lists are concatenated as well. </p>
 
 </div>
 </div>
@@ -527,7 +527,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns false if and only <em>other</em> has the same contents as this map. </p>
+<p >Returns <code>false</code> if and only if <em>other</em> has the same contents as this map. </p>
 
 </div>
 </div>
@@ -564,7 +564,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if and only if <em>other</em> has the same contents as this map. </p>
+<p >Returns <code>true</code> if and only if <em>other</em> has the same contents as this map. </p>
 
 </div>
 </div>
@@ -584,7 +584,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Returns a reference to the value associated with <em>key</em>.</p>
-<dl class="section note"><dt>Note</dt><dd>: If <em>key</em> is not contained in the map, an empty <a class="el" href="classTagLib_1_1StringList.html" title="A list of strings.">StringList</a> is returned. You can also directly add entries by using this function as an lvalue. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If <em>key</em> is not contained in the map, an empty <a class="el" href="classTagLib_1_1StringList.html" title="A list of strings.">StringList</a> is returned. You can also directly add entries by using this function as an lvalue. </dd></dl>
 
 </div>
 </div>
@@ -604,7 +604,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Returns a reference to the value associated with <em>key</em>.</p>
-<dl class="section note"><dt>Note</dt><dd>: If <em>key</em> is not contained in the map, an empty <a class="el" href="classTagLib_1_1StringList.html" title="A list of strings.">StringList</a> is returned without error. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If <em>key</em> is not contained in the map, an empty <a class="el" href="classTagLib_1_1StringList.html" title="A list of strings.">StringList</a> is returned without error. </dd></dl>
 
 </div>
 </div>
@@ -686,7 +686,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >If a <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,valuelist&gt; tag representations.">PropertyMap</a> is read from a <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> object using <a class="el" href="classTagLib_1_1File.html#a3f2a59083f0ed7896a33d088b7935569">File::properties()</a>, the <a class="el" href="classTagLib_1_1StringList.html" title="A list of strings.">StringList</a> returned from this function will represent metadata that could not be parsed into the <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,valuelist&gt; tag representations.">PropertyMap</a> representation. This could be e.g. binary data, unknown ID3 frames, etc. You can remove items from the returned list, which tells <a class="el" href="namespaceTagLib.html" title="A namespace for all TagLib related classes and functions.">TagLib</a> to remove those unsupported elements if you call <a class="el" href="classTagLib_1_1File.html#a358edccbf8e11cc9456ac4e6aff91244">File::setProperties()</a> with the same <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,valuelist&gt; tag representations.">PropertyMap</a> as argument. </p>
+<p >If a <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,values&gt; tag representations.">PropertyMap</a> is read from a <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> object using <a class="el" href="classTagLib_1_1File.html#a3f2a59083f0ed7896a33d088b7935569">File::properties()</a> (or a <a class="el" href="classTagLib_1_1FileRef.html" title="This class provides a simple abstraction for creating and handling files.">FileRef</a> object using <a class="el" href="classTagLib_1_1FileRef.html#a2efd18ff92a4c00fa46a92bd78d075c4">FileRef::properties()</a>), the <a class="el" href="classTagLib_1_1StringList.html" title="A list of strings.">StringList</a> returned from this function will represent metadata that could not be parsed into the <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,values&gt; tag representations.">PropertyMap</a> representation. This could be e.g. binary data, unknown ID3 frames, etc.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1File.html#ae006c0ddaa6f52f5ebe400a6f63c9e35">File::removeUnsupportedProperties()</a>, <a class="el" href="classTagLib_1_1FileRef.html#ab19406bccdf2680e13b0b89ea803e695">FileRef::removeUnsupportedProperties()</a> </dd></dl>
 
 </div>
 </div>
@@ -716,7 +717,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Returns the value associated with <em>key</em>.</p>
-<p >If the map does not contain <em>key</em>, it returns defaultValue. If no defaultValue is specified, it returns an empty string list. </p>
+<p >If the map does not contain <em>key</em>, it returns <em>defaultValue</em>. If no <em>defaultValue</em> is specified, it returns an empty string list. </p>
 
 </div>
 </div>

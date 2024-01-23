@@ -319,7 +319,7 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Add the field specified by <em>key</em> with the data <em>value</em>. If <em>replace</em> is true, then all of the other fields with the same key will be removed first.</p>
+<p >Add the field specified by <em>key</em> with the data <em>value</em>. If <em>replace</em> is <code>true</code>, then all of the other fields with the same key will be removed first.</p>
 <p >If the field value is empty, the field will be removed. </p>
 
 </div>
@@ -366,7 +366,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the album name; if no album name is present in the tag String::null will be returned. </p>
+<p >Returns the album name; if no album name is present in the tag an empty string will be returned. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#a0a00182da6392498b7aae580a3e3b185">TagLib::Tag</a>.</p>
 
@@ -394,7 +394,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the artist name; if no artist name is present in the tag String::null will be returned. </p>
+<p >Returns the artist name; if no artist name is present in the tag an empty string will be returned. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#ac1cbeed86f119214384196f4cb828374">TagLib::Tag</a>.</p>
 
@@ -449,7 +449,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the track comment; if no comment is present in the tag String::null will be returned. </p>
+<p >Returns the track comment; if no comment is present in the tag an empty string will be returned. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#a2a1f709487da5ced0df94801bad77669">TagLib::Tag</a>.</p>
 
@@ -545,7 +545,7 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if the field is contained within the comment.</p>
+<p >Returns <code>true</code> if the field is contained within the comment.</p>
 <dl class="section note"><dt>Note</dt><dd>This is safer than checking for membership in the FieldListMap. </dd></dl>
 
 </div>
@@ -640,7 +640,7 @@ ISRC </li>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the genre name; if no genre is present in the tag String::null will be returned. </p>
+<p >Returns the genre name; if no genre is present in the tag an empty string will be returned. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#a8cb3ab94a9ae13f47ac4583b07bf538a">TagLib::Tag</a>.</p>
 
@@ -668,7 +668,7 @@ ISRC </li>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns true if the tag does not contain any data. This should be reimplemented in subclasses that provide more than the basic tagging abilities in this class. </p>
+<p >Returns <code>true</code> if the tag does not contain any data. This should be reimplemented in subclasses that provide more than the basic tagging abilities in this class. </p>
 
 <p>Reimplemented from <a class="el" href="classTagLib_1_1Tag.html#a1584bba81a059dddf1b24940c55f5e3e">TagLib::Tag</a>.</p>
 
@@ -885,7 +885,7 @@ ISRC </li>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Removes an picture. If <em>del</em> is true the picture's memory will be freed; if it is false, it must be deleted by the user. </p>
+<p >Removes a picture. If <em>del</em> is <code>true</code> the picture's memory will be freed; if it is <code>false</code>, it must be deleted by the user. </p>
 
 </div>
 </div>
@@ -905,7 +905,7 @@ ISRC </li>
       </table>
 </div><div class="memdoc">
 <p >Renders the comment to a <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> suitable for inserting into a file.</p>
-<p >If <em>addFramingBit</em> is true the standard <a class="el" href="namespaceTagLib_1_1Ogg_1_1Vorbis.html" title="A namespace containing classes for Vorbis metadata.">Vorbis</a> comment framing bit will be appended. However some formats (notably <a class="el" href="namespaceTagLib_1_1Ogg_1_1FLAC.html" title="An implementation of Ogg FLAC metadata.">FLAC</a>) do not work with this in place. </p>
+<p >If <em>addFramingBit</em> is <code>true</code> the standard <a class="el" href="namespaceTagLib_1_1Ogg_1_1Vorbis.html" title="A namespace containing classes for Vorbis metadata.">Vorbis</a> comment framing bit will be appended. However some formats (notably <a class="el" href="namespaceTagLib_1_1Ogg_1_1FLAC.html" title="An implementation of Ogg FLAC metadata.">FLAC</a>) do not work with this in place. </p>
 
 </div>
 </div>
@@ -932,7 +932,7 @@ ISRC </li>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the album to <em>s</em>. If <em>s</em> is String::null then this value will be cleared. </p>
+<p >Sets the album to <em>s</em>. If <em>s</em> is an empty string then this value will be cleared. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#acedb56ba6f422bfed2d50cbaa1c867dd">TagLib::Tag</a>.</p>
 
@@ -961,7 +961,7 @@ ISRC </li>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the artist to <em>s</em>. If <em>s</em> is String::null then this value will be cleared. </p>
+<p >Sets the artist to <em>s</em>. If <em>s</em> is an empty string then this value will be cleared. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#a3ca9b2a0b7f10154554a89ce8e1ed4db">TagLib::Tag</a>.</p>
 
@@ -990,7 +990,7 @@ ISRC </li>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the comment to <em>s</em>. If <em>s</em> is String::null then this value will be cleared. </p>
+<p >Sets the comment to <em>s</em>. If <em>s</em> is an empty string then this value will be cleared. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#a997c1f1065c6a38de9407996c5cedbd7">TagLib::Tag</a>.</p>
 
@@ -1058,7 +1058,7 @@ ISRC </li>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the genre to <em>s</em>. If <em>s</em> is String::null then this value will be cleared. For tag formats that use a fixed set of genres, the appropriate value will be selected based on a string comparison. A list of available genres for those formats should be available in that type's implementation. </p>
+<p >Sets the genre to <em>s</em>. If <em>s</em> is an empty string then this value will be cleared. For tag formats that use a fixed set of genres, the appropriate value will be selected based on a string comparison. A list of available genres for those formats should be available in that type's implementation. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#ae3f94c7c47343fa38c59e51558ed4695">TagLib::Tag</a>.</p>
 
@@ -1087,7 +1087,7 @@ ISRC </li>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Implements the unified property interface &ndash; import function. The tags from the given map will be stored one-to-one in the file, except for invalid keys (less than one character, non-ASCII, or containing '=' or '~') in which case the according values will be contained in the returned <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,valuelist&gt; tag representations.">PropertyMap</a>. </p>
+<p >Implements the unified property interface &ndash; import function. The tags from the given map will be stored one-to-one in the file, except for invalid keys (less than one character, non-ASCII, or containing '=' or '~') in which case the according values will be contained in the returned <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,values&gt; tag representations.">PropertyMap</a>. </p>
 
 <p>Reimplemented from <a class="el" href="classTagLib_1_1Tag.html#afa12848c84b03a856fec0b3254986521">TagLib::Tag</a>.</p>
 
@@ -1116,7 +1116,7 @@ ISRC </li>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the title to <em>s</em>. If <em>s</em> is String::null then this value will be cleared. </p>
+<p >Sets the title to <em>s</em>. If <em>s</em> is an empty string then this value will be cleared. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#a9c60dc38118f795f71d244ccf47fb1f0">TagLib::Tag</a>.</p>
 
@@ -1202,7 +1202,7 @@ ISRC </li>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the track name; if no track name is present in the tag String::null will be returned. </p>
+<p >Returns the track name; if no track name is present in the tag an empty string will be returned. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#a481a505ee2c1cb9abe8f0cff82ff8b5e">TagLib::Tag</a>.</p>
 

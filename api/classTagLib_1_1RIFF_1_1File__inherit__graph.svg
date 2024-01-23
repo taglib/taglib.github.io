@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="An RIFF file class with some useful methods specific to RIFF.">
+<g id="a_node1"><a xlink:title="A RIFF file class with some useful methods specific to RIFF.">
 <polygon fill="#bfbfbf" stroke="black" points="68,-67.5 68,-86.5 166,-86.5 166,-67.5 68,-67.5"/>
 <text text-anchor="middle" x="117" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::RIFF::File</text>
 </a>

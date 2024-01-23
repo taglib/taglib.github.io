@@ -12,7 +12,7 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="classTagLib_1_1RIFF_1_1Info_1_1StringHandler.html" target="_top" xlink:title="A abstraction for the string to data encoding in Info tags.">
+<g id="a_node1"><a xlink:href="classTagLib_1_1RIFF_1_1Info_1_1StringHandler.html" target="_top" xlink:title="An abstraction for the string to data encoding in Info tags.">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 99,-30.5 99,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::RIFF::Info</text>
 <text text-anchor="middle" x="49.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::StringHandler</text>

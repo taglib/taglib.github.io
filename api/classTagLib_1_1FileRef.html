@@ -40,6 +40,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class for pluggable file type resolution.  <a href="classTagLib_1_1FileRef_1_1FileTypeResolver.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1FileRef_1_1StreamTypeResolver.html">StreamTypeResolver</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class for pluggable stream type resolution.  <a href="classTagLib_1_1FileRef_1_1StreamTypeResolver.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -162,7 +163,7 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Create a <a class="el" href="classTagLib_1_1FileRef.html" title="This class provides a simple abstraction for creating and handling files.">FileRef</a> from <em>fileName</em>. If <em>readAudioProperties</em> is true then the audio properties will be read using <em>audioPropertiesStyle</em>. If <em>readAudioProperties</em> is false then <em>audioPropertiesStyle</em> will be ignored.</p>
+<p >Create a <a class="el" href="classTagLib_1_1FileRef.html" title="This class provides a simple abstraction for creating and handling files.">FileRef</a> from <em>fileName</em>. If <em>readAudioProperties</em> is <code>true</code> then the audio properties will be read using <em>audioPropertiesStyle</em>. If <em>readAudioProperties</em> is <code>false</code> then <em>audioPropertiesStyle</em> will be ignored.</p>
 <p >Also see the note in the class documentation about why you may not want to use this method in your application. </p>
 
 </div>
@@ -206,7 +207,7 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Construct a <a class="el" href="classTagLib_1_1FileRef.html" title="This class provides a simple abstraction for creating and handling files.">FileRef</a> from an opened <em><a class="el" href="classTagLib_1_1IOStream.html" title="An abstract class that provides operations on a sequence of bytes.">IOStream</a></em>. If <em>readAudioProperties</em> is true then the audio properties will be read using <em>audioPropertiesStyle</em>. If <em>readAudioProperties</em> is false then <em>audioPropertiesStyle</em> will be ignored.</p>
+<p >Construct a <a class="el" href="classTagLib_1_1FileRef.html" title="This class provides a simple abstraction for creating and handling files.">FileRef</a> from an opened <em><a class="el" href="classTagLib_1_1IOStream.html" title="An abstract class that provides operations on a sequence of bytes.">IOStream</a></em>. If <em>readAudioProperties</em> is <code>true</code> then the audio properties will be read using <em>audioPropertiesStyle</em>. If <em>readAudioProperties</em> is <code>false</code> then <em>audioPropertiesStyle</em> will be ignored.</p>
 <p >Also see the note in the class documentation about why you may not want to use this method in your application.</p>
 <dl class="section note"><dt>Note</dt><dd><a class="el" href="namespaceTagLib.html" title="A namespace for all TagLib related classes and functions.">TagLib</a> will <em>not</em> take ownership of the stream, the caller is responsible for deleting it after the <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> object. </dd></dl>
 
@@ -320,7 +321,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns the audio properties for this <a class="el" href="classTagLib_1_1FileRef.html" title="This class provides a simple abstraction for creating and handling files.">FileRef</a>. If no audio properties were read then this will returns a null pointer. </p>
+<p >Returns the audio properties for this <a class="el" href="classTagLib_1_1FileRef.html" title="This class provides a simple abstraction for creating and handling files.">FileRef</a>. If no audio properties were read then this will return a null pointer. </p>
 
 </div>
 </div>
@@ -471,7 +472,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if the file (and as such other pointers) are null. </p>
+<p >Returns <code>true</code> if the file (and as such other pointers) are null. </p>
 
 </div>
 </div>
@@ -490,7 +491,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if this <a class="el" href="classTagLib_1_1FileRef.html" title="This class provides a simple abstraction for creating and handling files.">FileRef</a> and <em>ref</em> do not point to the same <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> object. </p>
+<p >Returns <code>true</code> if this <a class="el" href="classTagLib_1_1FileRef.html" title="This class provides a simple abstraction for creating and handling files.">FileRef</a> and <em>ref</em> do not point to the same <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> object. </p>
 
 </div>
 </div>
@@ -528,7 +529,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if this <a class="el" href="classTagLib_1_1FileRef.html" title="This class provides a simple abstraction for creating and handling files.">FileRef</a> and <em>ref</em> point to the same <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> object. </p>
+<p >Returns <code>true</code> if this <a class="el" href="classTagLib_1_1FileRef.html" title="This class provides a simple abstraction for creating and handling files.">FileRef</a> and <em>ref</em> point to the same <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> object. </p>
 
 </div>
 </div>
@@ -546,7 +547,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Exports the tags of the file as dictionary mapping (human readable) tag names (uppercase Strings) to StringLists of tag values. Calls this method on the wrapped <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> instance. For each metadata object of the file that could not be parsed into the <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,valuelist&gt; tag representations.">PropertyMap</a> format, the returned map's unsupportedData() list will contain one entry identifying that object (e.g. the frame type for <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tags). Use <a class="el" href="classTagLib_1_1FileRef.html#ab19406bccdf2680e13b0b89ea803e695">removeUnsupportedProperties()</a> to remove (a subset of) them. For files that contain more than one tag (e.g. an MP3 with both an <a class="el" href="namespaceTagLib_1_1ID3v1.html" title="An ID3v1 implementation.">ID3v1</a> and an <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag) only the most "modern" one will be exported (<a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> in this case). </p>
+<p >Exports the tags of the file as dictionary mapping (human readable) tag names (uppercase Strings) to StringLists of tag values. Calls this method on the wrapped <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> instance. For each metadata object of the file that could not be parsed into the <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,values&gt; tag representations.">PropertyMap</a> format, the returned map's unsupportedData() list will contain one entry identifying that object (e.g. the frame type for <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tags). Use <a class="el" href="classTagLib_1_1FileRef.html#ab19406bccdf2680e13b0b89ea803e695">removeUnsupportedProperties()</a> to remove (a subset of) them. For files that contain more than one tag (e.g. an MP3 with both an <a class="el" href="namespaceTagLib_1_1ID3v1.html" title="An ID3v1 implementation.">ID3v1</a> and an <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag) only the most "modern" one will be exported (<a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> in this case). </p>
 
 </div>
 </div>
@@ -583,7 +584,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Saves the file. Returns true on success. </p>
+<p >Saves the file. Returns <code>true</code> on success. </p>
 
 </div>
 </div>
@@ -631,7 +632,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Sets the tags of the wrapped <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> to those specified in <em>properties</em>. If some value(s) could not be written to the specific metadata format, the returned <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,valuelist&gt; tag representations.">PropertyMap</a> will contain those value(s). Otherwise it will be empty, indicating that no problems occurred. With file types that support several tag formats (for instance, MP3 files can have <a class="el" href="namespaceTagLib_1_1ID3v1.html" title="An ID3v1 implementation.">ID3v1</a>, <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a>, and APEv2 tags), this function will create the most appropriate one (<a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> for MP3 files). Older formats will be updated as well, if they exist, but won't be taken into account for the return value of this function. See the documentation of the subclass implementations for detailed descriptions. </p>
+<p >Sets the tags of the wrapped <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> to those specified in <em>properties</em>. If some value(s) could not be written to the specific metadata format, the returned <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,values&gt; tag representations.">PropertyMap</a> will contain those value(s). Otherwise it will be empty, indicating that no problems occurred. With file types that support several tag formats (for instance, MP3 files can have <a class="el" href="namespaceTagLib_1_1ID3v1.html" title="An ID3v1 implementation.">ID3v1</a>, <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a>, and APEv2 tags), this function will create the most appropriate one (<a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> for MP3 files). Older formats will be updated as well, if they exist, but won't be taken into account for the return value of this function. See the documentation of the subclass implementations for detailed descriptions. </p>
 
 </div>
 </div>
@@ -658,7 +659,7 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Exchanges the content of the <a class="el" href="classTagLib_1_1FileRef.html" title="This class provides a simple abstraction for creating and handling files.">FileRef</a> by the content of <em>ref</em>. </p>
+<p >Exchanges the content of the <a class="el" href="classTagLib_1_1FileRef.html" title="This class provides a simple abstraction for creating and handling files.">FileRef</a> with the content of <em>ref</em>. </p>
 
 </div>
 </div>
@@ -676,10 +677,10 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns a pointer to represented file's tag.</p>
+<p >Returns a pointer to the represented file's tag.</p>
 <dl class="section warning"><dt>Warning</dt><dd>This pointer will become invalid when this <a class="el" href="classTagLib_1_1FileRef.html" title="This class provides a simple abstraction for creating and handling files.">FileRef</a> and all copies pass out of scope.</dd>
 <dd>
-Do not cast it to any subclasses of <a class="el" href="classTagLib_1_1Tag.html">Tag</a>. Use tag returning methods of appropriate subclasses of <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> instead.</dd></dl>
+Do not cast it to any subclasses of <a class="el" href="classTagLib_1_1Tag.html" title="A simple, generic interface to common audio metadata fields.">Tag</a>. Use tag returning methods of appropriate subclasses of <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> instead.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1File.html#af8406e61f042df4346bd71a1e7ea7f1e">File::tag()</a> </dd></dl>
 
 </div>

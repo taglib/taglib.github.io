@@ -51,60 +51,39 @@ $(function() {
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#ifndef TAGLIB_H</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#define TAGLIB_H</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#include &quot;taglib_config.h&quot;</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="taglib_8h.html#a144915bd8f611f4f8c43daac00f3f907">   31</a></span><span class="preprocessor">#define TAGLIB_MAJOR_VERSION 2</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="taglib_8h.html#aaa905e68b1eff27fa98b5a3818acc8d3">   32</a></span><span class="preprocessor">#define TAGLIB_MINOR_VERSION 0</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="taglib_8h.html#a8fa26a9c13465f7fde29e459fbac0d80">   33</a></span><span class="preprocessor">#define TAGLIB_PATCH_VERSION 0</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#if (defined(_MSC_VER) &amp;&amp; _MSC_VER &gt;= 1600)</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#define TAGLIB_CONSTRUCT_BITSET(x) static_cast&lt;unsigned long long&gt;(x)</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="taglib_8h.html#a7f75b3e950eab1c793dd9a5fb420ee50">   38</a></span><span class="preprocessor">#define TAGLIB_CONSTRUCT_BITSET(x) static_cast&lt;unsigned long&gt;(x)</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="taglib_8h.html#a144915bd8f611f4f8c43daac00f3f907">   29</a></span><span class="preprocessor">#define TAGLIB_MAJOR_VERSION 2</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="taglib_8h.html#aaa905e68b1eff27fa98b5a3818acc8d3">   30</a></span><span class="preprocessor">#define TAGLIB_MINOR_VERSION 0</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="taglib_8h.html#a8fa26a9c13465f7fde29e459fbac0d80">   31</a></span><span class="preprocessor">#define TAGLIB_PATCH_VERSION 0</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#if (defined(_MSC_VER) &amp;&amp; _MSC_VER &gt;= 1600)</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define TAGLIB_CONSTRUCT_BITSET(x) static_cast&lt;unsigned long long&gt;(x)</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="taglib_8h.html#a7f75b3e950eab1c793dd9a5fb420ee50">   36</a></span><span class="preprocessor">#define TAGLIB_CONSTRUCT_BITSET(x) static_cast&lt;unsigned long&gt;(x)</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="taglib_8h.html#a3bb28eb489fa89f977ad41d635e5c41d">   39</a></span><span class="preprocessor">#define TAGLIB_DEPRECATED [[deprecated]]</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="taglib_8h.html#a3bb28eb489fa89f977ad41d635e5c41d">   41</a></span><span class="preprocessor">#define TAGLIB_DEPRECATED [[deprecated]]</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#ifndef _WIN32</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#include &lt;sys/types.h&gt;</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#ifndef _WIN32</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#include &lt;sys/types.h&gt;</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceTagLib.html">TagLib</a> {</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="keyword">class </span>String;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <span class="comment">// These integer types are deprecated. Do not use them.</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="namespaceTagLib.html#a139c1e5c86ce88ef4b1989f71556f481">   65</a></span>  <span class="keyword">using </span><a class="code hl_typedef" href="namespaceTagLib.html#a139c1e5c86ce88ef4b1989f71556f481">wchar</a> = wchar_t; <span class="comment">// Assumed to be sufficient to store a UTF-16 char.</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="namespaceTagLib.html#a50b701a4621dbb25599ee6f7cb2118ca">   66</a></span>  <span class="keyword">using </span><a class="code hl_typedef" href="namespaceTagLib.html#a50b701a4621dbb25599ee6f7cb2118ca">uchar</a> = <span class="keywordtype">unsigned</span> char;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="namespaceTagLib.html#a203f73a9c6d8aa6b668fd9cc77a0e586">   67</a></span>  <span class="keyword">using </span><a class="code hl_typedef" href="namespaceTagLib.html#a203f73a9c6d8aa6b668fd9cc77a0e586">ushort</a> = <span class="keywordtype">unsigned</span> short;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="namespaceTagLib.html#aaf07aa653838f3c96a5ce537ebd9a835">   68</a></span>  <span class="keyword">using </span><a class="code hl_typedef" href="namespaceTagLib.html#aaf07aa653838f3c96a5ce537ebd9a835">uint</a> = <span class="keywordtype">unsigned</span> int;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="namespaceTagLib.html#a50f82659daf1cbe305783416c99efb5c">   69</a></span>  <span class="keyword">using </span><a class="code hl_typedef" href="namespaceTagLib.html#a50f82659daf1cbe305783416c99efb5c">ulong</a> = <span class="keywordtype">unsigned</span> long;</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="namespaceTagLib.html#a7fdd607d9f6961aa9de37ffa30edf186">   70</a></span>  <span class="keyword">using </span><a class="code hl_typedef" href="namespaceTagLib.html#a7fdd607d9f6961aa9de37ffa30edf186">ulonglong</a> = <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> long;</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <span class="comment">// Offset or length type for I/O streams.</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="comment">// In Win32, always 64bit. Otherwise, equivalent to off_t.</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="preprocessor">#ifdef _WIN32</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="keyword">using </span><a class="code hl_typedef" href="namespaceTagLib.html#a09d39bc352b8aaf304b7c5ae453f37ad">offset_t</a> = <span class="keywordtype">long</span> long;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="namespaceTagLib.html#a09d39bc352b8aaf304b7c5ae453f37ad">   77</a></span>  <span class="keyword">using </span><a class="code hl_typedef" href="namespaceTagLib.html#a09d39bc352b8aaf304b7c5ae453f37ad">offset_t</a> = off_t;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="namespaceTagLib.html#abae42012706d156cb90cf570dbe41aff">   84</a></span>  <span class="keyword">using </span><a class="code hl_typedef" href="namespaceTagLib.html#abae42012706d156cb90cf570dbe41aff">wstring</a> = std::basic_string&lt;wchar_t&gt;;</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>}  <span class="comment">// namespace TagLib</span></div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceTagLib.html">TagLib</a> {</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keyword">class </span>String;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <span class="comment">// Offset or length type for I/O streams.</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="comment">// In Win32, always 64bit. Otherwise, equivalent to off_t.</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#ifdef _WIN32</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keyword">using </span><a class="code hl_typedef" href="namespaceTagLib.html#a09d39bc352b8aaf304b7c5ae453f37ad">offset_t</a> = <span class="keywordtype">long</span> long;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="namespaceTagLib.html#a09d39bc352b8aaf304b7c5ae453f37ad">   64</a></span>  <span class="keyword">using </span><a class="code hl_typedef" href="namespaceTagLib.html#a09d39bc352b8aaf304b7c5ae453f37ad">offset_t</a> = off_t;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>}  <span class="comment">// namespace TagLib</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="anamespaceTagLib_html"><div class="ttname"><a href="namespaceTagLib.html">TagLib</a></div><div class="ttdoc">A namespace for all TagLib related classes and functions.</div><div class="ttdef"><b>Definition:</b> apefile.h:41</div></div>
-<div class="ttc" id="anamespaceTagLib_html_a09d39bc352b8aaf304b7c5ae453f37ad"><div class="ttname"><a href="namespaceTagLib.html#a09d39bc352b8aaf304b7c5ae453f37ad">TagLib::offset_t</a></div><div class="ttdeci">off_t offset_t</div><div class="ttdef"><b>Definition:</b> taglib.h:77</div></div>
-<div class="ttc" id="anamespaceTagLib_html_a139c1e5c86ce88ef4b1989f71556f481"><div class="ttname"><a href="namespaceTagLib.html#a139c1e5c86ce88ef4b1989f71556f481">TagLib::wchar</a></div><div class="ttdeci">wchar_t wchar</div><div class="ttdef"><b>Definition:</b> taglib.h:65</div></div>
-<div class="ttc" id="anamespaceTagLib_html_a203f73a9c6d8aa6b668fd9cc77a0e586"><div class="ttname"><a href="namespaceTagLib.html#a203f73a9c6d8aa6b668fd9cc77a0e586">TagLib::ushort</a></div><div class="ttdeci">unsigned short ushort</div><div class="ttdef"><b>Definition:</b> taglib.h:67</div></div>
-<div class="ttc" id="anamespaceTagLib_html_a50b701a4621dbb25599ee6f7cb2118ca"><div class="ttname"><a href="namespaceTagLib.html#a50b701a4621dbb25599ee6f7cb2118ca">TagLib::uchar</a></div><div class="ttdeci">unsigned char uchar</div><div class="ttdef"><b>Definition:</b> taglib.h:66</div></div>
-<div class="ttc" id="anamespaceTagLib_html_a50f82659daf1cbe305783416c99efb5c"><div class="ttname"><a href="namespaceTagLib.html#a50f82659daf1cbe305783416c99efb5c">TagLib::ulong</a></div><div class="ttdeci">unsigned long ulong</div><div class="ttdef"><b>Definition:</b> taglib.h:69</div></div>
-<div class="ttc" id="anamespaceTagLib_html_a7fdd607d9f6961aa9de37ffa30edf186"><div class="ttname"><a href="namespaceTagLib.html#a7fdd607d9f6961aa9de37ffa30edf186">TagLib::ulonglong</a></div><div class="ttdeci">unsigned long long ulonglong</div><div class="ttdef"><b>Definition:</b> taglib.h:70</div></div>
-<div class="ttc" id="anamespaceTagLib_html_aaf07aa653838f3c96a5ce537ebd9a835"><div class="ttname"><a href="namespaceTagLib.html#aaf07aa653838f3c96a5ce537ebd9a835">TagLib::uint</a></div><div class="ttdeci">unsigned int uint</div><div class="ttdef"><b>Definition:</b> taglib.h:68</div></div>
-<div class="ttc" id="anamespaceTagLib_html_abae42012706d156cb90cf570dbe41aff"><div class="ttname"><a href="namespaceTagLib.html#abae42012706d156cb90cf570dbe41aff">TagLib::wstring</a></div><div class="ttdeci">std::basic_string&lt; wchar_t &gt; wstring</div><div class="ttdef"><b>Definition:</b> taglib.h:84</div></div>
+<div class="ttc" id="anamespaceTagLib_html_a09d39bc352b8aaf304b7c5ae453f37ad"><div class="ttname"><a href="namespaceTagLib.html#a09d39bc352b8aaf304b7c5ae453f37ad">TagLib::offset_t</a></div><div class="ttdeci">off_t offset_t</div><div class="ttdef"><b>Definition:</b> taglib.h:64</div></div>
 </div><!-- fragment --></div><!-- contents -->
 

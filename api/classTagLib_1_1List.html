@@ -129,10 +129,10 @@ Protected Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;class T&gt;<br />
 class TagLib::List&lt; T &gt;</div><p >A generic, implicitly shared list. </p>
-<p >This is basic generic list that's somewhere between a std::list and a QValueList. This class is implicitly shared. For example:</p>
+<p >This is a basic generic list that's somewhere between a std::list and a QList. This class is implicitly shared. For example:</p>
 <div class="fragment"><div class="line"><a class="code hl_class" href="classTagLib_1_1List.html">TagLib::List&lt;int&gt;</a> l = someOtherIntList;</div>
-<div class="ttc" id="aclassTagLib_1_1List_html"><div class="ttname"><a href="classTagLib_1_1List.html">TagLib::List</a></div><div class="ttdoc">A generic, implicitly shared list.</div><div class="ttdef"><b>Definition:</b> tlist.h:56</div></div>
-</div><!-- fragment --><p >The above example is very cheap. This also makes lists suitable for the return types of functions. The above example will just copy a pointer rather than copying the data in the list. When your <em>shared</em> list's data changes, only <em>then</em> will the data be copied. </p>
+<div class="ttc" id="aclassTagLib_1_1List_html"><div class="ttname"><a href="classTagLib_1_1List.html">TagLib::List</a></div><div class="ttdoc">A generic, implicitly shared list.</div><div class="ttdef"><b>Definition:</b> tlist.h:54</div></div>
+</div><!-- fragment --><p >The above example is very cheap. This also makes lists suitable as return types of functions. The above example will just copy a pointer rather than copying the data in the list. When your <em>shared</em> list's data changes, only <em>then</em> will the data be copied. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a77be67fb7e0ed23550da0cf7295ce512" name="a77be67fb7e0ed23550da0cf7295ce512"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a77be67fb7e0ed23550da0cf7295ce512">&#9670;&nbsp;</a></span>List() <span class="overload">[1/3]</span></h2>
@@ -212,7 +212,7 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Destroys this <a class="el" href="classTagLib_1_1List.html" title="A generic, implicitly shared list.">List</a> instance. If auto deletion is enabled and this list contains a pointer type all of the members are also deleted. </p>
+<p >Destroys this <a class="el" href="classTagLib_1_1List.html" title="A generic, implicitly shared list.">List</a> instance. If auto deletion is enabled and this list contains a pointer type, all of the members are also deleted. </p>
 
 </div>
 </div>
@@ -275,7 +275,7 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true is auto-deletion is enabled. </p>
+<p >Returns <code>true</code> if auto-deletion is enabled. </p>
 
 </div>
 </div>
@@ -335,7 +335,7 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns an STL style iterator to the beginning of the list. See std::list::const_iterator for the semantics. </p>
+<p >Returns an STL style iterator to the beginning of the list. See <code>std::list::const_iterator</code> for the semantics. </p>
 
 </div>
 </div>
@@ -355,7 +355,7 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns an STL style constant iterator to the beginning of the list. See std::list::iterator for the semantics. </p>
+<p >Returns an STL style constant iterator to the beginning of the list. See <code>std::list::iterator</code> for the semantics. </p>
 
 </div>
 </div>
@@ -375,7 +375,7 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns an STL style constant iterator to the beginning of the list. See std::list::iterator for the semantics. </p>
+<p >Returns an STL style constant iterator to the beginning of the list. See <code>std::list::iterator</code> for the semantics. </p>
 
 </div>
 </div>
@@ -395,7 +395,7 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns an STL style constant iterator to the end of the list. See std::list::const_iterator for the semantics. </p>
+<p >Returns an STL style constant iterator to the end of the list. See <code>std::list::const_iterator</code> for the semantics. </p>
 
 </div>
 </div>
@@ -458,7 +458,7 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if the list contains <em>value</em>. </p>
+<p >Returns <code>true</code> if the list contains <em>value</em>. </p>
 
 </div>
 </div>
@@ -486,6 +486,7 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >If this <a class="el" href="classTagLib_1_1List.html" title="A generic, implicitly shared list.">List</a> is being shared via implicit sharing, do a deep copy of the data and separate from the shared members. This should be called by all non-const subclass members without Iterator parameters. </p>
 
 </div>
 </div>
@@ -505,7 +506,7 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns an STL style iterator to the end of the list. See std::list::iterator for the semantics. </p>
+<p >Returns an STL style iterator to the end of the list. See <code>std::list::iterator</code> for the semantics. </p>
 
 </div>
 </div>
@@ -525,7 +526,7 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns an STL style constant iterator to the end of the list. See std::list::const_iterator for the semantics. </p>
+<p >Returns an STL style constant iterator to the end of the list. See <code>std::list::const_iterator</code> for the semantics. </p>
 
 </div>
 </div>
@@ -703,7 +704,7 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Compares this list with <em>l</em> and returns true if the lists differ. </p>
+<p >Compares this list with <em>l</em> and returns <code>true</code> if the lists differ. </p>
 
 </div>
 </div>
@@ -767,7 +768,7 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Compares this list with <em>l</em> and returns true if all of the elements are the same. </p>
+<p >Compares this list with <em>l</em> and returns <code>true</code> if all of the elements are the same. </p>
 
 </div>
 </div>
@@ -939,7 +940,7 @@ template&lt;class Compare &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Sorts this list in ascending order using the comparison function object <em>comp</em> which returns true if the first argument is less than the second. </p>
+<p >Sorts this list in ascending order using the comparison function object <em>comp</em> which returns <code>true</code> if the first argument is less than the second. </p>
 
 </div>
 </div>
@@ -970,7 +971,7 @@ template&lt;class T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Inserts the <em>value</em> into the list. This assumes that the list is currently sorted. If <em>unique</em> is true then the value will not be inserted if it is already in the list. </p>
+<p >Inserts the <em>value</em> into the list. This assumes that the list is currently sorted. If <em>unique</em> is <code>true</code> then the value will not be inserted if it is already in the list. </p>
 
 </div>
 </div>
@@ -999,7 +1000,7 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Exchanges the content of this list by the content of <em>l</em>. </p>
+<p >Exchanges the content of this list with the content of <em>l</em>. </p>
 
 </div>
 </div>

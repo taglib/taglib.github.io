@@ -67,8 +67,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9b933c08d932756ef814965853003439"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a419b8f3232df94a9e1c5d4c05405783f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1MPEG_1_1Header.html#a419b8f3232df94a9e1c5d4c05405783f">Header</a> (const <a class="el" href="classTagLib_1_1MPEG_1_1Header.html">Header</a> &amp;h)</td></tr>
 <tr class="separator:a419b8f3232df94a9e1c5d4c05405783f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a774d75fa48c79b4af55fa852e40ed5d0"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1MPEG_1_1Header.html#a774d75fa48c79b4af55fa852e40ed5d0">~Header</a> ()</td></tr>
-<tr class="separator:a774d75fa48c79b4af55fa852e40ed5d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecc8d4b36c9585555de1807f9591c281"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1MPEG_1_1Header.html#aecc8d4b36c9585555de1807f9591c281">~Header</a> ()</td></tr>
+<tr class="separator:aecc8d4b36c9585555de1807f9591c281"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e6f15890d5f5be94cd7cee50d283934"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1MPEG_1_1Header.html#a1e6f15890d5f5be94cd7cee50d283934">isValid</a> () const</td></tr>
 <tr class="separator:a1e6f15890d5f5be94cd7cee50d283934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1915e1a456b3d13fc795834c5d36b46b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTagLib_1_1MPEG_1_1Header.html#a07c5d48d8a320022e540c950282a3b9d">Version</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1MPEG_1_1Header.html#a1915e1a456b3d13fc795834c5d36b46b">version</a> () const</td></tr>
@@ -102,7 +102,11 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >An implementation of MP3 frame headers. </p>
-<p >This is an implementation of <a class="el" href="namespaceTagLib_1_1MPEG.html" title="An implementation of TagLib::File with MPEG (MP3) specific methods.">MPEG</a> Layer III headers. The API follows more or less the binary format of these headers. I've used <a href="http://www.mp3-tech.org/programmer/frame_header.html">this</a> document as a reference. </p>
+<p >This is an implementation of <a class="el" href="namespaceTagLib_1_1MPEG.html" title="An implementation of TagLib::File with MPEG (MP3) specific methods.">MPEG</a> Layer III headers. The API follows more or less the binary format of these headers.</p>
+<p >See these documents as a reference</p><ul>
+<li><a href="http://www.mp3-tech.org/programmer/frame_header.html">MPEG Audio Layer I/II/III frame header</a></li>
+<li><a href="https://wiki.multimedia.cx/index.php/ADTS">ADTS</a> </li>
+</ul>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="afdb39bf97bd3aa6a037078eeabbc8a56" name="afdb39bf97bd3aa6a037078eeabbc8a56"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afdb39bf97bd3aa6a037078eeabbc8a56">&#9670;&nbsp;</a></span>ChannelConfiguration</h2>
@@ -117,14 +121,22 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p >MPEG-4 channel configuration. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afdb39bf97bd3aa6a037078eeabbc8a56a32bc6d687712a8ed2d04c4f91d1dc5ba" name="afdb39bf97bd3aa6a037078eeabbc8a56a32bc6d687712a8ed2d04c4f91d1dc5ba"></a>Custom&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afdb39bf97bd3aa6a037078eeabbc8a56a2f2b6d2955f20578ffc0f502a7f286f6" name="afdb39bf97bd3aa6a037078eeabbc8a56a2f2b6d2955f20578ffc0f502a7f286f6"></a>FrontCenter&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afdb39bf97bd3aa6a037078eeabbc8a56af4f3f72cbbe1d138497a43610dfa23a3" name="afdb39bf97bd3aa6a037078eeabbc8a56af4f3f72cbbe1d138497a43610dfa23a3"></a>FrontLeftRight&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afdb39bf97bd3aa6a037078eeabbc8a56afab6a9172f4b99512cba43b48884c8f8" name="afdb39bf97bd3aa6a037078eeabbc8a56afab6a9172f4b99512cba43b48884c8f8"></a>FrontCenterLeftRight&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afdb39bf97bd3aa6a037078eeabbc8a56acbf4ab9068506e76054d30baecebc9ee" name="afdb39bf97bd3aa6a037078eeabbc8a56acbf4ab9068506e76054d30baecebc9ee"></a>FrontCenterLeftRightBackCenter&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afdb39bf97bd3aa6a037078eeabbc8a56a850fb0a9c6ce8610712a70bab8edc150" name="afdb39bf97bd3aa6a037078eeabbc8a56a850fb0a9c6ce8610712a70bab8edc150"></a>FrontCenterLeftRightBackLeftRight&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afdb39bf97bd3aa6a037078eeabbc8a56a3d1907dfb3d4036417efbe359e85f9ae" name="afdb39bf97bd3aa6a037078eeabbc8a56a3d1907dfb3d4036417efbe359e85f9ae"></a>FrontCenterLeftRightBackLeftRightLFE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afdb39bf97bd3aa6a037078eeabbc8a56a0a6cac6309b4f86d9befcc2b1c4508b3" name="afdb39bf97bd3aa6a037078eeabbc8a56a0a6cac6309b4f86d9befcc2b1c4508b3"></a>FrontCenterLeftRightSideLeftRightBackLeftRightLFE&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afdb39bf97bd3aa6a037078eeabbc8a56a32bc6d687712a8ed2d04c4f91d1dc5ba" name="afdb39bf97bd3aa6a037078eeabbc8a56a32bc6d687712a8ed2d04c4f91d1dc5ba"></a>Custom&#160;</td><td class="fielddoc"><p >Defined in audio object type (AOT) specific configuration. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afdb39bf97bd3aa6a037078eeabbc8a56a2f2b6d2955f20578ffc0f502a7f286f6" name="afdb39bf97bd3aa6a037078eeabbc8a56a2f2b6d2955f20578ffc0f502a7f286f6"></a>FrontCenter&#160;</td><td class="fielddoc"><p >1 channel: front-center </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afdb39bf97bd3aa6a037078eeabbc8a56af4f3f72cbbe1d138497a43610dfa23a3" name="afdb39bf97bd3aa6a037078eeabbc8a56af4f3f72cbbe1d138497a43610dfa23a3"></a>FrontLeftRight&#160;</td><td class="fielddoc"><p >2 channels: front-left, front-right </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afdb39bf97bd3aa6a037078eeabbc8a56afab6a9172f4b99512cba43b48884c8f8" name="afdb39bf97bd3aa6a037078eeabbc8a56afab6a9172f4b99512cba43b48884c8f8"></a>FrontCenterLeftRight&#160;</td><td class="fielddoc"><p >3 channels: front-center, front-left, front-right </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afdb39bf97bd3aa6a037078eeabbc8a56acbf4ab9068506e76054d30baecebc9ee" name="afdb39bf97bd3aa6a037078eeabbc8a56acbf4ab9068506e76054d30baecebc9ee"></a>FrontCenterLeftRightBackCenter&#160;</td><td class="fielddoc"><p >4 channels: front-center, front-left, front-right, back-center </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afdb39bf97bd3aa6a037078eeabbc8a56a850fb0a9c6ce8610712a70bab8edc150" name="afdb39bf97bd3aa6a037078eeabbc8a56a850fb0a9c6ce8610712a70bab8edc150"></a>FrontCenterLeftRightBackLeftRight&#160;</td><td class="fielddoc"><p >5 channels: front-center, front-left, front-right, back-left, back-right </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afdb39bf97bd3aa6a037078eeabbc8a56a3d1907dfb3d4036417efbe359e85f9ae" name="afdb39bf97bd3aa6a037078eeabbc8a56a3d1907dfb3d4036417efbe359e85f9ae"></a>FrontCenterLeftRightBackLeftRightLFE&#160;</td><td class="fielddoc"><p >6 channels: front-center, front-left, front-right, back-left, back-right, LFE-channel </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afdb39bf97bd3aa6a037078eeabbc8a56a0a6cac6309b4f86d9befcc2b1c4508b3" name="afdb39bf97bd3aa6a037078eeabbc8a56a0a6cac6309b4f86d9befcc2b1c4508b3"></a>FrontCenterLeftRightSideLeftRightBackLeftRightLFE&#160;</td><td class="fielddoc"><p >8 channels: front-center, front-left, front-right, side-left, side-right, back-left, back-right, LFE-channel </p>
+</td></tr>
 </table>
 
 </div>
@@ -212,7 +224,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Parses an <a class="el" href="namespaceTagLib_1_1MPEG.html" title="An implementation of TagLib::File with MPEG (MP3) specific methods.">MPEG</a> header based on <em>file</em> and <em>offset</em>.</p>
-<dl class="section note"><dt>Note</dt><dd>If <em>checkLength</em> is true, this requires the next <a class="el" href="namespaceTagLib_1_1MPEG.html" title="An implementation of TagLib::File with MPEG (MP3) specific methods.">MPEG</a> frame to check if the frame length is parsed and calculated correctly. So it's suitable for seeking for the first valid frame. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If <em>checkLength</em> is <code>true</code>, this requires the next <a class="el" href="namespaceTagLib_1_1MPEG.html" title="An implementation of TagLib::File with MPEG (MP3) specific methods.">MPEG</a> frame to check if the frame length is parsed and calculated correctly. So it's suitable for seeking for the first valid frame. </dd></dl>
 
 </div>
 </div>
@@ -235,27 +247,19 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a774d75fa48c79b4af55fa852e40ed5d0" name="a774d75fa48c79b4af55fa852e40ed5d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a774d75fa48c79b4af55fa852e40ed5d0">&#9670;&nbsp;</a></span>~Header()</h2>
+<a id="aecc8d4b36c9585555de1807f9591c281" name="aecc8d4b36c9585555de1807f9591c281"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecc8d4b36c9585555de1807f9591c281">&#9670;&nbsp;</a></span>~Header()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual TagLib::MPEG::Header::~Header </td>
+          <td class="memname">TagLib::MPEG::Header::~Header </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p >Destroys this <a class="el" href="classTagLib_1_1MPEG_1_1Header.html" title="An implementation of MP3 frame headers.">Header</a> instance. </p>
 
@@ -348,7 +352,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if this is the header of an Audio Data Transport Stream (ADTS), usually AAC. </p>
+<p >Returns <code>true</code> if this is the header of an Audio Data Transport Stream (ADTS), usually AAC. </p>
 
 </div>
 </div>
@@ -366,7 +370,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if the copyrighted bit is set. </p>
+<p >Returns <code>true</code> if the copyrighted bit is set. </p>
 
 </div>
 </div>
@@ -384,7 +388,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if the "original" bit is set. </p>
+<p >Returns <code>true</code> if the "original" bit is set. </p>
 
 </div>
 </div>
@@ -402,7 +406,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if the frame is padded. </p>
+<p >Returns <code>true</code> if the frame is padded. </p>
 
 </div>
 </div>
@@ -420,7 +424,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if the frame is at least an appropriate size and has legal values. </p>
+<p >Returns <code>true</code> if the frame is at least an appropriate size and has legal values. </p>
 
 </div>
 </div>
@@ -475,7 +479,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if the <a class="el" href="namespaceTagLib_1_1MPEG.html" title="An implementation of TagLib::File with MPEG (MP3) specific methods.">MPEG</a> protection bit is enabled. </p>
+<p >Returns <code>true</code> if the <a class="el" href="namespaceTagLib_1_1MPEG.html" title="An implementation of TagLib::File with MPEG (MP3) specific methods.">MPEG</a> protection bit is enabled. </p>
 
 </div>
 </div>

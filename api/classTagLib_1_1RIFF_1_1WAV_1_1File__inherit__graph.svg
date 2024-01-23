@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classTagLib_1_1RIFF_1_1File.html" target="_top" xlink:title="An RIFF file class with some useful methods specific to RIFF.">
+<g id="a_node2"><a xlink:href="classTagLib_1_1RIFF_1_1File.html" target="_top" xlink:title="A RIFF file class with some useful methods specific to RIFF.">
 <polygon fill="white" stroke="black" points="13.5,-56.5 13.5,-75.5 111.5,-75.5 111.5,-56.5 13.5,-56.5"/>
 <text text-anchor="middle" x="62.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::RIFF::File</text>
 </a>

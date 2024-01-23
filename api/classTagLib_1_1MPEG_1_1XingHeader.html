@@ -45,8 +45,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7fb6071f80e5e54cbd5bc4175304c91f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1MPEG_1_1XingHeader.html#a7fb6071f80e5e54cbd5bc4175304c91f">XingHeader</a> (const <a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a> &amp;data)</td></tr>
 <tr class="separator:a7fb6071f80e5e54cbd5bc4175304c91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab580f186e1e35df49bb4c31c5407fc1f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1MPEG_1_1XingHeader.html#ab580f186e1e35df49bb4c31c5407fc1f">~XingHeader</a> ()</td></tr>
-<tr class="separator:ab580f186e1e35df49bb4c31c5407fc1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86326a6daed092fc3c5f3ddbf420575a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1MPEG_1_1XingHeader.html#a86326a6daed092fc3c5f3ddbf420575a">~XingHeader</a> ()</td></tr>
+<tr class="separator:a86326a6daed092fc3c5f3ddbf420575a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a426a486ec7c95a904e817f5a9853154b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1MPEG_1_1XingHeader.html#a426a486ec7c95a904e817f5a9853154b">XingHeader</a> (const <a class="el" href="classTagLib_1_1MPEG_1_1XingHeader.html">XingHeader</a> &amp;)=delete</td></tr>
 <tr class="separator:a426a486ec7c95a904e817f5a9853154b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0dba1a640c7369b0f881ecb4f256ebc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTagLib_1_1MPEG_1_1XingHeader.html">XingHeader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1MPEG_1_1XingHeader.html#ab0dba1a640c7369b0f881ecb4f256ebc">operator=</a> (const <a class="el" href="classTagLib_1_1MPEG_1_1XingHeader.html">XingHeader</a> &amp;)=delete</td></tr>
@@ -62,7 +62,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >An implementation of the Xing/VBRI headers. </p>
-<p >This is a minimalistic implementation of the Xing/VBRI VBR headers. Xing/VBRI headers are often added to VBR (variable bit rate) MP3 streams to make it easy to compute the length and quality of a VBR stream. Our implementation is only concerned with the total size of the stream (so that we can calculate the total playing time and the average bitrate). It uses <a href="http://home.pcisys.net/~melanson/codecs/mp3extensions.txt">this text</a> and the XMMS sources as references. </p>
+<p >This is a minimalistic implementation of the Xing/VBRI VBR headers. Xing/VBRI headers are often added to VBR (variable bit rate) MP3 streams to make it easy to compute the length and quality of a VBR stream. Our implementation is only concerned with the total size of the stream (so that we can calculate the total playing time and the average bitrate). It uses <a href="https://multimedia.cx/mp3extensions.txt">mp3extensions.txt</a> and the XMMS sources as references. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="af3541cb91c799127a81882e48f0e4373" name="af3541cb91c799127a81882e48f0e4373"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3541cb91c799127a81882e48f0e4373">&#9670;&nbsp;</a></span>HeaderType</h2>
@@ -103,31 +103,23 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Parses an Xing/VBRI header based on <em>data</em> which contains the entire first <a class="el" href="namespaceTagLib_1_1MPEG.html" title="An implementation of TagLib::File with MPEG (MP3) specific methods.">MPEG</a> frame. </p>
+<p >Parses a Xing/VBRI header based on <em>data</em> which contains the entire first <a class="el" href="namespaceTagLib_1_1MPEG.html" title="An implementation of TagLib::File with MPEG (MP3) specific methods.">MPEG</a> frame. </p>
 
 </div>
 </div>
-<a id="ab580f186e1e35df49bb4c31c5407fc1f" name="ab580f186e1e35df49bb4c31c5407fc1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab580f186e1e35df49bb4c31c5407fc1f">&#9670;&nbsp;</a></span>~XingHeader()</h2>
+<a id="a86326a6daed092fc3c5f3ddbf420575a" name="a86326a6daed092fc3c5f3ddbf420575a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86326a6daed092fc3c5f3ddbf420575a">&#9670;&nbsp;</a></span>~XingHeader()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual TagLib::MPEG::XingHeader::~XingHeader </td>
+          <td class="memname">TagLib::MPEG::XingHeader::~XingHeader </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p >Destroy this <a class="el" href="classTagLib_1_1MPEG_1_1XingHeader.html" title="An implementation of the Xing/VBRI headers.">XingHeader</a> instance. </p>
 
@@ -174,7 +166,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if the data was parsed properly and if there is a valid Xing/VBRI header present. </p>
+<p >Returns <code>true</code> if the data was parsed properly and if there is a valid Xing/VBRI header present. </p>
 
 </div>
 </div>

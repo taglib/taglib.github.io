@@ -12,7 +12,7 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="classTagLib_1_1FLAC_1_1MetadataBlock.html" target="_top" xlink:title=" ">
+<g id="a_node1"><a xlink:href="classTagLib_1_1FLAC_1_1MetadataBlock.html" target="_top" xlink:title="FLAC metadata block.">
 <polygon fill="white" stroke="black" points="0,-28 0,-47 158,-47 158,-28 0,-28"/>
 <text text-anchor="middle" x="79" y="-35" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::FLAC::MetadataBlock</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<g id="a_node2"><a xlink:href="classTagLib_1_1FLAC_1_1Picture.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classTagLib_1_1FLAC_1_1Picture.html" target="_top" xlink:title="FLAC picture.">
 <polygon fill="white" stroke="black" points="223,-50 223,-69 342,-69 342,-50 223,-50"/>
 <text text-anchor="middle" x="282.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::FLAC::Picture</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node2 -->
 <g id="node3" class="node">
 <title>Node2</title>
-<g id="a_node3"><a xlink:href="classTagLib_1_1FLAC_1_1UnknownMetadataBlock.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classTagLib_1_1FLAC_1_1UnknownMetadataBlock.html" target="_top" xlink:title="Unknown FLAC metadata block.">
 <polygon fill="white" stroke="black" points="194,-0.5 194,-30.5 371,-30.5 371,-0.5 194,-0.5"/>
 <text text-anchor="start" x="202" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::FLAC::UnknownMetadata</text>
 <text text-anchor="middle" x="282.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Block</text>

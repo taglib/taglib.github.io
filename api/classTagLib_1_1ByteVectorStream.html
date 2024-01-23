@@ -141,7 +141,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Construct a <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> object and opens the <em>file</em>. <em>file</em> should be a be a C-string in the local file system encoding. </p>
+<p >Construct a <a class="el" href="classTagLib_1_1ByteVectorStream.html" title="In-memory Stream class using ByteVector for its storage.">ByteVectorStream</a> from the bytes in <em>data</em>. </p>
 
 </div>
 </div>
@@ -220,7 +220,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Reset the end-of-file and error flags on the file. </p>
+<p >Does nothing. </p>
 
 <p>Reimplemented from <a class="el" href="classTagLib_1_1IOStream.html#a7e2a37f6a39207b8d7432785a8f05ad1">TagLib::IOStream</a>.</p>
 
@@ -311,7 +311,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Since the file can currently only be opened as an argument to the constructor (sort-of by design), this returns if that open succeeded. </p>
+<p >Returns <code>true</code>. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1IOStream.html#a62fbae4ef04f4d5e95ec187d2cd7eedd">TagLib::IOStream</a>.</p>
 
@@ -367,7 +367,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the file name in the local file system encoding. </p>
+<p >Returns an empty string. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1IOStream.html#abb8e1876f90d7676224c5dd41af535a0">TagLib::IOStream</a>.</p>
 
@@ -450,7 +450,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns true if the file is read only (or if the file can not be opened). </p>
+<p >Returns <code>false</code>. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1IOStream.html#a3d64e5422fea908e9c6938a029bd68e6">TagLib::IOStream</a>.</p>
 
@@ -616,7 +616,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Attempts to write the block <em>data</em> at the current get pointer. If the file is currently only opened read only &ndash; i.e. <a class="el" href="classTagLib_1_1ByteVectorStream.html#a73b6c58733a8a4d17b13724e8ae0a890">readOnly()</a> returns true &ndash; this attempts to reopen the file in read/write mode.</p>
+<p >Writes the block <em>data</em> at the current get pointer.</p>
 <dl class="section note"><dt>Note</dt><dd>This should be used instead of using the streaming output operator for a <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a>. And even this function is significantly slower than doing output with a char[]. </dd></dl>
 
 <p>Implements <a class="el" href="classTagLib_1_1IOStream.html#a8895ffd964dfabb2e6097b4b5e99fbc9">TagLib::IOStream</a>.</p>

@@ -28,7 +28,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>A file class with some useful methods for tag manipulation.  
+<p>I/O stream with data from a file.  
  <a href="classTagLib_1_1FileStream.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="tfilestream_8h_source.html">tfilestream.h</a>&gt;</code></p>
@@ -47,8 +47,8 @@ Collaboration diagram for TagLib::FileStream:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af25d7da110c52eec6996dbd40ddaaa09"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1FileStream.html#af25d7da110c52eec6996dbd40ddaaa09">FileStream</a> (<a class="el" href="namespaceTagLib.html#ae4dea55098950c5c4e628646090236f4">FileName</a> file, bool openReadOnly=false)</td></tr>
-<tr class="separator:af25d7da110c52eec6996dbd40ddaaa09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d0ad7dd6eb3d049218a0dc28e555def"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1FileStream.html#a1d0ad7dd6eb3d049218a0dc28e555def">FileStream</a> (<a class="el" href="namespaceTagLib.html#ae4dea55098950c5c4e628646090236f4">FileName</a> fileName, bool openReadOnly=false)</td></tr>
+<tr class="separator:a1d0ad7dd6eb3d049218a0dc28e555def"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4206eb7a67eeaf832eb7f8bc08133433"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1FileStream.html#a4206eb7a67eeaf832eb7f8bc08133433">FileStream</a> (int fileDescriptor, bool openReadOnly=false)</td></tr>
 <tr class="separator:a4206eb7a67eeaf832eb7f8bc08133433"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1764e8f8e9e8d27be377960c0967a0c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1FileStream.html#ab1764e8f8e9e8d27be377960c0967a0c">~FileStream</a> () override</td></tr>
@@ -130,11 +130,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a94ed2533af5ae94a59bc10629e81a5ef inherit pub_types_classTagLib_1_1IOStream"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >A file class with some useful methods for tag manipulation. </p>
-<p >This class is a basic file class with some methods that are particularly useful for tag editors. It has methods to take advantage of <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a> and a binary search method for finding patterns in a file. </p>
+<div class="textblock"><p >I/O stream with data from a file. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af25d7da110c52eec6996dbd40ddaaa09" name="af25d7da110c52eec6996dbd40ddaaa09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af25d7da110c52eec6996dbd40ddaaa09">&#9670;&nbsp;</a></span>FileStream() <span class="overload">[1/3]</span></h2>
+<a id="a1d0ad7dd6eb3d049218a0dc28e555def" name="a1d0ad7dd6eb3d049218a0dc28e555def"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d0ad7dd6eb3d049218a0dc28e555def">&#9670;&nbsp;</a></span>FileStream() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143,7 +142,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">TagLib::FileStream::FileStream </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceTagLib.html#ae4dea55098950c5c4e628646090236f4">FileName</a>&#160;</td>
-          <td class="paramname"><em>file</em>, </td>
+          <td class="paramname"><em>fileName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -158,7 +157,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Construct a <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> object and opens the <em>file</em>. <em>file</em> should be a be a C-string in the local file system encoding. </p>
+<p >Construct a <a class="el" href="classTagLib_1_1FileStream.html" title="I/O stream with data from a file.">FileStream</a> object and open the <em>fileName</em>. <em>fileName</em> should be a C-string in the local file system encoding. </p>
 
 </div>
 </div>
@@ -187,7 +186,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Construct a <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> object and opens the <em>file</em> using file descriptor. </p>
+<p >Construct a <a class="el" href="classTagLib_1_1FileStream.html" title="I/O stream with data from a file.">FileStream</a> object using an existing <em>fileDescriptor</em>. </p>
 
 </div>
 </div>
@@ -213,7 +212,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Destroys this <a class="el" href="classTagLib_1_1FileStream.html" title="A file class with some useful methods for tag manipulation.">FileStream</a> instance. </p>
+<p >Destroys this <a class="el" href="classTagLib_1_1FileStream.html" title="I/O stream with data from a file.">FileStream</a> instance. </p>
 
 </div>
 </div>
@@ -505,7 +504,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns true if the file is read only (or if the file can not be opened). </p>
+<p >Returns <code>true</code> if the file is read only (or if the file can not be opened). </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1IOStream.html#a3d64e5422fea908e9c6938a029bd68e6">TagLib::IOStream</a>.</p>
 
@@ -671,7 +670,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Attempts to write the block <em>data</em> at the current get pointer. If the file is currently only opened read only &ndash; i.e. <a class="el" href="classTagLib_1_1FileStream.html#a638a70d3d3b6c370bf44fc9d287f4c08">readOnly()</a> returns true &ndash; this attempts to reopen the file in read/write mode.</p>
+<p >Attempts to write the block <em>data</em> at the current get pointer. If the file is currently only opened read only &ndash; i.e. <a class="el" href="classTagLib_1_1FileStream.html#a638a70d3d3b6c370bf44fc9d287f4c08">readOnly()</a> returns <code>true</code> &ndash; this attempts to reopen the file in read/write mode.</p>
 <dl class="section note"><dt>Note</dt><dd>This should be used instead of using the streaming output operator for a <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a>. And even this function is significantly slower than doing output with a char[]. </dd></dl>
 
 <p>Implements <a class="el" href="classTagLib_1_1IOStream.html#a8895ffd964dfabb2e6097b4b5e99fbc9">TagLib::IOStream</a>.</p>

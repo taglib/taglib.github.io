@@ -1,13 +1,11 @@
 <map id="flacproperties.h" name="flacproperties.h">
-<area shape="rect" id="node1" title=" " alt="" coords="287,5,410,32"/>
-<area shape="rect" id="node2" href="$tbytevector_8h.html" title=" " alt="" coords="148,80,256,107"/>
-<area shape="rect" id="node10" href="$taglib__export_8h.html" title=" " alt="" coords="394,155,514,181"/>
-<area shape="rect" id="node11" href="$audioproperties_8h.html" title=" " alt="" coords="281,80,417,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="93,155,173,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="293,155,370,181"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,155,68,181"/>
-<area shape="rect" id="node6" href="$taglib_8h.html" title=" " alt="" coords="197,155,268,181"/>
-<area shape="rect" id="node7" title=" " alt="" coords="43,229,161,256"/>
-<area shape="rect" id="node8" title=" " alt="" coords="185,229,281,256"/>
-<area shape="rect" id="node9" title=" " alt="" coords="305,229,363,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="147,5,269,32"/>
+<area shape="rect" id="node2" href="$tbytevector_8h.html" title=" " alt="" coords="301,80,409,107"/>
+<area shape="rect" id="node6" href="$taglib__export_8h.html" title=" " alt="" coords="113,155,233,181"/>
+<area shape="rect" id="node7" href="$audioproperties_8h.html" title=" " alt="" coords="140,80,276,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="257,155,335,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="447,155,510,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="359,155,423,181"/>
+<area shape="rect" id="node8" href="$taglib_8h.html" title=" " alt="" coords="18,155,89,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="5,229,101,256"/>
 </map>

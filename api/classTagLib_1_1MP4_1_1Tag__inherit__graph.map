@@ -1,4 +1,4 @@
 <map id="TagLib::MP4::Tag" name="TagLib::MP4::Tag">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,135,107"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1Tag.html" title=" " alt="" coords="23,5,117,32"/>
+<area shape="rect" id="node1" title="An MP4 tag implementation." alt="" coords="5,80,135,107"/>
+<area shape="rect" id="node2" href="$classTagLib_1_1Tag.html" title="A simple, generic interface to common audio metadata fields." alt="" coords="23,5,117,32"/>
 </map>

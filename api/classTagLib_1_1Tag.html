@@ -29,6 +29,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>A simple, generic interface to common audio metadata fields.  
+ <a href="classTagLib_1_1Tag.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="tag_8h_source.html">tag.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for TagLib::Tag:</div>
@@ -100,7 +103,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:afe0982ca2061e8ddf3f7bf43671aa93d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Tag.html#afe0982ca2061e8ddf3f7bf43671aa93d">Tag</a> ()</td></tr>
 <tr class="separator:afe0982ca2061e8ddf3f7bf43671aa93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >A simple, generic interface to common audio metadata fields. </p>
+<p >This is an attempt to abstract away the difference in the metadata formats of various audio codecs and tagging schemes. As such it is generally a subset of what is available in the specific formats but should be suitable for most applications. This is meant to compliment the generic APIs found in <a class="el" href="classTagLib_1_1AudioProperties.html" title="A simple, abstract interface to common audio properties.">TagLib::AudioProperties</a>, <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">TagLib::File</a> and <a class="el" href="classTagLib_1_1FileRef.html" title="This class provides a simple abstraction for creating and handling files.">TagLib::FileRef</a>. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac55be0b7de77d12cacc0f756252dd312" name="ac55be0b7de77d12cacc0f756252dd312"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac55be0b7de77d12cacc0f756252dd312">&#9670;&nbsp;</a></span>~Tag()</h2>
 
@@ -123,7 +129,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Destroys this <a class="el" href="classTagLib_1_1Tag.html">Tag</a> instance. </p>
+<p >Destroys this <a class="el" href="classTagLib_1_1Tag.html" title="A simple, generic interface to common audio metadata fields.">Tag</a> instance. </p>
 
 <p>Reimplemented in <a class="el" href="classTagLib_1_1APE_1_1Tag.html#aa6e4373749fb7cfeb4ba83582fa38598">TagLib::APE::Tag</a>, <a class="el" href="classTagLib_1_1ASF_1_1Tag.html#a437abf45a0483d7a2ea182c56ba530c4">TagLib::ASF::Tag</a>, <a class="el" href="classTagLib_1_1DSDIFF_1_1DIIN_1_1Tag.html#a97f178a2ba46dc10bda142087f4bf62e">TagLib::DSDIFF::DIIN::Tag</a>, <a class="el" href="classTagLib_1_1Mod_1_1Tag.html#ae3028bb86425da2a1ab184d03fbb29d9">TagLib::Mod::Tag</a>, <a class="el" href="classTagLib_1_1MP4_1_1Tag.html#a0ca805d1783570dece3b942af3ba63bd">TagLib::MP4::Tag</a>, <a class="el" href="classTagLib_1_1ID3v1_1_1Tag.html#ab2668789c6ad1a4213492b059f23890c">TagLib::ID3v1::Tag</a>, <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a419d783da23bb77323fcbd0a53f8fd67">TagLib::ID3v2::Tag</a>, and <a class="el" href="classTagLib_1_1RIFF_1_1Info_1_1Tag.html#ab76735fef1ce1631e82e780c82fa51e5">TagLib::RIFF::Info::Tag</a>.</p>
 
@@ -177,7 +183,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Construct a <a class="el" href="classTagLib_1_1Tag.html">Tag</a>. This is protected since tags should only be instantiated through subclasses. </p>
+<p >Construct a <a class="el" href="classTagLib_1_1Tag.html" title="A simple, generic interface to common audio metadata fields.">Tag</a>. This is protected since tags should only be instantiated through subclasses. </p>
 
 </div>
 </div>
@@ -204,7 +210,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the album name; if no album name is present in the tag String::null will be returned. </p>
+<p >Returns the album name; if no album name is present in the tag an empty string will be returned. </p>
 
 <p>Implemented in <a class="el" href="classTagLib_1_1APE_1_1Tag.html#ac346fb11d1de6358c825de5670d8c9e8">TagLib::APE::Tag</a>, <a class="el" href="classTagLib_1_1ASF_1_1Tag.html#aa81c2134744c3652c2f4c2f61299a7e0">TagLib::ASF::Tag</a>, <a class="el" href="classTagLib_1_1DSDIFF_1_1DIIN_1_1Tag.html#a3f51288d8f8da0a70180307b364ccac2">TagLib::DSDIFF::DIIN::Tag</a>, <a class="el" href="classTagLib_1_1Mod_1_1Tag.html#a1e077b0cbee0543351fa3782bb92772d">TagLib::Mod::Tag</a>, <a class="el" href="classTagLib_1_1MP4_1_1Tag.html#aed0c3f836fddb52e0a9a6e3a52dd09d3">TagLib::MP4::Tag</a>, <a class="el" href="classTagLib_1_1ID3v1_1_1Tag.html#ac7e445688003f74f19cff043abd04d99">TagLib::ID3v1::Tag</a>, <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a84ce0211e580e2c72a25ac26ce54e0f6">TagLib::ID3v2::Tag</a>, <a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#af4ba2c5a81dbf07199bf6e4b2afd7757">TagLib::Ogg::XiphComment</a>, and <a class="el" href="classTagLib_1_1RIFF_1_1Info_1_1Tag.html#a52f50f4e5835283c3f79d87d57d9334e">TagLib::RIFF::Info::Tag</a>.</p>
 
@@ -232,7 +238,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the artist name; if no artist name is present in the tag String::null will be returned. </p>
+<p >Returns the artist name; if no artist name is present in the tag an empty string will be returned. </p>
 
 <p>Implemented in <a class="el" href="classTagLib_1_1APE_1_1Tag.html#a2db253f635d75c1970bfeb36447dc0e1">TagLib::APE::Tag</a>, <a class="el" href="classTagLib_1_1ASF_1_1Tag.html#aa3563260bd5de467f87c156847fb980c">TagLib::ASF::Tag</a>, <a class="el" href="classTagLib_1_1DSDIFF_1_1DIIN_1_1Tag.html#a2532bfbf4cc3804847d3419b0fee8fa0">TagLib::DSDIFF::DIIN::Tag</a>, <a class="el" href="classTagLib_1_1Mod_1_1Tag.html#a52a0787985a687c4fc7e781be7276ed9">TagLib::Mod::Tag</a>, <a class="el" href="classTagLib_1_1MP4_1_1Tag.html#ae642d3c8b5ec75818768e2a27fda03e2">TagLib::MP4::Tag</a>, <a class="el" href="classTagLib_1_1ID3v1_1_1Tag.html#a6c1af754620cb96d59835d64f43e9c64">TagLib::ID3v1::Tag</a>, <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a5079e2cc0f320152630e0255533add4e">TagLib::ID3v2::Tag</a>, <a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#ad3e0e45810b1566a179433ab3f8b080d">TagLib::Ogg::XiphComment</a>, and <a class="el" href="classTagLib_1_1RIFF_1_1Info_1_1Tag.html#a634eda98c3894efddd04f2e6f1faf6a4">TagLib::RIFF::Info::Tag</a>.</p>
 
@@ -260,7 +266,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the track comment; if no comment is present in the tag String::null will be returned. </p>
+<p >Returns the track comment; if no comment is present in the tag an empty string will be returned. </p>
 
 <p>Implemented in <a class="el" href="classTagLib_1_1APE_1_1Tag.html#adb57fef74d8681e5edc09ea28098402d">TagLib::APE::Tag</a>, <a class="el" href="classTagLib_1_1ASF_1_1Tag.html#ae853ad79177ec01950a72bf6fe51a1bc">TagLib::ASF::Tag</a>, <a class="el" href="classTagLib_1_1DSDIFF_1_1DIIN_1_1Tag.html#ab7b29686055615ee4f21d466837aa754">TagLib::DSDIFF::DIIN::Tag</a>, <a class="el" href="classTagLib_1_1Mod_1_1Tag.html#a7621f6273e8deb98e486c4d32fc46989">TagLib::Mod::Tag</a>, <a class="el" href="classTagLib_1_1MP4_1_1Tag.html#ae931d8a6d5c9978a4afa2740890279e0">TagLib::MP4::Tag</a>, <a class="el" href="classTagLib_1_1ID3v1_1_1Tag.html#a346ebdebc37cdeff4c2ca10d7ce64453">TagLib::ID3v1::Tag</a>, <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#abec7db747c2b83a60acc3bd78f424239">TagLib::ID3v2::Tag</a>, <a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#a1e913d80120ac43112eecd3fee21f0d9">TagLib::Ogg::XiphComment</a>, and <a class="el" href="classTagLib_1_1RIFF_1_1Info_1_1Tag.html#abcceaf1150603db66b03e98d84272365">TagLib::RIFF::Info::Tag</a>.</p>
 
@@ -381,8 +387,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p >Copies the generic data from one tag to another.</p>
-<dl class="section note"><dt>Note</dt><dd>This will no affect any of the lower level details of the tag. For instance if any of the tag type specific data (maybe a URL for a band) is set, this will not modify or copy that. This just copies using the API in this class.</dd></dl>
-<p>If <em>overwrite</em> is true then the values will be unconditionally copied. If false only empty values will be overwritten. </p>
+<dl class="section note"><dt>Note</dt><dd>This will not affect any of the lower level details of the tag. For instance if any of the tag type specific data (maybe a URL for a band) is set, this will not modify or copy that. This just copies using the API in this class.</dd></dl>
+<p>If <em>overwrite</em> is <code>true</code> then the values will be unconditionally copied. If <code>false</code> only empty values will be overwritten. </p>
 
 </div>
 </div>
@@ -408,7 +414,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the genre name; if no genre is present in the tag String::null will be returned. </p>
+<p >Returns the genre name; if no genre is present in the tag an empty string will be returned. </p>
 
 <p>Implemented in <a class="el" href="classTagLib_1_1APE_1_1Tag.html#a2e1f1f9d2262097ae7e019e238800a10">TagLib::APE::Tag</a>, <a class="el" href="classTagLib_1_1ASF_1_1Tag.html#a8b0fc7b0175f22c4f1b9af317be9ccea">TagLib::ASF::Tag</a>, <a class="el" href="classTagLib_1_1DSDIFF_1_1DIIN_1_1Tag.html#a2b9c876fb39cd8908ebf1dd986a276f3">TagLib::DSDIFF::DIIN::Tag</a>, <a class="el" href="classTagLib_1_1Mod_1_1Tag.html#aa33ce1193d23db6f7921a8e4595e2467">TagLib::Mod::Tag</a>, <a class="el" href="classTagLib_1_1MP4_1_1Tag.html#a7404e0b50bfd1f9cc66fd7865a9b53b1">TagLib::MP4::Tag</a>, <a class="el" href="classTagLib_1_1ID3v1_1_1Tag.html#aa8d68a3c11c94cf28eedecd5af12437b">TagLib::ID3v1::Tag</a>, <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a0b5c134ecee15fb0dde97cc53bdfbbfb">TagLib::ID3v2::Tag</a>, <a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#ab8a93a2c5ef89c9a10f7ea8cef4f891c">TagLib::Ogg::XiphComment</a>, and <a class="el" href="classTagLib_1_1RIFF_1_1Info_1_1Tag.html#ac5d5e916691ea9b7388ef22f86054ea1">TagLib::RIFF::Info::Tag</a>.</p>
 
@@ -436,7 +442,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns true if the tag does not contain any data. This should be reimplemented in subclasses that provide more than the basic tagging abilities in this class. </p>
+<p >Returns <code>true</code> if the tag does not contain any data. This should be reimplemented in subclasses that provide more than the basic tagging abilities in this class. </p>
 
 <p>Reimplemented in <a class="el" href="classTagLib_1_1APE_1_1Tag.html#a9235bed6e5f78881c3464984d8405ff0">TagLib::APE::Tag</a>, <a class="el" href="classTagLib_1_1ASF_1_1Tag.html#a53fe526595c6d4c8451933a678b9dc91">TagLib::ASF::Tag</a>, <a class="el" href="classTagLib_1_1MP4_1_1Tag.html#a632a60734d36436faa8bf5488ad5de12">TagLib::MP4::Tag</a>, <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#aa9a2d1f1af10bc8e6ff4bc71b4ef9dad">TagLib::ID3v2::Tag</a>, <a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#ad089137fd8de7aece513920756f1a41b">TagLib::Ogg::XiphComment</a>, and <a class="el" href="classTagLib_1_1RIFF_1_1Info_1_1Tag.html#a256143969f7a64486baea9586dc3aebf">TagLib::RIFF::Info::Tag</a>.</p>
 
@@ -575,7 +581,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the album to <em>s</em>. If <em>s</em> is String::null then this value will be cleared. </p>
+<p >Sets the album to <em>s</em>. If <em>s</em> is an empty string then this value will be cleared. </p>
 
 <p>Implemented in <a class="el" href="classTagLib_1_1DSDIFF_1_1DIIN_1_1Tag.html#a034e14a35766819bf716e72dbae574b3">TagLib::DSDIFF::DIIN::Tag</a>, <a class="el" href="classTagLib_1_1Mod_1_1Tag.html#a9634095b4f79c0d9e434154399639fdb">TagLib::Mod::Tag</a>, <a class="el" href="classTagLib_1_1APE_1_1Tag.html#a7d5189e48fe7f021590c593d3367095e">TagLib::APE::Tag</a>, <a class="el" href="classTagLib_1_1ID3v1_1_1Tag.html#a93901874c5e94ac94f0a14df4fefccd8">TagLib::ID3v1::Tag</a>, <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#ac938cfcbdb961516bfa874e2afcd09e4">TagLib::ID3v2::Tag</a>, <a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#a6022a4d2d4905636c7959ff052ecdcca">TagLib::Ogg::XiphComment</a>, <a class="el" href="classTagLib_1_1RIFF_1_1Info_1_1Tag.html#a8dd9accfd39ef108c7f319c8a96e6fb6">TagLib::RIFF::Info::Tag</a>, <a class="el" href="classTagLib_1_1ASF_1_1Tag.html#a0b74491a7eb7252f6ea632437f883df5">TagLib::ASF::Tag</a>, and <a class="el" href="classTagLib_1_1MP4_1_1Tag.html#a079f04f5a120e1f6852ff27fb8602a15">TagLib::MP4::Tag</a>.</p>
 
@@ -604,7 +610,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the artist to <em>s</em>. If <em>s</em> is String::null then this value will be cleared. </p>
+<p >Sets the artist to <em>s</em>. If <em>s</em> is an empty string then this value will be cleared. </p>
 
 <p>Implemented in <a class="el" href="classTagLib_1_1DSDIFF_1_1DIIN_1_1Tag.html#a5c0419728d63f55fdd595c04bcf9cb52">TagLib::DSDIFF::DIIN::Tag</a>, <a class="el" href="classTagLib_1_1Mod_1_1Tag.html#a25af68a0791e1501d9882ed61fbb9943">TagLib::Mod::Tag</a>, <a class="el" href="classTagLib_1_1APE_1_1Tag.html#ad5ad65c1595fec0ca660a419e9af6eb5">TagLib::APE::Tag</a>, <a class="el" href="classTagLib_1_1ID3v1_1_1Tag.html#a6ca55b3f91f2b444175073987ac3dced">TagLib::ID3v1::Tag</a>, <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#aa49b0e5a7ad273c7ad93a050812129a1">TagLib::ID3v2::Tag</a>, <a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#a7173f0be6cf8af1750afe572f08a74c7">TagLib::Ogg::XiphComment</a>, <a class="el" href="classTagLib_1_1RIFF_1_1Info_1_1Tag.html#ae4532ddafc8177fdde6c2dc641a13fa7">TagLib::RIFF::Info::Tag</a>, <a class="el" href="classTagLib_1_1ASF_1_1Tag.html#a51b0ccae6dda3cead6d830acf220ef35">TagLib::ASF::Tag</a>, and <a class="el" href="classTagLib_1_1MP4_1_1Tag.html#a93ca971cb04cbdc30d4be5d965034844">TagLib::MP4::Tag</a>.</p>
 
@@ -633,7 +639,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the comment to <em>s</em>. If <em>s</em> is String::null then this value will be cleared. </p>
+<p >Sets the comment to <em>s</em>. If <em>s</em> is an empty string then this value will be cleared. </p>
 
 <p>Implemented in <a class="el" href="classTagLib_1_1DSDIFF_1_1DIIN_1_1Tag.html#a1245126d41a55fd9c349a87b5bb2cdf1">TagLib::DSDIFF::DIIN::Tag</a>, <a class="el" href="classTagLib_1_1Mod_1_1Tag.html#a41bb582201264b593df81f198dfafc55">TagLib::Mod::Tag</a>, <a class="el" href="classTagLib_1_1APE_1_1Tag.html#a6cc1e3d13c5b7c0a398707ccb12789bc">TagLib::APE::Tag</a>, <a class="el" href="classTagLib_1_1ID3v1_1_1Tag.html#a341d8148439837caaceccd7df28850dd">TagLib::ID3v1::Tag</a>, <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a9b88167661d53c5013a0c623cbbfffbb">TagLib::ID3v2::Tag</a>, <a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#ad14e2df90eaa411ef981831e66514d75">TagLib::Ogg::XiphComment</a>, <a class="el" href="classTagLib_1_1RIFF_1_1Info_1_1Tag.html#a68ea1870b6baa70b21b7acd89e4dd567">TagLib::RIFF::Info::Tag</a>, <a class="el" href="classTagLib_1_1ASF_1_1Tag.html#aa3eeadfc7775277bd2afd96389a9dcb0">TagLib::ASF::Tag</a>, and <a class="el" href="classTagLib_1_1MP4_1_1Tag.html#a2fbd7d0f2a0110cb61acabda04bb39ac">TagLib::MP4::Tag</a>.</p>
 
@@ -701,7 +707,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the genre to <em>s</em>. If <em>s</em> is String::null then this value will be cleared. For tag formats that use a fixed set of genres, the appropriate value will be selected based on a string comparison. A list of available genres for those formats should be available in that type's implementation. </p>
+<p >Sets the genre to <em>s</em>. If <em>s</em> is an empty string then this value will be cleared. For tag formats that use a fixed set of genres, the appropriate value will be selected based on a string comparison. A list of available genres for those formats should be available in that type's implementation. </p>
 
 <p>Implemented in <a class="el" href="classTagLib_1_1DSDIFF_1_1DIIN_1_1Tag.html#a9921cced24e41521f14e906e45f3f945">TagLib::DSDIFF::DIIN::Tag</a>, <a class="el" href="classTagLib_1_1Mod_1_1Tag.html#ae25df5a08b19733df529f0fe5b77a91d">TagLib::Mod::Tag</a>, <a class="el" href="classTagLib_1_1APE_1_1Tag.html#aa2b965e003dd0161da3757cf885294c0">TagLib::APE::Tag</a>, <a class="el" href="classTagLib_1_1ID3v1_1_1Tag.html#af8c17eb9f6908f39213446cb9e7870ab">TagLib::ID3v1::Tag</a>, <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#ad6f5a65d75a611b582652022a3a32ced">TagLib::ID3v2::Tag</a>, <a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#a227bc82ee84ed560b4010b31e9d7c0f6">TagLib::Ogg::XiphComment</a>, <a class="el" href="classTagLib_1_1RIFF_1_1Info_1_1Tag.html#ada4aaefe7bae544cd349d08858e937a6">TagLib::RIFF::Info::Tag</a>, <a class="el" href="classTagLib_1_1ASF_1_1Tag.html#a535dc86b4417abaee60f682b9a035533">TagLib::ASF::Tag</a>, and <a class="el" href="classTagLib_1_1MP4_1_1Tag.html#ac4d26cfc72da55d62affc238cfe2f602">TagLib::MP4::Tag</a>.</p>
 
@@ -730,7 +736,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the tags of this <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> to those specified in <em>origProps</em>. This default implementation sets only the tags for which setter methods exist in this class (artist, album, ...), and only one value per key; the rest will be contained in the returned <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,valuelist&gt; tag representations.">PropertyMap</a>. </p>
+<p >Sets the tags of this <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">File</a> to those specified in <em>origProps</em>. This default implementation sets only the tags for which setter methods exist in this class (artist, album, ...), and only one value per key; the rest will be contained in the returned <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,values&gt; tag representations.">PropertyMap</a>. </p>
 
 <p>Reimplemented in <a class="el" href="classTagLib_1_1APE_1_1Tag.html#a01ea08ae4a923f9d06c267312c0b7bbc">TagLib::APE::Tag</a>, <a class="el" href="classTagLib_1_1DSDIFF_1_1DIIN_1_1Tag.html#a28b4facdc0f71b6c9bf5b9120adeaf03">TagLib::DSDIFF::DIIN::Tag</a>, <a class="el" href="classTagLib_1_1Mod_1_1Tag.html#a6e0f599fee3d399be20418533d192bd2">TagLib::Mod::Tag</a>, <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a0c2963dd36ce8148b8a48588817272b6">TagLib::ID3v2::Tag</a>, <a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#a19ebb2a02b3cca2554afc54e6ce8c024">TagLib::Ogg::XiphComment</a>, <a class="el" href="classTagLib_1_1ASF_1_1Tag.html#a9d464fb6f11227443f3ecf73570fc1ef">TagLib::ASF::Tag</a>, <a class="el" href="classTagLib_1_1MP4_1_1Tag.html#afa24fc9b810464bb9fd87c0933398bda">TagLib::MP4::Tag</a>, and <a class="el" href="classTagLib_1_1RIFF_1_1Info_1_1Tag.html#ac3084a2beff204e0e46f161e39f73988">TagLib::RIFF::Info::Tag</a>.</p>
 
@@ -759,7 +765,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the title to <em>s</em>. If <em>s</em> is String::null then this value will be cleared. </p>
+<p >Sets the title to <em>s</em>. If <em>s</em> is an empty string then this value will be cleared. </p>
 
 <p>Implemented in <a class="el" href="classTagLib_1_1APE_1_1Tag.html#affba0bbc6d9b53de72668778df609a88">TagLib::APE::Tag</a>, <a class="el" href="classTagLib_1_1ID3v1_1_1Tag.html#aad426f08bf78389ec0bcbd07dacd641b">TagLib::ID3v1::Tag</a>, <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#add2248ddbbd424f770b59414f163f1bf">TagLib::ID3v2::Tag</a>, <a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#a2328e58f1439fac79aae5cd39eb1709b">TagLib::Ogg::XiphComment</a>, <a class="el" href="classTagLib_1_1RIFF_1_1Info_1_1Tag.html#a24c25b51d4a5a2f2b486bd72252d6823">TagLib::RIFF::Info::Tag</a>, <a class="el" href="classTagLib_1_1DSDIFF_1_1DIIN_1_1Tag.html#af98be0cd54ab9296af9fd6642c67c749">TagLib::DSDIFF::DIIN::Tag</a>, <a class="el" href="classTagLib_1_1Mod_1_1Tag.html#a040f2c5ac997e40e22675589b6d170c9">TagLib::Mod::Tag</a>, <a class="el" href="classTagLib_1_1ASF_1_1Tag.html#a5a450c9307ccdf363cbc24c42393f8b2">TagLib::ASF::Tag</a>, and <a class="el" href="classTagLib_1_1MP4_1_1Tag.html#afab15080a50bda006262fef21afc28f6">TagLib::MP4::Tag</a>.</p>
 
@@ -845,7 +851,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the track name; if no track name is present in the tag String::null will be returned. </p>
+<p >Returns the track name; if no track name is present in the tag an empty string will be returned. </p>
 
 <p>Implemented in <a class="el" href="classTagLib_1_1APE_1_1Tag.html#a393343a8e5cc68077e5e117ea1a97dc0">TagLib::APE::Tag</a>, <a class="el" href="classTagLib_1_1ASF_1_1Tag.html#a5e10e09e088505fad5f322ad35585934">TagLib::ASF::Tag</a>, <a class="el" href="classTagLib_1_1DSDIFF_1_1DIIN_1_1Tag.html#a7c3a5d13f95ecfc663752b78c47f61c7">TagLib::DSDIFF::DIIN::Tag</a>, <a class="el" href="classTagLib_1_1Mod_1_1Tag.html#a8909e996eeb0e417da9085ea7d5711ee">TagLib::Mod::Tag</a>, <a class="el" href="classTagLib_1_1MP4_1_1Tag.html#aae2e2e9adae2b492c32a5ad8d0c25a47">TagLib::MP4::Tag</a>, <a class="el" href="classTagLib_1_1ID3v1_1_1Tag.html#af81de372fc376fe720fbf2e1d604ec7f">TagLib::ID3v1::Tag</a>, <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#afed8a0603852d4d9ae7c86de48c94ac2">TagLib::ID3v2::Tag</a>, <a class="el" href="classTagLib_1_1Ogg_1_1XiphComment.html#a1993605b5e14fd5d77937d8433603b4d">TagLib::Ogg::XiphComment</a>, and <a class="el" href="classTagLib_1_1RIFF_1_1Info_1_1Tag.html#a6612829a20a098afd974107a9abb1a6d">TagLib::RIFF::Info::Tag</a>.</p>
 

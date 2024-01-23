@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Base class for module files.">
 <polygon fill="#bfbfbf" stroke="black" points="149.5,-56.5 149.5,-75.5 271.5,-75.5 271.5,-56.5 149.5,-56.5"/>
 <text text-anchor="middle" x="210.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::Mod::FileBase</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classTagLib_1_1IT_1_1File.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classTagLib_1_1IT_1_1File.html" target="_top" xlink:title="An implementation of TagLib::File with IT specific methods.">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 85,-19.5 85,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="42.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::IT::File</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classTagLib_1_1Mod_1_1File.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classTagLib_1_1Mod_1_1File.html" target="_top" xlink:title="An implementation of TagLib::File with Mod specific methods.">
 <polygon fill="white" stroke="black" points="103.5,-0.5 103.5,-19.5 201.5,-19.5 201.5,-0.5 103.5,-0.5"/>
 <text text-anchor="middle" x="152.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::Mod::File</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classTagLib_1_1S3M_1_1File.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classTagLib_1_1S3M_1_1File.html" target="_top" xlink:title="An implementation of TagLib::File with S3M specific methods.">
 <polygon fill="white" stroke="black" points="219.5,-0.5 219.5,-19.5 317.5,-19.5 317.5,-0.5 219.5,-0.5"/>
 <text text-anchor="middle" x="268.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::S3M::File</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="classTagLib_1_1XM_1_1File.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classTagLib_1_1XM_1_1File.html" target="_top" xlink:title="An implementation of TagLib::File with XM specific methods.">
 <polygon fill="white" stroke="black" points="335.5,-0.5 335.5,-19.5 427.5,-19.5 427.5,-0.5 335.5,-0.5"/>
 <text text-anchor="middle" x="381.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::XM::File</text>
 </a>

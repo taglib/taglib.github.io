@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classTagLib_1_1PropertyMap.html" target="_top" xlink:title="A map for format&#45;independent &lt;key,valuelist&gt; tag representations.">
+<g id="a_node2"><a xlink:href="classTagLib_1_1PropertyMap.html" target="_top" xlink:title="A map for format&#45;independent &lt;key,values&gt; tag representations.">
 <polygon fill="white" stroke="black" points="4,-0.5 4,-30.5 123,-30.5 123,-0.5 4,-0.5"/>
 <text text-anchor="start" x="12" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::PropertyMap</text>
 <text text-anchor="middle" x="63.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; String, StringList &gt;</text>

@@ -414,7 +414,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns true if the file is read only (or if the file can not be opened). </p>
+<p >Returns <code>true</code> if the file is read only (or if the file can not be opened). </p>
 
 <p>Implemented in <a class="el" href="classTagLib_1_1ByteVectorStream.html#a73b6c58733a8a4d17b13724e8ae0a890">TagLib::ByteVectorStream</a>, and <a class="el" href="classTagLib_1_1FileStream.html#a638a70d3d3b6c370bf44fc9d287f4c08">TagLib::FileStream</a>.</p>
 
@@ -580,7 +580,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Attempts to write the block <em>data</em> at the current get pointer. If the file is currently only opened read only &ndash; i.e. <a class="el" href="classTagLib_1_1IOStream.html#a3d64e5422fea908e9c6938a029bd68e6">readOnly()</a> returns true &ndash; this attempts to reopen the file in read/write mode.</p>
+<p >Attempts to write the block <em>data</em> at the current get pointer. If the file is currently only opened read only &ndash; i.e. <a class="el" href="classTagLib_1_1IOStream.html#a3d64e5422fea908e9c6938a029bd68e6">readOnly()</a> returns <code>true</code> &ndash; this attempts to reopen the file in read/write mode.</p>
 <dl class="section note"><dt>Note</dt><dd>This should be used instead of using the streaming output operator for a <a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a>. And even this function is significantly slower than doing output with a char[]. </dd></dl>
 
 <p>Implemented in <a class="el" href="classTagLib_1_1ByteVectorStream.html#a0c54b03d141f6e3f651fb81f714c8e00">TagLib::ByteVectorStream</a>, and <a class="el" href="classTagLib_1_1FileStream.html#a9546ef373843b43d82feba5a68686d45">TagLib::FileStream</a>.</p>

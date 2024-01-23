@@ -186,25 +186,25 @@ Static Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a1e08af5feb6ea2521bd5496c413d0af9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a1e08af5feb6ea2521bd5496c413d0af9">read</a> ()</td></tr>
 <tr class="separator:a1e08af5feb6ea2521bd5496c413d0af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a878c91b714fef44e11c1fd3a6d294fe5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a878c91b714fef44e11c1fd3a6d294fe5">parse</a> (const <a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a> &amp;data)</td></tr>
-<tr class="separator:a878c91b714fef44e11c1fd3a6d294fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaf509f63d94aa7ea8ddd34ba7bcca1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#aeaf509f63d94aa7ea8ddd34ba7bcca1a">parse</a> (const <a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a> &amp;origData)</td></tr>
+<tr class="separator:aeaf509f63d94aa7ea8ddd34ba7bcca1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5b2f5a02e06968a88b186359a2eab07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#ab5b2f5a02e06968a88b186359a2eab07">setTextFrame</a> (const <a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a> &amp;id, const <a class="el" href="classTagLib_1_1String.html">String</a> &amp;value)</td></tr>
 <tr class="separator:ab5b2f5a02e06968a88b186359a2eab07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b5660b92c5128d94ab84a951778c73e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a2b5660b92c5128d94ab84a951778c73e">downgradeFrames</a> (<a class="el" href="namespaceTagLib_1_1ID3v2.html#a1551e00f84f6771a5599f726733a31ea">FrameList</a> *existingFrames, <a class="el" href="namespaceTagLib_1_1ID3v2.html#a1551e00f84f6771a5599f726733a31ea">FrameList</a> *newFrames) const</td></tr>
-<tr class="separator:a2b5660b92c5128d94ab84a951778c73e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a0117637a6850fde58f51b3c0d367a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#af1a0117637a6850fde58f51b3c0d367a">downgradeFrames</a> (<a class="el" href="namespaceTagLib_1_1ID3v2.html#a1551e00f84f6771a5599f726733a31ea">FrameList</a> *frames, <a class="el" href="namespaceTagLib_1_1ID3v2.html#a1551e00f84f6771a5599f726733a31ea">FrameList</a> *newFrames) const</td></tr>
+<tr class="separator:af1a0117637a6850fde58f51b3c0d367a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classTagLib_1_1Tag"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classTagLib_1_1Tag')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classTagLib_1_1Tag.html">TagLib::Tag</a></td></tr>
 <tr class="memitem:afe0982ca2061e8ddf3f7bf43671aa93d inherit pro_methods_classTagLib_1_1Tag"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Tag.html#afe0982ca2061e8ddf3f7bf43671aa93d">Tag</a> ()</td></tr>
 <tr class="separator:afe0982ca2061e8ddf3f7bf43671aa93d inherit pro_methods_classTagLib_1_1Tag"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The main class in the <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> implementation. </p>
-<p >This is the main class in the <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> implementation. It serves two functions. This first, as is obvious from the public API, is to provide a container for the other <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> related classes. In addition, through the <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a1e08af5feb6ea2521bd5496c413d0af9">read()</a> and <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a878c91b714fef44e11c1fd3a6d294fe5">parse()</a> protected methods, it provides the most basic level of parsing. In these methods the <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag is extracted from the file and split into data components.</p>
-<p ><a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tags have several parts, <a class="el" href="namespaceTagLib.html" title="A namespace for all TagLib related classes and functions.">TagLib</a> attempts to provide an interface for them all. <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a9486485c242bdf3430ef76002714574c">header()</a>, footer() and <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a40e08357c29c0796b03527f022ece1cc">extendedHeader()</a> correspond to those data structures in the <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> standard and the APIs for the classes that they return attempt to reflect this.</p>
-<p >Also <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tags are built up from a list of frames, which are in turn have a header and a list of fields. <a class="el" href="namespaceTagLib.html" title="A namespace for all TagLib related classes and functions.">TagLib</a> provides two ways of accessing the list of frames that are in a given <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag. The first is simply via the <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#aa4a6438787b2ee835850102984166d63">frameList()</a> method. This is just a list of pointers to the frames. The second is a map from the frame type &ndash; i.e. "COMM" for comments &ndash; and a list of frames of that type. (In some cases <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> allows for multiple frames of the same type, hence this being a map to a list rather than just a map to an individual frame.)</p>
+<p >This is the main class in the <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> implementation. It serves two functions. The first, as is obvious from the public API, is to provide a container for the other <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> related classes. In addition, through the <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a1e08af5feb6ea2521bd5496c413d0af9">read()</a> and <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#aeaf509f63d94aa7ea8ddd34ba7bcca1a">parse()</a> protected methods, it provides the most basic level of parsing. In these methods the <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag is extracted from the file and split into data components.</p>
+<p ><a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tags have several parts, <a class="el" href="namespaceTagLib.html" title="A namespace for all TagLib related classes and functions.">TagLib</a> attempts to provide an interface for them all. <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a9486485c242bdf3430ef76002714574c">header()</a> and <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a40e08357c29c0796b03527f022ece1cc">extendedHeader()</a> correspond to those data structures in the <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> standard and the APIs for the classes that they return attempt to reflect this.</p>
+<p >Also <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tags are built up from a list of frames, which have a header and a list of fields. <a class="el" href="namespaceTagLib.html" title="A namespace for all TagLib related classes and functions.">TagLib</a> provides two ways of accessing the list of frames that are in a given <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag. The first is simply via the <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#aa4a6438787b2ee835850102984166d63">frameList()</a> method. This is just a list of pointers to the frames. The second is a map from the frame type &ndash; i.e. "COMM" for comments &ndash; and a list of frames of that type. (In some cases <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> allows for multiple frames of the same type, hence this being a map to a list rather than just a map to an individual frame.)</p>
 <p >More information on the structure of frames can be found in the <a class="el" href="classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation.">ID3v2::Frame</a> class.</p>
-<p ><a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a1e08af5feb6ea2521bd5496c413d0af9">read()</a> and <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a878c91b714fef44e11c1fd3a6d294fe5">parse()</a> pass binary data to the other <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> class structures, they do not handle parsing of flags or fields, for instance. Those are handled by similar functions within those classes.</p>
+<p ><a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a1e08af5feb6ea2521bd5496c413d0af9">read()</a> and <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#aeaf509f63d94aa7ea8ddd34ba7bcca1a">parse()</a> pass binary data to the other <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> class structures, they do not handle parsing of flags or fields, for instance. Those are handled by similar functions within those classes.</p>
 <dl class="section note"><dt>Note</dt><dd>All pointers to data structures within the tag will become invalid when the tag is destroyed.</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>Dealing with the nasty details of <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> is not for the faint of heart and should not be done without much meditation on the spec. It's rather long, but if you're planning on messing with this class and others that deal with the details of <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> (rather than the nice, safe, abstract <a class="el" href="classTagLib_1_1Tag.html">TagLib::Tag</a> and friends), it's worth your time to familiarize yourself with said spec (which is distributed with the <a class="el" href="namespaceTagLib.html" title="A namespace for all TagLib related classes and functions.">TagLib</a> sources). <a class="el" href="namespaceTagLib.html" title="A namespace for all TagLib related classes and functions.">TagLib</a> tries to do most of the work, but with a little luck, you can still convince it to generate invalid <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tags. The APIs for <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> assume a working knowledge of <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> structure. You're been warned. </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Dealing with the nasty details of <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> is not for the faint of heart and should not be done without much meditation on the spec. It's rather long, but if you're planning on messing with this class and others that deal with the details of <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> (rather than the nice, safe, abstract <a class="el" href="classTagLib_1_1Tag.html" title="A simple, generic interface to common audio metadata fields.">TagLib::Tag</a> and friends), it's worth your time to familiarize yourself with said spec (which is distributed with the <a class="el" href="namespaceTagLib.html" title="A namespace for all TagLib related classes and functions.">TagLib</a> sources). <a class="el" href="namespaceTagLib.html" title="A namespace for all TagLib related classes and functions.">TagLib</a> tries to do most of the work, but with a little luck, you can still convince it to generate invalid <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tags. The APIs for <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> assume a working knowledge of <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> structure. You've been warned. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a71b6120588a7894b410df78311dd1bd2" name="a71b6120588a7894b410df78311dd1bd2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a71b6120588a7894b410df78311dd1bd2">&#9670;&nbsp;</a></span>Tag() <span class="overload">[1/3]</span></h2>
@@ -359,7 +359,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the album name; if no album name is present in the tag String::null will be returned. </p>
+<p >Returns the album name; if no album name is present in the tag an empty string will be returned. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#a0a00182da6392498b7aae580a3e3b185">TagLib::Tag</a>.</p>
 
@@ -387,7 +387,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the artist name; if no artist name is present in the tag String::null will be returned. </p>
+<p >Returns the artist name; if no artist name is present in the tag an empty string will be returned. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#ac1cbeed86f119214384196f4cb828374">TagLib::Tag</a>.</p>
 
@@ -415,7 +415,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the track comment; if no comment is present in the tag String::null will be returned. </p>
+<p >Returns the track comment; if no comment is present in the tag an empty string will be returned. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#a2a1f709487da5ced0df94801bad77669">TagLib::Tag</a>.</p>
 
@@ -496,8 +496,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2b5660b92c5128d94ab84a951778c73e" name="a2b5660b92c5128d94ab84a951778c73e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b5660b92c5128d94ab84a951778c73e">&#9670;&nbsp;</a></span>downgradeFrames()</h2>
+<a id="af1a0117637a6850fde58f51b3c0d367a" name="af1a0117637a6850fde58f51b3c0d367a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1a0117637a6850fde58f51b3c0d367a">&#9670;&nbsp;</a></span>downgradeFrames()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -509,7 +509,7 @@ Protected Member Functions</h2></td></tr>
           <td class="memname">void TagLib::ID3v2::Tag::downgradeFrames </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceTagLib_1_1ID3v2.html#a1551e00f84f6771a5599f726733a31ea">FrameList</a> *&#160;</td>
-          <td class="paramname"><em>existingFrames</em>, </td>
+          <td class="paramname"><em>frames</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -565,8 +565,8 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns a reference to the frame list. This is an FrameList of all of the frames in the tag in the order that they were parsed.</p>
-<p >This can be useful if for example you want iterate over the tag's frames in the order that they occur in the tag.</p>
+<p >Returns a reference to the frame list. This is a FrameList of all of the frames in the tag in the order that they were parsed.</p>
+<p >This can be useful if for example you want to iterate over the tag's frames in the order that they occur in the tag.</p>
 <dl class="section warning"><dt>Warning</dt><dd>You should not modify this data structure directly, instead use <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#ae090718d9acff1341530aa6438759b40">addFrame()</a> and <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#a1cce5e6dc0b8e6979c85e67dc08d2216">removeFrame()</a>. </dd></dl>
 
 </div>
@@ -607,7 +607,7 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns a reference to the frame list map. This is an FrameListMap of all of the frames in the tag.</p>
+<p >Returns a reference to the frame list map. This is a FrameListMap of all of the frames in the tag.</p>
 <p >This is the most convenient structure for accessing the tag's frames. Many frame types allow multiple instances of the same frame type so this is a map of lists. In most cases however there will only be a single frame of a certain type.</p>
 <p >Let's say for instance that you wanted to access the frame for total beats per minute &ndash; the TBPM frame.</p>
 <div class="fragment"><div class="line"><a class="code hl_class" href="classTagLib_1_1MPEG_1_1File.html">TagLib::MPEG::File</a> f(<span class="stringliteral">&quot;foo.mp3&quot;</span>);</div>
@@ -623,7 +623,7 @@ Protected Member Functions</h2></td></tr>
 <div class="line">  <span class="keywordflow">if</span>(!l.<a class="code hl_function" href="classTagLib_1_1List.html#af1258b41cc2ac3334bde498a88acb6fd">isEmpty</a>())</div>
 <div class="line">    std::cout &lt;&lt; l.<a class="code hl_function" href="classTagLib_1_1List.html#a4aa646674145756aa672fe5c2bc727ff">front</a>()-&gt;toString() &lt;&lt; std::endl;</div>
 <div class="line">}</div>
-<div class="ttc" id="aclassTagLib_1_1List_html"><div class="ttname"><a href="classTagLib_1_1List.html">TagLib::List</a></div><div class="ttdoc">A generic, implicitly shared list.</div><div class="ttdef"><b>Definition:</b> tlist.h:56</div></div>
+<div class="ttc" id="aclassTagLib_1_1List_html"><div class="ttname"><a href="classTagLib_1_1List.html">TagLib::List</a></div><div class="ttdoc">A generic, implicitly shared list.</div><div class="ttdef"><b>Definition:</b> tlist.h:54</div></div>
 <div class="ttc" id="aclassTagLib_1_1List_html_a4aa646674145756aa672fe5c2bc727ff"><div class="ttname"><a href="classTagLib_1_1List.html#a4aa646674145756aa672fe5c2bc727ff">TagLib::List::front</a></div><div class="ttdeci">const T &amp; front() const</div></div>
 <div class="ttc" id="aclassTagLib_1_1List_html_af1258b41cc2ac3334bde498a88acb6fd"><div class="ttname"><a href="classTagLib_1_1List.html#af1258b41cc2ac3334bde498a88acb6fd">TagLib::List::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div></div>
 <div class="ttc" id="aclassTagLib_1_1MPEG_1_1File_html"><div class="ttname"><a href="classTagLib_1_1MPEG_1_1File.html">TagLib::MPEG::File</a></div><div class="ttdoc">An MPEG file class with some useful methods specific to MPEG.</div><div class="ttdef"><b>Definition:</b> mpegfile.h:54</div></div>
@@ -654,7 +654,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the genre name; if no genre is present in the tag String::null will be returned. </p>
+<p >Returns the genre name; if no genre is present in the tag an empty string will be returned. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#a8cb3ab94a9ae13f47ac4583b07bf538a">TagLib::Tag</a>.</p>
 
@@ -700,7 +700,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns true if the tag does not contain any data. This should be reimplemented in subclasses that provide more than the basic tagging abilities in this class. </p>
+<p >Returns <code>true</code> if the tag does not contain any data. This should be reimplemented in subclasses that provide more than the basic tagging abilities in this class. </p>
 
 <p>Reimplemented from <a class="el" href="classTagLib_1_1Tag.html#a1584bba81a059dddf1b24940c55f5e3e">TagLib::Tag</a>.</p>
 
@@ -759,8 +759,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a878c91b714fef44e11c1fd3a6d294fe5" name="a878c91b714fef44e11c1fd3a6d294fe5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a878c91b714fef44e11c1fd3a6d294fe5">&#9670;&nbsp;</a></span>parse()</h2>
+<a id="aeaf509f63d94aa7ea8ddd34ba7bcca1a" name="aeaf509f63d94aa7ea8ddd34ba7bcca1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaf509f63d94aa7ea8ddd34ba7bcca1a">&#9670;&nbsp;</a></span>parse()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -772,7 +772,7 @@ Protected Member Functions</h2></td></tr>
           <td class="memname">void TagLib::ID3v2::Tag::parse </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classTagLib_1_1ByteVector.html">ByteVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em></td><td>)</td>
+          <td class="paramname"><em>origData</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -808,7 +808,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Implements the unified property interface &ndash; export function. This function does some work to translate the hard-specified <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> frame types into a free-form string-to-stringlist <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,valuelist&gt; tag representations.">PropertyMap</a>:</p><ul>
+<p >Implements the unified property interface &ndash; export function. This function does some work to translate the hard-specified <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> frame types into a free-form string-to-stringlist <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,values&gt; tag representations.">PropertyMap</a>:</p><ul>
 <li>if <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> frame ID is known by <a class="el" href="classTagLib_1_1ID3v2_1_1Frame.html#a3dc7e626acce5d9f7db43dd2a5f6e81a">Frame::frameIDToKey()</a>, the returned key is used</li>
 <li>if the frame ID is "TXXX" (user text frame), the description() is used as key</li>
 <li>if the frame ID is "WXXX" (user url frame),<ul>
@@ -827,7 +827,7 @@ Protected Member Functions</h2></td></tr>
 </ul>
 </li>
 <li>if the frame ID is "TIPL" (involved peoples list), and if all the roles defined in the frame are known in <a class="el" href="classTagLib_1_1ID3v2_1_1TextIdentificationFrame.html#ad6a347f066722fa29f2fc0f78e946fb0">TextIdentificationFrame::involvedPeopleMap()</a>, then "&lt;role&gt;=&lt;name&gt;" will be contained in the returned object for each</li>
-<li>if the frame ID is "TMCL" (musician credit list), then "PERFORMER:&lt;instrument&gt;=&lt;name&gt;" will be contained in the returned <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,valuelist&gt; tag representations.">PropertyMap</a> for each defined musician In any other case, the unsupportedData() of the returned object will contain the frame's ID and, in case of a frame ID which is allowed to appear more than once, the description, separated by a "/". </li>
+<li>if the frame ID is "TMCL" (musician credit list), then "PERFORMER:&lt;instrument&gt;=&lt;name&gt;" will be contained in the returned <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,values&gt; tag representations.">PropertyMap</a> for each defined musician In any other case, the unsupportedData() of the returned object will contain the frame's ID and, in case of a frame ID which is allowed to appear more than once, the description, separated by a "/". </li>
 </ul>
 
 <p>Reimplemented from <a class="el" href="classTagLib_1_1Tag.html#ac55deef920269950c69bda8ca16f2710">TagLib::Tag</a>.</p>
@@ -885,7 +885,7 @@ Protected Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Remove a frame from the tag. If <em>del</em> is true the frame's memory will be freed; if it is false, it must be deleted by the user.</p>
+<p >Remove a frame from the tag. If <em>del</em> is <code>true</code> the frame's memory will be freed; if it is <code>false</code>, it must be deleted by the user.</p>
 <dl class="section note"><dt>Note</dt><dd>Using this method will invalidate any pointers on the list returned by <a class="el" href="classTagLib_1_1ID3v2_1_1Tag.html#aa4a6438787b2ee835850102984166d63">frameList()</a> </dd></dl>
 
 </div>
@@ -1004,7 +1004,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the album to <em>s</em>. If <em>s</em> is String::null then this value will be cleared. </p>
+<p >Sets the album to <em>s</em>. If <em>s</em> is an empty string then this value will be cleared. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#acedb56ba6f422bfed2d50cbaa1c867dd">TagLib::Tag</a>.</p>
 
@@ -1033,7 +1033,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the artist to <em>s</em>. If <em>s</em> is String::null then this value will be cleared. </p>
+<p >Sets the artist to <em>s</em>. If <em>s</em> is an empty string then this value will be cleared. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#a3ca9b2a0b7f10154554a89ce8e1ed4db">TagLib::Tag</a>.</p>
 
@@ -1062,7 +1062,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the comment to <em>s</em>. If <em>s</em> is String::null then this value will be cleared. </p>
+<p >Sets the comment to <em>s</em>. If <em>s</em> is an empty string then this value will be cleared. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#a997c1f1065c6a38de9407996c5cedbd7">TagLib::Tag</a>.</p>
 
@@ -1130,7 +1130,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the genre to <em>s</em>. If <em>s</em> is String::null then this value will be cleared. For tag formats that use a fixed set of genres, the appropriate value will be selected based on a string comparison. A list of available genres for those formats should be available in that type's implementation. </p>
+<p >Sets the genre to <em>s</em>. If <em>s</em> is an empty string then this value will be cleared. For tag formats that use a fixed set of genres, the appropriate value will be selected based on a string comparison. A list of available genres for those formats should be available in that type's implementation. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#ae3f94c7c47343fa38c59e51558ed4695">TagLib::Tag</a>.</p>
 
@@ -1254,7 +1254,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Sets the title to <em>s</em>. If <em>s</em> is String::null then this value will be cleared. </p>
+<p >Sets the title to <em>s</em>. If <em>s</em> is an empty string then this value will be cleared. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#a9c60dc38118f795f71d244ccf47fb1f0">TagLib::Tag</a>.</p>
 
@@ -1340,7 +1340,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the track name; if no track name is present in the tag String::null will be returned. </p>
+<p >Returns the track name; if no track name is present in the tag an empty string will be returned. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1Tag.html#a481a505ee2c1cb9abe8f0cff82ff8b5e">TagLib::Tag</a>.</p>
 

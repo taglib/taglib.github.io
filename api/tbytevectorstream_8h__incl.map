@@ -1,13 +1,11 @@
 <map id="tbytevectorstream.h" name="tbytevectorstream.h">
-<area shape="rect" id="node1" title=" " alt="" coords="309,5,464,32"/>
-<area shape="rect" id="node2" href="$tbytevector_8h.html" title=" " alt="" coords="334,155,442,181"/>
-<area shape="rect" id="node6" href="$taglib_8h.html" title=" " alt="" coords="159,229,230,256"/>
-<area shape="rect" id="node10" href="$taglib__export_8h.html" title=" " alt="" coords="548,229,668,256"/>
-<area shape="rect" id="node11" href="$tiostream_8h.html" title=" " alt="" coords="382,80,479,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="444,229,524,256"/>
-<area shape="rect" id="node4" title=" " alt="" coords="255,229,332,256"/>
-<area shape="rect" id="node5" title=" " alt="" coords="357,229,419,256"/>
-<area shape="rect" id="node7" title=" " alt="" coords="5,304,123,331"/>
-<area shape="rect" id="node8" title=" " alt="" coords="147,304,243,331"/>
-<area shape="rect" id="node9" title=" " alt="" coords="267,304,325,331"/>
+<area shape="rect" id="node1" title=" " alt="" coords="279,5,433,32"/>
+<area shape="rect" id="node2" href="$tbytevector_8h.html" title=" " alt="" coords="167,155,275,181"/>
+<area shape="rect" id="node6" href="$taglib__export_8h.html" title=" " alt="" coords="283,229,403,256"/>
+<area shape="rect" id="node7" href="$tiostream_8h.html" title=" " alt="" coords="351,80,449,107"/>
+<area shape="rect" id="node8" href="$taglib_8h.html" title=" " alt="" coords="447,155,518,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,229,83,256"/>
+<area shape="rect" id="node4" title=" " alt="" coords="107,229,170,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="195,229,259,256"/>
+<area shape="rect" id="node9" title=" " alt="" coords="435,229,531,256"/>
 </map>

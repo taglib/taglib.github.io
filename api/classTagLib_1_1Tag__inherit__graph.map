@@ -1,12 +1,12 @@
 <map id="TagLib::Tag" name="TagLib::Tag">
-<area shape="rect" id="node1" title=" " alt="" coords="5,208,99,235"/>
+<area shape="rect" id="node1" title="A simple, generic interface to common audio metadata fields." alt="" coords="5,208,99,235"/>
 <area shape="rect" id="node2" href="$classTagLib_1_1APE_1_1Tag.html" title="An APE tag implementation." alt="" coords="183,5,309,32"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ASF_1_1Tag.html" title=" " alt="" coords="183,56,309,83"/>
+<area shape="rect" id="node3" href="$classTagLib_1_1ASF_1_1Tag.html" title="An implementation of ASF (WMA) tags." alt="" coords="183,56,309,83"/>
 <area shape="rect" id="node4" href="$classTagLib_1_1DSDIFF_1_1DIIN_1_1Tag.html" title=" " alt="" coords="154,107,338,133"/>
 <area shape="rect" id="node5" href="$classTagLib_1_1ID3v1_1_1Tag.html" title="The main class in the ID3v1 implementation." alt="" coords="177,157,315,184"/>
 <area shape="rect" id="node6" href="$classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation." alt="" coords="177,208,315,235"/>
-<area shape="rect" id="node7" href="$classTagLib_1_1MP4_1_1Tag.html" title=" " alt="" coords="181,259,311,285"/>
-<area shape="rect" id="node8" href="$classTagLib_1_1Mod_1_1Tag.html" title=" " alt="" coords="181,309,311,336"/>
+<area shape="rect" id="node7" href="$classTagLib_1_1MP4_1_1Tag.html" title="An MP4 tag implementation." alt="" coords="181,259,311,285"/>
+<area shape="rect" id="node8" href="$classTagLib_1_1Mod_1_1Tag.html" title="A module file tag implementation." alt="" coords="181,309,311,336"/>
 <area shape="rect" id="node9" href="$classTagLib_1_1Ogg_1_1XiphComment.html" title="Ogg Vorbis comment implementation." alt="" coords="147,360,345,387"/>
-<area shape="rect" id="node10" href="$classTagLib_1_1RIFF_1_1Info_1_1Tag.html" title="The main class in the ID3v2 implementation." alt="" coords="165,411,327,437"/>
+<area shape="rect" id="node10" href="$classTagLib_1_1RIFF_1_1Info_1_1Tag.html" title="The main class in the INFO tag implementation." alt="" coords="165,411,327,437"/>
 </map>

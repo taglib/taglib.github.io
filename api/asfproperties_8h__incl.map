@@ -1,14 +1,13 @@
 <map id="asfproperties.h" name="asfproperties.h">
-<area shape="rect" id="node1" title=" " alt="" coords="292,5,412,32"/>
-<area shape="rect" id="node2" href="$tstring_8h.html" title=" " alt="" coords="164,80,240,107"/>
-<area shape="rect" id="node11" href="$taglib__export_8h.html" title=" " alt="" coords="408,229,528,256"/>
-<area shape="rect" id="node12" href="$audioproperties_8h.html" title=" " alt="" coords="284,155,420,181"/>
-<area shape="rect" id="node3" title=" " alt="" coords="20,229,100,256"/>
-<area shape="rect" id="node4" title=" " alt="" coords="35,304,94,331"/>
-<area shape="rect" id="node5" href="$tbytevector_8h.html" title=" " alt="" coords="101,155,209,181"/>
-<area shape="rect" id="node8" href="$taglib_8h.html" title=" " alt="" coords="212,229,282,256"/>
-<area shape="rect" id="node6" title=" " alt="" coords="307,229,384,256"/>
-<area shape="rect" id="node7" title=" " alt="" coords="125,229,188,256"/>
-<area shape="rect" id="node9" title=" " alt="" coords="254,304,371,331"/>
-<area shape="rect" id="node10" title=" " alt="" coords="134,304,230,331"/>
+<area shape="rect" id="node1" title=" " alt="" coords="119,5,239,32"/>
+<area shape="rect" id="node2" href="$tstring_8h.html" title=" " alt="" coords="237,80,313,107"/>
+<area shape="rect" id="node8" href="$taglib__export_8h.html" title=" " alt="" coords="127,229,247,256"/>
+<area shape="rect" id="node9" href="$audioproperties_8h.html" title=" " alt="" coords="5,155,141,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="267,155,325,181"/>
+<area shape="rect" id="node4" href="$tbytevector_8h.html" title=" " alt="" coords="350,155,458,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="271,229,348,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="373,229,435,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="460,229,524,256"/>
+<area shape="rect" id="node10" href="$taglib_8h.html" title=" " alt="" coords="31,229,102,256"/>
+<area shape="rect" id="node11" title=" " alt="" coords="19,304,115,331"/>
 </map>

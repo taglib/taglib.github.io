@@ -30,6 +30,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>An implicitly shared discriminated union.  
+ <a href="classTagLib_1_1Variant.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="tvariant_8h_source.html">tvariant.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -140,8 +143,9 @@ Related Functions</h2></td></tr>
 <tr class="separator:acc0502575cc3cd9856ff13939872c101"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >This is an implicitly shared discriminated union.</p>
-<p >The use of implicit sharing means that copying a variant is cheap. These <a class="el" href="classTagLib_1_1Variant.html">Variant</a> objects are immutable (have only const methods). </p>
+<div class="textblock"><p >An implicitly shared discriminated union. </p>
+<p >This is an implicitly shared discriminated union.</p>
+<p >The use of implicit sharing means that copying a variant is cheap. These <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> objects are immutable (have only const methods). </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a86b835f94006024737a3f9bf40a552dc" name="a86b835f94006024737a3f9bf40a552dc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a86b835f94006024737a3f9bf40a552dc">&#9670;&nbsp;</a></span>Type</h2>
@@ -156,19 +160,32 @@ Related Functions</h2></td></tr>
 </div><div class="memdoc">
 <p >Types which can be stored in a variant. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dcabfd3635b7b12d630a8c9f95a83163032" name="a86b835f94006024737a3f9bf40a552dcabfd3635b7b12d630a8c9f95a83163032"></a>Void&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dcad7eaa2454def524df8f5b5a5aa285e65" name="a86b835f94006024737a3f9bf40a552dcad7eaa2454def524df8f5b5a5aa285e65"></a>Bool&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dcab672e5f58030199e47880e8f7744a34f" name="a86b835f94006024737a3f9bf40a552dcab672e5f58030199e47880e8f7744a34f"></a>Int&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dca1da1c082c6d3bfe6b680e379195c0fae" name="a86b835f94006024737a3f9bf40a552dca1da1c082c6d3bfe6b680e379195c0fae"></a>UInt&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dca54b67fb76bdebed38a8f28521be655f9" name="a86b835f94006024737a3f9bf40a552dca54b67fb76bdebed38a8f28521be655f9"></a>LongLong&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dcaff34ff1336c0459722e21482f58df12f" name="a86b835f94006024737a3f9bf40a552dcaff34ff1336c0459722e21482f58df12f"></a>ULongLong&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dcae72f098544cdcbde6b8321e4926ef66c" name="a86b835f94006024737a3f9bf40a552dcae72f098544cdcbde6b8321e4926ef66c"></a>Double&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dca3c9aa519de9d1f667fe7cafdd1a06383" name="a86b835f94006024737a3f9bf40a552dca3c9aa519de9d1f667fe7cafdd1a06383"></a>String&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dcae98240b6db4c60da87d53fc024bf948e" name="a86b835f94006024737a3f9bf40a552dcae98240b6db4c60da87d53fc024bf948e"></a>StringList&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dcace2511954d97abf1a947671e09be736b" name="a86b835f94006024737a3f9bf40a552dcace2511954d97abf1a947671e09be736b"></a>ByteVector&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dcad9ec287cf212c5cdaab0c320bb31d069" name="a86b835f94006024737a3f9bf40a552dcad9ec287cf212c5cdaab0c320bb31d069"></a>ByteVectorList&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dca25f21e9fc49450c18e5f701213c29091" name="a86b835f94006024737a3f9bf40a552dca25f21e9fc49450c18e5f701213c29091"></a>VariantList&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dca79f597aebce133d8a4e74b9a06a1bbf5" name="a86b835f94006024737a3f9bf40a552dca79f597aebce133d8a4e74b9a06a1bbf5"></a>VariantMap&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dcabfd3635b7b12d630a8c9f95a83163032" name="a86b835f94006024737a3f9bf40a552dcabfd3635b7b12d630a8c9f95a83163032"></a>Void&#160;</td><td class="fielddoc"><p >variant is empty </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dcad7eaa2454def524df8f5b5a5aa285e65" name="a86b835f94006024737a3f9bf40a552dcad7eaa2454def524df8f5b5a5aa285e65"></a>Bool&#160;</td><td class="fielddoc"><p ><code>bool</code> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dcab672e5f58030199e47880e8f7744a34f" name="a86b835f94006024737a3f9bf40a552dcab672e5f58030199e47880e8f7744a34f"></a>Int&#160;</td><td class="fielddoc"><p ><code>int</code> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dca1da1c082c6d3bfe6b680e379195c0fae" name="a86b835f94006024737a3f9bf40a552dca1da1c082c6d3bfe6b680e379195c0fae"></a>UInt&#160;</td><td class="fielddoc"><p ><code>unsigned int</code> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dca54b67fb76bdebed38a8f28521be655f9" name="a86b835f94006024737a3f9bf40a552dca54b67fb76bdebed38a8f28521be655f9"></a>LongLong&#160;</td><td class="fielddoc"><p ><code>long long</code> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dcaff34ff1336c0459722e21482f58df12f" name="a86b835f94006024737a3f9bf40a552dcaff34ff1336c0459722e21482f58df12f"></a>ULongLong&#160;</td><td class="fielddoc"><p ><code>unsigned long long</code> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dcae72f098544cdcbde6b8321e4926ef66c" name="a86b835f94006024737a3f9bf40a552dcae72f098544cdcbde6b8321e4926ef66c"></a>Double&#160;</td><td class="fielddoc"><p ><code>double</code> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dca3c9aa519de9d1f667fe7cafdd1a06383" name="a86b835f94006024737a3f9bf40a552dca3c9aa519de9d1f667fe7cafdd1a06383"></a>String&#160;</td><td class="fielddoc"><p ><a class="el" href="classTagLib_1_1String.html" title="A wide string class suitable for unicode.">String</a>. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dcae98240b6db4c60da87d53fc024bf948e" name="a86b835f94006024737a3f9bf40a552dcae98240b6db4c60da87d53fc024bf948e"></a>StringList&#160;</td><td class="fielddoc"><p ><a class="el" href="classTagLib_1_1StringList.html" title="A list of strings.">StringList</a>. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dcace2511954d97abf1a947671e09be736b" name="a86b835f94006024737a3f9bf40a552dcace2511954d97abf1a947671e09be736b"></a>ByteVector&#160;</td><td class="fielddoc"><p ><a class="el" href="classTagLib_1_1ByteVector.html" title="A byte vector.">ByteVector</a>. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dcad9ec287cf212c5cdaab0c320bb31d069" name="a86b835f94006024737a3f9bf40a552dcad9ec287cf212c5cdaab0c320bb31d069"></a>ByteVectorList&#160;</td><td class="fielddoc"><p ><a class="el" href="classTagLib_1_1ByteVectorList.html" title="A list of ByteVectors.">ByteVectorList</a>. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dca25f21e9fc49450c18e5f701213c29091" name="a86b835f94006024737a3f9bf40a552dca25f21e9fc49450c18e5f701213c29091"></a>VariantList&#160;</td><td class="fielddoc"><p ><a class="el" href="namespaceTagLib.html#a861c3d7db8f2ab6cae0055c19015bec0">VariantList </a> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a86b835f94006024737a3f9bf40a552dca79f597aebce133d8a4e74b9a06a1bbf5" name="a86b835f94006024737a3f9bf40a552dca79f597aebce133d8a4e74b9a06a1bbf5"></a>VariantMap&#160;</td><td class="fielddoc"><p ><a class="el" href="namespaceTagLib.html#a8ed7a0edfc5be29f22114b7403a148e3">VariantMap </a> </p>
+</td></tr>
 </table>
 
 </div>
@@ -188,7 +205,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Constructs an empty <a class="el" href="classTagLib_1_1Variant.html">Variant</a>. </p>
+<p >Constructs an empty <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. </p>
 
 </div>
 </div>
@@ -207,7 +224,6 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Constructs a <a class="el" href="classTagLib_1_1Variant.html">Variant</a> from an integer value. </p>
 
 </div>
 </div>
@@ -460,7 +476,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Destroys this <a class="el" href="classTagLib_1_1Variant.html">Variant</a> instance. </p>
+<p >Destroys this <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> instance. </p>
 
 </div>
 </div>
@@ -479,7 +495,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if the <a class="el" href="classTagLib_1_1Variant.html">Variant</a> is empty. </p>
+<p >Returns <code>true</code> if the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> is empty. </p>
 
 </div>
 </div>
@@ -498,7 +514,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true it the <a class="el" href="classTagLib_1_1Variant.html">Variant</a> and <em>v</em> differ in type or value. </p>
+<p >Returns <code>true</code> if the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> and <em>v</em> differ in type or value. </p>
 
 </div>
 </div>
@@ -517,7 +533,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Performs a shallow, implicitly shared, copy of <em>v</em>, overwriting the <a class="el" href="classTagLib_1_1Variant.html">Variant</a>'s current data. </p>
+<p >Performs a shallow, implicitly shared, copy of <em>v</em>, overwriting the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>'s current data. </p>
 
 </div>
 </div>
@@ -536,7 +552,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true it the <a class="el" href="classTagLib_1_1Variant.html">Variant</a> and <em>v</em> are of the same type and contain the same value. </p>
+<p >Returns <code>true</code> if the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> and <em>v</em> are of the same type and contain the same value. </p>
 
 </div>
 </div>
@@ -556,6 +572,9 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p></p>
+<p >Extracts a value from the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. If <em>ok</em> is passed, its boolean variable will be set to <code>true</code> if the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> contains the correct type, and the returned value is the value of the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. Otherwise, the <em>ok</em> variable is set to <code>false</code> and a dummy default value is returned. </p>
+
 </div>
 </div>
 <a id="af2bc83f24854b0026b3a1ee83a0850d0" name="af2bc83f24854b0026b3a1ee83a0850d0"></a>
@@ -573,6 +592,9 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p></p>
+<p >Extracts a value from the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. If <em>ok</em> is passed, its boolean variable will be set to <code>true</code> if the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> contains the correct type, and the returned value is the value of the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. Otherwise, the <em>ok</em> variable is set to <code>false</code> and a dummy default value is returned. </p>
 
 </div>
 </div>
@@ -592,6 +614,9 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p></p>
+<p >Extracts a value from the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. If <em>ok</em> is passed, its boolean variable will be set to <code>true</code> if the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> contains the correct type, and the returned value is the value of the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. Otherwise, the <em>ok</em> variable is set to <code>false</code> and a dummy default value is returned. </p>
+
 </div>
 </div>
 <a id="aae7a6f50344ff709258661e4ba0052b5" name="aae7a6f50344ff709258661e4ba0052b5"></a>
@@ -610,6 +635,9 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p></p>
+<p >Extracts a value from the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. If <em>ok</em> is passed, its boolean variable will be set to <code>true</code> if the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> contains the correct type, and the returned value is the value of the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. Otherwise, the <em>ok</em> variable is set to <code>false</code> and a dummy default value is returned. </p>
+
 </div>
 </div>
 <a id="a83b85351036009d2b8cec844e8b011a6" name="a83b85351036009d2b8cec844e8b011a6"></a>
@@ -627,7 +655,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Extracts an integer value from the <a class="el" href="classTagLib_1_1Variant.html">Variant</a>. If <em>ok</em> is passed, its boolean variable will be set to true if the <a class="el" href="classTagLib_1_1Variant.html">Variant</a> contains the correct type, and the returned value is the value of the <a class="el" href="classTagLib_1_1Variant.html">Variant</a>. Otherwise, the <em>ok</em> variable is set to false and a dummy default value is returned. </p>
+<p >Extracts a value from the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. If <em>ok</em> is passed, its boolean variable will be set to <code>true</code> if the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> contains the correct type, and the returned value is the value of the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. Otherwise, the <em>ok</em> variable is set to <code>false</code> and a dummy default value is returned. </p>
 
 </div>
 </div>
@@ -647,6 +675,9 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p></p>
+<p >Extracts a value from the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. If <em>ok</em> is passed, its boolean variable will be set to <code>true</code> if the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> contains the correct type, and the returned value is the value of the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. Otherwise, the <em>ok</em> variable is set to <code>false</code> and a dummy default value is returned. </p>
+
 </div>
 </div>
 <a id="af55c6b7ac33195cf51389f7741b1e5dc" name="af55c6b7ac33195cf51389f7741b1e5dc"></a>
@@ -664,6 +695,9 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p></p>
+<p >Extracts a value from the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. If <em>ok</em> is passed, its boolean variable will be set to <code>true</code> if the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> contains the correct type, and the returned value is the value of the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. Otherwise, the <em>ok</em> variable is set to <code>false</code> and a dummy default value is returned. </p>
 
 </div>
 </div>
@@ -683,6 +717,9 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p></p>
+<p >Extracts a value from the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. If <em>ok</em> is passed, its boolean variable will be set to <code>true</code> if the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> contains the correct type, and the returned value is the value of the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. Otherwise, the <em>ok</em> variable is set to <code>false</code> and a dummy default value is returned. </p>
+
 </div>
 </div>
 <a id="add65114ed10266cbc69cbada015ab541" name="add65114ed10266cbc69cbada015ab541"></a>
@@ -700,6 +737,9 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p></p>
+<p >Extracts a value from the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. If <em>ok</em> is passed, its boolean variable will be set to <code>true</code> if the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> contains the correct type, and the returned value is the value of the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. Otherwise, the <em>ok</em> variable is set to <code>false</code> and a dummy default value is returned. </p>
 
 </div>
 </div>
@@ -719,6 +759,9 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p></p>
+<p >Extracts a value from the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. If <em>ok</em> is passed, its boolean variable will be set to <code>true</code> if the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> contains the correct type, and the returned value is the value of the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. Otherwise, the <em>ok</em> variable is set to <code>false</code> and a dummy default value is returned. </p>
+
 </div>
 </div>
 <a id="a1b550e38d808f7eb9219c6631024cf98" name="a1b550e38d808f7eb9219c6631024cf98"></a>
@@ -736,6 +779,9 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p></p>
+<p >Extracts a value from the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. If <em>ok</em> is passed, its boolean variable will be set to <code>true</code> if the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> contains the correct type, and the returned value is the value of the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. Otherwise, the <em>ok</em> variable is set to <code>false</code> and a dummy default value is returned. </p>
 
 </div>
 </div>
@@ -755,6 +801,9 @@ Related Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p></p>
+<p >Extracts a value from the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. If <em>ok</em> is passed, its boolean variable will be set to <code>true</code> if the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> contains the correct type, and the returned value is the value of the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. Otherwise, the <em>ok</em> variable is set to <code>false</code> and a dummy default value is returned. </p>
+
 </div>
 </div>
 <a id="ac22b46d9fe077337f616ce46bfcc094e" name="ac22b46d9fe077337f616ce46bfcc094e"></a>
@@ -771,7 +820,7 @@ Related Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Get the type which is currently stored in this <a class="el" href="classTagLib_1_1Variant.html">Variant</a>. </p>
+<p >Get the type which is currently stored in this <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. </p>
 
 </div>
 </div>
@@ -792,7 +841,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Extracts value of type <em>T</em> from the <a class="el" href="classTagLib_1_1Variant.html">Variant</a>. If <em>ok</em> is passed, its boolean variable will be set to true if the <a class="el" href="classTagLib_1_1Variant.html">Variant</a> contains the correct type, and the returned value is the value of the <a class="el" href="classTagLib_1_1Variant.html">Variant</a>. Otherwise, the <em>ok</em> variable is set to false and a dummy default value is returned. </p>
+<p >Extracts value of type <em>T</em> from the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. If <em>ok</em> is passed, its boolean variable will be set to <code>true</code> if the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a> contains the correct type, and the returned value is the value of the <a class="el" href="classTagLib_1_1Variant.html" title="An implicitly shared discriminated union.">Variant</a>. Otherwise, the <em>ok</em> variable is set to <code>false</code> and a dummy default value is returned. </p>
 
 </div>
 </div>

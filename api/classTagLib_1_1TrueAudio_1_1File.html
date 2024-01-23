@@ -169,8 +169,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_classTagLib_1_1File"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classTagLib_1_1File')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classTagLib_1_1File.html">TagLib::File</a></td></tr>
-<tr class="memitem:a3dfd129e048c52c53807bbe9059a3e0b inherit pro_methods_classTagLib_1_1File"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1File.html#a3dfd129e048c52c53807bbe9059a3e0b">File</a> (<a class="el" href="namespaceTagLib.html#ae4dea55098950c5c4e628646090236f4">FileName</a> file)</td></tr>
-<tr class="separator:a3dfd129e048c52c53807bbe9059a3e0b inherit pro_methods_classTagLib_1_1File"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf6843d1b72e51d17ac979080ebbd7dd inherit pro_methods_classTagLib_1_1File"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1File.html#acf6843d1b72e51d17ac979080ebbd7dd">File</a> (<a class="el" href="namespaceTagLib.html#ae4dea55098950c5c4e628646090236f4">FileName</a> fileName)</td></tr>
+<tr class="separator:acf6843d1b72e51d17ac979080ebbd7dd inherit pro_methods_classTagLib_1_1File"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a364fdfc30d530bb91c4a043cdd9ea6a9 inherit pro_methods_classTagLib_1_1File"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1File.html#a364fdfc30d530bb91c4a043cdd9ea6a9">File</a> (<a class="el" href="classTagLib_1_1IOStream.html">IOStream</a> *stream)</td></tr>
 <tr class="separator:a364fdfc30d530bb91c4a043cdd9ea6a9 inherit pro_methods_classTagLib_1_1File"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa92e1714e53f515cf9a6a0160b316773 inherit pro_methods_classTagLib_1_1File"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1File.html#aa92e1714e53f515cf9a6a0160b316773">setValid</a> (bool valid)</td></tr>
@@ -183,7 +183,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >An implementation of <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">TagLib::File</a> with <a class="el" href="namespaceTagLib_1_1TrueAudio.html" title="An implementation of TrueAudio metadata.">TrueAudio</a> specific methods. </p>
-<p >This implements and provides an interface for <a class="el" href="namespaceTagLib_1_1TrueAudio.html" title="An implementation of TrueAudio metadata.">TrueAudio</a> files to the <a class="el" href="classTagLib_1_1Tag.html">TagLib::Tag</a> and <a class="el" href="classTagLib_1_1AudioProperties.html" title="A simple, abstract interface to common audio properties.">TagLib::AudioProperties</a> interfaces by way of implementing the abstract <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">TagLib::File</a> API as well as providing some additional information specific to <a class="el" href="namespaceTagLib_1_1TrueAudio.html" title="An implementation of TrueAudio metadata.">TrueAudio</a> files. </p>
+<p >This implements and provides an interface for <a class="el" href="namespaceTagLib_1_1TrueAudio.html" title="An implementation of TrueAudio metadata.">TrueAudio</a> files to the <a class="el" href="classTagLib_1_1Tag.html" title="A simple, generic interface to common audio metadata fields.">TagLib::Tag</a> and <a class="el" href="classTagLib_1_1AudioProperties.html" title="A simple, abstract interface to common audio properties.">TagLib::AudioProperties</a> interfaces by way of implementing the abstract <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">TagLib::File</a> API as well as providing some additional information specific to <a class="el" href="namespaceTagLib_1_1TrueAudio.html" title="An implementation of TrueAudio metadata.">TrueAudio</a> files. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ae3de83b06a9bee821494fa42007fdd4e" name="ae3de83b06a9bee821494fa42007fdd4e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae3de83b06a9bee821494fa42007fdd4e">&#9670;&nbsp;</a></span>TagTypes</h2>
@@ -248,7 +248,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Constructs a <a class="el" href="namespaceTagLib_1_1TrueAudio.html" title="An implementation of TrueAudio metadata.">TrueAudio</a> file from <em>file</em>. If <em>readProperties</em> is true the file's audio properties will also be read.</p>
+<p >Constructs a <a class="el" href="namespaceTagLib_1_1TrueAudio.html" title="An implementation of TrueAudio metadata.">TrueAudio</a> file from <em>file</em>. If <em>readProperties</em> is <code>true</code> the file's audio properties will also be read.</p>
 <p >If this file contains an <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag, the frames will be created using <em>frameFactory</em> (default if null).</p>
 <dl class="section note"><dt>Note</dt><dd>In the current implementation, <em>propertiesStyle</em> is ignored. </dd></dl>
 
@@ -291,9 +291,10 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Constructs a <a class="el" href="namespaceTagLib_1_1TrueAudio.html" title="An implementation of TrueAudio metadata.">TrueAudio</a> file from <em>file</em>. If <em>readProperties</em> is true the file's audio properties will also be read.</p>
+<p >Constructs a <a class="el" href="namespaceTagLib_1_1TrueAudio.html" title="An implementation of TrueAudio metadata.">TrueAudio</a> file from <em>file</em>. If <em>readProperties</em> is <code>true</code> the file's audio properties will also be read.</p>
 <p >If this file contains an <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag, the frames will be created using <em>frameFactory</em>.</p>
-<dl class="section note"><dt>Note</dt><dd>In the current implementation, <em>propertiesStyle</em> is ignored. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>In the current implementation, <em>propertiesStyle</em> is ignored.</dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000006">Deprecated:</a></b></dt><dd>Use the constructor above. </dd></dl>
 
 </div>
 </div>
@@ -334,7 +335,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Constructs a <a class="el" href="namespaceTagLib_1_1TrueAudio.html" title="An implementation of TrueAudio metadata.">TrueAudio</a> file from <em>stream</em>. If <em>readProperties</em> is true the file's audio properties will also be read.</p>
+<p >Constructs a <a class="el" href="namespaceTagLib_1_1TrueAudio.html" title="An implementation of TrueAudio metadata.">TrueAudio</a> file from <em>stream</em>. If <em>readProperties</em> is <code>true</code> the file's audio properties will also be read.</p>
 <dl class="section note"><dt>Note</dt><dd><a class="el" href="namespaceTagLib.html" title="A namespace for all TagLib related classes and functions.">TagLib</a> will <em>not</em> take ownership of the stream, the caller is responsible for deleting it after the <a class="el" href="classTagLib_1_1TrueAudio_1_1File.html" title="An implementation of TagLib::File with TrueAudio specific methods.">File</a> object.</dd></dl>
 <p>If this file contains an <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag, the frames will be created using <em>frameFactory</em>.</p>
 <dl class="section note"><dt>Note</dt><dd>In the current implementation, <em>propertiesStyle</em> is ignored. </dd></dl>
@@ -378,10 +379,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Constructs a <a class="el" href="namespaceTagLib_1_1TrueAudio.html" title="An implementation of TrueAudio metadata.">TrueAudio</a> file from <em>stream</em>. If <em>readProperties</em> is true the file's audio properties will also be read.</p>
+<p >Constructs a <a class="el" href="namespaceTagLib_1_1TrueAudio.html" title="An implementation of TrueAudio metadata.">TrueAudio</a> file from <em>stream</em>. If <em>readProperties</em> is <code>true</code> the file's audio properties will also be read.</p>
 <dl class="section note"><dt>Note</dt><dd><a class="el" href="namespaceTagLib.html" title="A namespace for all TagLib related classes and functions.">TagLib</a> will <em>not</em> take ownership of the stream, the caller is responsible for deleting it after the <a class="el" href="classTagLib_1_1TrueAudio_1_1File.html" title="An implementation of TagLib::File with TrueAudio specific methods.">File</a> object.</dd></dl>
 <p>If this file contains an <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag, the frames will be created using <em>frameFactory</em>.</p>
-<dl class="section note"><dt>Note</dt><dd>In the current implementation, <em>propertiesStyle</em> is ignored. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>In the current implementation, <em>propertiesStyle</em> is ignored.</dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000007">Deprecated:</a></b></dt><dd>Use the constructor above. </dd></dl>
 
 </div>
 </div>
@@ -522,10 +524,10 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Returns a pointer to the <a class="el" href="namespaceTagLib_1_1ID3v1.html" title="An ID3v1 implementation.">ID3v1</a> tag of the file.</p>
-<p >If <em>create</em> is false (the default) this may return a null pointer if there is no valid <a class="el" href="namespaceTagLib_1_1ID3v1.html" title="An ID3v1 implementation.">ID3v1</a> tag. If <em>create</em> is true it will create an <a class="el" href="namespaceTagLib_1_1ID3v1.html" title="An ID3v1 implementation.">ID3v1</a> tag if one does not exist and returns a valid pointer.</p>
+<p >If <em>create</em> is <code>false</code> (the default) this may return a null pointer if there is no valid <a class="el" href="namespaceTagLib_1_1ID3v1.html" title="An ID3v1 implementation.">ID3v1</a> tag. If <em>create</em> is <code>true</code> it will create an <a class="el" href="namespaceTagLib_1_1ID3v1.html" title="An ID3v1 implementation.">ID3v1</a> tag if one does not exist and returns a valid pointer.</p>
 <dl class="section note"><dt>Note</dt><dd>This may return a valid pointer regardless of whether or not the file on disk has an <a class="el" href="namespaceTagLib_1_1ID3v1.html" title="An ID3v1 implementation.">ID3v1</a> tag. Use <a class="el" href="classTagLib_1_1TrueAudio_1_1File.html#a338271bf1bd62bb0e186b3c5d4267c80">hasID3v1Tag()</a> to check if the file on disk actually has an <a class="el" href="namespaceTagLib_1_1ID3v1.html" title="An ID3v1 implementation.">ID3v1</a> tag.</dd>
 <dd>
-The <a class="el" href="classTagLib_1_1Tag.html">Tag</a> <b>is still</b> owned by the <a class="el" href="classTagLib_1_1MPEG_1_1File.html" title="An MPEG file class with some useful methods specific to MPEG.">MPEG::File</a> and should not be deleted by the user. It will be deleted when the file (object) is destroyed.</dd></dl>
+The <a class="el" href="classTagLib_1_1Tag.html" title="A simple, generic interface to common audio metadata fields.">Tag</a> <b>is still</b> owned by the <a class="el" href="classTagLib_1_1TrueAudio_1_1File.html" title="An implementation of TagLib::File with TrueAudio specific methods.">TrueAudio::File</a> and should not be deleted by the user. It will be deleted when the file (object) is destroyed.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1TrueAudio_1_1File.html#a338271bf1bd62bb0e186b3c5d4267c80">hasID3v1Tag()</a> </dd></dl>
 
 </div>
@@ -546,10 +548,10 @@ The <a class="el" href="classTagLib_1_1Tag.html">Tag</a> <b>is still</b> owned b
       </table>
 </div><div class="memdoc">
 <p >Returns a pointer to the <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag of the file.</p>
-<p >If <em>create</em> is false (the default) this may return a null pointer if there is no valid <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag. If <em>create</em> is true it will create an <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag if one does not exist and returns a valid pointer.</p>
+<p >If <em>create</em> is <code>false</code> (the default) this may return a null pointer if there is no valid <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag. If <em>create</em> is <code>true</code> it will create an <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag if one does not exist and returns a valid pointer.</p>
 <dl class="section note"><dt>Note</dt><dd>This may return a valid pointer regardless of whether or not the file on disk has an <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag. Use <a class="el" href="classTagLib_1_1TrueAudio_1_1File.html#a7b13e5cebe8fa5060d35a09d896112ca">hasID3v2Tag()</a> to check if the file on disk actually has an <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> tag.</dd>
 <dd>
-The <a class="el" href="classTagLib_1_1Tag.html">Tag</a> <b>is still</b> owned by the <a class="el" href="classTagLib_1_1MPEG_1_1File.html" title="An MPEG file class with some useful methods specific to MPEG.">MPEG::File</a> and should not be deleted by the user. It will be deleted when the file (object) is destroyed.</dd></dl>
+The <a class="el" href="classTagLib_1_1Tag.html" title="A simple, generic interface to common audio metadata fields.">Tag</a> <b>is still</b> owned by the <a class="el" href="classTagLib_1_1TrueAudio_1_1File.html" title="An implementation of TagLib::File with TrueAudio specific methods.">TrueAudio::File</a> and should not be deleted by the user. It will be deleted when the file (object) is destroyed.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1TrueAudio_1_1File.html#a7b13e5cebe8fa5060d35a09d896112ca">hasID3v2Tag()</a> </dd></dl>
 
 </div>
@@ -630,7 +632,7 @@ The <a class="el" href="classTagLib_1_1Tag.html">Tag</a> <b>is still</b> owned b
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Implements the unified property interface &ndash; export function. If the file contains both <a class="el" href="namespaceTagLib_1_1ID3v1.html" title="An ID3v1 implementation.">ID3v1</a> and v2 tags, only <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> will be converted to the <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,valuelist&gt; tag representations.">PropertyMap</a>. </p>
+<p >Implements the unified property interface &ndash; export function. If the file contains both <a class="el" href="namespaceTagLib_1_1ID3v1.html" title="An ID3v1 implementation.">ID3v1</a> and v2 tags, only <a class="el" href="namespaceTagLib_1_1ID3v2.html" title="An ID3v2 implementation.">ID3v2</a> will be converted to the <a class="el" href="classTagLib_1_1PropertyMap.html" title="A map for format-independent &lt;key,values&gt; tag representations.">PropertyMap</a>. </p>
 
 <p>Reimplemented from <a class="el" href="classTagLib_1_1File.html#a3f2a59083f0ed7896a33d088b7935569">TagLib::File</a>.</p>
 
@@ -766,7 +768,7 @@ In order to make the removal permanent <a class="el" href="classTagLib_1_1TrueAu
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the <a class="el" href="classTagLib_1_1Tag.html">Tag</a> for this file. </p>
+<p >Returns the <a class="el" href="classTagLib_1_1Tag.html" title="A simple, generic interface to common audio metadata fields.">Tag</a> for this file. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1File.html#af8406e61f042df4346bd71a1e7ea7f1e">TagLib::File</a>.</p>
 

@@ -36,8 +36,8 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a82fc664830c2834d763fe84dc6521eda"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Ogg_1_1PageHeader.html#a82fc664830c2834d763fe84dc6521eda">PageHeader</a> (<a class="el" href="classTagLib_1_1Ogg_1_1File.html">File</a> *file=nullptr, <a class="el" href="namespaceTagLib.html#a09d39bc352b8aaf304b7c5ae453f37ad">offset_t</a> pageOffset=-1)</td></tr>
 <tr class="separator:a82fc664830c2834d763fe84dc6521eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad91ede3012642a326ebd5c113a75fde4"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Ogg_1_1PageHeader.html#ad91ede3012642a326ebd5c113a75fde4">~PageHeader</a> ()</td></tr>
-<tr class="separator:ad91ede3012642a326ebd5c113a75fde4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac60906845a50960ced27f97b834446c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Ogg_1_1PageHeader.html#aac60906845a50960ced27f97b834446c">~PageHeader</a> ()</td></tr>
+<tr class="separator:aac60906845a50960ced27f97b834446c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34d9c25d75e46cdcf21849793a8b748d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Ogg_1_1PageHeader.html#a34d9c25d75e46cdcf21849793a8b748d">PageHeader</a> (const <a class="el" href="classTagLib_1_1Ogg_1_1PageHeader.html">PageHeader</a> &amp;)=delete</td></tr>
 <tr class="separator:a34d9c25d75e46cdcf21849793a8b748d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abff7ad559b8bba94013e8ec4ff432265"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTagLib_1_1Ogg_1_1PageHeader.html">PageHeader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Ogg_1_1PageHeader.html#abff7ad559b8bba94013e8ec4ff432265">operator=</a> (const <a class="el" href="classTagLib_1_1Ogg_1_1PageHeader.html">PageHeader</a> &amp;)=delete</td></tr>
@@ -116,27 +116,19 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad91ede3012642a326ebd5c113a75fde4" name="ad91ede3012642a326ebd5c113a75fde4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad91ede3012642a326ebd5c113a75fde4">&#9670;&nbsp;</a></span>~PageHeader()</h2>
+<a id="aac60906845a50960ced27f97b834446c" name="aac60906845a50960ced27f97b834446c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac60906845a50960ced27f97b834446c">&#9670;&nbsp;</a></span>~PageHeader()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual TagLib::Ogg::PageHeader::~PageHeader </td>
+          <td class="memname">TagLib::Ogg::PageHeader::~PageHeader </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p >Deletes this instance of the <a class="el" href="classTagLib_1_1Ogg_1_1PageHeader.html" title="An implementation of the page headers associated with each Ogg::Page.">PageHeader</a>. </p>
 
@@ -220,7 +212,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Some packets can be <em>continued</em> across multiple pages. If the first packet in the current page is a continuation this will return true. If this is page starts with a new packet this will return false.</p>
+<p >Some packets can be <em>continued</em> across multiple pages. If the first packet in the current page is a continuation this will return <code>true</code>. If this page starts with a new packet this will return <code>false</code>.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1Ogg_1_1PageHeader.html#a615f7cf2895eaa4392ac3ab86de0074a">lastPacketCompleted()</a> </dd>
 <dd>
 <a class="el" href="classTagLib_1_1Ogg_1_1PageHeader.html#a3fbf4f252474f288a0f567e28376fcc1">setFirstPacketContinued()</a> </dd></dl>
@@ -241,7 +233,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >This returns true if this is the first page of the <a class="el" href="namespaceTagLib_1_1Ogg.html" title="A namespace for the classes used by Ogg-based metadata files.">Ogg</a> (logical) stream.</p>
+<p >This returns <code>true</code> if this is the first page of the <a class="el" href="namespaceTagLib_1_1Ogg.html" title="A namespace for the classes used by Ogg-based metadata files.">Ogg</a> (logical) stream.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1Ogg_1_1PageHeader.html#a5ce1c65928f59f8aa61bacf3d2a435af">setFirstPageOfStream()</a> </dd></dl>
 
 </div>
@@ -260,7 +252,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if the header parsed properly and is valid. </p>
+<p >Returns <code>true</code> if the header parsed properly and is valid. </p>
 
 </div>
 </div>
@@ -278,7 +270,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Returns true if the last packet of this page is completely contained in this page.</p>
+<p >Returns <code>true</code> if the last packet of this page is completely contained in this page.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1Ogg_1_1PageHeader.html#a4d04a3bfd2794c5ccd894d4e4e72e411">firstPacketContinued()</a> </dd>
 <dd>
 <a class="el" href="classTagLib_1_1Ogg_1_1PageHeader.html#a8bfa29a6bcd66c60aff8c4da7e13976b">setLastPacketCompleted()</a> </dd></dl>
@@ -299,7 +291,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >This returns true if this is the last page of the <a class="el" href="namespaceTagLib_1_1Ogg.html" title="A namespace for the classes used by Ogg-based metadata files.">Ogg</a> (logical) stream.</p>
+<p >This returns <code>true</code> if this is the last page of the <a class="el" href="namespaceTagLib_1_1Ogg.html" title="A namespace for the classes used by Ogg-based metadata files.">Ogg</a> (logical) stream.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1Ogg_1_1PageHeader.html#a5787066199e5841c35a8fd10e3b75745">setLastPageOfStream()</a> </dd></dl>
 
 </div>
@@ -344,7 +336,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p ><a class="el" href="namespaceTagLib_1_1Ogg.html" title="A namespace for the classes used by Ogg-based metadata files.">Ogg</a> pages contain a list of packets (which are used by the contained codecs). The sizes of these pages is encoded in the page header. This returns a list of the packet sizes in bytes.</p>
+<p ><a class="el" href="namespaceTagLib_1_1Ogg.html" title="A namespace for the classes used by Ogg-based metadata files.">Ogg</a> pages contain a list of packets (which are used by the contained codecs). The sizes of these pages are encoded in the page header. This returns a list of the packet sizes in bytes.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classTagLib_1_1Ogg_1_1PageHeader.html#afc64005c1a0fb1e78e4958775dd258e6">setPacketSizes()</a> </dd></dl>
 
 </div>

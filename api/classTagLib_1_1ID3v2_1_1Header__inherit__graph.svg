@@ -161,7 +161,7 @@
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="classTagLib_1_1ID3v2_1_1PrivateFrame.html" target="_top" xlink:title="An implementation of ID3v2 privateframe.">
+<g id="a_node12"><a xlink:href="classTagLib_1_1ID3v2_1_1PrivateFrame.html" target="_top" xlink:title="An implementation of ID3v2 private frame.">
 <polygon fill="white" stroke="black" points="333,-378 333,-397 486,-397 486,-378 333,-378"/>
 <text text-anchor="middle" x="409.5" y="-385" font-family="Helvetica,sans-Serif" font-size="10.00">TagLib::ID3v2::PrivateFrame</text>
 </a>

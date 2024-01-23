@@ -27,6 +27,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>An implementation of <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">TagLib::File</a> with <a class="el" href="namespaceTagLib_1_1IT.html" title="An implementation of Impulse Tracker metadata.">IT</a> specific methods.  
+ <a href="classTagLib_1_1IT_1_1File.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="itfile_8h_source.html">itfile.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for TagLib::IT::File:</div>
@@ -166,8 +169,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ad9cb71c0e432784ad7340e1e7f557ad0 inherit pro_methods_classTagLib_1_1Mod_1_1FileBase"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1Mod_1_1FileBase.html#ad9cb71c0e432784ad7340e1e7f557ad0">readU32B</a> (unsigned long &amp;number)</td></tr>
 <tr class="separator:ad9cb71c0e432784ad7340e1e7f557ad0 inherit pro_methods_classTagLib_1_1Mod_1_1FileBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classTagLib_1_1File"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classTagLib_1_1File')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classTagLib_1_1File.html">TagLib::File</a></td></tr>
-<tr class="memitem:a3dfd129e048c52c53807bbe9059a3e0b inherit pro_methods_classTagLib_1_1File"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1File.html#a3dfd129e048c52c53807bbe9059a3e0b">File</a> (<a class="el" href="namespaceTagLib.html#ae4dea55098950c5c4e628646090236f4">FileName</a> file)</td></tr>
-<tr class="separator:a3dfd129e048c52c53807bbe9059a3e0b inherit pro_methods_classTagLib_1_1File"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf6843d1b72e51d17ac979080ebbd7dd inherit pro_methods_classTagLib_1_1File"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1File.html#acf6843d1b72e51d17ac979080ebbd7dd">File</a> (<a class="el" href="namespaceTagLib.html#ae4dea55098950c5c4e628646090236f4">FileName</a> fileName)</td></tr>
+<tr class="separator:acf6843d1b72e51d17ac979080ebbd7dd inherit pro_methods_classTagLib_1_1File"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a364fdfc30d530bb91c4a043cdd9ea6a9 inherit pro_methods_classTagLib_1_1File"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1File.html#a364fdfc30d530bb91c4a043cdd9ea6a9">File</a> (<a class="el" href="classTagLib_1_1IOStream.html">IOStream</a> *stream)</td></tr>
 <tr class="separator:a364fdfc30d530bb91c4a043cdd9ea6a9 inherit pro_methods_classTagLib_1_1File"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa92e1714e53f515cf9a6a0160b316773 inherit pro_methods_classTagLib_1_1File"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1File.html#aa92e1714e53f515cf9a6a0160b316773">setValid</a> (bool valid)</td></tr>
@@ -178,7 +181,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae3fc1a3da640e59081c0ba67d101ae7d inherit pro_static_methods_classTagLib_1_1File"><td class="memItemLeft" align="right" valign="top">static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTagLib_1_1File.html#ae3fc1a3da640e59081c0ba67d101ae7d">bufferSize</a> ()</td></tr>
 <tr class="separator:ae3fc1a3da640e59081c0ba67d101ae7d inherit pro_static_methods_classTagLib_1_1File"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >An implementation of <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">TagLib::File</a> with <a class="el" href="namespaceTagLib_1_1IT.html" title="An implementation of Impulse Tracker metadata.">IT</a> specific methods. </p>
+<p >This implements and provides an interface for <a class="el" href="namespaceTagLib_1_1IT.html" title="An implementation of Impulse Tracker metadata.">IT</a> files to the <a class="el" href="classTagLib_1_1Tag.html" title="A simple, generic interface to common audio metadata fields.">TagLib::Tag</a> and <a class="el" href="classTagLib_1_1AudioProperties.html" title="A simple, abstract interface to common audio properties.">TagLib::AudioProperties</a> interfaces by way of implementing the abstract <a class="el" href="classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation.">TagLib::File</a> API as well as providing some additional information specific to <a class="el" href="namespaceTagLib_1_1IT.html" title="An implementation of Impulse Tracker metadata.">IT</a> files. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4fe65868e52b167fb6c002b66856f2ea" name="a4fe65868e52b167fb6c002b66856f2ea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4fe65868e52b167fb6c002b66856f2ea">&#9670;&nbsp;</a></span>File() <span class="overload">[1/3]</span></h2>
 
@@ -210,7 +216,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Constructs a Impulse Tracker file from <em>file</em>.</p>
+<p >Constructs an Impulse Tracker file from <em>file</em>.</p>
 <dl class="section note"><dt>Note</dt><dd>In the current implementation, both <em>readProperties</em> and <em>propertiesStyle</em> are ignored. The audio properties are always read. </dd></dl>
 
 </div>
@@ -246,10 +252,10 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Constructs a Impulse Tracker file from <em>stream</em>.</p>
+<p >Constructs an Impulse Tracker file from <em>stream</em>.</p>
 <dl class="section note"><dt>Note</dt><dd>In the current implementation, both <em>readProperties</em> and <em>propertiesStyle</em> are ignored. The audio properties are always read.</dd>
 <dd>
-<a class="el" href="namespaceTagLib.html" title="A namespace for all TagLib related classes and functions.">TagLib</a> will <em>not</em> take ownership of the stream, the caller is responsible for deleting it after the <a class="el" href="classTagLib_1_1IT_1_1File.html">File</a> object. </dd></dl>
+<a class="el" href="namespaceTagLib.html" title="A namespace for all TagLib related classes and functions.">TagLib</a> will <em>not</em> take ownership of the stream, the caller is responsible for deleting it after the <a class="el" href="classTagLib_1_1IT_1_1File.html" title="An implementation of TagLib::File with IT specific methods.">File</a> object. </dd></dl>
 
 </div>
 </div>
@@ -275,7 +281,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Destroys this instance of the <a class="el" href="classTagLib_1_1IT_1_1File.html">File</a>. </p>
+<p >Destroys this instance of the <a class="el" href="classTagLib_1_1IT_1_1File.html" title="An implementation of TagLib::File with IT specific methods.">File</a>. </p>
 
 <p>Reimplemented from <a class="el" href="classTagLib_1_1File.html#a956ca460c2a16b3b9c374f7b0c3203e8">TagLib::File</a>.</p>
 
@@ -330,7 +336,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Returns the <a class="el" href="classTagLib_1_1IT_1_1Properties.html">IT::Properties</a> for this file. If no audio properties were read then this will return a null pointer. </p>
+<p >Returns the <a class="el" href="classTagLib_1_1IT_1_1Properties.html" title="An implementation of audio property reading for IT.">IT::Properties</a> for this file. If no audio properties were read then this will return a null pointer. </p>
 
 <p>Implements <a class="el" href="classTagLib_1_1File.html#a58d36decb94aa8f0ae1e40f0cd8b77fb">TagLib::File</a>.</p>
 
