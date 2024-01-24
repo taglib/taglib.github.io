@@ -10,7 +10,7 @@ if [[ ! ($taglib_dir && -d $taglib_dir && -f $taglib_dir/Doxyfile.cmake) ]] ; th
 fi
 
 rm -rf source
-cp -rv $taglib_dir source
+cp -r $taglib_dir source
 
 pushd source
 if [ -d .git ] ; then

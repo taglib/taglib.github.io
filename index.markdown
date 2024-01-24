@@ -6,10 +6,10 @@ layout: default
 ### TagLib Audio Meta-Data Library
 
 TagLib is a library for reading and editing the meta-data of several
-popular audio formats. Currently it supports both ID3v1 and [ID3v2][]
+popular audio formats. Currently it supports both ID3v1 and ID3v2
 for MP3 files, [Ogg Vorbis][] comments and ID3 tags and Vorbis comments
-in [FLAC][], MPC, Speex, WavPack, TrueAudio, WAV, AIFF, MP4 and ASF
-files.
+in [FLAC][], MPC, Speex, WavPack, TrueAudio, WAV, AIFF, MP4, ASF,
+DSF, DFF and AAC files.
 
 TagLib is distributed under the [GNU Lesser General Public License][]
 (LGPL) and [Mozilla Public License][] (MPL). Essentially that means that
@@ -55,7 +55,7 @@ Please, **for all questions related to TagLib** and / or patches use the
     does provide Glib-style C bindings (currently for the generic API
     only)
 
-{% include release-2.0beta.markdown %}
+{% include release-2.0.markdown %}
 
 [Older Releases](older.html)
 
@@ -68,6 +68,14 @@ Please, **for all questions related to TagLib** and / or patches use the
     -   [pytaglib][]
 -   **Ruby**
     -   [taglib-ruby][]
+-   **Rust**
+    -   [taglib-rust][]
+-   **Go**
+    -   [go-taglib][]
+-   **Node**
+    -   [node-taglib][]
+-   **Dart**
+    -   [taglib-ffi][]
 
 ### Projects Using TagLib
 
@@ -86,7 +94,6 @@ source [there](https://github.com/taglib/taglib).
 TagLib can be built on various UNIXes (including OS X) and Windows using
 CMake. Most Linux distributions ship with TagLib already.
 
-  [ID3v2]: https://id3.org/
   [Ogg Vorbis]: https://xiph.org/vorbis/
   [FLAC]: https://xiph.org/flac/
   [GNU Lesser General Public License]: https://www.gnu.org/licenses/lgpl.html
@@ -97,4 +104,8 @@ CMake. Most Linux distributions ship with TagLib already.
   [TagPy]: https://mathema.tician.de/software/tagpy/
   [pytaglib]: https://github.com/supermihi/pytaglib
   [taglib-ruby]: https://robinst.github.io/taglib-ruby/
+  [taglib-rust]: https://ebassi.github.io/taglib-rust/
+  [go-taglib]: https://github.com/wtolson/go-taglib/
+  [node-taglib]: https://github.com/nikhilm/node-taglib
+  [taglib-ffi]: https://github.com/nbonamy/taglib_ffi/
   [GitHub bug tracker]: https://github.com/taglib/taglib/issues

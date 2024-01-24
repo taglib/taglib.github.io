@@ -1,4 +1,4 @@
-### TagLib 2.0beta Release - Dec 24, 2023
+### TagLib 2.0 Release - Jan 24, 2024
 
  * New major version, binary incompatible, but source-compatible with the
    latest 1.x release if no deprecated features are used.
@@ -73,6 +73,15 @@
    - String::null
    - TrueAudio::File::setID3v2FrameFactory(): Use constructor
    - WavPack::Properties::Properties(const ByteVector &, long, ReadStyle)
+* Made methods const: Frame::Header::size(), Frame::headerSize(),
+  MP4::Atom::findall(), MP4::Atoms::find(), MP4::Atoms::path().
+* Made classes non-virtual: APE::Footer, APE::Item, ASF::Attribute,
+  ASF::Picture, MP4::CoverArt, MP4::Item, ID3v2::ExtendedHeader, ID3v2::Footer,
+  ID3v2::Header, MPEG::Header, MPEG::XingHeader, Ogg::Page, Ogg::PageHeader.
+* Removed type definitions in TagLib namespace: wchar, uchar, ushort, uint,
+  ulong, ulonglong, wstring: Use the standard types.
+* Removed include file taglib_config.h and its defines TAGLIB_WITH_ASF,
+  TAGLIB_WITH_MP4: They were always 1 since version 1.8.
 * Behavioral changes:
    - The basic tag methods (e.g. genre()) separate multiple values with " / "
      instead of " ".
