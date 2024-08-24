@@ -1,5 +1,4 @@
-TagLib 2.0.1 (Apr 9, 2024)
-==========================
+### TagLib 2.0.1 Release - Apr 9, 2024
 
  * Fix aborting when _GLIBCXX_ASSERTIONS are enabled.
  * Fall back to utf8cpp header detection in the case that its CMake
