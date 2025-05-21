@@ -1,4 +1,5 @@
 <map id="TagLib::FLAC::Picture" name="TagLib::FLAC::Picture">
-<area shape="rect" id="node1" title="FLAC picture." alt="" coords="31,80,190,107"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1FLAC_1_1MetadataBlock.html" title="FLAC metadata block." alt="" coords="5,5,216,32"/>
+<area shape="rect" id="Node000001" title="FLAC picture." alt="" coords="31,79,190,104"/>
+<area shape="rect" id="Node000002" href="$classTagLib_1_1FLAC_1_1MetadataBlock.html" title="FLAC metadata block." alt="" coords="5,5,216,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,44,113,79,108,79,108,44"/>
 </map>

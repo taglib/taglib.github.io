@@ -1,11 +1,19 @@
 <map id="id3v2header.h" name="id3v2header.h">
-<area shape="rect" id="node1" title=" " alt="" coords="292,5,407,32"/>
-<area shape="rect" id="node2" href="$id3v2framefactory_8h.html" title=" " alt="" coords="273,80,426,107"/>
-<area shape="rect" id="node3" href="$id3v2tag_8h.html" title=" " alt="" coords="304,155,395,181"/>
-<area shape="rect" id="node4" href="$aifffile_8h.html" title=" " alt="" coords="5,229,80,256"/>
-<area shape="rect" id="node5" href="$chapterframe_8h.html" title=" " alt="" coords="104,229,227,256"/>
-<area shape="rect" id="node6" href="$dsdifffile_8h.html" title=" " alt="" coords="251,229,341,256"/>
-<area shape="rect" id="node7" href="$dsffile_8h.html" title=" " alt="" coords="365,229,440,256"/>
-<area shape="rect" id="node8" href="$tableofcontentsframe_8h.html" title=" " alt="" coords="465,229,639,256"/>
-<area shape="rect" id="node9" href="$wavfile_8h.html" title=" " alt="" coords="663,229,745,256"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="292,5,407,31"/>
+<area shape="rect" id="Node000002" href="$id3v2framefactory_8h.html" title=" " alt="" coords="273,79,426,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="352,44,352,79,347,79,347,44"/>
+<area shape="rect" id="Node000003" href="$id3v2tag_8h.html" title=" " alt="" coords="304,152,395,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="352,118,352,152,347,152,347,118"/>
+<area shape="rect" id="Node000004" href="$aifffile_8h.html" title=" " alt="" coords="5,225,80,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="291,182,81,231,80,225,290,177"/>
+<area shape="rect" id="Node000005" href="$chapterframe_8h.html" title=" " alt="" coords="104,225,227,251"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="308,185,196,228,194,223,306,180"/>
+<area shape="rect" id="Node000006" href="$dsdifffile_8h.html" title=" " alt="" coords="251,225,341,251"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="335,190,307,227,303,224,330,187"/>
+<area shape="rect" id="Node000007" href="$dsffile_8h.html" title=" " alt="" coords="365,225,440,251"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="368,187,396,224,392,227,364,190"/>
+<area shape="rect" id="Node000008" href="$tableofcontentsframe_8h.html" title=" " alt="" coords="465,225,639,251"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="395,179,520,223,518,228,394,184"/>
+<area shape="rect" id="Node000009" href="$wavfile_8h.html" title=" " alt="" coords="663,225,745,251"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="409,175,653,223,664,225,663,230,651,228,408,180"/>
 </map>

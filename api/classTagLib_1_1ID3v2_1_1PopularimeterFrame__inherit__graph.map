@@ -1,5 +1,7 @@
 <map id="TagLib::ID3v2::PopularimeterFrame" name="TagLib::ID3v2::PopularimeterFrame">
-<area shape="rect" id="node1" title="An implementation of ID3v2 &quot;popularimeter&quot;." alt="" coords="5,155,215,196"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="31,80,189,107"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="28,5,192,32"/>
+<area shape="rect" id="Node000001" title="An implementation of ID3v2 &quot;popularimeter&quot;." alt="" coords="5,152,215,192"/>
+<area shape="rect" id="Node000002" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="31,79,189,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,118,113,152,107,152,107,118"/>
+<area shape="rect" id="Node000003" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="28,5,192,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,44,113,79,107,79,107,44"/>
 </map>

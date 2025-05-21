@@ -1,0 +1,15 @@
+<map id="shortenproperties.h" name="shortenproperties.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="75,5,224,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,152,83,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,33,99,53,72,80,57,110,50,139,45,138,52,108,67,77,95,49,125,28"/>
+<area shape="rect" id="Node000003" href="$taglib__export_8h.html" title=" " alt="" coords="203,152,323,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,29,203,49,231,77,249,107,259,138,254,139,244,110,227,80,199,53,170,33"/>
+<area shape="rect" id="Node000004" href="$audioproperties_8h.html" title=" " alt="" coords="81,79,217,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="152,31,152,65,147,65,147,31"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="134,106,74,147,71,142,131,102"/>
+<area shape="poly" id="edge7_Node000004_Node000003" title=" " alt="" coords="169,102,234,142,231,147,166,106"/>
+<area shape="rect" id="Node000005" href="$taglib_8h.html" title=" " alt="" coords="107,152,178,177"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="151,105,148,139,142,138,146,104"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="95,225,191,251"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="145,178,145,212,140,212,140,178"/>
+</map>

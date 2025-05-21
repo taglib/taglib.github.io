@@ -1,6 +1,9 @@
 <map id="mp4item.h" name="mp4item.h">
-<area shape="rect" id="node1" title=" " alt="" coords="94,5,187,32"/>
-<area shape="rect" id="node2" href="$mp4itemfactory_8h.html" title=" " alt="" coords="5,80,143,107"/>
-<area shape="rect" id="node3" href="$mp4tag_8h.html" title=" " alt="" coords="167,80,251,107"/>
-<area shape="rect" id="node4" href="$mp4file_8h.html" title=" " alt="" coords="167,155,250,181"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="94,5,187,31"/>
+<area shape="rect" id="Node000002" href="$mp4itemfactory_8h.html" title=" " alt="" coords="5,79,143,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,43,87,80,83,77,118,39"/>
+<area shape="rect" id="Node000003" href="$mp4tag_8h.html" title=" " alt="" coords="167,79,251,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,39,200,77,196,80,159,42"/>
+<area shape="rect" id="Node000004" href="$mp4file_8h.html" title=" " alt="" coords="167,152,250,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="211,118,211,152,206,152,206,118"/>
 </map>

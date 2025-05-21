@@ -1,11 +1,19 @@
 <map id="flacmetadatablock.h" name="flacmetadatablock.h">
-<area shape="rect" id="node1" title=" " alt="" coords="180,5,335,32"/>
-<area shape="rect" id="node2" href="$flacpicture_8h.html" title=" " alt="" coords="115,80,218,107"/>
-<area shape="rect" id="node9" href="$flacunknownmetadatablock_8h.html" title=" " alt="" coords="242,80,457,107"/>
-<area shape="rect" id="node3" href="$flacfile_8h.html" title=" " alt="" coords="65,155,143,181"/>
-<area shape="rect" id="node4" href="$xiphcomment_8h.html" title=" " alt="" coords="167,155,291,181"/>
-<area shape="rect" id="node5" href="$oggflacfile_8h.html" title=" " alt="" coords="5,229,107,256"/>
-<area shape="rect" id="node6" href="$opusfile_8h.html" title=" " alt="" coords="131,229,216,256"/>
-<area shape="rect" id="node7" href="$speexfile_8h.html" title=" " alt="" coords="240,229,333,256"/>
-<area shape="rect" id="node8" href="$vorbisfile_8h.html" title=" " alt="" coords="358,229,453,256"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="180,5,335,31"/>
+<area shape="rect" id="Node000002" href="$flacpicture_8h.html" title=" " alt="" coords="115,79,218,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,41,183,81,180,76,230,37"/>
+<area shape="rect" id="Node000009" href="$flacunknownmetadatablock_8h.html" title=" " alt="" coords="242,79,457,104"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="284,37,336,76,333,81,281,41"/>
+<area shape="rect" id="Node000003" href="$flacfile_8h.html" title=" " alt="" coords="65,152,143,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="149,116,116,154,112,150,145,113"/>
+<area shape="rect" id="Node000004" href="$xiphcomment_8h.html" title=" " alt="" coords="167,152,291,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="188,113,221,150,217,154,184,116"/>
+<area shape="rect" id="Node000005" href="$oggflacfile_8h.html" title=" " alt="" coords="5,225,107,251"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="190,185,85,228,83,223,188,180"/>
+<area shape="rect" id="Node000006" href="$opusfile_8h.html" title=" " alt="" coords="131,225,216,251"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="214,190,184,227,180,224,209,187"/>
+<area shape="rect" id="Node000007" href="$speexfile_8h.html" title=" " alt="" coords="240,225,333,251"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="249,186,279,224,275,227,245,190"/>
+<area shape="rect" id="Node000008" href="$vorbisfile_8h.html" title=" " alt="" coords="358,225,453,251"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="271,180,378,223,376,228,269,185"/>
 </map>

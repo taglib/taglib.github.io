@@ -1,5 +1,7 @@
 <map id="TagLib::ID3v2::UniqueFileIdentifierFrame" name="TagLib::ID3v2::UniqueFileIdentifierFrame">
-<area shape="rect" id="node1" title="An implementation of ID3v2 unique identifier frames." alt="" coords="5,155,192,196"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="19,80,178,107"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="17,5,181,32"/>
+<area shape="rect" id="Node000001" title="An implementation of ID3v2 unique identifier frames." alt="" coords="5,152,192,192"/>
+<area shape="rect" id="Node000002" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="19,79,178,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,118,101,152,96,152,96,118"/>
+<area shape="rect" id="Node000003" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="17,5,181,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,44,101,79,96,79,96,44"/>
 </map>

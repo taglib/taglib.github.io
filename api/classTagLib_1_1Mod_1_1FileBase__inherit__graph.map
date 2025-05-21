@@ -1,8 +1,13 @@
 <map id="TagLib::Mod::FileBase" name="TagLib::Mod::FileBase">
-<area shape="rect" id="node1" title="Base class for module files." alt="" coords="205,80,367,107"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1IT_1_1File.html" title="An implementation of TagLib::File with IT specific methods." alt="" coords="5,155,119,181"/>
-<area shape="rect" id="node4" href="$classTagLib_1_1Mod_1_1File.html" title="An implementation of TagLib::File with Mod specific methods." alt="" coords="143,155,274,181"/>
-<area shape="rect" id="node5" href="$classTagLib_1_1S3M_1_1File.html" title="An implementation of TagLib::File with S3M specific methods." alt="" coords="298,155,429,181"/>
-<area shape="rect" id="node6" href="$classTagLib_1_1XM_1_1File.html" title="An implementation of TagLib::File with XM specific methods." alt="" coords="453,155,575,181"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation." alt="" coords="239,5,333,32"/>
+<area shape="rect" id="Node000001" title="Base class for module files." alt="" coords="205,79,367,104"/>
+<area shape="rect" id="Node000003" href="$classTagLib_1_1IT_1_1File.html" title="An implementation of TagLib::File with IT specific methods." alt="" coords="5,152,119,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="238,111,99,154,97,149,236,106"/>
+<area shape="rect" id="Node000004" href="$classTagLib_1_1Mod_1_1File.html" title="An implementation of TagLib::File with Mod specific methods." alt="" coords="143,152,274,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="265,115,223,154,220,150,262,111"/>
+<area shape="rect" id="Node000005" href="$classTagLib_1_1S3M_1_1File.html" title="An implementation of TagLib::File with S3M specific methods." alt="" coords="298,152,429,177"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="310,111,352,150,349,154,307,115"/>
+<area shape="rect" id="Node000006" href="$classTagLib_1_1XM_1_1File.html" title="An implementation of TagLib::File with XM specific methods." alt="" coords="453,152,575,177"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="337,106,478,149,476,154,335,111"/>
+<area shape="rect" id="Node000002" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation." alt="" coords="239,5,333,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="289,44,289,79,283,79,283,44"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="TagLib::RIFF::WAV::Properties" name="TagLib::RIFF::WAV::Properties">
-<area shape="rect" id="node1" title="An implementation of audio property reading for WAV." alt="" coords="21,80,164,121"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1AudioProperties.html" title="A simple, abstract interface to common audio properties." alt="" coords="5,5,180,32"/>
+<area shape="rect" id="Node000001" title="An implementation of audio property reading for WAV." alt="" coords="21,79,164,119"/>
+<area shape="rect" id="Node000002" href="$classTagLib_1_1AudioProperties.html" title="A simple, abstract interface to common audio properties." alt="" coords="5,5,180,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,44,95,79,90,79,90,44"/>
 </map>

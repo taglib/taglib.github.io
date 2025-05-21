@@ -1,8 +1,15 @@
 <map id="xingheader.h" name="xingheader.h">
-<area shape="rect" id="node1" title=" " alt="" coords="89,5,196,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,155,83,181"/>
-<area shape="rect" id="node3" href="$taglib__export_8h.html" title=" " alt="" coords="203,155,323,181"/>
-<area shape="rect" id="node4" href="$mpegheader_8h.html" title=" " alt="" coords="85,80,200,107"/>
-<area shape="rect" id="node5" href="$taglib_8h.html" title=" " alt="" coords="107,155,178,181"/>
-<area shape="rect" id="node6" title=" " alt="" coords="95,229,191,256"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="89,5,196,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,152,83,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,33,100,53,76,80,61,110,52,139,46,137,56,108,71,77,96,49,123,29"/>
+<area shape="rect" id="Node000003" href="$taglib__export_8h.html" title=" " alt="" coords="203,152,323,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,29,187,50,214,77,236,108,253,138,249,141,232,111,210,80,183,54,157,33"/>
+<area shape="rect" id="Node000004" href="$mpegheader_8h.html" title=" " alt="" coords="85,79,200,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="145,31,145,65,140,65,140,31"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="128,106,73,146,70,142,125,102"/>
+<area shape="poly" id="edge7_Node000004_Node000003" title=" " alt="" coords="163,102,232,142,230,147,161,106"/>
+<area shape="rect" id="Node000005" href="$taglib_8h.html" title=" " alt="" coords="107,152,178,177"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="145,104,145,138,140,138,140,104"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="95,225,191,251"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="145,178,145,212,140,212,140,178"/>
 </map>

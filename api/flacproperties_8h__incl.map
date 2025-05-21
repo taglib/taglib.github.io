@@ -1,11 +1,22 @@
 <map id="flacproperties.h" name="flacproperties.h">
-<area shape="rect" id="node1" title=" " alt="" coords="147,5,269,32"/>
-<area shape="rect" id="node2" href="$tbytevector_8h.html" title=" " alt="" coords="301,80,409,107"/>
-<area shape="rect" id="node6" href="$taglib__export_8h.html" title=" " alt="" coords="113,155,233,181"/>
-<area shape="rect" id="node7" href="$audioproperties_8h.html" title=" " alt="" coords="140,80,276,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="257,155,335,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="447,155,510,181"/>
-<area shape="rect" id="node5" title=" " alt="" coords="359,155,423,181"/>
-<area shape="rect" id="node8" href="$taglib_8h.html" title=" " alt="" coords="18,155,89,181"/>
-<area shape="rect" id="node9" title=" " alt="" coords="5,229,101,256"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="147,5,269,31"/>
+<area shape="rect" id="Node000002" href="$tbytevector_8h.html" title=" " alt="" coords="301,79,409,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,28,320,70,317,75,230,33"/>
+<area shape="rect" id="Node000006" href="$taglib__export_8h.html" title=" " alt="" coords="113,152,233,177"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="183,33,154,52,141,65,130,80,127,95,131,111,152,141,148,144,126,113,122,96,126,78,136,61,150,48,180,28"/>
+<area shape="rect" id="Node000007" href="$audioproperties_8h.html" title=" " alt="" coords="140,79,276,104"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="211,31,211,65,205,65,205,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="257,152,335,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="347,106,316,143,312,140,343,103"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="447,152,510,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="376,102,448,143,445,147,373,106"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="359,152,423,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="363,103,381,138,376,141,358,106"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="327,107,217,149,215,144,325,102"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="224,102,273,141,269,145,220,106"/>
+<area shape="poly" id="edge11_Node000007_Node000006" title=" " alt="" coords="205,106,187,141,183,138,200,103"/>
+<area shape="rect" id="Node000008" href="$taglib_8h.html" title=" " alt="" coords="18,152,89,177"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="184,106,92,149,90,144,182,102"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="5,225,101,251"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="56,178,56,212,51,212,51,178"/>
 </map>

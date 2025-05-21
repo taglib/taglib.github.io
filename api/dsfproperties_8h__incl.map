@@ -1,11 +1,23 @@
 <map id="dsfproperties.h" name="dsfproperties.h">
-<area shape="rect" id="node1" title=" " alt="" coords="141,5,261,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,155,83,181"/>
-<area shape="rect" id="node3" href="$taglib__export_8h.html" title=" " alt="" coords="203,155,323,181"/>
-<area shape="rect" id="node4" href="$tbytevector_8h.html" title=" " alt="" coords="293,80,401,107"/>
-<area shape="rect" id="node7" href="$audioproperties_8h.html" title=" " alt="" coords="81,80,217,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="435,155,498,181"/>
-<area shape="rect" id="node6" title=" " alt="" coords="347,155,411,181"/>
-<area shape="rect" id="node8" href="$taglib_8h.html" title=" " alt="" coords="107,155,178,181"/>
-<area shape="rect" id="node9" title=" " alt="" coords="95,229,191,256"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="141,5,261,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,152,83,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,33,109,51,89,64,71,80,56,108,49,138,43,137,51,107,67,77,86,60,107,47,150,28"/>
+<area shape="rect" id="Node000003" href="$taglib__export_8h.html" title=" " alt="" coords="203,152,323,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,30,232,78,256,138,251,140,227,80,205,32"/>
+<area shape="rect" id="Node000004" href="$tbytevector_8h.html" title=" " alt="" coords="293,79,401,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="226,28,312,70,310,75,224,33"/>
+<area shape="rect" id="Node000007" href="$audioproperties_8h.html" title=" " alt="" coords="81,79,217,104"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="195,33,168,69,164,66,191,29"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="299,107,97,154,96,149,297,101"/>
+<area shape="poly" id="edge7_Node000004_Node000003" title=" " alt="" coords="335,106,289,145,285,141,331,102"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="435,152,498,177"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="367,102,436,142,434,147,365,106"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="347,152,411,177"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="354,103,370,139,366,141,350,105"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="134,106,74,147,71,142,131,102"/>
+<area shape="poly" id="edge12_Node000007_Node000003" title=" " alt="" coords="169,102,234,142,231,147,166,106"/>
+<area shape="rect" id="Node000008" href="$taglib_8h.html" title=" " alt="" coords="107,152,178,177"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="151,105,148,139,142,138,146,104"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="95,225,191,251"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="145,178,145,212,140,212,140,178"/>
 </map>

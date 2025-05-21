@@ -1,5 +1,7 @@
 <map id="TagLib::ID3v2::CommentsFrame" name="TagLib::ID3v2::CommentsFrame">
-<area shape="rect" id="node1" title="An implementation of ID3v2 comments." alt="" coords="5,155,235,181"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="41,80,199,107"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="38,5,202,32"/>
+<area shape="rect" id="Node000001" title="An implementation of ID3v2 comments." alt="" coords="5,152,235,177"/>
+<area shape="rect" id="Node000002" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="41,79,199,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,118,123,152,117,152,117,118"/>
+<area shape="rect" id="Node000003" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="38,5,202,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,44,123,79,117,79,117,44"/>
 </map>

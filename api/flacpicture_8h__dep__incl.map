@@ -1,9 +1,15 @@
 <map id="flacpicture.h" name="flacpicture.h">
-<area shape="rect" id="node1" title=" " alt="" coords="115,5,218,32"/>
-<area shape="rect" id="node2" href="$flacfile_8h.html" title=" " alt="" coords="65,80,143,107"/>
-<area shape="rect" id="node3" href="$xiphcomment_8h.html" title=" " alt="" coords="167,80,291,107"/>
-<area shape="rect" id="node4" href="$oggflacfile_8h.html" title=" " alt="" coords="5,155,107,181"/>
-<area shape="rect" id="node5" href="$opusfile_8h.html" title=" " alt="" coords="131,155,216,181"/>
-<area shape="rect" id="node6" href="$speexfile_8h.html" title=" " alt="" coords="240,155,333,181"/>
-<area shape="rect" id="node7" href="$vorbisfile_8h.html" title=" " alt="" coords="358,155,453,181"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="115,5,218,31"/>
+<area shape="rect" id="Node000002" href="$flacfile_8h.html" title=" " alt="" coords="65,79,143,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,43,116,80,112,77,145,39"/>
+<area shape="rect" id="Node000003" href="$xiphcomment_8h.html" title=" " alt="" coords="167,79,291,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,39,221,77,217,80,184,43"/>
+<area shape="rect" id="Node000004" href="$oggflacfile_8h.html" title=" " alt="" coords="5,152,107,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="190,112,85,154,83,149,188,107"/>
+<area shape="rect" id="Node000005" href="$opusfile_8h.html" title=" " alt="" coords="131,152,216,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="214,117,184,154,180,150,209,113"/>
+<area shape="rect" id="Node000006" href="$speexfile_8h.html" title=" " alt="" coords="240,152,333,177"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="249,113,279,150,275,154,245,116"/>
+<area shape="rect" id="Node000007" href="$vorbisfile_8h.html" title=" " alt="" coords="358,152,453,177"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="271,107,378,149,376,154,269,112"/>
 </map>

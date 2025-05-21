@@ -1,5 +1,7 @@
 <map id="TagLib::ID3v2::TableOfContentsFrame" name="TagLib::ID3v2::TableOfContentsFrame">
-<area shape="rect" id="node1" title="An implementation of ID3v2 table of contents frames." alt="" coords="5,155,229,196"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="38,80,197,107"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="35,5,199,32"/>
+<area shape="rect" id="Node000001" title="An implementation of ID3v2 table of contents frames." alt="" coords="5,152,229,192"/>
+<area shape="rect" id="Node000002" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="38,79,197,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,118,120,152,115,152,115,118"/>
+<area shape="rect" id="Node000003" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="35,5,199,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,44,120,79,115,79,115,44"/>
 </map>

@@ -1,8 +1,13 @@
 <map id="id3v2synchdata.h" name="id3v2synchdata.h">
-<area shape="rect" id="node1" title=" " alt="" coords="114,5,251,32"/>
-<area shape="rect" id="node2" href="$tbytevector_8h.html" title=" " alt="" coords="129,80,237,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,155,83,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="107,155,170,181"/>
-<area shape="rect" id="node5" title=" " alt="" coords="195,155,259,181"/>
-<area shape="rect" id="node6" href="$taglib__export_8h.html" title=" " alt="" coords="283,155,403,181"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="114,5,251,31"/>
+<area shape="rect" id="Node000002" href="$tbytevector_8h.html" title=" " alt="" coords="129,79,237,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,31,185,65,180,65,180,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,83,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="162,106,80,148,78,143,159,102"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="107,152,170,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="178,106,155,142,151,139,173,103"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="195,152,259,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="192,103,215,139,210,142,188,106"/>
+<area shape="rect" id="Node000006" href="$taglib__export_8h.html" title=" " alt="" coords="283,152,403,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="209,102,305,144,303,149,207,106"/>
 </map>

@@ -1,10 +1,18 @@
 <map id="tiostream.h" name="tiostream.h">
-<area shape="rect" id="node1" title=" " alt="" coords="294,5,391,32"/>
-<area shape="rect" id="node2" href="$tbytevector_8h.html" title=" " alt="" coords="173,80,281,107"/>
-<area shape="rect" id="node6" href="$taglib__export_8h.html" title=" " alt="" coords="283,155,403,181"/>
-<area shape="rect" id="node7" href="$taglib_8h.html" title=" " alt="" coords="410,80,481,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,155,83,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="107,155,170,181"/>
-<area shape="rect" id="node5" title=" " alt="" coords="195,155,259,181"/>
-<area shape="rect" id="node8" title=" " alt="" coords="427,155,523,181"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="294,5,391,31"/>
+<area shape="rect" id="Node000002" href="$tbytevector_8h.html" title=" " alt="" coords="173,79,281,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="325,33,259,74,256,69,323,28"/>
+<area shape="rect" id="Node000006" href="$taglib__export_8h.html" title=" " alt="" coords="283,152,403,177"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="345,31,345,138,340,138,340,31"/>
+<area shape="rect" id="Node000007" href="$taglib_8h.html" title=" " alt="" coords="410,79,481,104"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="361,28,419,68,416,73,358,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,83,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="198,107,88,149,86,144,196,102"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="107,152,170,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="214,106,165,145,162,141,211,102"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="195,152,259,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="229,104,229,138,224,138,224,104"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="247,102,313,142,311,147,244,106"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="427,152,523,177"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="453,103,467,138,462,140,448,105"/>
 </map>

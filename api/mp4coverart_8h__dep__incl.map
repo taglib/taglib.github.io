@@ -1,7 +1,11 @@
 <map id="mp4coverart.h" name="mp4coverart.h">
-<area shape="rect" id="node1" title=" " alt="" coords="82,5,199,32"/>
-<area shape="rect" id="node2" href="$mp4item_8h.html" title=" " alt="" coords="94,80,187,107"/>
-<area shape="rect" id="node3" href="$mp4itemfactory_8h.html" title=" " alt="" coords="5,155,143,181"/>
-<area shape="rect" id="node4" href="$mp4tag_8h.html" title=" " alt="" coords="167,155,251,181"/>
-<area shape="rect" id="node5" href="$mp4file_8h.html" title=" " alt="" coords="167,229,250,256"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="82,5,199,31"/>
+<area shape="rect" id="Node000002" href="$mp4item_8h.html" title=" " alt="" coords="94,79,187,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,44,143,79,138,79,138,44"/>
+<area shape="rect" id="Node000003" href="$mp4itemfactory_8h.html" title=" " alt="" coords="5,152,143,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="122,116,87,154,83,150,118,113"/>
+<area shape="rect" id="Node000004" href="$mp4tag_8h.html" title=" " alt="" coords="167,152,251,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="163,112,200,150,196,154,159,116"/>
+<area shape="rect" id="Node000005" href="$mp4file_8h.html" title=" " alt="" coords="167,225,250,251"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="211,191,211,225,206,225,206,191"/>
 </map>

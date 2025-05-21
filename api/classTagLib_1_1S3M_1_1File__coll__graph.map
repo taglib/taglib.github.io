@@ -1,5 +1,7 @@
 <map id="TagLib::S3M::File" name="TagLib::S3M::File">
-<area shape="rect" id="node1" title="An implementation of TagLib::File with S3M specific methods." alt="" coords="21,155,152,181"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1Mod_1_1FileBase.html" title="Base class for module files." alt="" coords="5,80,168,107"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation." alt="" coords="39,5,134,32"/>
+<area shape="rect" id="Node000001" title="An implementation of TagLib::File with S3M specific methods." alt="" coords="21,152,152,177"/>
+<area shape="rect" id="Node000002" href="$classTagLib_1_1Mod_1_1FileBase.html" title="Base class for module files." alt="" coords="5,79,168,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,118,89,152,84,152,84,118"/>
+<area shape="rect" id="Node000003" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation." alt="" coords="39,5,134,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="89,44,89,79,84,79,84,44"/>
 </map>

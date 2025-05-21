@@ -1,12 +1,28 @@
 <map id="id3v2framefactory.h" name="id3v2framefactory.h">
-<area shape="rect" id="node1" title=" " alt="" coords="125,5,279,32"/>
-<area shape="rect" id="node2" href="$tbytevector_8h.html" title=" " alt="" coords="71,229,179,256"/>
-<area shape="rect" id="node6" href="$taglib__export_8h.html" title=" " alt="" coords="290,304,410,331"/>
-<area shape="rect" id="node7" href="$id3v2frame_8h.html" title=" " alt="" coords="231,80,341,107"/>
-<area shape="rect" id="node10" href="$id3v2header_8h.html" title=" " alt="" coords="97,155,211,181"/>
-<area shape="rect" id="node3" title=" " alt="" coords="181,304,258,331"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,304,68,331"/>
-<area shape="rect" id="node5" title=" " alt="" coords="93,304,157,331"/>
-<area shape="rect" id="node8" href="$tstring_8h.html" title=" " alt="" coords="287,155,363,181"/>
-<area shape="rect" id="node9" title=" " alt="" coords="254,229,313,256"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="125,5,279,31"/>
+<area shape="rect" id="Node000002" href="$tbytevector_8h.html" title=" " alt="" coords="71,225,179,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,33,135,81,108,114,87,153,85,168,88,184,106,213,101,216,83,186,80,169,82,151,103,112,131,77,185,29"/>
+<area shape="rect" id="Node000006" href="$taglib__export_8h.html" title=" " alt="" coords="290,299,410,324"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="254,28,305,47,331,60,354,77,385,109,401,151,411,202,408,224,400,252,390,272,376,290,371,287,385,269,396,250,403,223,405,202,395,153,380,112,351,81,328,65,303,52,252,33"/>
+<area shape="rect" id="Node000007" href="$id3v2frame_8h.html" title=" " alt="" coords="231,79,341,104"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="217,29,263,67,260,72,214,33"/>
+<area shape="rect" id="Node000010" href="$id3v2header_8h.html" title=" " alt="" coords="97,152,211,177"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="201,32,165,140,160,138,196,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="181,299,258,324"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="141,249,194,288,191,292,138,253"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,299,68,324"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="112,253,63,292,60,288,109,249"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="93,299,157,324"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="127,251,127,285,122,285,122,251"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="162,248,301,292,300,297,160,253"/>
+<area shape="poly" id="edge12_Node000007_Node000002" title=" " alt="" coords="282,106,259,141,225,179,194,203,163,221,160,217,192,198,222,175,255,137,277,103"/>
+<area shape="poly" id="edge13_Node000007_Node000006" title=" " alt="" coords="318,102,351,121,366,134,378,151,388,186,386,224,377,259,365,287,360,285,372,257,381,223,383,187,373,153,362,138,348,125,315,106"/>
+<area shape="rect" id="Node000008" href="$tstring_8h.html" title=" " alt="" coords="287,152,363,177"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="295,103,314,139,310,141,290,106"/>
+<area shape="poly" id="edge10_Node000008_Node000002" title=" " alt="" coords="293,180,171,223,170,218,292,175"/>
+<area shape="poly" id="edge11_Node000008_Node000006" title=" " alt="" coords="329,177,348,285,343,285,324,178"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="254,225,313,251"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="320,179,299,215,295,212,316,176"/>
+<area shape="poly" id="edge15_Node000010_Node000002" title=" " alt="" coords="152,179,137,214,132,212,147,177"/>
+<area shape="poly" id="edge16_Node000010_Node000006" title=" " alt="" coords="166,176,199,210,244,249,279,271,314,290,311,295,276,276,240,253,195,214,162,179"/>
 </map>

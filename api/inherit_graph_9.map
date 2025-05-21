@@ -1,4 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classTagLib_1_1FileRef_1_1FileTypeResolver.html" title="A class for pluggable file type resolution." alt="" coords="5,5,181,47"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1FileRef_1_1StreamTypeResolver.html" title="A class for pluggable stream type resolution." alt="" coords="229,5,429,47"/>
+<area shape="rect" id="Node000000" href="$classTagLib_1_1FileRef_1_1FileTypeResolver.html" title="A class for pluggable file type resolution." alt="" coords="5,5,181,45"/>
+<area shape="rect" id="Node000001" href="$classTagLib_1_1FileRef_1_1StreamTypeResolver.html" title="A class for pluggable stream type resolution." alt="" coords="229,5,429,45"/>
+<area shape="poly" id="edge45_Node000000_Node000001" title=" " alt="" coords="195,23,229,23,229,28,195,28"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="apeitem.h" name="apeitem.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,93,32"/>
-<area shape="rect" id="node2" href="$apetag_8h.html" title=" " alt="" coords="10,80,89,107"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,93,31"/>
+<area shape="rect" id="Node000002" href="$apetag_8h.html" title=" " alt="" coords="10,79,89,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="52,44,52,79,47,79,47,44"/>
 </map>

@@ -1,8 +1,14 @@
 <map id="id3v2footer.h" name="id3v2footer.h">
-<area shape="rect" id="node1" title=" " alt="" coords="218,5,326,32"/>
-<area shape="rect" id="node2" href="$tbytevector_8h.html" title=" " alt="" coords="173,80,281,107"/>
-<area shape="rect" id="node6" href="$taglib__export_8h.html" title=" " alt="" coords="283,155,403,181"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,155,83,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="107,155,170,181"/>
-<area shape="rect" id="node5" title=" " alt="" coords="195,155,259,181"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="218,5,326,31"/>
+<area shape="rect" id="Node000002" href="$tbytevector_8h.html" title=" " alt="" coords="173,79,281,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="267,32,244,69,239,66,262,30"/>
+<area shape="rect" id="Node000006" href="$taglib__export_8h.html" title=" " alt="" coords="283,152,403,177"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="280,30,333,138,329,141,275,32"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,83,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="198,107,88,149,86,144,196,102"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="107,152,170,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="214,106,165,145,162,141,211,102"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="195,152,259,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="229,104,229,138,224,138,224,104"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="247,102,313,142,311,147,244,106"/>
 </map>

@@ -1,6 +1,9 @@
 <map id="TagLib::ID3v2::ChapterFrame" name="TagLib::ID3v2::ChapterFrame">
-<area shape="rect" id="node1" title="An implementation of ID3v2 chapter frames." alt="" coords="63,215,272,241"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="88,139,247,165"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="5,5,169,32"/>
-<area shape="rect" id="node4" href="$classTagLib_1_1String.html" title="A wide string class suitable for unicode." alt="" coords="194,5,303,32"/>
+<area shape="rect" id="Node000001" title="An implementation of ID3v2 chapter frames." alt="" coords="63,212,272,237"/>
+<area shape="rect" id="Node000002" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="88,137,247,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,177,170,212,165,212,165,177"/>
+<area shape="rect" id="Node000003" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="5,5,169,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,41,162,136,158,138,99,44"/>
+<area shape="rect" id="Node000004" href="$classTagLib_1_1String.html" title="A wide string class suitable for unicode." alt="" coords="194,5,303,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="237,44,177,138,172,136,232,41"/>
 </map>

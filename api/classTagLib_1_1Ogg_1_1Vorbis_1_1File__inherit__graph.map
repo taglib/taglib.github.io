@@ -1,5 +1,7 @@
 <map id="TagLib::Ogg::Vorbis::File" name="TagLib::Ogg::Vorbis::File">
-<area shape="rect" id="node1" title="An implementation of Ogg::File with Vorbis specific methods." alt="" coords="5,155,151,196"/>
-<area shape="rect" id="node2" href="$classTagLib_1_1Ogg_1_1File.html" title="An implementation of TagLib::File with some helpers for Ogg based formats." alt="" coords="14,80,142,107"/>
-<area shape="rect" id="node3" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation." alt="" coords="31,5,125,32"/>
+<area shape="rect" id="Node000001" title="An implementation of Ogg::File with Vorbis specific methods." alt="" coords="5,152,151,192"/>
+<area shape="rect" id="Node000002" href="$classTagLib_1_1Ogg_1_1File.html" title="An implementation of TagLib::File with some helpers for Ogg based formats." alt="" coords="14,79,142,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,118,81,152,75,152,75,118"/>
+<area shape="rect" id="Node000003" href="$classTagLib_1_1File.html" title="A file class with some useful methods for tag manipulation." alt="" coords="31,5,125,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="81,44,81,79,75,79,75,44"/>
 </map>
