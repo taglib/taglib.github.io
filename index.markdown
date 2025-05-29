@@ -76,6 +76,8 @@ Please, **for all questions related to TagLib** and / or patches use the
     -   [node-taglib][]
 -   **Dart**
     -   [taglib-ffi][]
+-   **Swift**
+    -   [swift-taglib][]
 
 ### Projects Using TagLib
 
@@ -108,4 +110,5 @@ CMake. Most Linux distributions ship with TagLib already.
   [go-taglib]: https://github.com/wtolson/go-taglib/
   [node-taglib]: https://github.com/nikhilm/node-taglib
   [taglib-ffi]: https://github.com/nbonamy/taglib_ffi/
+  [swift-taglib]: https://github.com/Anywhere-Music-Player/SwiftTagLib
   [GitHub bug tracker]: https://github.com/taglib/taglib/issues

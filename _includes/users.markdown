@@ -11,7 +11,8 @@
 |[Mixxx](https://mixxx.org/)|DJing Software|
 |[Izotope RX](https://www.izotope.com/en/products/rx.html)|Audio Editor|
 |[Gerbera](https://gerbera.io/)|UPnP MediaServer|
-|[Audacious Media Player](https://audacious-media-player.org/)|GTK2 Based Music Player (XMMS, BMP family)|
+|[Qmmp](https://qmmp.ylsoftware.com/)|Qt-based Multimedia Player (XMMS, Winamp family)|
+|[Strawberry Music Player](https://www.strawberrymusicplayer.org/)|Qt Based Music Player (Fork of Clementine)|
 |[Goggles Music Manager](https://gogglesmm.dev/)|Music manager that uses the FOX toolkit|
 |[GNOME Commander](https://gcmd.github.io/)|Two-pane graphical file manager for GNOME|
 |[Kid3](https://kid3.kde.org/)|Audio Tagger|
