@@ -5,11 +5,12 @@ layout: default
 
 ### TagLib Audio Meta-Data Library
 
-TagLib is a library for reading and editing the meta-data of several
-popular audio formats. Currently it supports both ID3v1 and ID3v2
-for MP3 files, [Ogg Vorbis][] comments and ID3 tags and Vorbis comments
-in [FLAC][], MPC, Speex, WavPack, TrueAudio, WAV, AIFF, MP4, APE, ASF,
-DSF, DFF and AAC files.
+TagLib is a library for reading and editing the metadata of several
+popular audio formats. Currently, it supports various metadata containers such
+as [ID3v1][], [ID3v2][] and [Vorbis][] comments for MP3, MP4, AAC,
+[Ogg][], [Opus][], [FLAC][], [Speex][], [APE][], [MPC][], [WavPack][],
+[WAV][], [AIFF][], [TrueAudio][], [Matroska][], [WebM][], ASF, WMA, DSF, DFF and
+tracker (MOD, XM, S3M, IT) files.
 
 TagLib is distributed under the [GNU Lesser General Public License][]
 (LGPL) and [Mozilla Public License][] (MPL). Essentially that means that
@@ -38,7 +39,7 @@ Please, **for all questions related to TagLib** and / or patches use the
     and their implementations
 -   **TagLib is powerful** - for those that want to look under the hood
     TagLib provides access to the implementations of the individual file
-    formats and provides a toolkit for doing advance manipulation of
+    formats and provides a toolkit for doing advanced manipulation of
     audio meta-data
 -   **TagLib is well documented** - Every class, namespace, function and
     enumeration in TagLib is documented
@@ -93,11 +94,24 @@ source [there](https://github.com/taglib/taglib).
 
 ### Building
 
-TagLib can be built on various UNIXes (including OS X) and Windows using
+TagLib can be built on various UNIXes (including macOS) and Windows using
 CMake. Most Linux distributions ship with TagLib already.
 
-  [Ogg Vorbis]: https://xiph.org/vorbis/
+  [ID3v1]: https://id3.org/ID3v1
+  [ID3v2]: https://id3.org/Home
+  [Vorbis]: https://xiph.org/vorbis/
+  [Ogg]: https://www.xiph.org/ogg/
+  [Opus]: https://opus-codec.org/
   [FLAC]: https://xiph.org/flac/
+  [Speex]: https://www.speex.org/
+  [APE]: https://www.monkeysaudio.com/
+  [MPC]: https://musepack.net/
+  [WavPack]: https://www.wavpack.com/
+  [WAV]: https://www.mmsp.ece.mcgill.ca/Documents/AudioFormats/WAVE/WAVE.html
+  [AIFF]: https://www.mmsp.ece.mcgill.ca/Documents/AudioFormats/AIFF/AIFF.html
+  [TrueAudio]: https://sourceforge.net/projects/tta/
+  [Matroska]: https://www.matroska.org/
+  [WebM]: https://www.webmproject.org/
   [GNU Lesser General Public License]: https://www.gnu.org/licenses/lgpl.html
   [Mozilla Public License]: https://www.mozilla.org/MPL/MPL-1.1.html
   [API documentation]: https://taglib.org/api/
