@@ -1,0 +1,20 @@
+<map id="matroskaattachedfile.h" name="matroskaattachedfile.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="133,5,305,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,225,83,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,33,138,80,102,115,72,153,58,183,50,212,45,211,53,181,67,151,98,111,134,76,198,29"/>
+<area shape="rect" id="Node000003" href="$tstring_8h.html" title=" " alt="" coords="181,79,257,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,31,221,65,216,65,216,31"/>
+<area shape="rect" id="Node000008" href="$taglib__export_8h.html" title=" " alt="" coords="283,225,403,251"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="231,29,271,77,296,113,316,151,338,211,333,213,311,153,291,115,267,80,227,32"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="81,152,140,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="203,106,141,147,138,142,200,102"/>
+<area shape="rect" id="Node000005" href="$tbytevector_8h.html" title=" " alt="" coords="165,152,273,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="221,104,221,138,216,138,216,104"/>
+<area shape="poly" id="edge9_Node000003_Node000008" title=" " alt="" coords="236,102,287,150,331,212,327,215,283,154,232,106"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="192,180,86,222,84,218,190,175"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="107,225,170,251"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="208,179,164,218,160,214,204,175"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="195,225,259,251"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="223,177,227,212,221,212,217,178"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="240,175,312,216,309,221,237,180"/>
+</map>

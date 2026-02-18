@@ -1,45 +1,45 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="Node000000" href="$classTagLib_1_1ID3v2_1_1Header.html" title="An implementation of ID3v2 headers." alt="" coords="5,477,169,502"/>
 <area shape="rect" id="Node000001" href="$classTagLib_1_1ID3v2_1_1Frame.html" title="ID3v2 frame implementation." alt="" coords="217,477,376,502"/>
-<area shape="poly" id="edge48_Node000000_Node000001" title=" " alt="" coords="183,487,217,487,217,492,183,492"/>
+<area shape="poly" id="edge50_Node000000_Node000001" title=" " alt="" coords="183,487,217,487,217,492,183,492"/>
 <area shape="rect" id="Node000002" href="$classTagLib_1_1ID3v2_1_1AttachedPictureFrame.html" title="An ID3v2 attached picture frame implementation." alt="" coords="441,5,661,45"/>
-<area shape="poly" id="edge49_Node000001_Node000002" title=" " alt="" coords="295,463,298,384,303,331,314,274,329,215,352,157,383,103,422,55,439,43,442,47,426,59,387,106,357,159,335,217,319,275,309,332,303,384,300,463"/>
+<area shape="poly" id="edge51_Node000001_Node000002" title=" " alt="" coords="295,463,298,384,303,331,314,274,329,215,352,157,383,103,422,55,439,43,442,47,426,59,387,106,357,159,335,217,319,275,309,332,303,384,300,463"/>
 <area shape="rect" id="Node000004" href="$classTagLib_1_1ID3v2_1_1ChapterFrame.html" title="An implementation of ID3v2 chapter frames." alt="" coords="447,70,656,95"/>
-<area shape="poly" id="edge51_Node000001_Node000004" title=" " alt="" coords="295,463,301,391,318,294,334,242,356,192,385,145,422,105,445,90,448,95,426,109,390,148,361,194,339,244,324,295,306,392,301,463"/>
+<area shape="poly" id="edge53_Node000001_Node000004" title=" " alt="" coords="295,463,301,391,318,294,334,242,356,192,385,145,422,105,445,90,448,95,426,109,390,148,361,194,339,244,324,295,306,392,301,463"/>
 <area shape="rect" id="Node000005" href="$classTagLib_1_1ID3v2_1_1CommentsFrame.html" title="An implementation of ID3v2 comments." alt="" coords="437,119,666,145"/>
-<area shape="poly" id="edge52_Node000001_Node000005" title=" " alt="" coords="297,462,305,399,326,316,342,272,363,229,389,189,422,155,442,143,445,147,426,159,394,193,367,232,347,274,331,317,311,400,302,463"/>
+<area shape="poly" id="edge54_Node000001_Node000005" title=" " alt="" coords="297,462,305,399,326,316,342,272,363,229,389,189,422,155,442,143,445,147,426,159,394,193,367,232,347,274,331,317,311,400,302,463"/>
 <area shape="rect" id="Node000006" href="$classTagLib_1_1ID3v2_1_1EventTimingCodesFrame.html" title="ID3v2 event timing codes frame." alt="" coords="452,169,651,209"/>
-<area shape="poly" id="edge53_Node000001_Node000006" title=" " alt="" coords="300,462,313,411,336,345,371,277,395,246,422,219,450,203,453,207,426,223,399,250,376,280,341,347,318,412,305,464"/>
+<area shape="poly" id="edge55_Node000001_Node000006" title=" " alt="" coords="300,462,313,411,336,345,371,277,395,246,422,219,450,203,453,207,426,223,399,250,376,280,341,347,318,412,305,464"/>
 <area shape="rect" id="Node000007" href="$classTagLib_1_1ID3v2_1_1GeneralEncapsulatedObjectFrame.html" title="An ID3v2 general encapsulated object frame implementation." alt="" coords="424,233,679,273"/>
-<area shape="poly" id="edge54_Node000001_Node000007" title=" " alt="" coords="304,462,320,423,345,374,379,325,422,283,443,271,445,276,426,287,383,328,350,377,325,425,309,464"/>
+<area shape="poly" id="edge56_Node000001_Node000007" title=" " alt="" coords="304,462,320,423,345,374,379,325,422,283,443,271,445,276,426,287,383,328,350,377,325,425,309,464"/>
 <area shape="rect" id="Node000008" href="$classTagLib_1_1ID3v2_1_1OwnershipFrame.html" title="An implementation of ID3v2 &quot;ownership&quot;." alt="" coords="458,297,645,337"/>
-<area shape="poly" id="edge55_Node000001_Node000008" title=" " alt="" coords="311,463,356,405,387,373,423,347,457,331,459,336,425,352,391,377,360,408,315,467"/>
+<area shape="poly" id="edge57_Node000001_Node000008" title=" " alt="" coords="311,463,356,405,387,373,423,347,457,331,459,336,425,352,391,377,360,408,315,467"/>
 <area shape="rect" id="Node000009" href="$classTagLib_1_1ID3v2_1_1PodcastFrame.html" title="ID3v2 podcast frame." alt="" coords="447,362,656,387"/>
-<area shape="poly" id="edge56_Node000001_Node000009" title=" " alt="" coords="321,465,366,430,423,398,461,385,463,390,425,402,369,434,324,469"/>
+<area shape="poly" id="edge58_Node000001_Node000009" title=" " alt="" coords="321,465,366,430,423,398,461,385,463,390,425,402,369,434,324,469"/>
 <area shape="rect" id="Node000010" href="$classTagLib_1_1ID3v2_1_1PopularimeterFrame.html" title="An implementation of ID3v2 &quot;popularimeter&quot;." alt="" coords="447,412,656,452"/>
-<area shape="poly" id="edge57_Node000001_Node000010" title=" " alt="" coords="366,471,461,449,463,455,368,476"/>
+<area shape="poly" id="edge59_Node000001_Node000010" title=" " alt="" coords="366,471,461,449,463,455,368,476"/>
 <area shape="rect" id="Node000011" href="$classTagLib_1_1ID3v2_1_1PrivateFrame.html" title="An implementation of ID3v2 private frame." alt="" coords="449,477,653,502"/>
-<area shape="poly" id="edge58_Node000001_Node000011" title=" " alt="" coords="390,487,449,487,449,492,390,492"/>
+<area shape="poly" id="edge60_Node000001_Node000011" title=" " alt="" coords="390,487,449,487,449,492,390,492"/>
 <area shape="rect" id="Node000012" href="$classTagLib_1_1ID3v2_1_1RelativeVolumeFrame.html" title="An ID3v2 relative volume adjustment frame implementation." alt="" coords="441,527,661,567"/>
-<area shape="poly" id="edge59_Node000001_Node000012" title=" " alt="" coords="368,502,463,524,461,529,366,508"/>
+<area shape="poly" id="edge61_Node000001_Node000012" title=" " alt="" coords="368,502,463,524,461,529,366,508"/>
 <area shape="rect" id="Node000013" href="$classTagLib_1_1ID3v2_1_1SynchronizedLyricsFrame.html" title="ID3v2 synchronized lyrics frame." alt="" coords="449,591,653,631"/>
-<area shape="poly" id="edge60_Node000001_Node000013" title=" " alt="" coords="325,509,370,544,425,576,456,588,454,593,423,581,367,548,321,514"/>
+<area shape="poly" id="edge62_Node000001_Node000013" title=" " alt="" coords="325,509,370,544,425,576,456,588,454,593,423,581,367,548,321,514"/>
 <area shape="rect" id="Node000014" href="$classTagLib_1_1ID3v2_1_1TableOfContentsFrame.html" title="An implementation of ID3v2 table of contents frames." alt="" coords="439,655,663,695"/>
-<area shape="poly" id="edge61_Node000001_Node000014" title=" " alt="" coords="314,513,358,577,389,612,425,640,448,652,446,657,423,645,386,615,354,581,309,516"/>
+<area shape="poly" id="edge63_Node000001_Node000014" title=" " alt="" coords="314,513,358,577,389,612,425,640,448,652,446,657,423,645,386,615,354,581,309,516"/>
 <area shape="rect" id="Node000015" href="$classTagLib_1_1ID3v2_1_1TextIdentificationFrame.html" title="An ID3v2 text identification frame implementation." alt="" coords="437,719,666,759"/>
-<area shape="poly" id="edge62_Node000001_Node000015" title=" " alt="" coords="308,515,324,557,348,608,382,661,402,684,426,705,445,716,443,721,422,709,399,688,378,664,343,611,319,559,303,517"/>
+<area shape="poly" id="edge64_Node000001_Node000015" title=" " alt="" coords="308,515,324,557,348,608,382,661,402,684,426,705,445,716,443,721,422,709,399,688,378,664,343,611,319,559,303,517"/>
 <area shape="rect" id="Node000017" href="$classTagLib_1_1ID3v2_1_1UniqueFileIdentifierFrame.html" title="An implementation of ID3v2 unique identifier frames." alt="" coords="458,783,645,823"/>
-<area shape="poly" id="edge64_Node000001_Node000017" title=" " alt="" coords="305,515,316,569,339,638,355,674,374,709,398,741,426,769,459,787,456,792,422,773,394,744,370,711,350,676,334,640,311,570,299,516"/>
+<area shape="poly" id="edge66_Node000001_Node000017" title=" " alt="" coords="305,515,316,569,339,638,355,674,374,709,398,741,426,769,459,787,456,792,422,773,394,744,370,711,350,676,334,640,311,570,299,516"/>
 <area shape="rect" id="Node000018" href="$classTagLib_1_1ID3v2_1_1UnknownFrame.html" title="A frame type unknown to TagLib." alt="" coords="442,847,661,873"/>
-<area shape="poly" id="edge65_Node000001_Node000018" title=" " alt="" coords="302,515,309,581,329,667,345,713,366,757,393,798,426,833,445,845,442,849,422,837,388,801,361,759,340,715,324,668,304,581,297,516"/>
+<area shape="poly" id="edge67_Node000001_Node000018" title=" " alt="" coords="302,515,309,581,329,667,345,713,366,757,393,798,426,833,445,845,442,849,422,837,388,801,361,759,340,715,324,668,304,581,297,516"/>
 <area shape="rect" id="Node000019" href="$classTagLib_1_1ID3v2_1_1UnsynchronizedLyricsFrame.html" title="ID3v2 unsynchronized lyrics frame." alt="" coords="441,897,662,937"/>
-<area shape="poly" id="edge66_Node000001_Node000019" title=" " alt="" coords="301,515,306,588,324,687,340,740,361,792,390,840,426,882,444,895,440,899,422,886,385,843,357,794,335,742,319,688,301,589,296,516"/>
+<area shape="poly" id="edge68_Node000001_Node000019" title=" " alt="" coords="301,515,306,588,324,687,340,740,361,792,390,840,426,882,444,895,440,899,422,886,385,843,357,794,335,742,319,688,301,589,296,516"/>
 <area shape="rect" id="Node000020" href="$classTagLib_1_1ID3v2_1_1UrlLinkFrame.html" title="ID3v2 URL frame." alt="" coords="449,962,653,987"/>
-<area shape="poly" id="edge67_Node000001_Node000020" title=" " alt="" coords="304,515,319,612,346,742,362,808,382,867,403,916,426,947,451,963,448,968,422,951,398,918,377,869,357,809,340,743,314,613,299,516"/>
+<area shape="poly" id="edge69_Node000001_Node000020" title=" " alt="" coords="304,515,319,612,346,742,362,808,382,867,403,916,426,947,451,963,448,968,422,951,398,918,377,869,357,809,340,743,314,613,299,516"/>
 <area shape="rect" id="Node000003" href="$classTagLib_1_1ID3v2_1_1AttachedPictureFrameV22.html" title="support for ID3v2.2 PIC frames" alt="" coords="746,5,966,45"/>
-<area shape="poly" id="edge50_Node000002_Node000003" title=" " alt="" coords="675,23,746,23,746,28,675,28"/>
+<area shape="poly" id="edge52_Node000002_Node000003" title=" " alt="" coords="675,23,746,23,746,28,675,28"/>
 <area shape="rect" id="Node000016" href="$classTagLib_1_1ID3v2_1_1UserTextIdentificationFrame.html" title="An ID3v2 custom text identification frame implementation." alt="" coords="727,719,985,759"/>
-<area shape="poly" id="edge63_Node000015_Node000016" title=" " alt="" coords="680,736,726,736,726,741,680,741"/>
+<area shape="poly" id="edge65_Node000015_Node000016" title=" " alt="" coords="680,736,726,736,726,741,680,741"/>
 <area shape="rect" id="Node000021" href="$classTagLib_1_1ID3v2_1_1UserUrlLinkFrame.html" title="ID3v2 User defined URL frame." alt="" coords="759,955,953,995"/>
-<area shape="poly" id="edge68_Node000020_Node000021" title=" " alt="" coords="667,972,759,972,759,977,667,977"/>
+<area shape="poly" id="edge70_Node000020_Node000021" title=" " alt="" coords="667,972,759,972,759,977,667,977"/>
 </map>

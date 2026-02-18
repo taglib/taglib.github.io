@@ -1,0 +1,18 @@
+<map id="matroskaattachments.h" name="matroskaattachments.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="95,5,273,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,152,83,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,33,92,51,74,64,58,80,46,109,44,138,39,138,41,107,54,77,70,60,90,46,131,28"/>
+<area shape="rect" id="Node000003" href="$taglib__export_8h.html" title=" " alt="" coords="68,79,188,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,33,148,69,143,66,173,29"/>
+<area shape="rect" id="Node000004" href="$tlist_8h.html" title=" " alt="" coords="212,79,271,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="196,29,225,66,221,70,191,33"/>
+<area shape="rect" id="Node000008" href="$matroskaelement_8h.html" title=" " alt="" coords="295,79,444,104"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="215,28,327,71,326,76,213,33"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="213,106,89,150,87,145,211,101"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="119,152,161,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="227,106,169,146,166,142,224,102"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="186,152,297,177"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="244,104,244,138,239,138,239,104"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="321,152,391,177"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="261,102,327,142,324,147,258,106"/>
+</map>

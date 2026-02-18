@@ -1,0 +1,25 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classTagLib_1_1Tag.html" title="A simple, generic interface to common audio metadata fields." alt="" coords="5,252,99,277"/>
+<area shape="rect" id="Node000001" href="$classTagLib_1_1APE_1_1Tag.html" title="An APE tag implementation." alt="" coords="183,5,309,31"/>
+<area shape="poly" id="edge76_Node000000_Node000001" title=" " alt="" coords="54,238,63,195,79,141,106,87,124,62,145,40,162,29,182,22,183,27,165,34,148,44,128,65,110,89,84,143,68,196,59,239"/>
+<area shape="rect" id="Node000002" href="$classTagLib_1_1ASF_1_1Tag.html" title="An implementation of ASF (WMA) tags." alt="" coords="183,55,309,80"/>
+<area shape="poly" id="edge77_Node000000_Node000002" title=" " alt="" coords="57,238,69,204,87,164,112,123,145,89,163,79,182,72,184,77,165,83,148,93,116,127,91,166,74,206,62,240"/>
+<area shape="rect" id="Node000003" href="$classTagLib_1_1DSDIFF_1_1DIIN_1_1Tag.html" title=" " alt="" coords="154,104,338,129"/>
+<area shape="poly" id="edge78_Node000000_Node000003" title=" " alt="" coords="63,238,95,187,118,161,145,138,168,127,170,132,148,143,122,165,100,191,68,241"/>
+<area shape="rect" id="Node000004" href="$classTagLib_1_1ID3v1_1_1Tag.html" title="The main class in the ID3v1 implementation." alt="" coords="177,153,315,179"/>
+<area shape="poly" id="edge79_Node000000_Node000004" title=" " alt="" coords="74,240,106,212,145,188,175,176,177,181,148,192,109,217,78,244"/>
+<area shape="rect" id="Node000005" href="$classTagLib_1_1ID3v2_1_1Tag.html" title="The main class in the ID3v2 implementation." alt="" coords="177,203,315,228"/>
+<area shape="poly" id="edge80_Node000000_Node000005" title=" " alt="" coords="111,246,146,237,191,225,192,231,147,242,113,251"/>
+<area shape="rect" id="Node000006" href="$classTagLib_1_1MP4_1_1Tag.html" title="An MP4 tag implementation." alt="" coords="181,252,311,277"/>
+<area shape="poly" id="edge81_Node000000_Node000006" title=" " alt="" coords="113,262,181,262,181,267,113,267"/>
+<area shape="rect" id="Node000007" href="$classTagLib_1_1Matroska_1_1Tag.html" title="Matroska tag implementation." alt="" coords="165,301,327,327"/>
+<area shape="poly" id="edge82_Node000000_Node000007" title=" " alt="" coords="112,277,196,299,195,304,111,282"/>
+<area shape="rect" id="Node000008" href="$classTagLib_1_1Mod_1_1Tag.html" title="A module file tag implementation." alt="" coords="181,351,311,376"/>
+<area shape="poly" id="edge83_Node000000_Node000008" title=" " alt="" coords="78,285,110,311,148,336,182,348,180,353,145,340,106,316,74,289"/>
+<area shape="rect" id="Node000009" href="$classTagLib_1_1Ogg_1_1XiphComment.html" title="Ogg Vorbis comment implementation." alt="" coords="147,400,345,425"/>
+<area shape="poly" id="edge84_Node000000_Node000009" title=" " alt="" coords="68,288,100,338,122,364,148,385,173,397,171,402,145,390,119,367,96,341,63,291"/>
+<area shape="rect" id="Node000010" href="$classTagLib_1_1RIFF_1_1Info_1_1Tag.html" title="The main class in the INFO tag implementation." alt="" coords="165,449,327,475"/>
+<area shape="poly" id="edge85_Node000000_Node000010" title=" " alt="" coords="63,290,74,323,92,362,116,402,148,435,170,447,168,452,145,439,112,405,87,365,69,325,58,291"/>
+<area shape="rect" id="Node000011" href="$classTagLib_1_1Shorten_1_1Tag.html" title="A Shorten file tag implementation." alt="" coords="171,499,321,524"/>
+<area shape="poly" id="edge86_Node000000_Node000011" title=" " alt="" coords="59,291,68,333,85,386,111,439,128,463,148,484,172,498,169,502,145,488,124,466,106,442,80,388,63,335,54,292"/>
+</map>
