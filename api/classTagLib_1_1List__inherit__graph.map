@@ -1,9 +1,11 @@
 <map id="TagLib::List&lt; T &gt;" name="TagLib::List&lt; T &gt;">
-<area shape="rect" id="Node000001" title="A generic, implicitly shared list." alt="" coords="138,5,270,31"/>
+<area shape="rect" id="Node000001" title="A generic, implicitly shared list." alt="" coords="239,5,371,31"/>
 <area shape="rect" id="Node000002" href="$classTagLib_1_1List.html" title=" " alt="" coords="5,93,200,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,41,155,57,115,95,112,91,152,53,173,36"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,37,196,57,122,96,120,91,194,52,249,32"/>
 <area shape="rect" id="Node000004" href="$classTagLib_1_1List.html" title=" " alt="" coords="224,93,387,119"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="238,36,260,53,298,91,294,95,257,57,235,40"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="308,45,308,93,303,93,303,45"/>
+<area shape="rect" id="Node000006" href="$classTagLib_1_1List.html" title=" " alt="" coords="411,93,586,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="345,34,473,91,471,96,343,39"/>
 <area shape="rect" id="Node000003" href="$classTagLib_1_1ByteVectorList.html" title="A list of ByteVectors." alt="" coords="20,168,185,193"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,133,105,168,100,168,100,133"/>
 <area shape="rect" id="Node000005" href="$classTagLib_1_1StringList.html" title="A list of strings." alt="" coords="239,168,371,193"/>
