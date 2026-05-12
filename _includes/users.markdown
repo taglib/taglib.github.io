@@ -16,3 +16,6 @@
 |[Goggles Music Manager](https://gogglesmm.dev/)|Music manager that uses the FOX toolkit|
 |[GNOME Commander](https://gcmd.github.io/)|Two-pane graphical file manager for GNOME|
 |[Kid3](https://kid3.kde.org/)|Audio Tagger|
+|[ShadowTag](https://spongefork.com/shadowtag/)|Audio metadata editor for macOS|
+|[loudgain](https://github.com/Moonbase59/loudgain)|ReplayGain 2.0 loudness normalizer|
+|[rsgain](https://github.com/complexlogic/rsgain)|ReplayGain 2.0 loudness normalizer|

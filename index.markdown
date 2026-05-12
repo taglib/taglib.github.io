@@ -79,6 +79,7 @@ Please, **for all questions related to TagLib** and / or patches use the
     -   [taglib-ffi][]
 -   **Swift**
     -   [swift-taglib][]
+    -   [SPFKMetadata][]
 
 ### Projects Using TagLib
 
@@ -125,4 +126,5 @@ CMake. Most Linux distributions ship with TagLib already.
   [node-taglib]: https://github.com/nikhilm/node-taglib
   [taglib-ffi]: https://github.com/nbonamy/taglib_ffi/
   [swift-taglib]: https://github.com/Anywhere-Music-Player/SwiftTagLib.cpp
+  [SPFKMetadata]: https://github.com/ryanfrancesconi/spfk-metadata
   [GitHub bug tracker]: https://github.com/taglib/taglib/issues
