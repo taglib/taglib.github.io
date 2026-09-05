@@ -146,6 +146,7 @@ var menudata={children:[
 {text:"w",url:"functions_eval_w.html#index_w"},
 {text:"x",url:"functions_eval_x.html#index_x"}]},
 {text:"Related Symbols",url:"functions_rela.html",children:[
+{text:"c",url:"functions_rela.html#index_c"},
 {text:"e",url:"functions_rela.html#index_e"},
 {text:"f",url:"functions_rela.html#index_f"},
 {text:"o",url:"functions_rela.html#index_o"},
