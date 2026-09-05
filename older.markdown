@@ -4,6 +4,7 @@ title: Older Releases
 ---
 # {{ page.title }}
 
+{% include release-2.3.1.markdown %}
 {% include release-2.3.markdown %}
 {% include release-2.2.1.markdown %}
 {% include release-2.2.markdown %}
